@@ -97,20 +97,20 @@
        var emailStripped = document.write( testString.replace(/\s/g, '') );
        console.log(emailbody);
        console.log(emailStripped);*/
-          $.ajax({
+          /*$.ajax({
                 type:"POST",
-                /*beforeSend: function (request)
+                beforeSend: function (request)
                 {
                     request.setRequestHeader("Authority", authorizationToken);
-                },*/
+                },
                 url: "http://premailer.dialect.ca/api/0.1/documents?html=<span>Hello World</span>",
-                /*data: "json=" + escape(JSON.stringify(createRequestObject)),
-                processData: false,*/
+                data: "json=" + escape(JSON.stringify(createRequestObject)),
+                processData: false,
                 success: function(msg) {
                     $("#results").append("The result =" + StringifyPretty(msg));
                 }
-        });
-       /*$(function () {
+        });*/
+       $(function () {
         var htmlData = $('#email-wrapper').html();
         var jqxhr = $.get( "http://premailer.dialect.ca/api/0.1/documents?html=<span>Hello World</span>", function( data ) {
             // alert('hi');
@@ -119,7 +119,7 @@
         .fail(function() {
             alert( "error" );
         });    
-    });*/
+    });
 
     </script>
   </body>
