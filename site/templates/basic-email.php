@@ -110,7 +110,7 @@
                     $("#results").append("The result =" + StringifyPretty(msg));
                 }
         });*/
-       $(function () {
+       /*$(function () {
         var htmlData = $('#email-wrapper').html();
         var jqxhr = $.get( "http://premailer.dialect.ca/api/0.1/documents?html=<span>Hello World</span>", function( data ) {
             // alert('hi');
@@ -119,7 +119,16 @@
         .fail(function() {
             alert( "error" );
         });    
-    });
+    });*/
+$.ajax({
+    type:"POST",
+//     dataType: 'jsonp',
+    url: "https://inlinestyler.torchbox.com/styler/convert",
+    data: { returnraw: 1, source_url: "http://bluebeam.com/us/email/launch/2016-launch-academic.html" },
+    success: function( data ) {
+        console.log( data );
+    }
+});
 
     </script>
   </body>
