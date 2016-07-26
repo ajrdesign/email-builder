@@ -89,7 +89,7 @@
     <div class="whatever">
       
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
     <script type="text/javascript">
 
        /*var emailbody = document.getElementById('email-wrapper');
@@ -120,7 +120,7 @@
             alert( "error" );
         });    
     });*/
-$.ajax({
+/*$.ajax({
     type:"POST",
 //     dataType: 'jsonp',
     url: "https://inlinestyler.torchbox.com/styler/convert",
@@ -128,7 +128,7 @@ $.ajax({
     success: function( data ) {
         console.log( data );
     }
-});
+});*/
 
     </script>
   </body>

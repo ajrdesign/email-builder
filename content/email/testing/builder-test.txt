@@ -1,0 +1,20 @@
+Title: Testing
+
+----
+
+Builder: 
+
+- 
+  picture: >
+    https://source.unsplash.com/random/580x300
+  text: This is a hero image
+  _fieldset: imageBanner
+- 
+  text: |
+    ### Headings
+    # Another Heading
+    
+    Here's some **bold copy**.
+    
+    Hellow this is a test.
+  _fieldset: bodytext

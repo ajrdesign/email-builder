@@ -1,7 +1,4 @@
 <?php snippet('email-header') ?>
-<?php foreach($page->builder()->toStructure() as $section): ?>
-  <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
-<?php endforeach ?>
 <table align="center" class="container float-center">
               <tbody>
                 <tr>
@@ -14,36 +11,9 @@
                       </tbody>
                     </table>
                     <?php foreach($page->builder()->toStructure() as $section): ?>
-                      <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
-                    <?php endforeach ?>
-                    <table class="row">
-                      <tbody>
-                        <tr>
-                          <th class="small-12 large-12 columns first last">
-                            <table>
-                              <tr>
-                                <th>
-                                  <img src="<?php echo $page->herourl() ?>" alt="<?php echo $page->heroalt() ?>">
-                                  <?php echo $page->text()->kirbytext() ?>
-                                  <table class="button large secondary">
-                                    <tr>
-                                      <td>
-                                        <table>
-                                          <tr>
-                                            <td><a href="<?php echo $page->calltoaction() ?>"><?php echo $page->calltoactioncopy() ?></a></td>
-                                          </tr>
-                                        </table>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </th>
-                                <th class="expander"></th>
-                              </tr>
-                            </table>
-                          </th>
-                        </tr>
-                      </tbody>
-                    </table>
+					  <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
+					<?php endforeach ?>
+                    
                     <table class="wrapper secondary" align="center">
                       <tr>
                         <td class="wrapper-inner">

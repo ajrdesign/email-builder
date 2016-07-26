@@ -1,0 +1,44 @@
+title: Hero Email
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+    required: true
+  hero:
+    label: Hero Image URL
+    type:  url
+    required: true
+  heroalt: 
+    label: Hero Alt Text
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  calltoactioncopy:
+    label: Call to Action
+    type:  text
+    required: true
+  calltoaction:
+    label: Call to Action URL
+    type:  url
+    required: true
+  builder:
+    label: Structure
+    type: builder
+    fieldsets:
+      bodytext:
+        label: Copy
+        snippet: sections/copy
+        fields:
+          text:
+            label: text
+            type: textarea
+      imageBanner:
+        label: Hero Image
+        snippet: sections/heroimage
+        fields:
+          picture:
+            label: Background Image
+            type: image
