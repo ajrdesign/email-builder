@@ -1,17 +1,21 @@
 <table class="row">
-  <tbody>
-    <tr>
-      <th class="small-12 large-12 columns first last">
-        <table>
-          <tr>
-            <th>
-              <img src="<?= $data->picture() ?>" alt="">
-            </th>
-            <th class="expander"></th>
-          </tr>
-        </table>
-      </th>
-    </tr>
-  </tbody>
+  <tr>
+    <td class="wrapper last">
+
+      <table class="twelve columns">
+        <tr>
+          <td class="text-pad center">
+
+            <!-- Main StrXur Hero Article -->
+            <a href="<?= $data->url() ?>">
+            	<img src="<?= $data->picture() ?>" width="550" alt="<?= $data->text() ?>">
+            </a>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+
 </table>
 

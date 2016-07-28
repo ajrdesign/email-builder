@@ -1,4 +1,3 @@
-</span>
 <style>
 	.inline-wrapper {
 		position: fixed; 

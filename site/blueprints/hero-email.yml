@@ -37,7 +37,7 @@ fields:
             type: textarea
       imageBanner:
         label: Hero Image
-        snippet: sections/heroimage
+        snippet: sections/imageBanner
         fields:
           picture:
             label: Background Image

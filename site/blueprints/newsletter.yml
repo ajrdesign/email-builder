@@ -1,0 +1,40 @@
+title: Newsletter Template
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  heroImg:
+    label: Hero Image
+    type:  url
+    required: true
+    default: https://source.unsplash.com/random/550x300
+    help: Must link to a live image.
+  heroLink:
+    label: Hero Link
+    type:  url
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  heroAlt:
+    label: Hero Alt Text
+    type:  text
+    help: This will display when images are disabled in users email client.
+    width: 1/2
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      bodytext:
+        label: Article
+        snippet: builder/imageBanner
+
+        fields:
+          picture:
+            label: Background Image
+            type: url
+            default: https://source.unsplash.com/random/550x300
+          text:
+            label: Copy
+            type: text
