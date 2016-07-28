@@ -57,48 +57,29 @@
             <td class="center" align="center">
 
               <center>
+              	<table class="row">
+				  <tr>
+				    <td class="wrapper last">
+
+				      <table class="twelve columns">
+				        <tr>
+				          <td class="text-pad center">
+
+				            <!-- Main StrXur Hero Article -->
+				            <a href="<?php echo $page->heroLink() ?>">
+				            	<img src="<?php echo $page->heroImg() ?>" width="550" alt="<?php echo $page->heroAlt() ?>">
+				            </a>
+				          </td>
+				        </tr>
+				      </table>
+
+				    </td>
+				  </tr>
+
+				</table>
               	<?php foreach($page->builder()->toStructure() as $section): ?>
 				  <?php snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
-				<?php endforeach ?>
-                
-
-                <!-- 2nd StrXur Article -->
-                <table class="row">
-                  <tr>
-                    <td class="wrapper">
-
-                      <table class="six columns">
-                        <tr>
-                          <td class="left-text-pad">
-
-                            <a href="http://strxur.com/sharks-water-no-predictions-part-2/?src=2123">
-                              <img width="260" height="180" src="https://downloads.bluebeam.com/images/2016/Editorial_Features_Newsletter/07.2016/Shark_260x180.jpg" alt="BREAKGROUND Magazine" class="hide-for-small">
-                            </a>
-
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-
-                    </td>
-                    <td class="wrapper last">
-
-                      <table class="six columns last">
-                        <tr>
-                          <td class="right-text-pad">
-
-                            <span class="hide-for-small"></span>
-
-                            <span style="font-size:15px;"><a href="http://strxur.com/sharks-water-no-predictions-part-2/?src=2123">With All These Sharks in the Water—No Predictions Here: Part 2</a></span>
-                            <p style="color:#a7a9ac;">Rather than fighting to control the proliferation of apps, perhaps we should be training our eyes to look for signs of long-term viability among all the fins in the water.</p>
-
-                          </td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
+				<?php endforeach ?>              
 
 
 <?php snippet('email-footer') ?>

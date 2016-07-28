@@ -1,0 +1,35 @@
+.media, .media-block {
+	margin: 10px 0 0 0;
+}
+.media:last-child {
+	margin-bottom: 10px;
+}
+.media,.bd {
+	overflow: hidden;
+	_overflow: visible;
+	zoom: 1;
+}
+.media .img {
+	float: left;
+	margin-right: 10px;
+}
+.media .img img {
+	display: block;
+}
+.media .imgExt {
+	float: right;
+	margin-left: 10px;
+}
+.media-block {
+	margin: 0 10px 10px 0;
+}
+.media-block .img {
+	margin-bottom: 5px;
+}
+.media-block a {
+	text-decoration:none;
+}
+.media-block p {
+	line-height:1.6em;
+	font-size: 90%;
+}

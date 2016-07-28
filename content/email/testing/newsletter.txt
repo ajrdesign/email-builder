@@ -1,9 +1,16 @@
-Title: Testing
+Title: A Bluebeam Newsletter
 
 ----
 
 Builder: 
 
+- 
+  picture: >
+    https://source.unsplash.com/random/400x300
+  headline: Something GOes here
+  text: SOme copy
+  url: https://www.bluebeam.com
+  _fieldset: newsletterarticle
 
 ----
 
@@ -11,8 +18,8 @@ Heroimg: https://source.unsplash.com/random/550x300
 
 ----
 
-Herolink: https://www.bluebeam.com
+Herolink: http://www.bluebeam.com
 
 ----
 
-Heroalt: 
+Heroalt: Some text

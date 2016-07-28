@@ -26,15 +26,21 @@ fields:
     label: Sections
     type: builder
     fieldsets:
-      bodytext:
+      newsletterarticle:
         label: Article
-        snippet: builder/imageBanner
-
+        snippet: builder/newsletterarticle
         fields:
           picture:
             label: Background Image
             type: url
             default: https://source.unsplash.com/random/550x300
+          headline:
+          	label: Headline
+          	type: text
           text:
             label: Copy
-            type: text
+            type: textarea
+          url:
+          	label: Link
+          	type: url
+          	default: https://www.bluebeam.com
