@@ -1,0 +1,42 @@
+title: Hero Email
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  heroImg:
+    label: Hero Image
+    type:  url
+    required: true
+    default: https://source.unsplash.com/random/550x300
+    help: Must link to a live image.
+  heroLink:
+    label: Hero Link
+    type:  url
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  heroAlt:
+    label: Hero Alt Text
+    type:  text
+    help: This will display when images are disabled in users email client.
+    width: 1/2
+  info:
+    label: Help
+    type: info
+    text: >
+      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  heroCopy:
+    label: Hero Copy
+    type:  textarea
+    validate:
+      max: 300
+  cta:
+    label: Call to Action
+    type: text
+    validate:
+      max: 100
+  ctaUrl:
+    label: Call to Action URL
+    type: url

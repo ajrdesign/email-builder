@@ -1,0 +1,136 @@
+.media, .media-block {
+	margin: 10px 0 0 0;
+}
+.media:last-child {
+	margin-bottom: 10px;
+}
+.media,.bd {
+	overflow: hidden;
+	_overflow: visible;
+	zoom: 1;
+}
+.media .img {
+	float: left;
+	margin-right: 10px;
+}
+.media .img img {
+	display: block;
+}
+.media .imgExt {
+	float: right;
+	margin-left: 10px;
+}
+.media-block {
+	margin: 0 10px 10px 0;
+}
+.media-block .img {
+	margin-bottom: 5px;
+}
+.media-block a {
+	text-decoration:none;
+}
+.media-block p {
+	line-height:1.3em;
+	font-size: 90%;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.media .bd {
+	margin-top: 6px;
+}
+.media-block {
+	font-size:90%;
+}
+}
+
+@media (max-width: 767px) {
+	.media {
+		margin: 0;
+	}
+	.media .img, .media .imgExt {
+		margin: 0;
+	}
+	.media .img, .media .imgExt {
+	float: none;
+	margin-right: 0;
+}
+	.media .bd {
+	margin-top: 6px;
+}
+	.media-block {
+	display:block;
+	margin:0 auto;
+	font-size:90%;
+	/*height:15em;*/
+}
+}
+.media a, .media-block a {
+	text-decoration: none;
+	opacity: 1;
+}
+.media a:hover .img, .media-block a:hover .img {
+	text-decoration: none;
+	opacity: 1;
+}
+
+.media-blue a:hover .img, .media-block-blue a:hover .img {
+	background-color: $blue;
+}
+
+.media a:hover img, .media-block a:hover img{
+	opacity: 0.6;
+	-webkit-transition: opacity 150ms ease-in-out, background-color 150ms ease-in-out;
+	-moz-transition: opacity 150ms ease-in-out, background-color 150ms ease-in-out;
+	-ms-transition: opacity 150ms ease-in-out, background-color 150ms ease-in-out;
+	-o-transition: opacity 150ms ease-in-out, background-color 150ms ease-in-out;
+	transition: opacity 150ms ease-in-out, background-color 150ms ease-in-out;
+}
+.media a p, .media-block a p {
+	color: #333;
+}
+.body-dark .media a p, .body-dark .media-block a p {
+	color: #eee;
+}
+.media h1,.media h2,.media h3,.media h4,.media h5,.media h6,
+.media-block h1,.media-block h2,.media-block h3,.media-block h4,.media-block h5,.media-block h6 {
+	margin-bottom: 4px;
+}
+
+.media-border-padding,.gray-background {
+	padding: .5em;
+}
+.media-border, .media-border-padding {
+	border: 1px solid #ddd;
+}
+.media.media-border .bd {
+	margin-top: 10px;
+}
+.media-block.media-border .bd {
+	padding: 0 10px;
+}
+.media.media-logo .img {
+	background-color:$white;
+	height:140px;
+	position: relative;
+	border:4px solid $dark-gray;
+	width:160px;
+	@include media(phone) {
+		height: 140px;
+		padding: 10px;
+		display: block;
+	}
+	img {
+		position: absolute;
+		max-width: 140px;
+		max-height: 130px;
+		top: 50%;
+		left: 50%;
+		-moz-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		@include media(phone) {
+		max-width: none;
+	}
+	}
+}

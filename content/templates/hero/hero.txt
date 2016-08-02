@@ -1,0 +1,29 @@
+Title: Hero
+
+----
+
+Heroimg: http://placehold.it/580x400
+
+----
+
+Herolink: https://www.bluebeam.com
+
+----
+
+Heroalt: Some text
+
+----
+
+Info: 
+
+----
+
+Herocopy: We will work with you to fully understand your business and your target audience to inform our marketing strategy.
+
+----
+
+Cta: Download Now
+
+----
+
+Ctaurl: https://www.bluebeam.com

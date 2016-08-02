@@ -1,0 +1,65 @@
+Title: Editorial
+
+----
+
+Text: 
+
+----
+
+Logo: https://downloads.bluebeam.com/images/2016/Editorial_Features_Newsletter/template-images/logo-email-features.png
+
+----
+
+Facebook: true
+
+----
+
+Facebookurl: http://www.facebook.com/bluebeam
+
+----
+
+Linkedin: true
+
+----
+
+Linkedinurl: http://www.linkedin.com
+
+----
+
+Twitter: true
+
+----
+
+Twitterurl: http://www.twitter.com
+
+----
+
+Instagram: true
+
+----
+
+Instagramurl: http://www.instagram.com
+
+----
+
+Youtube: true
+
+----
+
+Youtubeurl: http://www.youtube.com
+
+----
+
+Rss: true
+
+----
+
+Rssurl: http://www.rss.com
+
+----
+
+Logourl: https://www.bluebeam.com
+
+----
+
+Logoalt: Bluebeam Logo

@@ -14,4 +14,4 @@ Keywords: Kirby, CMS, file-based
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: Copyright © 2002 - (date: Year) Bluebeam, Inc. All Rights Reserved.

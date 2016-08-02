@@ -1,0 +1,31 @@
+.double {
+	height: 2em;
+	border-top: 0;
+	border-bottom: 0;
+	margin: 0;
+}
+.triple {
+	height: 3em;
+	border-top: 0;
+	border-bottom: 0;
+	margin: 0;
+}
+hr {
+	margin: 1.5em 0;
+	border: 0;
+	border-top: 1px solid $light-gray;
+}
+.hr-fat {
+	border-width: 4px;
+	border-color: $gray;
+}
+.hr-blue {
+	border-color: $blue;
+}
+.hr-gray {
+	border-color: $gray;
+}
+.well.bg-light-gray hr {
+	border-color: $gray;
+	border-width: 2px;
+}

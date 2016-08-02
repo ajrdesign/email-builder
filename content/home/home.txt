@@ -1,7 +1,7 @@
-Title: Home
+Title: Email Builder
 
 ----
 
 Text: 
 
-How to make a email:
+Get started making an HTML email.

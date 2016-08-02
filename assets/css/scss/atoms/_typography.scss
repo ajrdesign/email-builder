@@ -1,0 +1,530 @@
+/*
+========= TYPOGRAPHY ==========
+*/
+@import url("//hello.myfonts.net/count/2ca9ea");
+@font-face {
+	font-family: 'ProximaNovaA-Thin';
+	src: url('../../fonts/ProximaNovaA-Thin.eot');
+	src: url('../../fonts/ProximaNovaA-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/ProximaNovaA-Thin.woff2') format('woff2'),
+		url('../../fonts/ProximaNovaA-Thin.woff') format('woff'),
+		url('../../fonts/ProximaNovaA-Thin.ttf') format('truetype');
+	}
+@font-face {font-family: 'ProximaNovaS-Thin';src: url('../../fonts/ProximaNovaS-Thin.eot');src: url('../../fonts/ProximaNovaS-Thin.eot?#iefix') format('embedded-opentype'),url('../../fonts/ProximaNovaS-Thin.woff2') format('woff2'),url('../../fonts/ProximaNovaS-Thin.woff') format('woff'),url('../../fonts/ProximaNovaS-Thin.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNovaS-Regular';src: url('../../fonts/ProximaNovaS-Regular.eot');src: url('../../fonts/ProximaNovaS-Regular.eot?#iefix') format('embedded-opentype'),url('../../fonts/ProximaNovaS-Regular.woff2') format('woff2'),url('../../fonts/ProximaNovaS-Regular.woff') format('woff'),url('../../fonts/ProximaNovaS-Regular.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNovaA-Regular';src: url('../../fonts/ProximaNovaA-Regular.eot');src: url('../../fonts/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),url('../../fonts/ProximaNovaA-Regular.woff2') format('woff2'),url('../../fonts/ProximaNovaA-Regular.woff') format('woff'),url('../../fonts/ProximaNovaA-Regular.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNovaT-Thin';src: url('../../fonts/ProximaNovaT-Thin.eot');src: url('../../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),url('../../fonts/ProximaNovaT-Thin.woff2') format('woff2'),url('../../fonts/ProximaNovaT-Thin.woff') format('woff'),url('../../fonts/ProximaNovaT-Thin.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNova-Regular';src: url('../../fonts/ProximaNova-Regular.eot');src: url('../../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),url('../../fonts/ProximaNova-Regular.woff2') format('woff2'),url('../../fonts/ProximaNova-Regular.woff') format('woff'),url('../../fonts/ProximaNova-Regular.ttf') format('truetype');}
+@import url("//hello.myfonts.net/count/2ca9ef");
+@font-face {font-family: 'AvenirLTStd-Book';src: url('../../fonts/2CA9EF_0_0.eot');src: url('../../fonts/2CA9EF_0_0.eot?#iefix') format('embedded-opentype'),url('../../fonts/2CA9EF_0_0.woff2') format('woff2'),url('../../fonts/2CA9EF_0_0.woff') format('woff'),url('../../fonts/2CA9EF_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Black';src: url('../../fonts/2CA9EF_1_0.eot');src: url('../../fonts/2CA9EF_1_0.eot?#iefix') format('embedded-opentype'),url('../../fonts/2CA9EF_1_0.woff2') format('woff2'),url('../../fonts/2CA9EF_1_0.woff') format('woff'),url('../../fonts/2CA9EF_1_0.ttf') format('truetype');}
+
+p, summary {
+	margin: 0 0 .75em;
+}
+.lead {
+	margin-bottom: 0.75em;
+	font-size: 20.8px;
+	font-weight: 200;
+	line-height: 1.45em;
+}
+.small, small {
+	font-size: 0.85em;
+	line-height: 1.4em;
+}
+a {
+	color: $blue;
+	text-decoration: none;
+	-webkit-transition: color 150ms ease-in-out;
+	-moz-transition: color 150ms ease-in-out;
+	-ms-transition: color 150ms ease-in-out;
+	-o-transition: color 150ms ease-in-out;
+	transition: color 150ms ease-in-out;
+}
+a:hover {
+	color: #2baaff;
+	text-decoration: underline;
+}
+a.non-line:hover {
+	text-decoration: none;
+}
+a.non-link, a .non-link {
+	color: #333;
+	text-decoration: none;
+	cursor: text;
+}
+a .non-link {
+	cursor: auto;
+}
+a.non-link:hover {
+	text-decoration: none;
+}
+/* Lightens the color of links on dark backgrounds for higher contrast but keeps buttons the same color text. */
+.body-dark a:not(.btn) {
+	color: lighten($blue, 15%);
+}
+strong {
+	font-family: 'AvenirLTStd-Black', Arial, sans-serif;
+}
+em {
+	font-style: italic;
+}
+cite {
+	font-style: normal;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.muted {
+	color: #999;
+}
+.all-caps {
+	text-transform:uppercase !important;
+}
+.text-white {
+	color: #fff;
+}
+.text-warning {
+	color: #ff9900;
+}
+.text-error {
+	color: #c1282b;
+}
+.text-info {
+	color: $blue;
+}
+.text-success {
+	color: #8DC63F;
+}
+.text-light-gray {
+	color: $light-gray;
+}
+.text-dark-gray {
+	color: $dark-gray;
+}
+.text-gray {
+	color: $gray;
+}
+.type-shadow, .text-shadow {
+	text-shadow: 2px 2px 3px rgba(16, 19, 20, 1);
+}
+.type-shadow-light, .text-shadow-light {
+	text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+}
+.text-purple {
+	color:$purple;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:'AvenirLTStd-Black', Arial, sans-serif;
+	margin-top: 0.2em;
+	font-weight: normal;
+	color: inherit;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing:1px;
+}
+h1,h2,h3 {
+	margin-bottom: 0.4em;
+	line-height: 1.1em;
+}
+h4,h5,h6 {
+	line-height: 24px;
+	margin-bottom: 0.2em;
+}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
+	font-weight: normal;
+	line-height: 1;
+	color: #999;
+}
+
+/*
+Attempting to create typographical scaling that revolves around the base unit (18px).
+
+// Modular Scale Values
+// http://typecast.com/blog/contrast-through-scale
+$tera:  // 117 = 18 × 6.5
+$giga: // 90 = 18 × 5
+$mega: // 72 = 18 × 4
+$alpha: // 60 = 18 × 3.3333
+$beta: // 48 = 18 × 2.6667
+$gamma: // 36 = 18 × 2
+$delta: // 24 = 18 × 1.3333
+$epsilon: // 21 = 18 × 1.1667
+$zeta: // 18 = 18 × 1
+*/
+.tera {
+	font-size: 6.5em;
+	line-height:1em;
+}
+.giga {
+	font-size: 5em;
+	line-height:1em;
+}
+.mega {
+	font-size: 4em;
+	line-height:1em;
+}
+h1, .alpha {
+	font-size: 1.25*(1.25*(1.25*(1.25*(1.25*$base-font-size))));
+}
+h1.space-bottom, .alpha.space-bottom {margin-bottom: 0.495em;}
+
+h2, .beta {
+	font-size: 1.25*(1.25*(1.25*(1.25*$base-font-size)));
+}
+h2.space-bottom, .beta.space-bottom {margin-bottom: 0.6em;}
+
+h3, .gamma {
+	font-size: 1.25*(1.25*(1.25*$base-font-size));
+}
+h3.space-bottom, .gamma.space-bottom {margin-bottom: 0.825em;}
+
+h4, .delta {
+	font-size: 1.25*(1.25*$base-font-size);
+	line-height: 1.2em;
+}
+h4.space-bottom, .delta.space-bottom{margin-bottom: 1.2375em;}
+
+h5, .epsilon {
+	font-size: 1.25*$base-font-size;
+	line-height: 1.25em;
+}
+h5.space-bottom, .epsilon.space-bottom {margin-bottom: 1.4142857142857141em;}
+
+h6, .zeta {
+	font-size: $base-font-size;
+	line-height: 1.3em;
+	/*margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
+}
+h6.space-bottom, .zeta.space-bottom {margin-bottom:0.85em;}
+
+h1 small {
+	font-size: 1.25*$base-font-size;
+}
+h2 small {
+	font-size: 1.1*$base-font-size;
+}
+h3 small {
+	font-size: 0.8*$base-font-size;
+}
+h4 small {
+	font-size: 0.7*$base-font-size;
+}
+.subheading {
+	font-family:$subheading-font-family;
+}
+.subheading-thin {
+	font-family:"ProximaNovaT-Thin", Arial, san-serif;
+}
+.page-header {
+	padding-bottom: 0;
+	margin: 1.5em 0 2.25em;
+	border-bottom: 1px solid #ddd;
+}
+/* These rules fix misalignment of headers when one is substantially smaller than the other.*/
+h5 + h1, h6 + h1, h4 + h1 {
+	margin-left: -2px;
+}
+h5 + h1.subheading, h6 + h1.subheading, h4 + h1.subheading {
+	margin-left: -4px;
+}
+ul,ol {
+	padding: 0;
+	margin: 0 0 .75em 25px;
+}
+ul ul,ul ol,ol ol,ol ul {
+	margin-bottom: 0;
+}
+li {
+	line-height: 1.5em;
+}
+ul.unstyled,ol.unstyled {
+	margin-left: 0;
+	list-style: none;
+}
+ul.inline li,ol.inline li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.spacing li {
+	margin: .8em 0;
+}
+dl {
+	margin-bottom: 1.5em;
+}
+dt,dd {
+	line-height: 1.5em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: .75em;
+}
+.dl-horizontal {
+	*zoom: 1;
+}
+.dl-horizontal:before,.dl-horizontal:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.dl-horizontal:after {
+	clear: both;
+}
+.dl-horizontal dt {
+	float: left;
+	width: 160px;
+	clear: left;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	@include media(tablet) {
+		float: none;
+		clear: none;
+		width: auto;
+		text-align: left;
+	}
+}
+.dl-horizontal dd {
+	margin-left: 180px;
+	@include media(tablet) {
+		margin-left: 0;
+	}
+}
+abbr[title] {
+	cursor: help;
+	border-bottom: 1px dotted #999;
+}
+abbr.initialism {
+	font-size: 90%;
+	text-transform: uppercase;
+}
+blockquote {
+	margin: 1em 0;
+	position: relative;
+	font-style: italic;
+}
+blockquote p {
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+blockquote cite {
+	display: block;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: #999;
+	margin-top: 0.25em;
+}
+blockquote cite:before {
+	content: '\2014 \00A0';
+}
+blockquote.pull-right {
+	float: right;
+	padding-right: 15px;
+	padding-left: 0;
+	border-right: 5px solid #ddd;
+	border-left: 0;
+}
+blockquote.pull-right p,blockquote.pull-right cite {
+	text-align: right;
+}
+blockquote.pull-right cite:before {
+	content: '';
+}
+blockquote.pull-right cite:after {
+	content: '\00A0 \2014';
+}
+
+article p, article h1, article h2, article h3, article h4,article h5,article h6,article dl, article ol,article ul, article hr {
+	max-width: 600px;
+}
+article h1 {
+	font-size: 2.6em;
+}
+article h2 {
+	font-size: 2em;
+	letter-spacing: -1px;
+}
+article h3 {
+	font-size: 1.666em;
+}
+blockquote p, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6 {
+	max-width: none;
+}
+.info {
+	cursor: help;
+}
+.bq-large {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+.bq-large.bq-quotation, .bq-quotation {
+	padding-left: 12px;
+}
+.bq-large > cite {
+	font-size: 0.7em;
+	margin-top: 0.5em;
+}
+q:before,q:after,blockquote:before,blockquote:after {
+	content: "";
+}
+blockquote.bq-quotation:before {
+	content: "“";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bq-quotation cite {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.7em;
+}
+address {
+	display: block;
+	margin-bottom: 1.5em;
+	font-style: normal;
+	line-height: 1.5em;
+}
+code,pre {
+	padding: 0 3px 2px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-size: 14px;
+	color: #333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+code {
+	padding: 2px 4px;
+	color: #d14;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+}
+pre {
+	display: block;
+	padding: .25em;
+	margin: 0 0 .75em;
+	font-size: 15px;
+	line-height: 1.5em;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,0.15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+pre.prettyprint {
+	margin-bottom: 1.5em;
+}
+pre code {
+	padding: 0;
+	color: inherit;
+	background-color: transparent;
+	border: 0;
+}
+.pre-scrollable {
+	max-height: 340px;
+	overflow-y: scroll;
+}
+.gradient-copy {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	max-height: 125px;
+	-webkit-transition: all 1s ease-in 0.2s;
+	-moz-transition: all 1s ease-in 0.2s;
+	-ms-transition: all 1s ease-in 0.2s;
+	-o-transition: all 1s ease-in 0.2s;
+	transition: all 1s ease-in 0.2s;
+}
+.bd.gradient-copy {
+	max-height: 158px;
+}
+.gradient-copy:before {
+	font-family: 'icomoon';
+	font-size: 1.4em;
+	content: "\e72d";
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	z-index: 100;
+	color: #777;
+}
+.gradient-copy:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;  
+	height: 100px;
+	width: 100%;
+	content: "";
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(30%,rgba(255,255,255,0)), color-stop(85%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	pointer-events: none; /* so the text is still selectable */
+}
+.gradient-copy:after, .gradient-copy:before {
+	opacity: 1;
+	-webkit-transition: opacity 1s 0.6s;
+	-moz-transition: opacity 1s 0.6s;
+	-ms-transition: opacity 1s 0.6s;
+	-o-transition: opacity 1s 0.6s;
+	transition: opacity 1s 0.6s;
+}
+.gradient-copy:before {
+	-webkit-transition-delay: 1.5s;
+	-moz-transition-delay: 1.5s;
+	-ms-transition-delay: 1.5s;
+	-o-transition-delay: 1.5s;
+	transition-delay: 1.5s;
+}
+.gradient-copy:hover {
+	max-height: 1000px;
+	-webkit-transition: all 1s ease-in 0s;
+	-moz-transition: all 1s ease-in 0s;
+	-ms-transition: all 1s ease-in 0s;
+	-o-transition: all 1s ease-in 0s;
+	transition: all 1s ease-in 0s;
+}
+.gradient-copy:hover:after, .gradient-copy:hover:before {
+	opacity: 0;
+	-webkit-transition-delay: 0;
+	-moz-transition-delay: 0;
+	-ms-transition-delay: 0;
+	-o-transition-delay: 0;
+	transition-delay: 0;
+}
+.gradient-copy-long {
+	max-height:250px;
+	&:after {
+		height: 225px;
+	}
+}
+.new-type {
+	font-family: 'AvenirLTStd-Book', san-serif;
+	font-weight: normal;
+  font-style: normal;
+}
+.new-type h1,.new-type h2,.new-type h3,.new-type h4,.new-type h5,.new-type h6,.new-type .giga,.new-type .tera,.new-type .mega {
+  font-family: 'AvenirLTStd-Black';
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.new-type .subheading-proxima {
+  font-family: 'ProximaNovaA-Thin';
+  font-weight: normal;
+  font-style: normal;
+}

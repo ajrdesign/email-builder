@@ -1,0 +1,77 @@
+.pagination, .dataTables_paginate {
+	a {
+			padding: 6px 12px;
+			position:relative;
+			-moz-transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+			-webkit-transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+			transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+			&:before,
+			&:after {
+				position: absolute;
+				content: '';
+				opacity: 0;
+				-moz-transition: opacity 0.35s ease-in-out, -moz-transform 0.35s;
+				-webkit-transition: opacity 0.35s ease-in-out, -webkit-transform 0.35s;
+				transition: opacity 0.35s ease-in-out, transform 0.35s;
+			}
+			&:before {
+				top: 1px;
+				right: 1px;
+				bottom: 1px;
+				left: 1px;
+				border-right: 1px solid $blue;
+				border-left: 1px solid $blue;
+				-moz-transform: scale(1,0);
+				-webkit-transform: scale(1,0);
+				transform: scale(1,0);
+				-moz-transform-origin: 100% 0;
+				-webkit-transform-origin: 100% 0;
+				transform-origin: 100% 0;
+			}
+			&:after {
+				top: 1px;
+				right: 1px;
+				bottom: 1px;
+				left: 1px;
+				border-top: 1px solid $blue;
+				border-bottom: 1px solid $blue;
+				-moz-transform: scale(0,1);
+				-webkit-transform: scale(0,1);
+				transform: scale(0,1);
+				-moz-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
+			}
+			&:hover {
+				transition: border 500ms ease-in-out;
+				text-decoration: none;
+				color: $blue;
+				&:after,
+				&:before {
+					opacity: 1;
+					-moz-transform: scale(1);
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			&.disabled {
+				color:$dark-gray;
+				&:before,
+				&:after {
+					border-color:transparent;
+				}
+			}
+		}
+	li {
+		display: inline-block;
+		
+		&.active,
+		a:active {
+			background: $blue;
+			color: $white;
+			-moz-transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+			-webkit-transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+			transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+		}
+	}
+}

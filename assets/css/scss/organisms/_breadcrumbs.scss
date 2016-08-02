@@ -1,0 +1,66 @@
+.breadcrumb {
+	padding: 2px 0;
+	margin: 0;
+	list-style: none;
+	font-size:$base-font-size*0.8;
+	margin-bottom:20px;
+}
+.breadcrumb li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	@include media(phone) {
+	display: none;
+	}
+}
+.breadcrumb li:after {
+	content: "\e72b";
+	margin-left: 5px;
+	margin-right: 2.5px;
+	vertical-align: text-bottom;
+	padding-bottom: 1px;
+	color:$dark-gray;
+}
+.breadcrumb li:last-child:after {
+	content: none;
+}
+.breadcrumb .active {
+	color: $dark-gray;
+}
+.body-dark .breadcrumb .active {
+	color: #bbb;
+}
+
+.breadcrumb li:nth-last-child(2) {
+  	@include media(phone) {
+  		display: block;
+  	}
+  }
+  .breadcrumb li:nth-last-child(2):after {
+  	@include media(phone) {
+  		content: none;
+  	}
+  }
+  .breadcrumb li:nth-last-child(2):before {
+  	@include media(phone) {
+  		content: "\e72a";
+	  	vertical-align: text-bottom;
+	  	margin-right: 5px;
+	  	padding-bottom: 1px;
+  	}
+  }
+.dark-breadcrumb {
+	width:100%;
+	background-color:#111;
+	margin:0;
+	color:#666;
+	.breadcrumb {
+		margin-bottom: 0;
+	}
+}
+.dark-breadcrumb li {
+	text-shadow: 0 1px 0 #000;
+}
+.dark-breadcrumb .active {
+	color: $gray;
+}

@@ -1,5 +1,5 @@
 title: Site
-pages: default
+pages: email
 fields:
   title:
     label: Title

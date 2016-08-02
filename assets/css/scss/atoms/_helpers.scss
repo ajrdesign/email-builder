@@ -1,0 +1,182 @@
+/*
+TRANSITION HELPERS
+==================
+*/
+.transition-opacity {
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	-ms-transition: opacity 400ms ease-in;
+	-o-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+}
+.transition-opacity {
+	opacity: 1;
+}
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity .15s linear;
+	-moz-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear;
+}
+.fade.in {
+	opacity: 1;
+}
+.collapse {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: height .35s ease;
+	-moz-transition: height .35s ease;
+	-o-transition: height .35s ease;
+	transition: height .35s ease;
+}
+
+.nav-collapse.collapse {
+	overflow: visible;
+}
+
+.collapse.in {
+	height: auto;
+}
+.close {
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5em;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .2;
+	filter: alpha(opacity=20);
+}
+.close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+
+/*
+NOTE:
+Normally we shouldn't use !important but this is a special case because we
+are using these specifically to overwrite styles so they need to trump whatever
+they are put on.
+*/
+.pull-right {
+	float: right;
+}
+.pull-right-desktop {
+	float: right !important;
+}
+.pull-right-padding {
+	padding: 0 0 10px 10px;
+}
+.pull-left {
+	float: left;
+}
+.pull-left-desktop {
+	float: left !important;
+}
+.flush-margin {
+	margin: 0 !important;
+}
+.flush-margin-t {
+	margin-top: 0 !important;
+}
+.flush-margin-b {
+	margin-bottom: 0 !important;
+}
+.flush-margin-l {
+	margin-left: 0 !important;
+}
+.flush-margin-r {
+	margin-right: 0 !important;
+}
+.flush-padding {
+	padding: 0 !important;
+}
+.flush-padding-t {
+	padding-top: 0 !important;
+}
+.flush-padding-b {
+	padding-bottom: 0 !important;
+}
+.flush-padding-l {
+	padding-left: 0 !important;
+}
+.flush-padding-r {
+	padding-right: 0 !important;
+}
+.pull-left {
+	float: left;
+}
+.center {
+	text-align: center !important;
+}
+.center-container {
+	position: relative;
+}
+.center-container .center {
+	left: 0; right: 0;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.hide {
+	display: none !important;
+}
+.show {
+	display: block !important;
+}
+.invisible {
+	visibility: hidden !important;
+}
+.affix {
+	position: fixed;
+	top: 0;
+}
+.block {
+	width: 100%;
+}
+.docs-sidebar {
+	width: 180px;
+}
+.p-10 {
+	padding: 10px;
+}
+.p-10-t {
+	padding-top: 10px;
+}
+.p-10-b {
+	padding-bottom: 10px;
+}
+.p-10-r {
+	padding-right: 10px;
+}
+.p-10-l {
+	padding-left: 10px;
+}
+.align-bottom {
+	position: relative !important;
+	bottom:0 !important;
+}
+.center-container {
+	position: relative;
+}
+.center-content {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+}

@@ -1,0 +1,42 @@
+
+/* RESPONSIVE MIXIN 
+
+Example: 
+
+.card .cta-2 .btn{
+	width:33%;
+	@include media(smallTablet) {
+	width: 100%;
+	display: block;
+	}
+}
+
+*/
+
+@mixin media($point) {
+  @if $point == desk {
+    @media (min-width:978px) { @content; }
+  }
+  @if $point == tablet {
+    @media (max-width:979px) { @content; }
+  }
+  @else if $point == smallTablet {
+    @media (max-width: 767px)  { @content; }
+  }
+  @else if $point == phone {
+    @media (max-width: 480px) { @content; }
+  }
+  
+}
+
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@mixin horizontal-align {
+  margin: 0 auto;
+}

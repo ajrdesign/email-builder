@@ -1,0 +1,86 @@
+/*
+======= Brand Colors ========
+
+Background Colors
+*/
+.bg-blue {
+	background-color: $blue !important;
+}
+.bg-light-blue {
+	background-color: lighten($blue, 50%) !important;
+}
+.bg-dark-blue {
+	background-color: darken($blue, 30%) !important;
+}
+.bg-red {
+	background-color: $red !important;
+}
+.bg-red a {
+	color: #fff !important;
+	text-decoration: underline;
+}
+.bg-orange {
+	background-color: $orange !important;
+}
+.bg-purple {
+	background-color: $purple !important;
+}
+.bg-green {
+	background-color: $green!important;
+}
+.bg-light-green {
+	background-color: lighten($green, 40%) !important;
+}
+.bg-dark-green {
+	background-color: darken($green, 35%) !important;
+}
+.bg-white {
+	background-color: $white;
+}
+.bg-black {
+	background-color: $black;
+}
+.bg-extreme-light-gray {
+	background-color: #eff4f7;
+}
+.bg-light-gray {
+	background-color: $light-gray;
+}
+.bg-gray {
+	background-color: $gray;
+}
+.bg-dark-gray {
+	background-color: $dark-gray;
+}
+.bg-very-dark-gray {
+	background-color: darken($dark-gray,20%);
+}
+.bg-dark-gradient {
+	background-color: #292929;
+	background-image: -moz-linear-gradient(top,#444,$black);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#444),to($black));
+	background-image: -webkit-linear-gradient(top,#444,$black);
+	background-image: -o-linear-gradient(top,#444,$black);
+	background-image: linear-gradient(to bottom,#444,$black);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444',endColorstr='#ff000000',GradientType=0);
+}
+
+.light-shadow {
+	-webkit-box-shadow: 0 3px 6px $gray;
+	-moz-box-shadow: 0 3px 6px $gray;
+	box-shadow: 0 3px 6px $gray;
+	-webkit-transition: all 250ms ease-in;
+	-moz-transition: all 250ms ease-in;
+	-ms-transition: all 250ms ease-in;
+	-o-transition: all 250ms ease-in;
+	transition: all 250ms ease-in;
+}
+.body-dark .light-shadow {
+	-webkit-box-shadow: 0 3px 6px darken($dark-gray, 15%);
+	-moz-box-shadow: 0 3px 6px darken($dark-gray, 15%);
+	box-shadow: 0 3px 6px darken($dark-gray, 15%);
+}
+.gray-background {
+	background: rgba(1,1,1,0.1);
+}

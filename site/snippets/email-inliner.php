@@ -1,12 +1,13 @@
 <style>
 	.inline-wrapper {
-		position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width:100%;
-    background: #fff;
-    padding: 30px;
+		position: fixed;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	    background: linear-gradient( rgba(45, 63, 113, 0.95), rgba(61, 77, 113, 0.95) );
+	    padding: 30px;
+	    text-align: center;
 	}
 	.form {
 		width: 580px;
@@ -16,10 +17,12 @@
 		display: none;
 	}
 	input, button {
-		border: 2px solid #0083db;
+	    border: 3px solid #ffffff;
 		background: transparent;
-		padding:6px 10px;
+		padding: 10px 20px;
 		display: inline;
+		color: #fff;
+		font-size: 16px;
 	}
 </style>
 <script>

@@ -1,0 +1,60 @@
+.accordion {
+	margin-bottom: 1.5em;
+}
+.accordion-group {
+	margin-bottom: 2px;
+}
+.accordion-heading {
+	border-bottom: 0;
+}
+.accordion-heading .accordion-toggle {
+	display: block;
+}
+.accordion-toggle {
+	cursor: pointer;
+}
+.accordion-blue a,.accordion-red a,.accordion-green a,.accordion-yellow a,.accordion-orange a,.accordion-teal a {
+	color: #fff;
+}
+.accordion-black a {
+	color: #ddd;
+}
+.accordion-blue {
+	background: $blue;
+}
+.accordion-red {
+	background: $red;
+}
+.accordion-green {
+	background: $green;
+}
+.accordion-yellow {
+	background: #eddb00;
+}
+.accordion-orange {
+	background: #f90;
+}
+.accordion-teal {
+	background: #5bc0de;
+}
+.accordion-black {
+	background: #000;
+}
+.accordion-outline .accordion-inner {
+	padding: 9px 15px;
+	border-top: 1px solid #e5e5e5;
+}
+.accordion-outline .accordion-group {
+	border: 1px solid #e5e5e5;
+}
+.accordion-outline .accordion-heading .accordion-toggle {
+	padding: 8px 15px;
+	border-top: 1px solid #e5e5e5;
+}
+.body-dark .accordion-outline {
+	.accordion-inner, 
+	.accordion-group, 
+	.accordion-heading .accordion-toggle {
+		border-color:$dark-gray;
+	}
+}

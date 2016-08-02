@@ -1,0 +1,107 @@
+/* CARDS 
+These are complexed molecules that consist of a heading, copy blurb and CTA button(s).
+They can also have an image but do not have to.
+*/
+
+.card .img {
+	border-left: 1px solid $gray;
+	border-right: 1px solid $gray;
+	border-top: 1px solid $gray;
+}
+.card .h {
+	border-left: 1px solid $gray;
+	border-right: 1px solid $gray;
+	border-top: 1px solid $gray;
+}
+.card .bd {
+	border-left: 1px solid $gray;
+	border-right: 1px solid $gray;
+}
+.card .h,
+.card .bd {
+		padding: 8px 14px 4px;
+}
+.card .h h1,
+.card .h h2,
+.card .h h3,
+.card .h h4 {
+	margin-bottom: 0;
+}
+.col-md-4 .card .h,
+.col-md-4 .card .bd,
+.col-md-3 .card .h,
+.col-md-3 .card .bd,
+.col-md-2 .card .h,
+.col-md-2 .card .bd,
+.col-md-1 .card .h,
+.col-md-1 .card .bd {
+	padding: 4px 10px 4px;
+}
+.card .cta .btn {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.card .btn {
+	right:0;
+	margin-left: 0;
+}
+.card .cta-2 .btn {
+	width: 50%;
+	display: inline-block;
+}
+.card .cta-3 .btn {
+	width: 33.333333%;
+	display: inline-block;
+	@include media(smallTablet) {
+		width: 100%;
+		display: block;
+	}
+}
+.card .cta-3 .btn:last-child {
+	width: 33.33%;
+	@include media(smallTablet) {
+		width: 100%;
+	}
+}
+.card {
+	margin-bottom: 30px;
+}
+/* MEDIA CARD */
+.card.media {
+	border:1px solid $gray;
+	margin: 0;
+}
+.card .img {
+	border-left: none;
+	border-right: 1px solid $gray;
+	border-top: none;
+}
+.card.media .h {
+	border: none;
+}
+.card.media .bd {
+	border-left: none;
+	border-right: none;
+}
+.card.media .img {
+	margin-right: 0;
+}
+.card.media .h {
+	overflow: hidden;
+	_overflow: visible;
+	zoom: 1;
+}
+.card.media .cta {
+	clear: left;
+}
+.card.media {
+	margin-bottom: 30px;
+}
+/*  Modifiers  */
+.card.card-border-light-gray {
+	.img, .h, .bd {
+		border-color:$light-gray;
+	}
+}

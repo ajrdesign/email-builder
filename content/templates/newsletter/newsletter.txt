@@ -1,0 +1,39 @@
+Title: Newsletter
+
+----
+
+Heroimg: http://placehold.it/550x300
+
+----
+
+Herolink: https://www.bluebeam.com
+
+----
+
+Heroalt: 
+
+----
+
+Info: 
+
+----
+
+Herocopy: We have a number of different teams within our agency that specialize in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry.
+
+----
+
+Builder: 
+
+- 
+  picture: http://placehold.it/300x200
+  headline: Headline
+  text: >
+    We work with clients big and small
+    across a range of sectors and we utilize
+    all forms of media to get your name out
+    there in a way that’s right for you.
+    We believe that analysis of your company
+    and your customers is key in responding
+    effectively to your promotional needs.
+  url: https://www.bluebeam.com
+  _fieldset: newsletterarticle

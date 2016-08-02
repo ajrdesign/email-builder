@@ -758,5 +758,7 @@ table.columns .right-text-pad {
     padding-right: 15px !important;
   }
 }
-
+td.wrapper.wrapper-flush-t-padding {
+  padding:0 20px 0 0;
+}
 </style>

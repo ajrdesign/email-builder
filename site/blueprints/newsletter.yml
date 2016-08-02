@@ -22,25 +22,70 @@ fields:
     type:  text
     help: This will display when images are disabled in users email client.
     width: 1/2
-  builder:
-    label: Sections
-    type: builder
-    fieldsets:
-      newsletterarticle:
-        label: Article
-        snippet: builder/newsletterarticle
-        fields:
-          picture:
-            label: Background Image
-            type: url
-            default: https://source.unsplash.com/random/550x300
-          headline:
-          	label: Headline
-          	type: text
-          text:
-            label: Copy
-            type: textarea
-          url:
-          	label: Link
-          	type: url
-          	default: https://www.bluebeam.com
+  info:
+    label: Help
+    type: info
+    text: >
+      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  heroCopy:
+    label: Hero Copy
+    type:  textarea
+    validate:
+      max: 300
+  article: 
+    label: Articles
+    type: structure
+    entry: >
+          <div class="media">
+          <div class="img">
+          <img src="{{picture}}">
+          </div>
+          <div class="bd">
+          <h5>{{headline}}</h5>
+          <strong>Copy:</strong> {{text}}</br>
+          <strong>URL:</strong> {{url}}
+          </div
+          </div>
+    fields: 
+      picture: 
+        label: Picture
+        type: url
+        default: https://source.unsplash.com/random/550x300
+      headline:
+        label: Headline
+        type: text
+        validate:
+          max: 80
+      text:
+        label: Copy
+        type: textarea
+        validate:
+          max: 300
+      url:
+        label: Link
+        type: url
+        default: https://www.bluebeam.com
+  # builder:
+  #   label: Sections
+  #   type: builder
+  #   fieldsets:
+  #     newsletterarticle:
+  #       label: Article
+  #       snippet: builder/newsletterarticle
+  #       fields:
+  #         picture:
+  #           label: Background Image
+  #           type: url
+  #           default: https://source.unsplash.com/random/550x300
+  #         headline:
+  #         	label: Headline
+  #         	type: text
+  #         	help: Less than 80 characters.
+  #         text:
+  #           label: Copy
+  #           type: textarea
+  #           help: Less than 300 characters.
+  #         url:
+  #         	label: Link
+  #         	type: url
+  #         	default: https://www.bluebeam.com

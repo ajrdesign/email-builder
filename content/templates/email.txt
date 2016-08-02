@@ -1,0 +1,85 @@
+Title: Templates
+
+----
+
+Logo: http://placehold.it/200x40
+
+----
+
+Logourl: https://www.bluebeam.com
+
+----
+
+Logoalt: Bluebeam Logo
+
+----
+
+Line: 
+
+----
+
+Facebook: true
+
+----
+
+Facebookurl: http://www.facebook.com
+
+----
+
+Line-a: 
+
+----
+
+Linkedin: true
+
+----
+
+Linkedinurl: http://www.linkedin.com
+
+----
+
+Line-b: 
+
+----
+
+Twitter: true
+
+----
+
+Twitterurl: http://www.twitter.com
+
+----
+
+Line-c: 
+
+----
+
+Instagram: true
+
+----
+
+Instagramurl: http://www.instagram.com
+
+----
+
+Line-d: 
+
+----
+
+Youtube: true
+
+----
+
+Youtubeurl: http://www.youtube.com
+
+----
+
+Line-e: 
+
+----
+
+Rss: true
+
+----
+
+Rssurl: http://www.rss.com

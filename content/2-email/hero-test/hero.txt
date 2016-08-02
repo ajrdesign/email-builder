@@ -34,3 +34,27 @@ Builder:
 - 
   text: Adding some copy here.
   _fieldset: bodytext
+
+----
+
+Heroimg: https://source.unsplash.com/random/580x400
+
+----
+
+Herolink: https://www.bluebeam.com
+
+----
+
+Herocopy: 
+
+# A catchy headline
+
+We will work with you to fully understand your business and your target audience to inform our marketing strategy.
+
+----
+
+Cta: Download Today
+
+----
+
+Ctaurl: https://www.bluebeam.com

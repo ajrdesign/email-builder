@@ -1,0 +1,296 @@
+.icon-large:before {
+	vertical-align: middle;
+	font-size: 1.3333333333333333em;
+}
+li .icon-large:before,li .icon-large:before {
+	width: 1.875em;
+}
+ul.icons {
+	list-style-type: none;
+	margin-left: 2em;
+	text-indent: -0.8em;
+}
+ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"] {
+	width: .8em;
+}
+ul.icons li .icon-large:before,ul.icons li .icon-large:before {
+	vertical-align: initial;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../fonts/icomoon.eot');
+	src:url('../../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/icomoon.ttf') format('truetype'),
+		url('../../fonts/icomoon.woff') format('woff'),
+		url('../../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range:U+00-FFFF;
+}
+
+[class*="icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1.25em;
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: 1em;
+	text-align: center;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="icon-"], [class*="channel-"], [class*="bluebeam-"] {
+	margin-right: 4px;
+}
+
+.alpha [class*="channel-"], .alpha [class*="bluebeam-"],
+.beta [class*="channel-"], .beta [class*="bluebeam-"],
+.gamma [class*="channel-"], .gamma [class*="bluebeam-"] {
+	margin-right: 10px;
+}
+.delta [class*="channel-"], .delta [class*="bluebeam-"],
+.epsilon [class*="channel-"], .epsilon [class*="bluebeam-"] {
+	margin-right: 6px;
+}
+
+.breadcrumb li:before, .breadcrumb li:after{	
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+}
+
+.icon-file-excel:before {content: "\e7ab"; } .icon-chrome:before {content: "\e7ac"; } .icon-firefox:before {content: "\e7ad"; } .icon-IE:before {content: "\e7ae"; } .icon-opera:before {content: "\e7af"; } .icon-new-tab:before {content: "\e7b0"; } .icon-file-word:before {content: "\e7aa"; } .icon-play:before {content: "\e7c2"; } .icon-pause:before {content: "\e7c3"; } .icon-stop:before {content: "\e7c4"; } .icon-backward:before {content: "\e7c5"; } .icon-forward:before {content: "\e7c6"; } .icon-glass:before {content: "\e642"; } .icon-music:before {content: "\e643"; } .icon-search:before {content: "\e644"; } .icon-envelope:before {content: "\e645"; } .icon-heart:before {content: "\e646"; } .icon-star:before {content: "\e647"; } .icon-star-empty:before {content: "\e648"; } .icon-user:before {content: "\e649"; } .icon-film:before {content: "\e64a"; } .icon-th-large:before {content: "\e64b"; } .icon-th:before {content: "\e64c"; } .icon-th-list:before {content: "\e64d"; } .icon-ok:before {content: "\e64e"; } .icon-remove:before {content: "\e64f"; } .icon-zoom-in:before {content: "\e650"; } .icon-zoom-out:before {content: "\e651"; } .icon-off:before {content: "\e652"; } .icon-signal:before {content: "\e653"; } .icon-cog:before {content: "\e654"; } .icon-trash:before {content: "\e655"; } .icon-home:before {content: "\e656"; } .icon-file:before {content: "\e657"; } .icon-time:before {content: "\e658"; } .icon-road:before {content: "\e659"; } .icon-download-alt:before {content: "\e65a"; } .icon-download:before {content: "\e65b"; } .icon-upload:before {content: "\e65c"; } .icon-inbox:before {content: "\e65d"; } .icon-play-circle:before {content: "\e65e"; } .icon-repeat:before {content: "\e65f"; } .icon-refresh:before {content: "\e660"; } .icon-list-alt:before {content: "\e661"; } .icon-lock:before {content: "\e662"; } .icon-flag:before {content: "\e663"; } .icon-headphones:before {content: "\e664"; } .icon-volume-off:before {content: "\e665"; } .icon-volume-down:before {content: "\e666"; } .icon-volume-up:before {content: "\e667"; } .icon-qrcode:before {content: "\e668"; } .icon-barcode:before {content: "\e669"; } .icon-tag:before {content: "\e66a"; } .icon-tags:before {content: "\e66b"; } .icon-book:before {content: "\e66c"; } .icon-bookmark:before {content: "\e66d"; } .icon-print:before {content: "\e66e"; } .icon-camera:before {content: "\e66f"; } .icon-font:before {content: "\e670"; } .icon-bold:before {content: "\e671"; } .icon-italic:before {content: "\e672"; } .icon-text-height:before {content: "\e673"; } .icon-text-width:before {content: "\e674"; } .icon-align-left:before {content: "\e675"; } .icon-align-center:before {content: "\e676"; } .icon-align-right:before {content: "\e677"; } .icon-align-justify:before {content: "\e678"; } .icon-list:before {content: "\e679"; } .icon-indent-left:before {content: "\e67a"; } .icon-indent-right:before {content: "\e67b"; } .icon-facetime-video:before {content: "\e67c"; } .icon-picture:before {content: "\e67d"; } .icon-pencil:before {content: "\e67e"; } .icon-map-marker:before {content: "\e67f"; } .icon-adjust:before {content: "\e680"; } .icon-tint:before {content: "\e681"; } .icon-edit:before {content: "\e682"; } .icon-share:before {content: "\e683"; } .icon-check:before {content: "\e684"; } .icon-move:before {content: "\e685"; } .icon-step-backward:before {content: "\e686"; } .icon-fast-backward:before {content: "\e687"; } .icon-backward2:before {content: "\e688"; } .icon-play2:before {content: "\e689"; } .icon-pause2:before {content: "\e68a"; } .icon-stop2:before {content: "\e68b"; } .icon-forward2:before {content: "\e68c"; } .icon-fast-forward:before {content: "\e68d"; } .icon-step-forward:before {content: "\e68e"; } .icon-eject:before {content: "\e68f"; } .icon-chevron-left:before {content: "\e690"; } .icon-chevron-right:before {content: "\e691"; } .icon-plus-sign:before {content: "\e692"; } .icon-minus-sign:before {content: "\e693"; } .icon-remove-sign:before {content: "\e694"; } .icon-ok-sign:before {content: "\e695"; } .icon-question-sign:before {content: "\e696"; } .icon-info-sign:before {content: "\e697"; } .icon-screenshot:before {content: "\e698"; } .icon-remove-circle:before {content: "\e699"; } .icon-ok-circle:before {content: "\e69a"; } .icon-ban-circle:before {content: "\e69b"; } .icon-arrow-left:before {content: "\e69c"; } .icon-arrow-right:before {content: "\e69d"; } .icon-arrow-up:before {content: "\e69e"; } .icon-arrow-down:before {content: "\e69f"; } .icon-share-alt:before {content: "\e6a0"; } .icon-resize-full:before {content: "\e6a1"; } .icon-resize-small:before {content: "\e6a2"; } .icon-plus:before {content: "\e6a3"; } .icon-minus:before {content: "\e6a4"; } .icon-asterisk:before {content: "\e6a5"; } .icon-exclamation-sign:before {content: "\e6a6"; } .icon-gift:before {content: "\e6a7"; } .icon-leaf:before {content: "\e6a8"; } .icon-fire:before {content: "\e6a9"; } .icon-eye-open:before {content: "\e6aa"; } .icon-eye-close:before {content: "\e6ab"; } .icon-warning-sign:before {content: "\e6ac"; } .icon-plane:before {content: "\e6ad"; } .icon-calendar:before {content: "\e6ae"; } .icon-random:before {content: "\e6af"; } .icon-comment:before {content: "\e6b0"; } .icon-magnet:before {content: "\e6b1"; } .icon-chevron-up:before {content: "\e6b2"; } .icon-chevron-down:before {content: "\e6b3"; } .icon-retweet:before {content: "\e6b4"; } .icon-shopping-cart:before {content: "\e6b5"; } .icon-folder-close:before {content: "\e6b6"; } .icon-folder-open:before {content: "\e6b7"; } .icon-resize-vertical:before {content: "\e6b8"; } .icon-resize-horizontal:before {content: "\e6b9"; } .icon-bar-chart:before {content: "\e6ba"; } .icon-twitter-sign:before {content: "\e6bb"; } .icon-facebook-sign:before {content: "\e6bc"; } .icon-camera-retro:before {content: "\e6bd"; } .icon-key:before {content: "\e6be"; } .icon-cogs:before {content: "\e6bf"; } .icon-comments:before {content: "\e6c0"; } .icon-thumbs-up:before {content: "\e6c1"; } .icon-thumbs-down:before {content: "\e6c2"; } .icon-star-half:before {content: "\e6c3"; } .icon-heart-empty:before {content: "\e6c4"; } .icon-signout:before {content: "\e6c5"; } .icon-linkedin-sign:before {content: "\e6c6"; } .icon-pushpin:before {content: "\e6c7"; } .icon-external-link:before {content: "\e6c8"; } .icon-signin:before {content: "\e6c9"; } .icon-trophy:before {content: "\e6ca"; } .icon-github-sign:before {content: "\e6cb"; } .icon-upload-alt:before {content: "\e6cc"; } .icon-lemon:before {content: "\e6cd"; } .icon-phone:before {content: "\e6ce"; } .icon-check-empty:before {content: "\e6cf"; } .icon-bookmark-empty:before {content: "\e6d0"; } .icon-phone-sign:before {content: "\e6d1"; } .icon-twitter:before {content: "\e6d2"; } .icon-facebook:before {content: "\e6d3"; } .icon-github:before {content: "\e6d4"; } .icon-unlock:before {content: "\e6d5"; } .icon-credit:before {content: "\e6d6"; } .icon-rss:before {content: "\e6d7"; } .icon-hdd:before {content: "\e6d8"; } .icon-bullhorn:before {content: "\e6d9"; } .icon-bell:before {content: "\e6da"; } .icon-certificate:before {content: "\e6db"; } .icon-hand-right:before {content: "\e6dc"; } .icon-hand-left:before {content: "\e6dd"; } .icon-hand-up:before {content: "\e6de"; } .icon-hand-down:before {content: "\e6df"; } .icon-circle-arrow-left:before {content: "\e6e0"; } .icon-circle-arrow-right:before {content: "\e6e1"; } .icon-circle-arrow-up:before {content: "\e6e2"; } .icon-circle-arrow-down:before {content: "\e6e3"; } .icon-globe:before {content: "\e6e4"; } .icon-wrench:before {content: "\e6e5"; } .icon-tasks:before {content: "\e6e6"; } .icon-filter:before {content: "\e6e7"; } .icon-briefcase:before {content: "\e6e8"; } .icon-fullscreen:before {content: "\e6e9"; } .icon-group:before {content: "\e6ea"; } .icon-link:before {content: "\e6eb"; } .icon-cloud:before {content: "\e6ec"; } .icon-beaker:before {content: "\e6ed"; } .icon-cut:before {content: "\e6ee"; } .icon-copy:before {content: "\e6ef"; } .icon-paper-clip:before {content: "\e6f0"; } .icon-save:before {content: "\e6f1"; } .icon-sign-blank:before {content: "\e6f2"; } .icon-reorder:before {content: "\e6f3"; } .icon-list-ul:before {content: "\e6f4"; } .icon-list-ol:before {content: "\e6f5"; } .icon-strikethrough:before {content: "\e6f6"; } .icon-underline:before {content: "\e6f7"; } .icon-table:before {content: "\e6f8"; } .icon-magic:before {content: "\e6f9"; } .icon-truck:before {content: "\e6fa"; } .icon-pinterest:before {content: "\e6fb"; } .icon-pinterest-sign:before {content: "\e6fc"; } .icon-google-plus-sign:before {content: "\e6fd"; } .icon-google-plus:before {content: "\e6fe"; } .icon-money:before {content: "\e6ff"; } .icon-caret-down:before {content: "\e700"; } .icon-caret-up:before {content: "\e701"; } .icon-caret-left:before {content: "\e702"; } .icon-caret-right:before {content: "\e703"; } .icon-columns:before {content: "\e704"; } .icon-sort:before {content: "\e705"; } .icon-sort-down:before {content: "\e706"; } .icon-sort-up:before {content: "\e707"; } .icon-envelope-alt:before {content: "\e708"; } .icon-linkedin:before {content: "\e709"; } .icon-undo:before {content: "\e70a"; } .icon-legal:before {content: "\e70b"; } .icon-dashboard:before {content: "\e70c"; } .icon-comment-alt:before {content: "\e70d"; } .icon-comments-alt:before {content: "\e70e"; } .icon-bolt:before {content: "\e70f"; } .icon-sitemap:before {content: "\e710"; } .icon-umbrella:before {content: "\e711"; } .icon-paste:before {content: "\e712"; } .icon-lightbulb:before {content: "\e713"; } .icon-exchange:before {content: "\e714"; } .icon-cloud-download:before {content: "\e715"; } .icon-cloud-upload:before {content: "\e716"; } .icon-user-md:before {content: "\e717"; } .icon-stethoscope:before {content: "\e718"; } .icon-suitcase:before {content: "\e719"; } .icon-bell-alt:before {content: "\e71a"; } .icon-coffee:before {content: "\e71b"; } .icon-food:before {content: "\e71c"; } .icon-file-alt:before {content: "\e71d"; } .icon-building:before {content: "\e71e"; } .icon-hospital:before {content: "\e71f"; } .icon-ambulance:before {content: "\e720"; } .icon-medkit:before {content: "\e721"; } .icon-fighter-jet:before {content: "\e722"; } .icon-beer:before {content: "\e723"; } .icon-h-sign:before {content: "\e724"; } .icon-plus-sign2:before {content: "\e725"; } .icon-double-angle-left:before {content: "\e726"; } .icon-double-angle-right:before {content: "\e727"; } .icon-double-angle-up:before {content: "\e728"; } .icon-double-angle-down:before {content: "\e729"; } .icon-angle-left:before {content: "\e72a"; } .icon-angle-right:before {content: "\e72b"; } .icon-angle-up:before {content: "\e72c"; } .icon-angle-down:before {content: "\e72d"; } .icon-desktop:before {content: "\e72e"; } .icon-laptop:before {content: "\e72f"; } .icon-tablet:before {content: "\e730"; } .icon-mobile:before {content: "\e731"; } .icon-circle-blank:before {content: "\e732"; } .icon-quote-left:before {content: "\e733"; } .icon-quote-right:before {content: "\e734"; } .icon-spinner:before {content: "\e735"; } .icon-circle:before {content: "\e736"; } .icon-reply:before {content: "\e737"; } .icon-github-alt:before {content: "\e738"; } .icon-folder-close-alt:before {content: "\e739"; } .icon-folder-open-alt:before {content: "\e73a"; } .icon-expand-alt:before {content: "\e73b"; } .icon-collapse-alt:before {content: "\e73c"; } .icon-smile:before {content: "\e73d"; } .icon-frown:before {content: "\e73e"; } .icon-meh:before {content: "\e73f"; } .icon-gamepad:before {content: "\e740"; } .icon-keyboard:before {content: "\e741"; } .icon-flag-alt:before {content: "\e742"; } .icon-flag-checkered:before {content: "\e743"; } .icon-terminal:before {content: "\e744"; } .icon-code:before {content: "\e745"; } .icon-reply-all:before {content: "\e746"; } .icon-star-half-full:before {content: "\e747"; } .icon-location-arrow:before {content: "\e748"; } .icon-crop:before {content: "\e749"; } .icon-code-fork:before {content: "\e74a"; } .icon-unlink:before {content: "\e74b"; } .icon-question:before {content: "\e74c"; } .icon-info:before {content: "\e74d"; } .icon-exclamation:before {content: "\e74e"; } .icon-superscript:before {content: "\e74f"; } .icon-subscript:before {content: "\e750"; } .icon-eraser:before {content: "\e751"; } .icon-puzzle:before {content: "\e752"; } .icon-microphone:before {content: "\e753"; } .icon-microphone-off:before {content: "\e754"; } .icon-shield:before {content: "\e755"; } .icon-calendar-empty:before {content: "\e756"; } .icon-fire-extinguisher:before {content: "\e757"; } .icon-rocket:before {content: "\e758"; } .icon-maxcdn:before {content: "\e759"; } .icon-chevron-sign-left:before {content: "\e75a"; } .icon-chevron-sign-right:before {content: "\e75b"; } .icon-chevron-sign-up:before {content: "\e75c"; } .icon-chevron-sign-down:before {content: "\e75d"; } .icon-html5:before {content: "\e75e"; } .icon-css3:before {content: "\e75f"; } .icon-anchor:before {content: "\e760"; } .icon-unlock-alt:before {content: "\e761"; } .icon-bullseye:before {content: "\e762"; } .icon-ellipsis-horizontal:before {content: "\e763"; } .icon-ellipsis-vertical:before {content: "\e764"; } .icon-rss-sign:before {content: "\e765"; } .icon-play-sign:before {content: "\e766"; } .icon-ticket:before {content: "\e767"; } .icon-minus-sign-alt:before {content: "\e768"; } .icon-check-minus:before {content: "\e769"; } .icon-level-up:before {content: "\e76a"; } .icon-level-down:before {content: "\e76b"; } .icon-check-sign:before {content: "\e76c"; } .icon-edit-sign:before {content: "\e76d"; } .icon-external-link-sign:before {content: "\e76e"; } .icon-share-sign:before {content: "\e76f"; } .icon-compass:before {content: "\e770"; } .icon-collapse:before {content: "\e771"; } .icon-collapse-top:before {content: "\e772"; } .icon-expand:before {content: "\e773"; } .icon-euro:before {content: "\e774"; } .icon-gbp:before {content: "\e775"; } .icon-dollar:before {content: "\e776"; } .icon-rupee:before {content: "\e777"; } .icon-yen:before {content: "\e778"; } .icon-renminbi:before {content: "\e779"; } .icon-won:before {content: "\e77a"; } .icon-bitcoin:before {content: "\e77b"; } .icon-file2:before {content: "\e77c"; } .icon-file-text:before {content: "\e77d"; } .icon-sort-by-alphabet:before {content: "\e77e"; } .icon-sort-by-alphabet-alt:before {content: "\e77f"; } .icon-sort-by-attributes:before {content: "\e780"; } .icon-sort-by-attributes-alt:before {content: "\e781"; } .icon-sort-by-order:before {content: "\e782"; } .icon-sort-by-order-alt:before {content: "\e783"; } .icon-thumbs-up2:before {content: "\e784"; } .icon-thumbs-down2:before {content: "\e785"; } .icon-youtube-sign:before {content: "\e786"; } .icon-youtube:before {content: "\e787"; } .icon-xing:before {content: "\e788"; } .icon-xing-sign:before {content: "\e789"; } .icon-youtube-play:before {content: "\e78a"; } .icon-dropbox:before {content: "\e78b"; } .icon-stackexchange:before {content: "\e78c"; } .icon-instagram:before {content: "\e78d"; } .icon-flickr:before {content: "\e78e"; } .icon-adn:before {content: "\e78f"; } .icon-bitbucket:before {content: "\e790"; } .icon-bitbucket-sign:before {content: "\e791"; } .icon-tumblr:before {content: "\e792"; } .icon-tumblr-sign:before {content: "\e793"; } .icon-long-arrow-down:before {content: "\e794"; } .icon-long-arrow-up:before {content: "\e795"; } .icon-long-arrow-left:before {content: "\e796"; } .icon-long-arrow-right:before {content: "\e797"; } .icon-apple:before {content: "\e798"; } .icon-windows:before {content: "\e799"; } .icon-android:before {content: "\e79a"; } .icon-linux:before {content: "\e79b"; } .icon-dribbble:before {content: "\e79c"; } .icon-skype:before {content: "\e79d"; } .icon-foursquare:before {content: "\e79e"; } .icon-trello:before {content: "\e79f"; } .icon-female:before {content: "\e7a0"; } .icon-male:before {content: "\e7a1"; } .icon-gittip:before {content: "\e7a2"; } .icon-sun:before {content: "\e7a3"; } .icon-moon:before {content: "\e7a4"; } .icon-archive:before {content: "\e7a5"; } .icon-bug:before {content: "\e7a6"; } .icon-vk:before {content: "\e7a7"; } .icon-weibo:before {content: "\e7a8"; } .icon-renren:before {content: "\e7a9"; } .icon-channel-pdf:before {content: "\e600"; } .icon-channel-landing-page:before {content: "\e601"; } .icon-channel-web-copy:before {content: "\e602"; } .icon-bluebeam-logo:before {content: "\e603"; } .icon-channel-revu-logo:before {content: "\e604"; } .icon-channel-webinar-template:before {content: "\e605"; } .icon-channel-webinar:before {content: "\e606"; } .icon-channel-screenshots:before {content: "\e607"; } .icon-channel-press:before {content: "\e608"; } .icon-channel-case-study:before {content: "\e609"; } .icon-channel-schedule:before {content: "\e60a"; } .icon-channel-email:before {content: "\e60b"; } .icon-channel-signature:before {content: "\e60c"; } .icon-channel-adwords:before {content: "\e60d"; } .icon-channel-ad-horizontal:before {content: "\e60e"; } .icon-channel-ad-vertical:before {content: "\e60f"; } .icon-channel-check-pdf:before {content: "\e610"; } .icon-channel-one-sheet:before {content: "\e611"; } .icon-channel-create-demo:before {content: "\e612"; } .icon-channel-video:before {content: "\e613"; } .icon-channel-bluebeam-pdf:before {content: "\e614"; } .icon-channel-studio-pdf:before {content: "\e615"; } .icon-channel-pricing-list:before {content: "\e616"; } .icon-channel-which-revu:before {content: "\e617"; } .icon-channel-revu-pdf:before {content: "\e618"; } .icon-channel-faq:before {content: "\e619"; } .icon-channel-rally-logo:before {content: "\e61a"; } .icon-channel-crash-course:before {content: "\e61b"; } .icon-channel-incentives:before {content: "\e61c"; } .icon-channel-contact-us:before {content: "\e61d"; } .icon-channel-licensing:before {content: "\e61e"; } .icon-channel-sales-collateral:before {content: "\e61f"; } .icon-channel-marketing-materials:before {content: "\e620"; } .icon-bluebeam-attendee:before {content: "\e621"; } .icon-bluebeam-join:before {content: "\e622"; } .icon-bluebeam-session:before {content: "\e623"; } .icon-bluebeam-projects:before {content: "\e624"; } .icon-bluebeam-sync:before {content: "\e625"; } .icon-bluebeam-pen:before {content: "\e626"; } .icon-bluebeam-stamp:before {content: "\e627"; } .icon-bluebeam-redaction:before {content: "\e628"; } .icon-bluebeam-vu:before {content: "\e629"; } .icon-bluebeam-advanced:before {content: "\e62a"; } .icon-bluebeam-updates:before {content: "\e62b"; } .icon-bluebeam-calculator:before {content: "\e62c"; } .icon-bluebeam-bfx:before {content: "\e62d"; } .icon-bluebeam-request-cd:before {content: "\e62e"; } .icon-bluebeam-forms:before {content: "\e62f"; } .icon-bluebeam-scripts:before {content: "\e630"; } .icon-bluebeam-plugins:before {content: "\e631"; } .icon-bluebeam-package:before {content: "\e632"; } .icon-bluebeam-markup:before {content: "\e633"; } .icon-bluebeam-arc:before {content: "\e634"; } .icon-bluebeam-hatch:before {content: "\e635"; } .icon-bluebeam-markups-list:before {content: "\e636"; } .icon-bluebeam-markups-action:before {content: "\e637"; } .icon-bluebeam-layers:before {content: "\e638"; } .icon-bluebeam-digital-signatures:before {content: "\e639"; } .icon-bluebeam-flags:before {content: "\e63a"; } .icon-bluebeam-editing:before {content: "\e63b"; } .icon-bluebeam-security:before {content: "\e63c"; } .icon-bluebeam-integration:before {content: "\e63d"; } .icon-bluebeam-studio:before {content: "\e63e"; } .icon-bluebeam-reuse:before {content: "\e63f"; } .icon-bluebeam-snapshot:before {content: "\e640"; } .icon-bluebeam-wireless:before {content: "\e641"; } .icon-bluebeam-3d:before {content: "\e7b1"; } .icon-bluebeam-toolset:before {content: "\e7b2"; } .icon-bluebeam-batch:before {content: "\e7b3"; } .icon-bluebeam-file-access:before {content: "\e7b4"; } .icon-bluebeam-create:before {content: "\e7b5"; } .icon-bluebeam-search:before {content: "\e7b6"; } .icon-bluebeam-compare:before {content: "\e7b7"; } .icon-bluebeam-hyperlink:before {content: "\e7b8"; } .icon-bluebeam-link:before {content: "\e7b9"; } .icon-bluebeam-customization:before {content: "\e7ba"; } .icon-bluebeam-profiles:before {content: "\e7bb"; } .icon-bluebeam-spaces:before {content: "\e7bc"; } .icon-bluebeam-bookmarks:before {content: "\e7bd"; } .icon-bluebeam-sets:before {content: "\e7be"; } .icon-bluebeam-format-painter:before {content: "\e7bf"; } .icon-bluebeam-measurement:before {content: "\e7c0"; } .icon-bluebeam-q:before {content: "\e7c1"; } .icon-bluebeam-icon-insider:before {content: "\e7c7"; }
+.bb-icon-3d,.bb-icon-508,.bb-icon-actions,.bb-icon-advanced,.bb-icon-annotations,.bb-icon-appearance,.bb-icon-arcs,.bb-icon-area-cutout,.bb-icon-batch-processing,.bb-icon-batch,.bb-icon-bfx,.bb-icon-bookmarks-hyperlinks,.bb-icon-bookmarks,.bb-icon-check-in,.bb-icon-check-out,.bb-icon-color-processing,.bb-icon-comparing,.bb-icon-contact,.bb-icon-custom-status,.bb-icon-customizable,.bb-icon-digital-signatures, .bb-icon-download, .bb-icon-editing, .bb-icon-erase-content, .bb-icon-file-access, .bb-icon-file-properties, .bb-icon-flags, .bb-icon-flattening, .bb-icon-format-painter, .bb-icon-forms, .bb-icon-formulas, .bb-icon-full-screen, .bb-icon-gear, .bb-icon-go-offline, .bb-icon-hatch, .bb-icon-help, .bb-icon-hyperlinks, .bb-icon-ie-plug-in, .bb-icon-insert-page,.bb-icon-integration, .bb-icon-integration2, .bb-icon-interface, .bb-icon-ipad-open, .bb-icon-lasso, .bb-icon-layers, .bb-icon-line-editor, .bb-icon-links, .bb-icon-logo, .bb-icon-markups-list, .bb-icon-measurement, .bb-icon-multiview, .bb-icon-navigation, .bb-icon-ocr, .bb-icon-overlay-pages, .bb-icon-package, .bb-icon-pdf, .bb-icon-pen, .bb-icon-platform,.bb-icon-plug-in, .bb-icon-presentation-mode, .bb-icon-profile, .bb-icon-projects, .bb-icon-prompt-q, .bb-icon-radius, .bb-icon-redaction, .bb-icon-redline, .bb-icon-reduce-file-size, .bb-icon-revu, .bb-icon-revu9, .bb-icon-roi, .bb-icon-rotate, .bb-icon-scan, .bb-icon-scripting, .bb-icon-search, .bb-icon-security, .bb-icon-sequencing, .bb-icon-sets,.bb-icon-snapshot, .bb-icon-spaces, .bb-icon-spell-check, .bb-icon-stamp, .bb-icon-stapler, .bb-icon-structures, .bb-icon-studio-attendee, .bb-icon-studio-finish, .bb-icon-studio-join, .bb-icon-studio-recents, .bb-icon-studio-record, .bb-icon-studio, .bb-icon-sync, .bb-icon-tablet-navigation, .bb-icon-tablet, .bb-icon-tool-chest, .bb-icon-tool-sets, .bb-icon-unicode, .bb-icon-updates,.bb-icon-vu, .bb-sml-icon-3d-pdfs, .bb-sml-icon-3d-viewing, .bb-sml-icon-batch-processing, .bb-sml-icon-batch, .bb-sml-icon-bfx, .bb-sml-icon-bookmarks, .bb-sml-icon-compare-documents, .bb-sml-icon-customization, .bb-sml-icon-cut-content, .bb-sml-icon-digital-signatures, .bb-sml-icon-file-access, .bb-sml-icon-format-painter, .bb-sml-icon-forms, .bb-sml-icon-formula-editor, .bb-sml-icon-help, .bb-sml-icon-hyperlinks, .bb-sml-icon-integration, .bb-sml-icon-layers, .bb-sml-icon-line-editor, .bb-sml-icon-links, .bb-sml-icon-logo, .bb-sml-icon-markups-list, .bb-sml-icon-measurement, .bb-sml-icon-navigation, .bb-sml-icon-ocr, .bb-sml-icon-packages, .bb-sml-icon-pdf-creation, .bb-sml-icon-pdf-editing,  .bb-sml-icon-pdf-markup,  .bb-sml-icon-pdf,  .bb-sml-icon-projects,  .bb-sml-icon-redaction,  .bb-sml-icon-revu,  .bb-sml-icon-scripting,  .bb-sml-icon-search,  .bb-sml-icon-security,  .bb-sml-icon-sets,  .bb-sml-icon-spaces,  .bb-sml-icon-stamps,  .bb-sml-icon-studio,  .bb-sml-icon-tablet,  .bb-sml-icon-tool-chest,  .bb-sml-icon-video {
+	background: url(/us/_media/images/icons-revu-sprite.png) no-repeat top left;
+	display: inline-block;
+}
+
+.bb-icon-3d{ background-position: 0 0; width: 100px; height: 100px ;}
+.bb-icon-508{ background-position: 0 -105px; width: 100px; height: 100px ;}
+.bb-icon-actions{ background-position: 0 -210px; width: 100px; height: 100px ;}
+.bb-icon-advanced{ background-position: 0 -315px; width: 100px; height: 100px; } 
+.bb-icon-annotations{ background-position: 0 -420px; width: 100px; height: 100px; } 
+.bb-icon-appearance{ background-position: 0 -525px; width: 100px; height: 100px; } 
+.bb-icon-arcs{ background-position: 0 -630px; width: 100px; height: 100px; } 
+.bb-icon-area-cutout{ background-position: 0 -735px; width: 100px; height: 100px; } 
+.bb-icon-batch-processing{ background-position: 0 -840px; width: 100px; height: 100px; } 
+.bb-icon-batch{ background-position: 0 -945px; width: 100px; height: 100px; } 
+.bb-icon-bfx{ background-position: 0 -1050px; width: 100px; height: 100px; } 
+.bb-icon-bookmarks-hyperlinks{ background-position: 0 -1155px; width: 100px; height: 100px; } 
+.bb-icon-bookmarks{ background-position: 0 -1260px; width: 100px; height: 100px; } 
+.bb-icon-check-in{ background-position: 0 -1365px; width: 100px; height: 100px; } 
+.bb-icon-check-out{ background-position: 0 -1470px; width: 100px; height: 100px; } 
+.bb-icon-color-processing{ background-position: 0 -1575px; width: 100px; height: 100px; } 
+.bb-icon-comparing{ background-position: 0 -1680px; width: 100px; height: 100px; } 
+.bb-icon-contact{ background-position: 0 -1785px; width: 100px; height: 100px; } 
+.bb-icon-custom-status{ background-position: 0 -1890px; width: 100px; height: 100px; } 
+.bb-icon-customizable{ background-position: -150px 0; width: 100px; height: 100px; } 
+.bb-icon-digital-signatures{ background-position: -150px -105px; width: 100px; height: 100px; } 
+.bb-icon-download{ background-position: -150px -210px; width: 100px; height: 100px; } 
+.bb-icon-editing{ background-position: -150px -315px; width: 100px; height: 100px; } 
+.bb-icon-erase-content{ background-position: -150px -420px; width: 100px; height: 100px; } 
+.bb-icon-file-access{ background-position: -150px -525px; width: 100px; height: 100px; } 
+.bb-icon-file-properties{ background-position: -150px -630px; width: 100px; height: 100px; } 
+.bb-icon-flags{ background-position: -150px -735px; width: 100px; height: 100px; } 
+.bb-icon-flattening{ background-position: -150px -840px; width: 100px; height: 100px; } 
+.bb-icon-format-painter{ background-position: -150px -945px; width: 100px; height: 100px; } 
+.bb-icon-forms{ background-position: -150px -1050px; width: 100px; height: 100px; } 
+.bb-icon-formulas{ background-position: -150px -1155px; width: 100px; height: 100px; } 
+.bb-icon-full-screen{ background-position: -150px -1260px; width: 100px; height: 100px; } 
+.bb-icon-gear{ background-position: -150px -1365px; width: 100px; height: 100px; } 
+.bb-icon-go-offline{ background-position: -150px -1470px; width: 100px; height: 100px; } 
+.bb-icon-hatch{ background-position: -150px -1575px; width: 100px; height: 100px; } 
+.bb-icon-help{ background-position: -150px -1680px; width: 100px; height: 100px; } 
+.bb-icon-hyperlinks{ background-position: -150px -1785px; width: 100px; height: 100px; } 
+.bb-icon-ie-plug-in{ background-position: -150px -1890px; width: 100px; height: 100px; } 
+.bb-icon-insert-page{ background-position: -300px 0; width: 100px; height: 100px; } 
+.bb-icon-integration{ background-position: -300px -105px; width: 100px; height: 100px; } 
+.bb-icon-integration2{ background-position: -300px -210px; width: 100px; height: 100px; } 
+.bb-icon-interface{ background-position: -300px -315px; width: 100px; height: 100px; } 
+.bb-icon-ipad-open{ background-position: -300px -420px; width: 100px; height: 100px; } 
+.bb-icon-lasso{ background-position: -300px -525px; width: 100px; height: 100px; } 
+.bb-icon-layers{ background-position: -300px -630px; width: 100px; height: 100px; } 
+.bb-icon-line-editor{ background-position: -300px -735px; width: 100px; height: 100px; } 
+.bb-icon-links{ background-position: -300px -840px; width: 100px; height: 100px; } 
+.bb-icon-logo{ background-position: -300px -945px; width: 100px; height: 100px; } 
+.bb-icon-markups-list{ background-position: -300px -1050px; width: 100px; height: 100px; } 
+.bb-icon-measurement{ background-position: -300px -1155px; width: 100px; height: 100px; } 
+.bb-icon-multiview{ background-position: -300px -1260px; width: 100px; height: 100px; } 
+.bb-icon-navigation{ background-position: -300px -1365px; width: 100px; height: 100px; } 
+.bb-icon-ocr{ background-position: -300px -1470px; width: 100px; height: 100px; } 
+.bb-icon-overlay-pages{ background-position: -300px -1575px; width: 100px; height: 100px; } 
+.bb-icon-package{ background-position: -300px -1680px; width: 100px; height: 100px; } 
+.bb-icon-pdf{ background-position: -300px -1785px; width: 100px; height: 100px; } 
+.bb-icon-pen{ background-position: -300px -1890px; width: 100px; height: 100px; } 
+.bb-icon-platform{ background-position: -450px 0; width: 100px; height: 100px; } 
+.bb-icon-plug-in{ background-position: -450px -105px; width: 100px; height: 100px; } 
+.bb-icon-presentation-mode{ background-position: -450px -210px; width: 100px; height: 100px; } 
+.bb-icon-profile{ background-position: -450px -315px; width: 100px; height: 100px; } 
+.bb-icon-projects{ background-position: -450px -420px; width: 100px; height: 100px; } 
+.bb-icon-prompt-q{ background-position: -450px -525px; width: 100px; height: 100px; } 
+.bb-icon-radius{ background-position: -450px -630px; width: 100px; height: 100px; } 
+.bb-icon-redaction{ background-position: -450px -735px; width: 100px; height: 100px; } 
+.bb-icon-redline{ background-position: -450px -840px; width: 100px; height: 100px; } 
+.bb-icon-reduce-file-size{ background-position: -450px -945px; width: 100px; height: 100px; } 
+.bb-icon-revu{ background-position: -450px -1050px; width: 100px; height: 100px; } 
+.bb-icon-revu9{ background-position: -450px -1155px; width: 100px; height: 100px; } 
+.bb-icon-roi{ background-position: -450px -1260px; width: 100px; height: 100px; } 
+.bb-icon-rotate{ background-position: -450px -1365px; width: 100px; height: 100px; } 
+.bb-icon-scan{ background-position: -450px -1470px; width: 100px; height: 100px; } 
+.bb-icon-scripting{ background-position: -450px -1575px; width: 100px; height: 100px; } 
+.bb-icon-search{ background-position: -450px -1680px; width: 100px; height: 100px; } 
+.bb-icon-security{ background-position: -450px -1785px; width: 100px; height: 100px; } 
+.bb-icon-sequencing{ background-position: -450px -1890px; width: 100px; height: 100px; } 
+.bb-icon-sets{ background-position: -600px 0; width: 100px; height: 100px; } 
+.bb-icon-snapshot{ background-position: -600px -105px; width: 100px; height: 100px; } 
+.bb-icon-spaces{ background-position: -600px -210px; width: 100px; height: 100px; } 
+.bb-icon-spell-check{ background-position: -600px -315px; width: 100px; height: 100px; } 
+.bb-icon-stamp{ background-position: -600px -420px; width: 100px; height: 100px; } 
+.bb-icon-stapler{ background-position: -600px -525px; width: 100px; height: 100px; } 
+.bb-icon-structures{ background-position: -600px -630px; width: 100px; height: 100px; } 
+.bb-icon-studio-attendee{ background-position: -600px -735px; width: 100px; height: 100px; } 
+.bb-icon-studio-finish{ background-position: -600px -840px; width: 100px; height: 100px; } 
+.bb-icon-studio-join{ background-position: -600px -945px; width: 100px; height: 100px; } 
+.bb-icon-studio-recents{ background-position: -600px -1050px; width: 100px; height: 100px; } 
+.bb-icon-studio-record{ background-position: -600px -1155px; width: 100px; height: 100px; } 
+.bb-icon-studio{ background-position: -600px -1260px; width: 100px; height: 100px; } 
+.bb-icon-sync{ background-position: -600px -1365px; width: 100px; height: 100px; } 
+.bb-icon-tablet-navigation{ background-position: -600px -1470px; width: 100px; height: 100px; } 
+.bb-icon-tablet{ background-position: -600px -1575px; width: 100px; height: 100px; } 
+.bb-icon-tool-chest{ background-position: -600px -1680px; width: 100px; height: 100px; } 
+.bb-icon-tool-sets{ background-position: -600px -1785px; width: 100px; height: 100px; } 
+.bb-icon-unicode{ background-position: -600px -1890px; width: 100px; height: 100px; } 
+.bb-icon-updates{ background-position: -750px 0; width: 100px; height: 100px; } 
+.bb-icon-vu{ background-position: -750px -105px; width: 100px; height: 100px; }
+.bb-sml-icon-3d-pdfs{ background-position: -750px -210px; width: 25px; height: 25px; } 
+.bb-sml-icon-3d-viewing{ background-position: -750px -240px; width: 25px; height: 25px; } 
+.bb-sml-icon-batch-processing{ background-position: -750px -270px; width: 25px; height: 25px; } 
+.bb-sml-icon-batch{ background-position: -750px -300px; width: 25px; height: 25px; } 
+.bb-sml-icon-bfx{ background-position: -750px -330px; width: 25px; height: 25px; } 
+.bb-sml-icon-bookmarks{ background-position: -750px -360px; width: 25px; height: 25px; } 
+.bb-sml-icon-compare-documents{ background-position: -750px -390px; width: 25px; height: 25px; } 
+.bb-sml-icon-customization{ background-position: -750px -420px; width: 25px; height: 25px; } 
+.bb-sml-icon-cut-content{ background-position: -750px -450px; width: 25px; height: 25px; } 
+.bb-sml-icon-digital-signatures{ background-position: -750px -480px; width: 25px; height: 25px; } 
+.bb-sml-icon-file-access{ background-position: -750px -510px; width: 25px; height: 25px; } 
+.bb-sml-icon-format-painter{ background-position: -750px -540px; width: 25px; height: 25px; } 
+.bb-sml-icon-forms{ background-position: -750px -570px; width: 25px; height: 25px; } 
+.bb-sml-icon-formula-editor{ background-position: -750px -600px; width: 25px; height: 25px; } 
+.bb-sml-icon-help{ background-position: -750px -630px; width: 25px; height: 25px; } 
+.bb-sml-icon-hyperlinks{ background-position: -750px -660px; width: 25px; height: 25px; } 
+.bb-sml-icon-integration{ background-position: -750px -690px; width: 25px; height: 25px; } 
+.bb-sml-icon-layers{ background-position: -750px -720px; width: 25px; height: 25px; } 
+.bb-sml-icon-line-editor{ background-position: -750px -750px; width: 25px; height: 25px; } 
+.bb-sml-icon-links{ background-position: -750px -780px; width: 25px; height: 25px; } 
+.bb-sml-icon-logo{ background-position: -750px -810px; width: 25px; height: 25px; } 
+.bb-sml-icon-markups-list{ background-position: -750px -840px; width: 25px; height: 25px; } 
+.bb-sml-icon-measurement{ background-position: -750px -870px; width: 25px; height: 25px; } 
+.bb-sml-icon-navigation{ background-position: -750px -900px; width: 25px; height: 25px; } 
+.bb-sml-icon-ocr{ background-position: -750px -930px; width: 25px; height: 25px; } 
+.bb-sml-icon-packages{ background-position: -750px -960px; width: 25px; height: 25px; } 
+.bb-sml-icon-pdf-creation{ background-position: -750px -990px; width: 25px; height: 25px; } 
+.bb-sml-icon-pdf-editing{ background-position: -750px -1020px; width: 25px; height: 25px; } 
+.bb-sml-icon-pdf-markup{ background-position: -750px -1050px; width: 25px; height: 25px; } 
+.bb-sml-icon-pdf{ background-position: -750px -1080px; width: 25px; height: 25px; } 
+.bb-sml-icon-projects{ background-position: -750px -1110px; width: 25px; height: 25px; } 
+.bb-sml-icon-redaction{ background-position: -750px -1140px; width: 25px; height: 25px; } 
+.bb-sml-icon-revu{ background-position: -750px -1170px; width: 25px; height: 25px; } 
+.bb-sml-icon-scripting{ background-position: -750px -1200px; width: 25px; height: 25px; } 
+.bb-sml-icon-search{ background-position: -750px -1230px; width: 25px; height: 25px; } 
+.bb-sml-icon-security{ background-position: -750px -1260px; width: 25px; height: 25px; } 
+.bb-sml-icon-sets{ background-position: -750px -1290px; width: 25px; height: 25px; } 
+.bb-sml-icon-spaces{ background-position: -750px -1320px; width: 25px; height: 25px; } 
+.bb-sml-icon-stamps{ background-position: -750px -1350px; width: 25px; height: 25px; } 
+.bb-sml-icon-studio{ background-position: -750px -1380px; width: 25px; height: 25px; } 
+.bb-sml-icon-tablet{ background-position: -750px -1410px; width: 25px; height: 25px; } 
+.bb-sml-icon-tool-chest{ background-position: -750px -1440px; width: 25px; height: 25px; } 
+.bb-sml-icon-video{ background-position: -750px -1470px; width: 25px; height: 25px; } 
+
+.icons-flag-swiss,
+.icons-flag-denmark, 
+.icons-flag-finland, 
+.icons-flag-france, 
+.icons-flag-germany, 
+.icons-flag-italy, 
+.icons-flag-netherlands,
+.icons-flag-norway,
+.icons-flag-spain,
+.icons-flag-sweden,
+.icons-flag-australia,
+.icons-flag-japan,
+.icons-flag-usa{ background: url(/us/_media/images/icons-flags.png) no-repeat top left;
+	display: inline-block; } 
+
+.icons-flag-australia{ background-position: 0 0; width: 18px; height: 12px; } 
+.icons-flag-denmark{ background-position: -22px 0; width: 18px; height: 14px; } 
+.icons-flag-finland{ background-position: -44px 0; width: 18px; height: 14px; } 
+.icons-flag-france{ background-position: -66px 0; width: 18px; height: 14px; } 
+.icons-flag-germany{ background-position: -88px 0; width: 18px; height: 14px; } 
+.icons-flag-italy{ background-position: -110px 0; width: 18px; height: 14px; } 
+.icons-flag-netherlands{ background-position: -132px 0; width: 18px; height: 14px; } 
+.icons-flag-norway{ background-position: -154px 0; width: 18px; height: 14px; } 
+.icons-flag-spain{ background-position: -176px 0; width: 18px; height: 14px; } 
+.icons-flag-sweden{ background-position: -198px 0; width: 18px; height: 14px; } 
+.icons-flag-usa{ background-position: -220px 0; width: 18px; height: 14px; }
+.icons-flag-japan{ background-position: -242px 0; width: 18px; height: 14px; } 
+.icons-flag-swiss{ background-position: -264px 0; width: 18px; height: 14px; } 
+
+/* REVU 12 ICONS */
+.bb-icon-smartgroup-25,
+.bb-icon-smartgroup,
+.bb-icon-batch-link-25,
+.bb-icon-batch-link,
+.bb-icon-capture-25,
+.bb-icon-capture,
+.bb-icon-headers-footers-25,
+.bb-icon-headers-footers,
+.bb-icon-reduce-file-size-25,
+.bb-icon-reduce-file-size,
+.bb-icon-sets-25,
+.bb-icon-sketchup,
+.bb-icon-sketchup-25 {
+	background: url(/us/_media/images/icon-revu12-sprite.png) no-repeat top left;
+	display: inline-block;
+}
+
+.bb-icon-smartgroup-25{ background-position: 0 0; width: 25px; height: 25px; } 
+.bb-icon-smartgroup{ background-position: 0 -35px; width: 200px; height: 200px; } 
+.bb-icon-batch-link-25{ background-position: 0 -245px; width: 25px; height: 25px; } 
+.bb-icon-batch-link{ background-position: 0 -280px; width: 200px; height: 200px; } 
+.bb-icon-capture-25{ background-position: 0 -490px; width: 25px; height: 25px; } 
+.bb-icon-capture{ background-position: 0 -525px; width: 200px; height: 200px; } 
+.bb-icon-headers-footers-25{ background-position: 0 -735px; width: 25px; height: 25px; } 
+.bb-icon-headers-footers{ background-position: 0 -770px; width: 200px; height: 200px; } 
+.bb-icon-reduce-file-size-25{ background-position: 0 -980px; width: 25px; height: 25px; } 
+.bb-icon-reduce-file-size{ background-position: 0 -1015px; width: 200px; height: 200px; } 
+.bb-icon-sets-25{ background-position: 0 -1225px; width: 25px; height: 25px; } 
+.bb-icon-sketchup{ background-position: 0 -1260px; width: 200px; height: 200px; } 
+.bb-icon-sketchup-25{ background-position: 0 -1470px; width: 25px; height: 25px; } 
+
+.circle-icon i {
+	padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: $gray;
+    display:inline-block;
+    height:2.5rem;
+    width:2.5rem;
+    text-align:center;
+    font-size: 0.8em;
+}
+.circle-icon {
+	vertical-align: middle;
+}

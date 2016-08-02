@@ -1,0 +1,145 @@
+/*
+ * Boxer [Formstone Library]
+ * @author Ben Plum
+ * @version 1.7.2
+ *
+ * Copyright © 2013 Ben Plum <mr@benplum.com>
+ * Released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
+ */
+ 
+	#boxer, #boxer .boxer-container, #boxer .boxer-content, #boxer-overlay {
+	-webkit-transition: none;
+	   -moz-transition: none;
+	   	-ms-transition: none;
+	   	 -o-transition: none;
+	   	 	transition: none;
+}
+#boxer-overlay { background: $black; 
+				height: 100%; 
+				position:fixed; left: 0;  top: 0; 
+				width: 100%; 
+				z-index: 105; }
+#boxer { background: #222 url(fs-boxer-loading.gif) no-repeat center; color: $black; box-shadow: 0 0 15px $black; position: absolute; z-index: 105; }
+
+#boxer .boxer-close { 
+	cursor: pointer; 
+	display: block; 
+	height: 30px; 
+	position: absolute; 
+	padding: 0; 
+	right: -20px; 
+	top: -27px; 
+	width: 30px; 
+	z-index: 106; 
+	color: $white; 
+	font-size: 2em; 
+text-shadow: 0 0 4px #222;}
+
+#boxer .boxer-container { background: $black; height: 100%; overflow: hidden; position: relative; width: 100%; z-index: 105; zoom: 1; }
+#boxer .boxer-content { background: $black; overflow: hidden; padding: 0; width: 10000px; }
+#boxer .boxer-image { float: left; }
+#boxer .boxer-video { border:0;height: 100%; width: 100%; }
+#boxer .boxer-iframe { border:0;float: left; height: 100%; overflow: auto; width: 100%; }
+#boxer .boxer-meta { clear: both; }
+
+#boxer .boxer-arrow {cursor: pointer; display: block; height: 40px; margin-right: auto; margin-left: auto; position: absolute; font-size: 3em; color: $blue; top: 0; width: 40px; 
+	-webkit-transition: opacity 0.1s linear;
+	   -moz-transition: opacity 0.1s linear;
+	   	-ms-transition: opacity 0.1s linear;
+	   	 -o-transition: opacity 0.1s linear;
+	   	 	transition: opacity 0.1s linear;
+}
+#boxer .boxer-arrow.previous { left: 20px; }
+#boxer .boxer-arrow.next { right: 0; }
+
+#boxer .boxer-position { color: #999; font-size: 11px; margin: 0; padding: 15px 10px 5px; }
+#boxer .boxer-caption p { margin: 0; padding: 15px 10px 10px 10px; }
+#boxer .boxer-caption.gallery p { padding-top: 0; }
+
+/* Mobile */
+#boxer.mobile { background-color: $black; background-image: url(../img/fs-boxer-loading-dark.gif); border-radius: 0; height: 100%; left: 0; padding: 30px; position: fixed; top: 0; width: 100%; }
+#boxer.mobile .boxer-close { background-color: $black; background-position: -70px -60px; border-radius: 0; right: 0; top: 0; }
+#boxer.mobile .boxer-container { background-color: $black; }
+#boxer.mobile .boxer-content { background-color: $black; position: relative; }
+#boxer.mobile .boxer-arrow { background-color: transparent; border-radius: 0; margin: -20px 0 0; top: 50%; }
+#boxer.mobile .boxer-arrow.previous { background-position: 0 -40px; float: left; left: 0; }
+#boxer.mobile .boxer-arrow.next { background-position: -40px -40px; float: right; right: 0; }
+#boxer.mobile .boxer-arrow.disabled { opacity: 0.5; }
+
+#boxer.mobile .boxer-meta { bottom: 0; background-color: rgba(0, 0, 0, 0.75); left: 0; padding: 15px 50px 10px; position: absolute; width: 100%; }
+#boxer.mobile .boxer-position { padding: 0; }
+#boxer.mobile .boxer-caption p { color: #eee; padding: 10px 0 0; }
+
+@media screen and (min-width: 980px) { 
+	#boxer .boxer-close:hover { background-position: -70px -20px; }
+	
+	#boxer .boxer-arrow { opacity: 0; }
+	#boxer .boxer-content:hover .boxer-arrow { opacity: 0.75; }
+	#boxer .boxer-content .boxer-arrow:hover { opacity: 1; }
+	#boxer .boxer-content:hover .boxer-arrow.disabled { opacity: 0.3; cursor: default !important; }
+	
+	#boxer.mobile .boxer-arrow { opacity: 1; }
+	#boxer.mobile .boxer-arrow.disabled { opacity: 0.5; }
+}
+
+.modal {
+	z-index: 1050;
+	overflow: auto;
+	width: 560px;
+	padding: 10px;
+	background-color: $white;
+}
+.modal-header {
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+}
+.modal-header .close {
+	margin-top: 2px;
+}
+.modal-header h3 {
+	margin: 0;
+	line-height: 30px;
+}
+.modal-large {
+	width: 750px;
+}
+.modal-small {
+	width: 300px;
+}
+.modal h1, .modal h2, .modal h3, .modal h4, .modal h5, .modal h6 {
+	padding-right: 25px;
+}
+.modal-body {
+	overflow-y: auto;
+	max-height: 400px;
+	padding: 15px;
+}
+.modal-form {
+	margin-bottom: 0;
+}
+.modal-footer {
+	padding: 14px 15px 15px;
+	margin-bottom: 0;
+	text-align: right;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	-webkit-box-shadow: inset 0 1px 0 $white;
+	-moz-box-shadow: inset 0 1px 0 $white;
+	box-shadow: inset 0 1px 0 $white;
+	*zoom: 1;
+}
+.modal-footer:before,.modal-footer:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.modal-footer:after {
+	clear: both;
+}
+.modal-footer .btn+.btn {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+.modal-footer .btn-group .btn+.btn {
+	margin-left: -1px;
+}

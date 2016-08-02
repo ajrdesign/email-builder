@@ -1,0 +1,103 @@
+title: Email Category
+pages: true
+ template:
+    - newsletter
+    - hero
+files: false
+fields:
+  title:
+    label: Category
+    type:  text
+  logo:
+    label: Header Logo
+    type: url
+    required: true
+  logoUrl:
+    label: Logo Link
+    type: url
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  logoAlt:
+    label: Logo Alt
+    type: text
+    default: Bluebeam Logo
+    width: 1/2
+  line:
+    type: line
+  facebook:
+    label: Facebook
+    type: toggle
+    default: off
+    text: on/off
+    width: 1/2
+  facebookUrl:
+    label: URL
+    type: url
+    default: http://www.facebook.com
+    width: 1/2
+  line-a:
+    type: line
+  linkedin:
+    label: Linkedin
+    type: toggle
+    default: off
+    text: on/off
+    width: 1/2
+  linkedinUrl:
+    label: URL
+    type: url
+    default: http://www.linkedin.com
+    width: 1/2
+  line-b:
+    type: line
+  twitter:
+    label: Twitter
+    type: toggle
+    default: off
+    text: on/off
+    width: 1/2
+  twitterUrl:
+    label: URL
+    type: url
+    default: http://www.twitter.com
+    width: 1/2
+  line-c:
+    type: line
+  instagram:
+    label: Instagram
+    type: toggle
+    default: off
+    text: on/off
+    width: 1/2
+  instagramUrl:
+    label: URL
+    type: url
+    default: http://www.instagram.com
+    width: 1/2
+  line-d:
+    type: line
+  youtube:
+    label: YouTube
+    type: toggle
+    default: off
+    text: on/off
+    width: 1/2
+  youtubeUrl:
+    label: URL
+    type: url
+    default: http://www.youtube.com
+    width: 1/2
+  line-e:
+    type: line
+  rss:
+    label: RSS
+    type: toggle
+    default: off
+    text: on/off
+    width: 1/2
+  rssUrl:
+    label: URL
+    type: url
+    default: http://www.rss.com
+    width: 1/2

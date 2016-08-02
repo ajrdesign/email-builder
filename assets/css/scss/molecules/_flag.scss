@@ -1,0 +1,38 @@
+.flag {
+    display: table;
+    width: 100%;
+}
+
+    .flag-image,
+    .flag-body {
+        display: table-cell;
+        vertical-align: middle;
+
+        .flag--top & {
+            vertical-align: top;
+        }
+
+        .flag--bottom & {
+            vertical-align: bottom;
+        }
+
+    }
+
+    .flag-image {
+        padding-right: 10px;
+
+        > img {
+            display: block;
+            max-width: none;
+        }
+
+        .flag--rev & {
+            padding-right: 0;
+            padding-left: 10px;
+        }
+
+    }
+
+    .flag-body {
+        width: 100%;
+    }

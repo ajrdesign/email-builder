@@ -1,0 +1,61 @@
+Title: VARiety
+
+----
+
+Logo: http://www.bluebeam.com/us/email/variety/html/images/header-variety.png
+
+----
+
+Facebook: true
+
+----
+
+Facebookurl: https://www.facebook.com/bluebeam
+
+----
+
+Linkedin: true
+
+----
+
+Linkedinurl: https://www.linkedin.com/company/bluebeam-partners
+
+----
+
+Twitter: true
+
+----
+
+Twitterurl: https://twitter.com/bluebeampartner/
+
+----
+
+Instagram: false
+
+----
+
+Instagramurl: http://www.instagram.com
+
+----
+
+Youtube: false
+
+----
+
+Youtubeurl: http://www.youtube.com
+
+----
+
+Rss: false
+
+----
+
+Rssurl: http://www.rss.com
+
+----
+
+Logourl: https://partners.bluebeam.com
+
+----
+
+Logoalt: Bluebeam Rally Partner Program
