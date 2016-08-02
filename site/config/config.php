@@ -29,5 +29,8 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+// Temporary fix for Panel
+c::set('panel.install', true);
+
 // Styling the Panel
 c::set('panel.stylesheet', 'assets/css/addon.css');
