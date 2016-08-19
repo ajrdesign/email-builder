@@ -6,7 +6,7 @@ Heroimg: https://downloads.bluebeam.com/images/2016/VARiety/16-07/hero-promo.jpg
 
 ----
 
-Herolink: http://partners.bluebeam.com/q3promo/
+Herolink: http://partners.bluebeam.com/
 
 ----
 
