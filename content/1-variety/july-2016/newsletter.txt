@@ -18,7 +18,13 @@ Info:
 
 ----
 
-Herocopy: From now until September 30, boost your sales with this exclusive promotion. Take advantage of this opportunity to reach out to your customers who are new to Revu. (link: http://partners.bluebeam.com/q3promo/ text: Sign up >>)
+Herocopy: 
+
+## Heading
+
+### Subheading
+
+From now until September 30, boost your sales with this exclusive promotion. Take advantage of this opportunity to reach out to your customers who are new to Revu. (link: http://partners.bluebeam.com/q3promo/ text: Sign up >>)
 
 ----
 
