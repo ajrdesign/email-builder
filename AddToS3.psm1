@@ -27,13 +27,17 @@ function S3-Upload {
 
         [Parameter(Mandatory=$true,ValueFromPipeline=$True)]  
         [String] 
-        $type
+        $type,
+
+        [Parameter(Mandatory=$true,ValueFromPipeline=$True)]  
+        [String] 
+        $AWSRegion
 
     ) 
     begin  
     { 
         Set-AWSCredentials -AccessKey $AccessKey -Secret $Secret
-        Set-DefaultAWSRegion -Region 'us-east-1' -Verbose
+        Set-DefaultAWSRegion -Region $AWSRegion -Verbose
     } 
     Process  
     { 
