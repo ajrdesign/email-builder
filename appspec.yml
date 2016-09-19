@@ -1,8 +1,8 @@
 version: 0.0
 os: windows
 files:
-  - source: \index.php
-    destination: E:\inetpub\wwwroot\src\email-builder
+  - source: .\
+    destination: C:\inetpub\wwwroot\src\email-builder
 hooks:
   BeforeInstall:
     - location: \before-install.bat
