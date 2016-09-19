@@ -6,9 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8d44786dd02907764187e88262c08913
 {
+    public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Pelago\\' => 7,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Pelago\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pelago/emogrifier/Classes',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8d44786dd02907764187e88262c08913::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8d44786dd02907764187e88262c08913::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
