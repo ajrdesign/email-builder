@@ -1,4 +1,8 @@
-.DS_Store
 /assets/avatars
 /thumbs/*
-/node_modules/
+
+# Grunt Files
+node_modules/
+.sass-cache
+.DS_Store
+*.scssc
