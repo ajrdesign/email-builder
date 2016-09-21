@@ -5,7 +5,7 @@
 			<div class="col-md-12 center">
 				<h1 class="subheading"><?php echo $page->title()->html() ?></h1>
 			       <a href="panel/" class="btn btn-blue">Start Building</a>
-			       <p>Test #3</p>
+			       <p>Testing something entirely new now!</p>
 			</div>
 		</div>
 	</div>
