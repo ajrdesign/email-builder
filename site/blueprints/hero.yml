@@ -30,8 +30,6 @@ fields:
   heroCopy:
     label: Hero Copy
     type:  textarea
-    validate:
-      max: 300
   cta:
     label: Call to Action
     type: text

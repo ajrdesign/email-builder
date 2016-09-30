@@ -1,6 +1,6 @@
 <?php snippet('email-header') ?>
 
-  <table class="container" style="background-color:#000000;">
+  <table class="container">
     <tr>
       <td class="center" align="center">
 

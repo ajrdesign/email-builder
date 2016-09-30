@@ -13,7 +13,7 @@ body{
   -ms-text-size-adjust:100%; 
   margin:0; 
   padding:0;
-  background-color: #111111;
+  background-color: #ffffff;
 }
 
 .ExternalClass { 
@@ -92,6 +92,7 @@ table.body {
 }
 
 table.container {
+  background: #eeeeee;
   width: 580px;
   margin: 0 auto;
   text-align: inherit;
@@ -314,7 +315,7 @@ img.center {
 /* Typography */
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
-  color: #ffffff;
+  color: #000000;
   font-family: Arial, Helvetica;
   font-weight: normal; 
   padding:0; 
@@ -327,13 +328,16 @@ h1, h2, h3, h4, h5, h6 {
   word-break: normal;
 }
 
-h1 {font-size: 40px;}
-h2 {font-size: 36px;}
-h3 {font-size: 32px;}
-h4 {font-size: 28px;}
-h5 {font-size: 24px;}
-h6 {font-size: 18px;}
-body, table.body, p, td {font-size: 12px;line-height:20px;}
+h1 {font-size: 38px; line-height: 45px;}
+h2 {font-size: 26px; line-height: 30px;}
+h3 {font-size: 20px;}
+h4 {font-size: 16px;}
+h5 {font-size: 15px;}
+h6 {font-size: 14px;}
+body, table.body, p, td {
+  font-size: 14px;
+  line-height:24px;
+}
 
 p.lead, p.lede, p.leed {
   font-size: 18px;
@@ -392,6 +396,12 @@ h5 a:visited,
 h6 a:visited { 
   color: #0083db !important; 
 } 
+
+blockquote {
+  border-left: 2px solid #0083db;
+  margin-left: 0;
+  padding-left: 20px;
+}
 
 /* Panels */
 
@@ -728,7 +738,7 @@ table.google-plus:hover td {
 }
 
 .footer .wrapper {
-  background: #ebebeb;
+  background: #bbbbbb;
 }
 
 .footer h5 {
@@ -736,26 +746,26 @@ table.google-plus:hover td {
 }
 
 table.columns .text-pad {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 table.columns .left-text-pad {
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 table.columns .right-text-pad {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 @media only screen and (max-width: 600px) {
 
   table[class="body"] .right-text-pad {
-    padding-left: 15px !important;
+    padding-left: 10px !important;
   }
 
   table[class="body"] .left-text-pad {
-    padding-right: 15px !important;
+    padding-right: 10px !important;
   }
 }
 td.wrapper.wrapper-flush-t-padding {
