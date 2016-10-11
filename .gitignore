@@ -1,5 +1,7 @@
 /assets/avatars
 /thumbs/*
+/site/accounts/
+/content/
 
 # Grunt Files
 node_modules/

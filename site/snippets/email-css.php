@@ -421,8 +421,11 @@ blockquote {
 
 table.header {
   background: #131313;
+  color: #ffffff;
 }
-
+table.header td {
+  color: #ffffff;
+}
 .footer .wrapper {
   background: #ffffff;
 }
@@ -434,6 +437,7 @@ table.header {
   margin-right: 3px;
   margin-bottom: 10px;
   margin-top: 30px;
+  display: inline-block;
 }
 .footer p {
   font-size: 9px;
@@ -461,9 +465,11 @@ table.large-button td {
   display: block;
   width: auto !important;
   text-align: center;
-  border: 2px solid #0083db;;
-  color: #0083db;
+  color: #ffffff;
   padding: 8px 0;
+  background: #74C818;
+  border-radius: 3px;
+  letter-spacing: 1px;
 }
 
 table.tiny-button td {
@@ -490,7 +496,7 @@ table.large-button td a {
   font-weight: bold;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
-  color: #0083db;
+  color: #ffffff;
   font-size: 13px;
 }
 
@@ -500,11 +506,11 @@ table.tiny-button td a {
 }
 
 table.small-button td a {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 table.medium-button td a {
-  font-size: 20px;
+  font-size: 13px;
 }
 
 table.large-button td a {
@@ -520,7 +526,7 @@ table.button:active td {
 table.button:hover td a,
 table.button:visited td a,
 table.button:active td a {
-  color: #0083db !important;
+  color: #dddddd !important;
 }
 
 table.button:hover td,
@@ -545,7 +551,7 @@ table.medium-button td a:visited,
 table.large-button:hover td a,
 table.large-button:active td a,
 table.large-button td a:visited {
-  color: #0083db !important; 
+  color: #dddddd !important; 
 }
 
 table.secondary td {
@@ -601,8 +607,8 @@ table.round td {
 
 /* Newletter Styling */
 
-img.article-image {
-  margin-bottom:10px;
+td.article-image-container {
+  padding-bottom:10px;
 }
 hr.article-divider {
   color: #F1F1F1;
@@ -610,13 +616,13 @@ hr.article-divider {
   margin: 25px 0 5px;
 }
 h5.edition-date {
-  text-align: center;
-  color: #808080;
+  text-align: right;
+  color: #a7a7a7;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 2px;
   font-size: 12px;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
   width: 100%;
 }
@@ -625,6 +631,23 @@ hr.header-divider {
   background-color: #F1F1F1;
   margin: 10px 0 10px;
   width: 100%;
+}
+/* Variety Styling */
+
+.variety-heading h5 {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: normal;
+}
+.variety-heading h6 {
+  font-size: 10px;
+  color: #d1d1d1;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom:0;
 }
 
 /* Outlook First */

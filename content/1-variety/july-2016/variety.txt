@@ -66,3 +66,15 @@ Article:
   text: 'Your next opportunity could be closer than you think. Learn how to engage your existing customers with these strategies >>'
   url: https://www.bluebeam.com
   cta: Read More
+
+----
+
+Ctabutton: Read More and more
+
+----
+
+Ctaurl: https://partners.bluebeam.com
+
+----
+
+Ctatoggle: 1

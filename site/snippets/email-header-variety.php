@@ -36,11 +36,12 @@
                     </table>
 
                   </td>
+                  
                   <td class="wrapper last">
 
                     <table class="four columns">
                       <tr>
-                        <td class="left-text-pad">
+                        <td class="right-text-pad">
                           <h5 class="edition-date"><?php echo $page->title() ?></h5>
                         </td>
                         

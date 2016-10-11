@@ -23,17 +23,13 @@ fields:
       picture: 
         label: Picture
         type: url
-        default: https://source.unsplash.com/random/550x300
+        default: https://source.unsplash.com/random/560x260
       headline:
         label: Headline
         type: text
-        validate:
-          max: 80
       text:
         label: Copy
         type: textarea
-        validate:
-          max: 300
       url:
         label: Link
         type: url
@@ -42,6 +38,21 @@ fields:
         label: Call to Action
         type: text
         default: Read More
+  ctaToggle:
+    label: Final Call to Action
+    type: checkbox
+    default: on
+    width: 1/4
+  ctaButton:
+    label: Copy
+    type: text
+    default: Read More
+    width: 1/4
+  ctaUrl:
+    label: Call to Action URL
+    type: url
+    default: https://www.bluebeam.com
+    width: 1/2
   # builder:
   #   label: Sections
   #   type: builder
