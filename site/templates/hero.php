@@ -11,11 +11,11 @@
 
                 <table class="twelve columns">
                   <tr>
-                    <td class="center">
+                    <td class="responsive-hero-container center">
 
                       <!-- Main StrXur Hero Article -->
                       <a href="<?php echo $page->heroLink() ?>">
-                        <img src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
+                        <img class="responsive-hero" src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
                       </a>
                     </td>
                   </tr>

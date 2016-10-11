@@ -6,7 +6,7 @@ Logo: http://www.bluebeam.com/us/email/variety/html/images/header-variety.png
 
 ----
 
-Facebook: true
+Facebook: 1
 
 ----
 
@@ -14,7 +14,7 @@ Facebookurl: https://www.facebook.com/bluebeam
 
 ----
 
-Linkedin: true
+Linkedin: 1
 
 ----
 
@@ -22,7 +22,7 @@ Linkedinurl: https://www.linkedin.com/company/bluebeam-partners
 
 ----
 
-Twitter: true
+Twitter: 1
 
 ----
 
@@ -30,7 +30,7 @@ Twitterurl: https://twitter.com/bluebeampartner/
 
 ----
 
-Instagram: false
+Instagram: 0
 
 ----
 
@@ -38,7 +38,7 @@ Instagramurl: http://www.instagram.com
 
 ----
 
-Youtube: false
+Youtube: 0
 
 ----
 

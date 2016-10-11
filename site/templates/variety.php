@@ -5,36 +5,20 @@
     <td class="center" align="center">
 
       <center>
-       <table class="row">
-        <tr>
-          <td class="wrapper last">
-
-            <table class="twelve columns">
-              <tr>
-                <td class="text-pad center">
-
-                  <!-- Main Hero Article -->
-                  <a href="<?php echo $page->heroLink() ?>">
-                   <img src="<?php echo $page->heroImg() ?>" width="550" alt="<?php echo $page->heroAlt() ?>">
-                 </a>
-               </td>
-             </tr>
-           </table>
-
-         </td>
-       </tr>
-
-     </table>
+       
      <table class="row">
       <tr>
         <td class="wrapper last">
 
-          <table class="twelve columns">
+          <table class="twelve columns last">
             <tr>
               <td class="text-pad">
 
-                <?php echo $page->heroCopy()->kt() ?>
+                <h5 class="edition-date"><?php echo $page->title() ?></h5>
+                <hr class="header-divider">
+
               </td>
+              <td class="expander"></td>
             </tr>
           </table>
         </td>
@@ -59,7 +43,7 @@
                   <img class="article-image" width="260" src="<?php echo $article->picture() ?>" alt="<?php echo $article->headline() ?>">
                 </a>
                 <?php echo $article->text->kt() ?>
-                <a href="<?php echo $article->url() ?>">Link to landing page</a>
+                <a href="<?php echo $article->url() ?>"><?php echo $article->cta() ?></a>
                 <hr class="article-divider">
 
               </td>

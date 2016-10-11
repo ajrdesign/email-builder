@@ -1,8 +1,9 @@
 title: Email Category
 pages: true
  template:
-    - newsletter
     - hero
+    - newsletter
+    - variety
 files: false
 fields:
   title:
@@ -17,7 +18,7 @@ fields:
     type: url
     required: true
     default: https://www.bluebeam.com
-    width: 1/2
+    width: 3/4
   logoAlt:
     label: Logo Alt
     type: text
@@ -27,77 +28,61 @@ fields:
     type: line
   facebook:
     label: Facebook
-    type: toggle
-    default: off
+    type: checkbox
     text: on/off
-    width: 1/2
+    width: 1/4
   facebookUrl:
     label: URL
     type: url
     default: http://www.facebook.com
-    width: 1/2
+    width: 3/4
   line-a:
     type: line
   linkedin:
     label: Linkedin
-    type: toggle
-    default: off
+    type: checkbox
     text: on/off
-    width: 1/2
+    width: 1/4
   linkedinUrl:
     label: URL
     type: url
     default: http://www.linkedin.com
-    width: 1/2
+    width: 3/4
   line-b:
     type: line
   twitter:
     label: Twitter
-    type: toggle
-    default: off
+    type: checkbox
     text: on/off
-    width: 1/2
+    width: 1/4
   twitterUrl:
     label: URL
     type: url
     default: http://www.twitter.com
-    width: 1/2
+    width: 3/4
   line-c:
     type: line
   instagram:
     label: Instagram
-    type: toggle
-    default: off
+    type: checkbox
     text: on/off
-    width: 1/2
+    width: 1/4
   instagramUrl:
     label: URL
     type: url
     default: http://www.instagram.com
-    width: 1/2
+    width: 3/4
   line-d:
     type: line
   youtube:
     label: YouTube
-    type: toggle
-    default: off
+    type: checkbox
     text: on/off
-    width: 1/2
+    width: 1/4
   youtubeUrl:
     label: URL
     type: url
     default: http://www.youtube.com
-    width: 1/2
+    width: 3/4
   line-e:
     type: line
-  rss:
-    label: RSS
-    type: toggle
-    default: off
-    text: on/off
-    width: 1/2
-  rssUrl:
-    label: URL
-    type: url
-    default: http://www.rss.com
-    width: 1/2

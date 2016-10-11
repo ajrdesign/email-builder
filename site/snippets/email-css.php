@@ -12,8 +12,8 @@ body{
   -webkit-text-size-adjust:100%; 
   -ms-text-size-adjust:100%; 
   margin:0; 
-  padding:0;
-  background-color: #ffffff;
+  padding:0 0 104px !important;
+  background-color: #F1F1F1;
 }
 
 .ExternalClass { 
@@ -92,7 +92,7 @@ table.body {
 }
 
 table.container {
-  background: #eeeeee;
+  background: #ffffff;
   width: 580px;
   margin: 0 auto;
   text-align: inherit;
@@ -326,21 +326,22 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
 
 h1, h2, h3, h4, h5, h6 {
   word-break: normal;
+  font-weight: bold;
 }
 
-h1 {font-size: 38px; line-height: 45px;}
-h2 {font-size: 26px; line-height: 30px;}
-h3 {font-size: 20px;}
-h4 {font-size: 16px;}
-h5 {font-size: 15px;}
-h6 {font-size: 14px;}
+h1 {font-size: 40px; margin-bottom:10px; line-height: 45px;}
+h2 {font-size: 28px; margin-bottom:10px; line-height: 30px;}
+h3 {font-size: 22px; margin-bottom:10px;}
+h4 {font-size: 18px; margin-bottom:10px;}
+h5 {font-size: 16px; margin-bottom:10px;}
+h6 {font-size: 14px; margin-bottom:10px;}
 body, table.body, p, td {
-  font-size: 14px;
-  line-height:24px;
+  font-size: 13px;
+  line-height:18px;
 }
 
 p.lead, p.lede, p.leed {
-  font-size: 18px;
+  font-size: 16px;
   line-height:21px;
 }
 
@@ -416,6 +417,29 @@ blockquote {
 
 .sub-grid td.sub-columns {
   padding-bottom: 0;
+}
+
+table.header {
+  background: #131313;
+}
+
+.footer .wrapper {
+  background: #ffffff;
+}
+
+.footer h5 {
+  padding-bottom: 10px;
+}
+.footer img.social-icons {
+  margin-right: 3px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.footer p {
+  font-size: 9px;
+  line-height: 15px;
+  color: #858B8F;
+  text-align: center;
 }
 
 /* Buttons */
@@ -575,6 +599,34 @@ table.round td {
   border-radius: 500px;
 }
 
+/* Newletter Styling */
+
+img.article-image {
+  margin-bottom:10px;
+}
+hr.article-divider {
+  color: #F1F1F1;
+  background-color: #F1F1F1;
+  margin: 25px 0 5px;
+}
+h5.edition-date {
+  text-align: center;
+  color: #808080;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+hr.header-divider {
+  color: #F1F1F1;
+  background-color: #F1F1F1;
+  margin: 10px 0 10px;
+  width: 100%;
+}
+
 /* Outlook First */
 
 body.outlook p {
@@ -732,30 +784,19 @@ table.google-plus:hover td {
   border-color: #b9e5ff;
 }
 
-.header {
-  background: #222222;
-  border-bottom: 2px solid #0083db;
-}
 
-.footer .wrapper {
-  background: #bbbbbb;
-}
-
-.footer h5 {
-  padding-bottom: 10px;
-}
 
 table.columns .text-pad {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 table.columns .left-text-pad {
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 table.columns .right-text-pad {
-  padding-right: 25px;
+  padding-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -766,6 +807,13 @@ table.columns .right-text-pad {
 
   table[class="body"] .left-text-pad {
     padding-right: 10px !important;
+  }
+  .responsive-hero-container {
+    background-image: url(http://placehold.it/350x150);
+    height: 600px !important;
+  }
+  .responsive-hero-container img {
+    display:none;
   }
 }
 td.wrapper.wrapper-flush-t-padding {

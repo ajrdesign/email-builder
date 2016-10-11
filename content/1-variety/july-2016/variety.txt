@@ -53,14 +53,16 @@ Article:
 
 - 
   picture: >
-    https://downloads.bluebeam.com/images/2016/VARiety/16-07/article-2-steve.jpg
+    https://source.unsplash.com/random/560x260
   headline: Last Chance to Register!
   text: "There’s only one month left to get 50% off registration for the Bluebeam eXtreme Conference. Don't miss this opportunity to connect with customers. Register today >>"
   url: >
     http://partners.bluebeam.com/extremeconference/
+  cta: Find out more
 - 
   picture: >
-    https://downloads.bluebeam.com/images/2016/VARiety/16-07/article-1-excon-V3.jpg
+    https://source.unsplash.com/random/560x260
   headline: XCON 2016 here we come!
   text: 'Your next opportunity could be closer than you think. Learn how to engage your existing customers with these strategies >>'
   url: https://www.bluebeam.com
+  cta: Read More
