@@ -5,7 +5,6 @@
 			<div class="col-md-12 center">
 				<h1 class="subheading"><?php echo $page->title()->html() ?></h1>
 			       <a href="panel/" class="btn btn-blue">Start Building</a>
-			       <p>Seeing if the auto deploy works and how long it takes.</p>
 			</div>
 		</div>
 	</div>
