@@ -5,66 +5,61 @@ fields:
   title:
     label: Title
     type:  text
-  heroImg:
-    label: Hero Image
-    type:  url
-    required: true
-    default: https://source.unsplash.com/random/550x300
-    help: Must link to a live image.
-  heroLink:
-    label: Hero Link
-    type:  url
-    required: true
-    default: https://www.bluebeam.com
-    width: 1/2
-  heroAlt:
-    label: Hero Alt Text
-    type:  text
-    help: This will display when images are disabled in users email client.
-    width: 1/2
+  month:
+    label: Date
+    type: Text
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
   info:
     label: Help
     type: info
     text: >
       Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
-  heroCopy:
-    label: Hero Copy
-    type:  textarea
-    validate:
-      max: 300
   article: 
     label: Articles
     type: structure
     entry: >
-          <div class="media">
-          <div class="img">
-          <img src="{{picture}}">
-          </div>
-          <div class="bd">
+          <img style="max-height:100px;" src="{{picture}}">
           <h5>{{headline}}</h5>
           <strong>Copy:</strong> {{text}}</br>
-          <strong>URL:</strong> {{url}}
-          </div
-          </div>
+          <strong>URL:</strong> {{url}}</br>
+          <strong>Call to Action:</strong> {{cta}}
     fields: 
       picture: 
         label: Picture
         type: url
-        default: https://source.unsplash.com/random/550x300
+        default: https://source.unsplash.com/random/560x260
       headline:
         label: Headline
         type: text
-        validate:
-          max: 80
       text:
         label: Copy
         type: textarea
-        validate:
-          max: 300
       url:
         label: Link
         type: url
         default: https://www.bluebeam.com
+      cta:
+        label: Call to Action
+        type: text
+        default: Read More
+  ctaToggle:
+    label: Final Call to Action
+    type: checkbox
+    default: on
+    width: 1/4
+  ctaButton:
+    label: Copy
+    type: text
+    default: Read More
+    width: 1/4
+  ctaUrl:
+    label: Call to Action URL
+    type: url
+    default: https://www.bluebeam.com
+    width: 1/2
   # builder:
   #   label: Sections
   #   type: builder
@@ -78,14 +73,14 @@ fields:
   #           type: url
   #           default: https://source.unsplash.com/random/550x300
   #         headline:
-  #         	label: Headline
-  #         	type: text
-  #         	help: Less than 80 characters.
+  #           label: Headline
+  #           type: text
+  #           help: Less than 80 characters.
   #         text:
   #           label: Copy
   #           type: textarea
   #           help: Less than 300 characters.
   #         url:
-  #         	label: Link
-  #         	type: url
-  #         	default: https://www.bluebeam.com
+  #           label: Link
+  #           type: url
+  #           default: https://www.bluebeam.com

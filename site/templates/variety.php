@@ -27,7 +27,6 @@
     <?php //foreach($page->builder()->toStructure() as $section): ?>
     <?php //snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
     <?php //endforeach ?>
-    <?php foreach($page->article()->toStructure() as $article): ?>
     <table class="spacer">
       <tbody>
         <tr>
@@ -35,6 +34,8 @@
         </tr>
       </tbody>
     </table>
+    <?php foreach($page->article()->toStructure() as $article): ?>
+    
     
     <table class="row">
       <tr>
@@ -57,7 +58,7 @@
                   </tr>
                 </table>
                 <?php echo $article->text->kt() ?>
-                <a href="<?php echo $article->url() ?>">&#9654; <?php echo $article->cta() ?></a>
+                <a href="<?php echo $article->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
                 <hr class="article-divider">
 
               </td>

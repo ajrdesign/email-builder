@@ -1,4 +1,4 @@
-Title: Newsletter
+Title: Newsletter Template
 
 ----
 
@@ -37,3 +37,44 @@ Builder:
     effectively to your promotional needs.
   url: https://www.bluebeam.com
   _fieldset: newsletterarticle
+
+----
+
+Month: January 2000
+
+----
+
+Preheader: 
+
+----
+
+Article: 
+
+- 
+  picture: >
+    https://source.unsplash.com/random/560x260
+  headline: Headline 1
+  text: >
+    This app does everything you could
+    possibly want it to do and not only
+    that, it is beautifully designed and
+    extremely intuitive to use. Download it
+    from the App Store for FREE if you
+    don’t mind some adverts popping up or
+    if you prefer an ad-free experience then
+    you can down load the ad-free version
+    for 99p.
+  url: https://www.bluebeam.com
+  cta: Read More
+
+----
+
+Ctatoggle: 1
+
+----
+
+Ctabutton: Read More
+
+----
+
+Ctaurl: https://www.bluebeam.com
