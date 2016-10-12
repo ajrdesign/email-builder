@@ -35,6 +35,7 @@
         </tr>
       </tbody>
     </table>
+    
     <table class="row">
       <tr>
         
@@ -66,7 +67,10 @@
         </td>
       </tr>
     </table>
+    
+    
   <?php endforeach ?>
+  <?php if($page->ctaToggle() == '1' ): ?>
     <table class="row">
       <tr>
         <td class="wrapper last offset-by-three">
@@ -92,6 +96,7 @@
         
       </tr>
     </table>
+    <?php endif ?>
 
 
 
