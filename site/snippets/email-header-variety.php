@@ -34,15 +34,13 @@
                         <td class="expander"></td>
                       </tr>
                     </table>
-
                   </td>
-                  
                   <td class="wrapper last">
 
                     <table class="four columns">
                       <tr>
                         <td class="right-text-pad">
-                          <h5 class="edition-date"><?php echo $page->title() ?></h5>
+                          <h5 class="edition-date"><?php echo $page->month() ?></h5>
                         </td>
                         
                         <td class="expander"></td>

@@ -10,6 +10,7 @@
 
   <body>
 <custom name="opencounter" type="tracking">
+  <span class="preheader"><?php echo $page->preheader() ?></span>
 <table class="body">
   <tr>
     <td class="center" align="center" valign="top">

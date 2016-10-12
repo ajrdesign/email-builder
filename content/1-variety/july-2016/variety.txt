@@ -1,4 +1,4 @@
-Title: July 2016
+Title: 2016/10 Variety
 
 ----
 
@@ -53,17 +53,40 @@ Article:
 
 - 
   picture: >
-    https://source.unsplash.com/random/560x260
+    https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/1610-1-V5.jpg
   headline: Last Chance to Register!
-  text: "There’s only one month left to get 50% off registration for the Bluebeam eXtreme Conference. Don't miss this opportunity to connect with customers. Register today >>"
+  text: "There’s only one month left to get 50% off registration for the Bluebeam eXtreme Conference. Don't miss this opportunity to connect with customers."
   url: >
     http://partners.bluebeam.com/extremeconference/
   cta: Find out more
 - 
   picture: >
-    https://source.unsplash.com/random/560x260
+    https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/1610-2.jpg
   headline: XCON 2016 here we come!
   text: 'Your next opportunity could be closer than you think. Learn how to engage your existing customers with these strategies >>'
+  url: https://www.bluebeam.com
+  cta: Read More
+- 
+  picture: >
+    https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/1610-3.jpg
+  headline: Testing Headline
+  text: Some copy here
+  url: https://www.bluebeam.com
+  cta: Read More
+- 
+  picture: >
+    https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/1610-4.jpg
+  headline: Another generic headline
+  text: Some copy that goes in this area.
+  url: https://www.bluebeam.com
+  cta: Read More
+- 
+  picture: >
+    https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/1610-5-V2.jpg
+  headline: Final headline
+  text: >
+    Blah blahdsfdsaofmdosafmo dsdsaof
+    dsofmdosa
   url: https://www.bluebeam.com
   cta: Read More
 
@@ -78,3 +101,15 @@ Ctaurl: https://partners.bluebeam.com
 ----
 
 Ctatoggle: 1
+
+----
+
+Date: October 2016
+
+----
+
+Preheader: Here is some text for the preheader
+
+----
+
+Month: October 2016

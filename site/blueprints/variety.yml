@@ -5,6 +5,13 @@ fields:
   title:
     label: Title
     type:  text
+  month:
+    label: Date
+    type: Text
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
   info:
     label: Help
     type: info

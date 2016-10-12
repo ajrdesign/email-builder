@@ -15,7 +15,9 @@ body{
   padding:0 0 104px !important;
   background-color: #F1F1F1;
 }
-
+span.preheader {
+  display: none !important;
+}
 .ExternalClass { 
   width:100%;
 } 
@@ -617,11 +619,11 @@ hr.article-divider {
 }
 h5.edition-date {
   text-align: right;
-  color: #a7a7a7;
+  color: #f1f1f1;
   text-transform: uppercase;
   font-weight: normal;
-  letter-spacing: 2px;
-  font-size: 12px;
+  letter-spacing: 1px;
+  font-size: 11px;
   margin-top: 10px;
   margin-bottom: 0;
   width: 100%;
