@@ -1,11 +1,16 @@
 <?php snippet('header') ?>
 <div class="hero-unit hero-unit-darken">
-	<h1 class="subheading center"><?php echo $page->title() ?></h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="subheading mega"><?php echo $page->title() ?></h1>
+				<p class="lead"><?php echo $page->description() ?></p>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="container">
-	<div class="col-md-10 col-md-offset-1">
-		
-		
+	<div class="col-md-12">
 		<hr class="double">
 		<table class="table">
 			<tr class="mono italic small">

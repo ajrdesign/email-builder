@@ -317,7 +317,7 @@ img.center {
 /* Typography */
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
-  color: #000000;
+  color: #131313;
   font-family: Arial, Helvetica;
   font-weight: normal; 
   padding:0; 
@@ -331,15 +331,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-h1 {font-size: 40px; margin-bottom:10px; line-height: 45px;}
-h2 {font-size: 28px; margin-bottom:10px; line-height: 30px;}
-h3 {font-size: 22px; margin-bottom:10px;}
-h4 {font-size: 18px; margin-bottom:10px;}
-h5 {font-size: 16px; margin-bottom:10px;}
+h1 {font-size: 42px; margin-bottom:10px; line-height: 45px;}
+h2 {font-size: 30px; margin-bottom:10px; line-height: 30px;}
+h3 {font-size: 24px; margin-bottom:10px;}
+h4 {font-size: 20px; margin-bottom:10px;}
+h5 {font-size: 17px; margin-bottom:10px;}
 h6 {font-size: 14px; margin-bottom:10px;}
 body, table.body, p, td {
-  font-size: 13px;
-  line-height:18px;
+  font-size: 14px;
+  line-height:21px;
 }
 
 p.lead, p.lede, p.leed {
@@ -382,6 +382,15 @@ h6 a {
   color: #0083db;
 }
 
+.newsletter h1 a, 
+.newsletter h2 a, 
+.newsletter h3 a, 
+.newsletter h4 a, 
+.newsletter h5 a, 
+.newsletter h6 a {
+  color: #000000;
+}
+
 h1 a:active, 
 h2 a:active,  
 h3 a:active, 
@@ -398,6 +407,24 @@ h4 a:visited,
 h5 a:visited, 
 h6 a:visited { 
   color: #0083db !important; 
+} 
+
+.newsletter h1 a:active, 
+.newsletter h2 a:active,  
+.newsletter h3 a:active, 
+.newsletter h4 a:active, 
+.newsletter h5 a:active, 
+.newsletter h6 a:active { 
+  color: #040404 !important; 
+} 
+
+.newsletter h1 a:visited, 
+.newsletter h2 a:visited,  
+.newsletter h3 a:visited, 
+.newsletter h4 a:visited, 
+.newsletter h5 a:visited, 
+.newsletter h6 a:visited { 
+  color: #040404 !important; 
 } 
 
 blockquote {
@@ -459,34 +486,39 @@ table.large-button {
   overflow: hidden;
 }
 
-table.button td,
-table.tiny-button td,
-table.small-button td,
-table.medium-button td,
-table.large-button td {
-  display: block;
-  width: auto !important;
-  text-align: center;
-  color: #ffffff;
-  padding: 8px 0;
-  background: #74C818;
+table.button table td,
+table.tiny-button table td,
+table.small-button table td,
+table.medium-button table td,
+table.large-button table td {
+  padding:0;
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
   border-radius: 3px;
-  letter-spacing: 1px;
+  background: #74C818;
+  text-align: center;
+}
+table.button table,
+table.tiny-button table,
+table.small-button table,
+table.medium-button table,
+table.large-button table {
+  width: 100%;
 }
 
-table.tiny-button td {
-  padding: 5px 0 4px;
+table.tiny-button table td {
+  padding: 4px 8px;
 }
 
-table.small-button td {
-  padding: 8px 0 7px;
+table.small-button table td {
+  padding: 6px 12px;
 }
 
-table.medium-button td {
-  padding: 12px 0 10px;
+table.medium-button table td {
+  padding: 12px 22px;
 }
 
-table.large-button td {
+table.large-button table td {
   padding: 21px 0 18px;
 }
 
@@ -495,16 +527,27 @@ table.tiny-button td a,
 table.small-button td a,
 table.medium-button td a,
 table.large-button td a {
+  color: #ffffff; 
+  text-decoration: none; 
+  text-decoration: none; 
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  border-radius: 3px; 
+  display: inline-block;
+  text-align: center;
   font-weight: bold;
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #ffffff;
-  font-size: 13px;
+}
+
+table.new-button  {
+  display: block;
+}
+table.new-button tbody {
+  display: block;
 }
 
 table.tiny-button td a {
   font-size: 12px;
-  font-weight: normal;
+  
 }
 
 table.small-button td a {
@@ -512,7 +555,7 @@ table.small-button td a {
 }
 
 table.medium-button td a {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 table.large-button td a {
@@ -553,7 +596,7 @@ table.medium-button td a:visited,
 table.large-button:hover td a,
 table.large-button:active td a,
 table.large-button td a:visited {
-  color: #dddddd !important; 
+  color: #ffffff !important; 
 }
 
 table.secondary td {
@@ -834,8 +877,8 @@ table.columns .right-text-pad {
     padding-right: 10px !important;
   }
   .responsive-hero-container {
-    background-image: url(http://placehold.it/350x150);
-    height: 600px !important;
+    height: 375px !important;
+    background: url('<?php echo $page->mobileImg() ?>') no-repeat bottom center;
   }
   .responsive-hero-container img {
     display:none;

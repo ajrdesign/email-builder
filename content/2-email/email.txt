@@ -6,11 +6,11 @@ Text:
 
 ----
 
-Logo: https://downloads.bluebeam.com/images/2016/Editorial_Features_Newsletter/template-images/logo-email-features.png
+Logo: https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-logo-email-header.png
 
 ----
 
-Facebook: true
+Facebook: 1
 
 ----
 
@@ -18,7 +18,7 @@ Facebookurl: http://www.facebook.com/bluebeam
 
 ----
 
-Linkedin: true
+Linkedin: 1
 
 ----
 
@@ -26,7 +26,7 @@ Linkedinurl: http://www.linkedin.com
 
 ----
 
-Twitter: true
+Twitter: 1
 
 ----
 
@@ -34,7 +34,7 @@ Twitterurl: http://www.twitter.com
 
 ----
 
-Instagram: true
+Instagram: 1
 
 ----
 
@@ -42,7 +42,7 @@ Instagramurl: http://www.instagram.com
 
 ----
 
-Youtube: true
+Youtube: 1
 
 ----
 
@@ -63,3 +63,7 @@ Logourl: https://www.bluebeam.com
 ----
 
 Logoalt: Bluebeam Logo
+
+----
+
+Description: Our monthly editorial, keeping our customers informed with all the latest that's happening in the industry.

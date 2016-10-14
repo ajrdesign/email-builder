@@ -1,6 +1,6 @@
 <?php snippet('email-header-variety') ?>
 
-<table class="container content">
+<table class="container content newsletter">
   <tr>
     <td class="center" align="center">
 
@@ -79,11 +79,14 @@
           <table class="six columns">
             <tr>
               <td class="text-pad">
-                
-                <table class="medium-button">
+                <table class="medium-button" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td>
-                      <a href="<?php echo $page->ctaUrl() ?>" target="_blank"><?php echo $page->ctaButton() ?></a>
+                    <td >
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center"><a href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->ctaButton() ?></a></td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>

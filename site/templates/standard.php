@@ -5,15 +5,14 @@
       <td class="center" align="center">
 
         <center>
-          <table class="row">
+          <table class="row responsive-hero-container">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
 
                 <table class="twelve columns">
                   <tr>
-                    <td class="responsive-hero-container center">
+                    <td class="center">
 
-                      <!-- Main StrXur Hero Article -->
                       <a href="<?php echo $page->heroLink() ?>">
                         <img class="responsive-hero" src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
                       </a>
@@ -32,8 +31,10 @@
                 <table class="twelve columns">
                   <tr>
                     <td class="text-pad">
-
-                      <?php echo $page->heroCopy()->kt() ?>
+                      <?php if(!$page->subheading()->empty()): ?>
+                        <h3><?php echo $page->subheading() ?></h3>
+                      <?php endif ?>
+                      <?php echo $page->copy()->kt() ?>
                     </td>
                   </tr>
                 </table>
@@ -42,16 +43,19 @@
           </table>
           <table class="row">
             <tr>
-              <td class="wrapper last offset-by-three">
+              <td class="wrapper offset-by-three last">
 
                 <table class="six columns">
                   <tr>
-                    <td class="text-pad">
-                      
-                      <table class="tiny-button">
+                    <td>
+                      <table class="medium-button" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td>
-                            <a href="<?php echo $page->ctaUrl() ?>" target="_blank"><?php echo $page->cta()->html() ?></a>
+                          <td >
+                            <table border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center"><a href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->cta()->html() ?></a></td>
+                              </tr>
+                            </table>
                           </td>
                         </tr>
                       </table>

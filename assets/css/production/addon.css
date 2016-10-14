@@ -13,19 +13,8 @@
 	margin-right: 10px;
 }
 .gallery-email-categories li  {
-	height:150px; 
-	background-color: #dcdce8; 
-	margin-right: 10px;
-	position: relative;
-	padding: 10px;
-	border: 2px solid #4e6890;
-}
-.gallery-email-categories img {
-	width: 90%;
-	position: absolute;
-	top: 50%;
-	left:50%;
-	transform: translate(-50%, -50%);
+	width: 31%;
+	margin-right:2%;
 }
 .hero-unit-darken {
 	background: 

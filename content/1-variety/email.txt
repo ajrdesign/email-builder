@@ -59,3 +59,7 @@ Logourl: https://partners.bluebeam.com
 ----
 
 Logoalt: Bluebeam Rally Partner Program
+
+----
+
+Description: Monthly newsletter to partners to keep them informed about upcoming events.

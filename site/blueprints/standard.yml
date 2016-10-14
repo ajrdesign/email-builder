@@ -5,12 +5,23 @@ fields:
   title:
     label: Title
     type:  text
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
+  line:
+    type: line
   heroImg:
     label: Hero Image
     type:  url
     required: true
-    default: https://source.unsplash.com/random/550x300
-    help: Must link to a live image.
+    default: https://source.unsplash.com/random/580x400
+    help: Needs to be exactly 580px wide. Height doesn't matter.
+  mobileImg:
+    label: Mobile Hero Image
+    type: url
+    required: true
+    help: Needs to be at least 375px tall. Width should be at least 600px but some devices may show far less than 600 so keep main subject matter in the middle.
   heroLink:
     label: Hero Link
     type:  url
@@ -23,18 +34,24 @@ fields:
     help: This will display when images are disabled in users email client.
     width: 1/2
   info:
-    label: Help
+    label: Content
     type: info
     text: >
       Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
-  heroCopy:
-    label: Hero Copy
+  subheading:
+    label: Subheading
+    type:  text
+  copy:
+    label: Body Copy
     type:  textarea
+    required: true
   cta:
     label: Call to Action
     type: text
+    width: 1/2
     validate:
       max: 100
   ctaUrl:
     label: Call to Action URL
     type: url
+    width: 1/2

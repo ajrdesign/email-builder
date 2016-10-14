@@ -1,20 +1,34 @@
 <?php snippet('email-header') ?>
 
-<table class="container content">
+<table class="container content newsletter">
   <tr>
     <td class="center" align="center">
 
       <center>
        
-     <!-- <table class="row">
+     <table class="row">
       <tr>
         <td class="wrapper last">
 
           <table class="twelve columns last">
             <tr>
               <td class="text-pad">
-
-                <h5 class="edition-date"><?php echo $page->title() ?></h5>
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="3px" style="font-size:3px;line-height:3px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2><?php echo $page->title() ?></h2>
+                <p><?php echo $page->intro()->kt() ?></p>
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="10px" style="font-size:10px;line-height:10px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
                 <hr class="header-divider">
 
               </td>
@@ -23,17 +37,11 @@
           </table>
         </td>
       </tr>
-    </table> -->
+    </table>     
     <?php //foreach($page->builder()->toStructure() as $section): ?>
     <?php //snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
     <?php //endforeach ?>
-    <table class="spacer">
-      <tbody>
-        <tr>
-          <td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td>
-        </tr>
-      </tbody>
-    </table>
+    
     <?php foreach($page->article()->toStructure() as $article): ?>
     
     
@@ -80,10 +88,14 @@
             <tr>
               <td class="text-pad">
                 
-                <table class="medium-button">
+                <table class="medium-button" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td>
-                      <a href="<?php echo $page->ctaUrl() ?>" target="_blank"><?php echo $page->ctaButton() ?></a>
+                    <td >
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center"><a href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->ctaButton() ?></a></td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
@@ -101,5 +113,5 @@
 
 
 
-  <?php snippet('email-footer-channel') ?>
+  <?php snippet('email-footer') ?>
   <?php snippet('email-inliner') ?>

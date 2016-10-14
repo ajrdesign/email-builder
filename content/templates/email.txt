@@ -2,7 +2,7 @@ Title: Templates
 
 ----
 
-Logo: http://placehold.it/200x40
+Logo: http://placehold.it/200x32
 
 ----
 

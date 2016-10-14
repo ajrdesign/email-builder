@@ -17,6 +17,10 @@ fields:
     type: info
     text: >
       Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  intro:
+    label: Intro/summary
+    type: textarea
+    default: Hi Bob... this month's newsletter is about...
   article: 
     label: Articles
     type: structure

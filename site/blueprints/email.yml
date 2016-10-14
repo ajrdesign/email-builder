@@ -1,7 +1,8 @@
 title: Email Category
 pages: true
  template:
-    - hero
+    - standard
+    - campaign
     - newsletter
     - variety
 files: false
@@ -9,9 +10,14 @@ fields:
   title:
     label: Category
     type:  text
+  description:
+    label: Description
+    type:  textarea
+    help: Brief description of the email category for the homepage of the Email Builder.
   logo:
     label: Header Logo
     type: url
+    default: https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-logo-email-header.png
     required: true
   logoUrl:
     label: Logo Link
