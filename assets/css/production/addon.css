@@ -18,9 +18,9 @@
 }
 .hero-unit-darken {
 	background: 
-    linear-gradient(
-      rgba(78, 108, 117, 0.9),
-      rgba(78, 108, 117, 0.9)
+    linear-gradient( 
+    	rgba(43, 99, 115, 0.9), 
+    	rgba(13, 54, 66, 0.9)
     ),
     url(https://source.unsplash.com/category/technology/1200x600);
 	background-size: cover;
