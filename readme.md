@@ -1,4 +1,18 @@
-# How to create templates
+# Run the email builder
+1. Download [MAMP](https://www.mamp.info/en/).
+2. Clone this repo to a folder that MAMP can access.
+3. Launch MAMP and make sure it's running a server.
+4. Navigate to that folder to view the app localy (i.e. http://localhost:8888/email-builder/)
+
+# Creating templates
+There are three files that you **need** to create a template.
+
+1. Content **.txt** file. This has the actualy content for the individual emails.
+2. Blueprint **.yml** file. This defines the form fields for the panel/dashboard.
+3. Template **.php** file. This defines how the email will look when combined with the content from the .txt files. Parts of this can be broken up into reusable 'snippets' for consistency.
+
+![Folders for email files](https://www.evernote.com/l/AHH4n1bgrYVJYabtWrvD_TQAjbZLOEGMd90B/image.png)
+
 
 ## Set up the email to display correctly:
 1. Extract the body of your email (Remove the header and footer sections and just take the main content part)
