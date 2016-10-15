@@ -2,6 +2,7 @@
 /thumbs/*
 /site/accounts/
 /content/
+!/content/templates/
 
 # Grunt Files
 node_modules/
