@@ -1,0 +1,45 @@
+Title: Standard Template
+
+----
+
+Heroimg: https://source.unsplash.com/random/580x400
+
+----
+
+Herolink: https://www.bluebeam.com
+
+----
+
+Heroalt: Some text
+
+----
+
+Info: 
+
+----
+
+Herocopy: We will work with you to fully understand your business and your target audience to inform our marketing strategy.
+
+----
+
+Cta: Download Now
+
+----
+
+Ctaurl: https://www.bluebeam.com
+
+----
+
+Subheading: Heading
+
+----
+
+Copy: Here is some copy
+
+----
+
+Mobileimg: https://source.unsplash.com/random/600x400
+
+----
+
+Preheader: 

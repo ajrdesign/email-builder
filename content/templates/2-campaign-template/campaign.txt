@@ -1,0 +1,25 @@
+Title: Campaign Template
+ 
+----
+
+Preheader: 
+
+----
+
+Line: 
+
+----
+
+Heroimg: https://source.unsplash.com/random/580x400
+
+----
+
+Mobileimg: https://source.unsplash.com/random/580x600
+
+----
+
+Herolink: https://www.bluebeam.com
+
+----
+
+Heroalt: 
