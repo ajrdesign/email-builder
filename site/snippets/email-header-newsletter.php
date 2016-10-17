@@ -26,7 +26,7 @@
                 <tr>
                   <td class="wrapper last">
 
-                    <table class="eight columns">
+                    <table class="twelve columns">
                       <tr>
                         <td class="left-text-pad">
                           <a href="<?php echo $page->parent()->logoUrl() ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>

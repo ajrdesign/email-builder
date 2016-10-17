@@ -30,7 +30,7 @@
 		  		<?php echo $email->template() ?>
 		  	</td>
 		  	<td>
-		  		<?php echo $email->modified('d/m/Y') ?>
+		  		<?php echo $email->modified('m/d/Y') ?>
 		  	</td>
 		  	<td>
 				  <a href="<?php echo $site->url() ?>/panel/pages/<?php echo $email->uri() ?>/edit">Edit</a>

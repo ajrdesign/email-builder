@@ -49,7 +49,7 @@
 
                 <table class="six columns">
                   <tr>
-                    <td>
+                    <td class="text-pad">
                       <table class="medium-button" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
                           <td >

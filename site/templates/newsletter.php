@@ -1,4 +1,4 @@
-<?php snippet('email-header') ?>
+<?php snippet('email-header-newsletter') ?>
 
 <table class="container content newsletter">
   <tr>

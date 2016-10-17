@@ -5,7 +5,7 @@
       <td class="center" align="center">
 
         <center>
-          <table class="row responsive-hero-container">
+          <table class="row responsive-campaign-container">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
 

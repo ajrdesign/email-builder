@@ -883,6 +883,13 @@ table.columns .right-text-pad {
   .responsive-hero-container img {
     display:none;
   }
+  .responsive-campaign-container {
+    height: 425px !important;
+    background: url('<?php echo $page->mobileImg() ?>') no-repeat bottom center;
+  }
+  .responsive-campaign-container img {
+    display:none;
+  }
 }
 td.wrapper.wrapper-flush-t-padding {
   padding:0 20px 0 0;
