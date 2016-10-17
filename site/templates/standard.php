@@ -5,6 +5,7 @@
       <td class="center" align="center">
 
         <center>
+          <a href="<?php echo $page->heroLink() ?>">
           <table class="row responsive-hero-container">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
@@ -13,9 +14,9 @@
                   <tr>
                     <td class="center">
 
-                      <a href="<?php echo $page->heroLink() ?>">
+                      
                         <img class="responsive-hero" src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
-                      </a>
+                      
                     </td>
                   </tr>
                 </table>
@@ -24,6 +25,7 @@
             </tr>
 
           </table>
+          </a>
           <table class="row">
             <tr>
               <td class="wrapper last">
