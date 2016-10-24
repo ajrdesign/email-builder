@@ -114,11 +114,17 @@ td.wrapper {
   padding: 10px 20px 0px 0px;
   position: relative;
 }
-
+.header td.wrapper {
+  padding-top: 15px;
+}
+.header table.columns .left-text-pad {
+  padding-left: 15px;
+}
 table.columns,
 table.column {
 
 }
+
 
 table.columns td,
 table.column td {
