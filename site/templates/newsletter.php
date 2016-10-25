@@ -20,7 +20,7 @@
                     </tr>
                   </tbody>
                 </table>
-                <h2><?php echo $page->title() ?></h2>
+                <h2><?php echo $page->heading() ?></h2>
                 <p><?php echo $page->intro()->kt() ?></p>
                 <table class="spacer">
                   <tbody>

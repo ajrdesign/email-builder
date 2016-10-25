@@ -37,3 +37,35 @@ Heroalt:
 ----
 
 Herocopy: This app does everything you could possibly want it to do and not only that, it is beautifully designed and extremely intuitive to use.
+
+----
+
+Heading: 
+
+----
+
+Month: 12.20.20
+
+----
+
+Preheader: 
+
+----
+
+Intro: Hi Bob... this month's newsletter is about...
+
+----
+
+Article: 
+
+----
+
+Ctatoggle: 1
+
+----
+
+Ctabutton: Read More
+
+----
+
+Ctaurl: https://www.bluebeam.com

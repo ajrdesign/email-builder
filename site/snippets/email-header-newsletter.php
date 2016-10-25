@@ -24,9 +24,9 @@
 
               <table class="row">
                 <tr>
-                  <td class="wrapper last">
+                  <td class="wrapper">
 
-                    <table class="twelve columns">
+                    <table class="eight columns">
                       <tr>
                         <td class="left-text-pad">
                           <a href="<?php echo $page->parent()->logoUrl() ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>
@@ -37,7 +37,19 @@
                     </table>
 
                   </td>
-                  
+                  <td class="wrapper last">
+
+                    <table class="four columns">
+                      <tr>
+                        <td class="right-text-pad">
+                          <h5 class="edition-date"><?php echo $page->month() ?></h5>
+                        </td>
+                        
+                        <td class="expander"></td>
+                      </tr>
+                    </table>
+
+                  </td>
                 </tr>
               </table>
 

@@ -5,6 +5,7 @@ fields:
   title:
     label: Title
     type:  text
+    help: This does not appear in the actual email.
   month:
     label: Date
     type: Text
@@ -12,6 +13,10 @@ fields:
     label: Preheader
     type: text
     help: This is a summary that is displayed after the title on most email clients.
+  heading:
+    label: Heading
+    type:  text
+  
   info:
     label: Help
     type: info
