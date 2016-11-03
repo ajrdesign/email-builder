@@ -24,7 +24,7 @@ fields:
     help: Needs to be at least 375px tall. Width should be at least 600px but some devices may show far less than 600 so keep main subject matter in the middle.
   heroLink:
     label: Hero Link
-    type:  url
+    type:  text
     required: true
     default: https://www.bluebeam.com
     width: 1/2

@@ -6,7 +6,7 @@ Heroimg: https://source.unsplash.com/random/580x400
 
 ----
 
-Herolink: https://www.bluebeam.com
+Herolink: mailto:someone@bluebeam.com
 
 ----
 
@@ -26,7 +26,7 @@ Cta: Download Now
 
 ----
 
-Ctaurl: https://www.bluebeam.com
+Ctaurl: mailto:a@a.com
 
 ----
 

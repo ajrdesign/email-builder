@@ -39,7 +39,7 @@ fields:
         type: textarea
       url:
         label: Link
-        type: url
+        type: text
         default: https://www.bluebeam.com
       cta:
         label: Call to Action
