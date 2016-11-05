@@ -16,7 +16,6 @@ fields:
   heading:
     label: Heading
     type:  text
-  
   info:
     label: Help
     type: info
@@ -36,24 +35,32 @@ fields:
           <strong>URL:</strong> {{url}}</br>
           <strong>Call to Action:</strong> {{cta}}
     fields: 
+      imgDivider: 
+        label: Section Divider (Optional)
+        type: url
+        help: If you need to divide articles into sections you can use this to add a divider image above this article. Should be 560px wide.
       picture: 
         label: Picture
         type: url
         default: https://source.unsplash.com/random/560x260
+        width: 1/2
       headline:
         label: Headline
         type: text
+        width: 1/2
       text:
         label: Copy
         type: textarea
-      url:
-        label: Link
-        type: text
-        default: https://www.bluebeam.com
       cta:
         label: Call to Action
         type: text
         default: Read More
+        width: 1/2
+      url:
+        label: Link
+        type: text
+        default: https://www.bluebeam.com
+        width: 1/2
   ctaToggle:
     label: Final Call to Action
     type: checkbox

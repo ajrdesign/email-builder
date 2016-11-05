@@ -6,7 +6,7 @@
 
       <center>
        
-     <table class="row">
+     <table class="row intro-content">
       <tr>
         <td class="wrapper last">
 
@@ -21,16 +21,8 @@
                   </tbody>
                 </table>
                 <h2><?php echo $page->heading() ?></h2>
-                <p><?php echo $page->intro()->kt() ?></p>
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="10px" style="font-size:10px;line-height:10px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <hr class="header-divider">
-
+                <?php echo $page->intro()->kt() ?>
+                
               </td>
               <td class="expander"></td>
             </tr>
@@ -41,7 +33,7 @@
     <?php //foreach($page->builder()->toStructure() as $section): ?>
     <?php //snippet('sections/' . $section->_fieldset(), array('data' => $section)) ?>
     <?php //endforeach ?>
-    
+    <!-- Loop for the Articles -->
     <?php foreach($page->article()->toStructure() as $article): ?>
     
     
@@ -53,7 +45,12 @@
           <table class="twelve columns last">
             <tr>
               <td class="text-pad">
-
+                <!-- Option for using a divider image or just a standard divider -->
+                <?php if(!$article->imgDivider()->empty()): ?>
+                <img width="560" src="<?php echo $article->imgDivider() ?>" alt="<?php echo $article->imgDividerAlt() ?>">
+                <?php else : ?>
+                <hr class="article-divider">
+                <?php endif ?>
 
                 <h4><a href="<?php echo $article->url() ?>"><?php echo $article->headline() ?> </a></h4>
                 <table cellpadding="0" cellspacing="0" border="0">
@@ -67,7 +64,7 @@
                 </table>
                 <?php echo $article->text->kt() ?>
                 <a href="<?php echo $article->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
-                <hr class="article-divider">
+                
 
               </td>
             </tr>
@@ -87,7 +84,13 @@
           <table class="six columns">
             <tr>
               <td class="text-pad">
-                
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
                 <table class="medium-button" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td >

@@ -664,7 +664,7 @@ td.article-image-container {
 hr.article-divider {
   color: #F1F1F1;
   background-color: #F1F1F1;
-  margin: 25px 0 5px;
+  margin: 6px 0 16px;
 }
 h5.edition-date {
   text-align: right;
@@ -680,8 +680,11 @@ h5.edition-date {
 hr.header-divider {
   color: #F1F1F1;
   background-color: #F1F1F1;
-  margin: 10px 0 10px;
+  margin: 24px 0 6px;
   width: 100%;
+}
+.intro-content p {
+  margin-bottom:0;
 }
 /* Variety Styling */
 
