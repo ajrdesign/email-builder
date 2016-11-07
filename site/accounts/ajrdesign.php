@@ -8,7 +8,7 @@ language: en
 role: admin
 history:
   - templates/newsletter
-  - templates/standard
   - variety/november
+  - templates/standard
   - contractors
   - contractors/contractor-promo

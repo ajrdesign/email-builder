@@ -66,7 +66,8 @@ Article:
     for 99p.
   url: https://www.bluebeam.com
   cta: Read More
-  imgdivider: ""
+  imgdivider: >
+    https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/Editorial_Features_Newsletter/template-images/breakground-divider.png
 - 
   picture: >
     https://source.unsplash.com/random/560x260

@@ -48,6 +48,13 @@
                 <!-- Option for using a divider image or just a standard divider -->
                 <?php if(!$article->imgDivider()->empty()): ?>
                 <img width="560" src="<?php echo $article->imgDivider() ?>" alt="<?php echo $article->imgDividerAlt() ?>">
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
                 <?php else : ?>
                 <hr class="article-divider">
                 <?php endif ?>
@@ -63,7 +70,7 @@
                   </tr>
                 </table>
                 <?php echo $article->text->kt() ?>
-                <a href="<?php echo $article->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
+                <a href="<?php echo $article->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
                 
 
               </td>
