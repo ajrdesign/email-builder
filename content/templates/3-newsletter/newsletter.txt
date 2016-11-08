@@ -82,8 +82,9 @@ Article:
     if you prefer an ad-free experience then
     you can down load the ad-free version
     for 99p.
-  url: https://www.bluebeam.com
+  url: mailto:arichardson@bluebeam.com
   cta: Read More
+  imgdivider: ""
 - 
   picture: >
     https://source.unsplash.com/random/560x260

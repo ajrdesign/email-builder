@@ -45,8 +45,7 @@
           <table class="twelve columns last">
             <tr>
               <td class="text-pad">
-
-
+                <hr class="article-divider">
                 <h4><a href="<?php echo $article->url() ?>"><?php echo $article->headline() ?> </a></h4>
                 <table cellpadding="0" cellspacing="0" border="0">
                   <tr>
@@ -59,7 +58,7 @@
                 </table>
                 <?php echo $article->text->kt() ?>
                 <a href="<?php echo $article->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
-                <hr class="article-divider">
+                
 
               </td>
             </tr>
