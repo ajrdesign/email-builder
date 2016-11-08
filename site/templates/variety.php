@@ -34,9 +34,6 @@
         </tr>
       </tbody>
     </table>
-    <?php foreach($page->article()->toStructure() as $article): ?>
-    
-    
     <table class="row">
       <tr>
         
@@ -45,7 +42,38 @@
           <table class="twelve columns last">
             <tr>
               <td class="text-pad">
-                <hr class="article-divider">
+                <h4><a href="<?php echo $page->article()->toStructure()->first()->url() ?>"><?php echo $page->article()->toStructure()->first()->headline() ?> </a></h4>
+                <table cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td class="article-image-container">
+                      <a href="<?php echo $page->article()->toStructure()->first()->url() ?>">
+                        <img width="560" src="<?php echo $page->article()->toStructure()->first()->picture() ?>" alt="<?php echo $page->article()->toStructure()->first()->headline() ?>">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <?php echo $page->article()->toStructure()->first()->text->kt() ?>
+                <a href="<?php echo $page->article()->toStructure()->first()->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $page->article()->toStructure()->first()->cta() ?></a>
+                
+
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+    <?php foreach($page->article()->toStructure()->offset(1) as $article): ?>
+    <table class="row">
+      <tr>
+        
+        <td class="wrapper last">
+
+          <table class="twelve columns last">
+            <tr>
+              <td class="text-pad">
+
+                 <hr class="article-divider">
                 <h4><a href="<?php echo $article->url() ?>"><?php echo $article->headline() ?> </a></h4>
                 <table cellpadding="0" cellspacing="0" border="0">
                   <tr>
