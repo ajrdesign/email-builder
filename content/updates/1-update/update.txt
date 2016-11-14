@@ -1,0 +1,9 @@
+Title: Adding support for International email category
+
+----
+
+Text: New email category for International only. Within this category you have the option to change the email's country which will swap out translated copy in the footer.
+
+----
+
+When: November 14, 2016
