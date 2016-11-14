@@ -13,22 +13,35 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="subheading mega"><?php echo $page->title()->html() ?></h1>
-			       <a href="panel/" class="btn btn-blue btn-large">Start Building</a>
+				<a href="panel/" class="btn btn-blue btn-large">Start Building</a>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-6">
 			<?php snippet('templates') ?>
-			<hr>
+			
+		</div>
+		
+		<div class="col-md-6">
+			<h3 class="subheading all-caps" style="letter-spacing:3px;">Updates</h5>
+				<hr class="double">
+				<ul class="unstyled">
+					<li>
+						<small class="text-gray"><?php echo $site->page('updates')->children()->flip()->first()->when()->html() ?></small>
+						<h6 class="mono italic space-bottom"><?php echo $site->page('updates')->children()->flip()->first()->title()->html() ?></h6>
+						<p class="small"><?php echo $site->page('updates')->children()->flip()->first()->text()->html() ?></p>
+					</li>
+			</ul>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<div class="hr double"></div>
-		    <?php snippet('archives') ?>
+			<hr>
+			<hr class="double">
+			<?php snippet('archives') ?>
 		</div>
 	</div>
 </div>

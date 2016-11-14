@@ -1,5 +1,8 @@
 title: Site
-pages: email
+pages: true
+  template:
+    - email
+    - email-intl
 fields:
   title:
     label: Title

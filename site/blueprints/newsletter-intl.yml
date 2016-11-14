@@ -2,6 +2,25 @@ title: Newsletter
 pages: false
 files: true
 fields:
+  language:
+    label: Country
+    type: select
+    default: uk
+    options:
+      uk: United Kingdom
+      au: Australia
+      dk: Denmark
+      ch: Switzerland
+      de: Germany
+      es: Spain
+      fr: France
+      it: Italy
+      nl: Netherlands
+      no: Norway
+      fi: Finland
+      se: Sweden
+      jp: Japan
+      kr: Korea
   labelSettings:
     label: Email Client Optimization
     type: headline
@@ -101,7 +120,7 @@ fields:
   #           help: Less than 80 characters.
   #         text:
   #           label: Copy
-  #           type: markdown
+  #           type: textarea
   #           help: Less than 300 characters.
   #         url:
   #           label: Link

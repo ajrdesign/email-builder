@@ -1,0 +1,13 @@
+title: Updates
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  when:
+    label: Year
+    type:  text
+  text:
+    label: Text
+    type:  textarea

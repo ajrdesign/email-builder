@@ -7,8 +7,8 @@ email: arichardson@bluebeam.ocm
 language: en
 role: admin
 history:
+  - intl-emails/test-intl
+  - test
   - templates/newsletter
   - variety/november
   - templates/standard
-  - contractors
-  - contractors/contractor-promo

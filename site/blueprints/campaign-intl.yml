@@ -1,21 +1,34 @@
-title: Standard
+title: Campaign
 pages: false
 files: true
 fields:
-  labelSettings:
-    label: Email Client Optimization
-    type: headline
+  language:
+    label: Country
+    type: select
+    options:
+      uk: United Kingdom
+      au: Australia
+      dk: Denmark
+      ch: Switzerland
+      de: Germany
+      es: Spain
+      fr: France
+      it: Italy
+      nl: Netherlands
+      no: Norway
+      fi: Finland
+      se: Sweden
+      jp: Japan
+      kr: Korea
   title:
     label: Title
     type:  text
-    help: This does not appear in the email.
   preheader:
     label: Preheader
     type: text
     help: This is a summary that is displayed after the title on most email clients.
-  heroSettings:
-    label: Hero Area
-    type: headline
+  line:
+    type: line
   heroImg:
     label: Hero Image
     type:  url
@@ -37,29 +50,4 @@ fields:
     label: Hero Alt Text
     type:  text
     help: This will display when images are disabled in users email client.
-    width: 1/2
-  contentSettings:
-    label: Content
-    type: headline
-  info:
-    type: info
-    text: >
-      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
-  subheading:
-    label: Subheading
-    type:  text
-  copy:
-    label: Body Copy
-    type:  markdown
-    required: true
-  cta:
-    label: Call to Action
-    type: text
-    width: 1/2
-    validate:
-      max: 100
-  ctaUrl:
-    label: Call to Action URL
-    type: text
-    default: https://www.bluebeam.com
     width: 1/2

@@ -1,0 +1,6 @@
+title: Updates
+pages: true
+	template:
+	 - updates
+files: false
+fields:

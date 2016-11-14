@@ -1,0 +1,93 @@
+title: INTL Email Category
+pages: true
+ template:
+    - standard-intl
+    - campaign-intl
+    - newsletter-intl
+files: false
+fields:
+  title:
+    label: Category
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+    help: Brief description of the email category for the homepage of the Email Builder.
+  logo:
+    label: Header Logo
+    type: url
+    default: https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-logo-email-header-V4.png
+    required: true
+  logoUrl:
+    label: Logo Link
+    type: url
+    required: true
+    default: https://www.bluebeam.com
+    width: 3/4
+  logoAlt:
+    label: Logo Alt
+    type: text
+    default: Bluebeam Logo
+    width: 1/2
+  line:
+    type: line
+  facebook:
+    label: Facebook
+    type: checkbox
+    text: on/off
+    width: 1/4
+  facebookUrl:
+    label: URL
+    type: url
+    default: http://www.facebook.com
+    width: 3/4
+  line-a:
+    type: line
+  linkedin:
+    label: Linkedin
+    type: checkbox
+    text: on/off
+    width: 1/4
+  linkedinUrl:
+    label: URL
+    type: url
+    default: http://www.linkedin.com
+    width: 3/4
+  line-b:
+    type: line
+  twitter:
+    label: Twitter
+    type: checkbox
+    text: on/off
+    width: 1/4
+  twitterUrl:
+    label: URL
+    type: url
+    default: http://www.twitter.com
+    width: 3/4
+  line-c:
+    type: line
+  instagram:
+    label: Instagram
+    type: checkbox
+    text: on/off
+    width: 1/4
+  instagramUrl:
+    label: URL
+    type: url
+    default: http://www.instagram.com
+    width: 3/4
+  line-d:
+    type: line
+  youtube:
+    label: YouTube
+    type: checkbox
+    text: on/off
+    width: 1/4
+  youtubeUrl:
+    label: URL
+    type: url
+    default: http://www.youtube.com
+    width: 3/4
+  line-e:
+    type: line
