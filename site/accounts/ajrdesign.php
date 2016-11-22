@@ -7,8 +7,8 @@ email: arichardson@bluebeam.ocm
 language: en
 role: admin
 history:
+  - updates/fixing-bug-with-markdown-editor
   - intl-emails/test-intl
   - test
   - templates/newsletter
   - variety/november
-  - templates/standard

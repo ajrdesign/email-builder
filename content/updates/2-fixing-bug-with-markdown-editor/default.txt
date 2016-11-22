@@ -1,0 +1,5 @@
+Title: Fixing bug with Markdown editor
+
+----
+
+Text: Should allow the Standard template to be edited again.
