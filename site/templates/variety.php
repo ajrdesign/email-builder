@@ -53,7 +53,9 @@
                   </tr>
                 </table>
                 <?php echo $page->article()->toStructure()->first()->text->kt() ?>
-                <a href="<?php echo $page->article()->toStructure()->first()->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $page->article()->toStructure()->first()->cta() ?></a>
+                <?php if(!$page->article()->toStructure()->first()->cta()->empty()): ?>
+                <a href="<?php echo $page->article()->toStructure()->first()->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $page->article()->toStructure()->first()->cta() ?></a>
+                <?php endif ?>
                 
 
               </td>
@@ -85,7 +87,9 @@
                   </tr>
                 </table>
                 <?php echo $article->text->kt() ?>
-                <a href="<?php echo $article->url() ?>"><img src="https://s3-us-west-1.amazonaws.com/bluebeam.downloads/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
+                <?php if(!$article->cta()->empty()): ?>
+                <a href="<?php echo $article->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
+                <?php endif ?>
                 
 
               </td>

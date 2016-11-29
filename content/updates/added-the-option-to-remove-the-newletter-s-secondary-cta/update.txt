@@ -1,0 +1,9 @@
+Title: Added the option to remove the Newletter's Secondary CTA
+
+----
+
+Text: You can remove the secondary CTA from Newsletter articles by simply leaving that field blank.
+
+----
+
+When: November 29, 2016

@@ -45,6 +45,7 @@ fields:
         label: Call to Action
         type: text
         default: Read More
+        help: Leave blank to remove.
   ctaToggle:
     label: Final Call to Action
     type: checkbox

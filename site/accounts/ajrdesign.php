@@ -7,8 +7,9 @@ email: arichardson@bluebeam.ocm
 language: en
 role: admin
 history:
-  - updates/fixing-bug-with-markdown-editor
-  - intl-emails/test-intl
-  - test
-  - templates/newsletter
+  - >
+    updates/added-the-option-to-remove-the-newletter-s-secondary-cta
   - variety/november
+  - intl-emails/test-intl
+  - updates/fixing-bug-with-markdown-editor
+  - test

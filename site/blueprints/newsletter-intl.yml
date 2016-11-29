@@ -49,7 +49,7 @@ fields:
     width: 1/2
   intro:
     label: Intro/summary
-    type: textarea
+    type: markdown
     default: Hi Bob... this month's newsletter is about...
   article: 
     label: Articles
@@ -81,6 +81,7 @@ fields:
         label: Call to Action
         type: text
         default: Read More
+        help: Leave blank to remove.
         width: 1/2
       url:
         label: Link

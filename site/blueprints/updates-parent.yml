@@ -1,6 +1,6 @@
 title: Updates
 pages: true
 	template:
-	 - updates
+	 - update
 files: false
 fields:
