@@ -5,6 +5,7 @@ fields:
   language:
     label: Country
     type: select
+    width: 1/2
     options:
       uk: United Kingdom
       au: Australia
@@ -20,6 +21,13 @@ fields:
       se: Sweden
       jp: Japan
       kr: Korea
+  tracking:
+    label: Source Code
+    type: text
+    width: 1/2
+  labelSettings:
+    label: Email Client Optimization
+    type: headline
   title:
     label: Title
     type:  text
@@ -27,8 +35,9 @@ fields:
     label: Preheader
     type: text
     help: This is a summary that is displayed after the title on most email clients.
-  line:
-    type: line
+  heroSettings:
+    label: Hero Area
+    type: headline
   heroImg:
     label: Hero Image
     type:  url

@@ -8,8 +8,8 @@ language: en
 role: admin
 history:
   - >
-    updates/added-the-option-to-remove-the-newletter-s-secondary-cta
-  - variety/november
+    updates/source-code-support-for-international
   - intl-emails/test-intl
-  - updates/fixing-bug-with-markdown-editor
-  - test
+  - intl-emails/dsfosad
+  - intl-emails/fsd
+  - updates/added-the-option-to-remove-the-newletter-s-secondary-cta

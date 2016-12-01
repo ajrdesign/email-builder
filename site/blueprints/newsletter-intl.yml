@@ -6,6 +6,7 @@ fields:
     label: Country
     type: select
     default: uk
+    width: 1/2
     options:
       uk: United Kingdom
       au: Australia
@@ -21,6 +22,10 @@ fields:
       se: Sweden
       jp: Japan
       kr: Korea
+  tracking:
+    label: Source Code
+    type: text
+    width: 1/2
   labelSettings:
     label: Email Client Optimization
     type: headline

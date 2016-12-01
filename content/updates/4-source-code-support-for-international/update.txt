@@ -1,0 +1,9 @@
+Title: Source code support for international
+
+----
+
+When: December 1, 2016
+
+----
+
+Text: Added source code support for international. There should be a option to add a source code within each email in the INTL email category.

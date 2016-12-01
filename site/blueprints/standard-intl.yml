@@ -4,6 +4,7 @@ files: true
 fields:
   language:
     label: Country
+    width: 1/2
     type: select
     options:
       uk: United Kingdom
@@ -20,6 +21,10 @@ fields:
       se: Sweden
       jp: Japan
       kr: Korea
+  tracking:
+    label: Source Code
+    type: text
+    width: 1/2
   labelSettings:
     label: Email Client Optimization
     type: headline
@@ -27,6 +32,9 @@ fields:
     label: Title
     type:  text
     help: This does not appear in the email.
+  tracking:
+    label: Source Code
+    type: text
   preheader:
     label: Preheader
     type: text
