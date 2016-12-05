@@ -1,0 +1,9 @@
+Title: Localizing INTL headers
+
+----
+
+When: December 5, 2016
+
+----
+
+Text: Logos for INTL websites should localize to the appropriate language.

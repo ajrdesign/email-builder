@@ -7,9 +7,8 @@ email: arichardson@bluebeam.ocm
 language: en
 role: admin
 history:
-  - >
-    updates/source-code-support-for-international
+  - updates/localizing-intl-headers
+  - intl-emails/fsd
+  - updates/source-code-support-for-international
   - intl-emails/test-intl
   - intl-emails/dsfosad
-  - intl-emails/fsd
-  - updates/added-the-option-to-remove-the-newletter-s-secondary-cta
