@@ -3,7 +3,7 @@
       <td class="center" align="center">
 
         <center>
-          <a href="<?php echo $page->heroLink() ?>">
+          <a target="_blank" href="<?php echo $page->heroLink() ?>">
           <table class="row responsive-hero-container">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
@@ -53,7 +53,7 @@
                           <td >
                             <table border="0" cellspacing="0" cellpadding="0">
                               <tr>
-                                <td align="center"><a href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->cta()->html() ?></a></td>
+                                <td align="center"><a target="_blank" href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->cta()->html() ?></a></td>
                               </tr>
                             </table>
                           </td>

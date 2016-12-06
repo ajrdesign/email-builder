@@ -54,11 +54,11 @@
                 <hr class="article-divider">
                 <?php endif ?>
 
-                <h4><a href="<?php echo $article->url() ?>"><?php echo $article->headline() ?> </a></h4>
+                <h4><a target="_blank" href="<?php echo $article->url() ?>"><?php echo $article->headline() ?> </a></h4>
                 <table cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td class="article-image-container">
-                      <a href="<?php echo $article->url() ?>">
+                      <a target="_blank" href="<?php echo $article->url() ?>">
                         <img width="560" src="<?php echo $article->picture() ?>" alt="<?php echo $article->headline() ?>">
                       </a>
                     </td>
@@ -66,7 +66,7 @@
                 </table>
                 <?php echo $article->text->kt() ?>
                 <?php if(!$article->cta()->empty()): ?>
-                <a href="<?php echo $article->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
+                <a target="_blank" href="<?php echo $article->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
                 <?php endif ?>
 
               </td>
@@ -99,7 +99,7 @@
                     <td >
                       <table border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td align="center"><a href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->ctaButton() ?></a></td>
+                          <td align="center"><a target="_blank" href="<?php echo $page->ctaUrl() ?>" target="_blank" style=""><?php echo $page->ctaButton() ?></a></td>
                         </tr>
                       </table>
                     </td>
