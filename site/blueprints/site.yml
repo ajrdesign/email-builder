@@ -3,6 +3,7 @@ pages: true
   template:
     - email
     - email-intl
+    - email-cvent
 fields:
   title:
     label: Title

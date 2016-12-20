@@ -1,0 +1,9 @@
+Title: CVENT support
+
+----
+
+When: December 20, 2016
+
+----
+
+Text: Added an email category for CVENT emails which modifies the HTML output and adds a different footer.

@@ -1,0 +1,113 @@
+title: Newsletter
+pages: false
+files: true
+fields:
+  labelSettings:
+    label: Email Client Optimization
+    type: headline
+  title:
+    label: Title
+    type:  text
+    help: This does not appear in the actual email.
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
+  contentSettings:
+    label: Content
+    type: headline
+  info:
+    type: info
+    text: >
+      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  heading:
+    label: Heading
+    type:  text
+    width: 1/2
+  month:
+    label: Date
+    type: Text
+    width: 1/2
+  intro:
+    label: Intro/summary
+    type: markdown
+    default: Hi Bob... this month's newsletter is about...
+  article: 
+    label: Articles
+    type: structure
+    entry: >
+          <img style="max-height:100px;" src="{{picture}}">
+          <h5>{{headline}}</h5>
+          <strong>Copy:</strong> {{text}}</br>
+          <strong>URL:</strong> {{url}}</br>
+          <strong>Call to Action:</strong> {{cta}}
+    fields: 
+      imgDivider: 
+        label: Section Divider (Optional)
+        type: url
+        help: If you need to divide articles into sections you can use this to add a divider image above this article. Should be 560px wide.
+      picture: 
+        label: Picture
+        type: url
+        default: https://source.unsplash.com/random/560x260
+        width: 1/2
+      headline:
+        label: Headline
+        type: text
+        width: 1/2
+      text:
+        label: Copy
+        type: textarea
+      cta:
+        label: Call to Action
+        type: text
+        default: Read More
+        help: Leave blank to remove.
+        width: 1/2
+      url:
+        label: Link
+        type: text
+        default: https://www.bluebeam.com
+        width: 1/2
+  ctaToggle:
+    label: Final Call to Action
+    type: checkbox
+    default: on
+    width: 1/4
+  ctaButton:
+    label: Copy
+    type: text
+    default: Read More
+    width: 1/4
+  ctaUrl:
+    label: Call to Action URL
+    type: text
+    default: https://www.bluebeam.com
+    width: 1/2
+  style:
+    type: hidden
+    default: cvent
+  # builder:
+  #   label: Sections
+  #   type: builder
+  #   fieldsets:
+  #     newsletterarticle:
+  #       label: Article
+  #       snippet: builder/newsletterarticle
+  #       fields:
+  #         picture:
+  #           label: Background Image
+  #           type: url
+  #           default: https://source.unsplash.com/random/550x300
+  #         headline:
+  #           label: Headline
+  #           type: text
+  #           help: Less than 80 characters.
+  #         text:
+  #           label: Copy
+  #           type: markdown
+  #           help: Less than 300 characters.
+  #         url:
+  #           label: Link
+  #           type: url
+  #           default: https://www.bluebeam.com

@@ -1,0 +1,37 @@
+title: Campaign
+pages: false
+files: true
+fields:
+  labelSettings:
+      label: Email Client Optimization
+      type: headline
+  title:
+    label: Title
+    type:  text
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
+  heroSettings:
+    label: Hero Area
+    type: headline
+  heroImg:
+    label: Hero Image
+    type:  url
+    required: true
+    default: https://source.unsplash.com/random/580x400
+    help: Needs to be exactly 580px wide. Height doesn't matter.
+  heroLink:
+    label: Hero Link
+    type:  text
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  heroAlt:
+    label: Hero Alt Text
+    type:  text
+    help: This will display when images are disabled in users email client.
+    width: 1/2
+  style:
+    type: hidden
+    default: cvent

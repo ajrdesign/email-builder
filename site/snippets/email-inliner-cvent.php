@@ -35,13 +35,9 @@
 }
 
 ready(function () {
-    // Adds the doc type to the top of the document
-    var doctype = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\">";
     var pageHtml = document.getElementById('email-wrapper').innerHTML;
-    // Combines doctype and the HTML email into one
-    var finalBuild = doctype + pageHtml
     // Posts the combined data to the inliner
-    document.getElementById('js-textarea').value = finalBuild;
+    document.getElementById('js-textarea').value = pageHtml;
     //el.addEventListener('click', function () {
     	
     //});
