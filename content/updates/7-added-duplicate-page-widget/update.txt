@@ -1,0 +1,9 @@
+Title: Added Duplicate Page widget
+
+----
+
+When: January 11, 2017
+
+----
+
+Text: Added (link: http://d.pr/i/7fYd text: duplicate page) functionality and fixed a bug with the Standard hero image link and Outlook.

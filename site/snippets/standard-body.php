@@ -12,9 +12,9 @@
                   <tr>
                     <td class="center">
 
-                      
+                      <a target="_blank" href="<?php echo $page->heroLink() ?>">
                         <img class="responsive-hero" src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
-                      
+                      </a>
                     </td>
                   </tr>
                 </table>

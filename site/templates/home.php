@@ -32,7 +32,7 @@
 					<li>
 						<small class="text-gray"><?php echo $site->page('updates')->children()->flip()->first()->when()->html() ?></small>
 						<h6 class="mono italic space-bottom"><?php echo $site->page('updates')->children()->flip()->first()->title()->html() ?></h6>
-						<p class="small"><?php echo $site->page('updates')->children()->flip()->first()->text()->html() ?></p>
+						<p class="small"><?php echo $site->page('updates')->children()->flip()->first()->text()->kirbytext() ?></p>
 					</li>
 			</ul>
 		</div>
