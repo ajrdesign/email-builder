@@ -35,6 +35,9 @@
                         <h3><?php echo $page->subheading() ?></h3>
                       <?php endif ?>
                       <?php echo $page->copy()->kt() ?>
+                      <a href="https://twitter.com/intent/tweet?text=Test&url=https%3A%2F%2Fexample.com%2F">
+Tweet
+</a>
                     </td>
                   </tr>
                 </table>
