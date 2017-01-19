@@ -126,6 +126,9 @@ var VisualMarkdownEditor = function ($, field, $element, options) {
         unorderedList: function () {
             self.toggleBefore('*', true);
         },
+        centertext: function () {
+            self.toggleAround('(center...)', '(...center)');
+        },
         link: function () {
             if (self.options.kirbytext) {
                 self.insertAround('(link: http:// text: ', ')');
@@ -209,6 +212,9 @@ var VisualMarkdownEditor = function ($, field, $element, options) {
     }, {
         action: 'orderedList',
         className: 'fa fa-list-ol'
+    }, {
+        action: 'centertext',
+        className: 'fa fa-align-center'
     }, {
         action: 'divider'
     }, {

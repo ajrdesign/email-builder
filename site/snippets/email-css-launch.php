@@ -13,7 +13,7 @@ body{
   -ms-text-size-adjust:100%; 
   margin:0; 
   padding:0 0 104px !important;
-  background-color: #F1F1F1;
+  background-color: #262C2F;
 }
 span.preheader {
   display: none !important;
@@ -94,7 +94,7 @@ table.body {
 }
 
 table.container {
-  background: #ffffff;
+  background: #111111;
   width: 580px;
   margin: 0 auto;
   text-align: inherit;
@@ -295,13 +295,13 @@ table.center, td.center {
   text-align: center;
 }
 
-.text-center h1,
-.text-center h2,
-.text-center h3,
-.text-center h4,
-.text-center h5,
-.text-center h6,
-.text-center p {
+.center h1,
+.center h2,
+.center h3,
+.center h4,
+.center h5,
+.center h6,
+.center p {
   text-align: center;
 }
 

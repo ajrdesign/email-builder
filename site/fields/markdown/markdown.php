@@ -82,6 +82,7 @@ class MarkdownField extends InputField
         'blockquote',
         'unorderedList',
         'orderedList',
+        'centertext',
         'link',
         'email',
         'image',
