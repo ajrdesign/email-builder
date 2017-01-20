@@ -5,6 +5,7 @@ pages: true
     - campaign
     - newsletter
     - variety
+    - launch
 files: false
 fields:
   title:

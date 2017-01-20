@@ -9,7 +9,7 @@
 
                 <table class="twelve columns">
                   <tr>
-                    <td class="center">
+                    <td>
 
                       <a target="_blank" href="<?php echo $page->heroLink() ?>">
                         <img class="responsive-hero" src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
@@ -28,9 +28,9 @@
 
                 <table class="twelve columns">
                   <tr>
-                    <td class="text-pad">
+                    <td class="text-pad center">
                       <?php if(!$page->subheading()->empty()): ?>
-                        <h3><?php echo $page->subheading() ?></h3>
+                        <h2><?php echo $page->subheading() ?></h2>
                       <?php endif ?>
                       <?php echo $page->copy()->kt() ?>
                       

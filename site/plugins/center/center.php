@@ -13,7 +13,7 @@ kirbytext::$pre[] = function($kirbytext, $text) {
 
     $html = kirbytext($matches[2]);
 
-    return '<div class="' . c::get('center.class', 'text-center') . '">' . $html . '</div>';
+    return '<span class="' . c::get('center.class', 'text-center') . '">' . $html . '</span>';
 
   }, $text);
 

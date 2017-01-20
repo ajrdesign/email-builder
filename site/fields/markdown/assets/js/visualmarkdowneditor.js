@@ -212,10 +212,10 @@ var VisualMarkdownEditor = function ($, field, $element, options) {
     }, {
         action: 'orderedList',
         className: 'fa fa-list-ol'
-    }, {
+    }, /*{
         action: 'centertext',
         className: 'fa fa-align-center'
-    }, {
+    }, */{
         action: 'divider'
     }, {
         action: 'link',

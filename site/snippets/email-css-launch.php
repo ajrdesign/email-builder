@@ -46,6 +46,9 @@ img {
   max-width: 100%;
   clear: both;
 }
+figure {
+  margin: 0 0 10px;
+}
 
 center {
   width: 100%;
@@ -94,7 +97,7 @@ table.body {
 }
 
 table.container {
-  background: #111111;
+  background: #050b0b;
   width: 580px;
   margin: 0 auto;
   text-align: inherit;
@@ -294,7 +297,7 @@ table.column .text-pad-right {
 table.center, td.center {
   text-align: center;
 }
-
+.center figure,
 .center h1,
 .center h2,
 .center h3,
@@ -318,7 +321,7 @@ img.center {
 /* Typography */
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
-  color: #131313;
+  color: #cfd0d0;
   font-family: Arial, Helvetica;
   font-weight: normal; 
   padding:0; 
@@ -330,17 +333,18 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
 h1, h2, h3, h4, h5, h6 {
   word-break: normal;
   font-weight: bold;
+  color: #ffffff;
 }
 
-h1 {font-size: 42px; margin-bottom:10px; line-height: 45px;}
-h2 {font-size: 30px; margin-bottom:10px; line-height: 30px;}
-h3 {font-size: 24px; margin-bottom:10px;}
-h4 {font-size: 20px; margin-bottom:10px;}
-h5 {font-size: 17px; margin-bottom:10px;}
-h6 {font-size: 14px; margin-bottom:10px;}
+h1 {font-size: 42px; margin-bottom:24px; line-height: 45px;}
+h2 {font-size: 30px; margin-bottom:24px; line-height: 30px; font-weight: normal;}
+h3 {font-size: 24px; margin-bottom:24px; line-height: 24px;}
+h4 {font-size: 20px; margin-bottom:10px; line-height: 24px;}
+h5 {font-size: 17px; margin-bottom:0; line-height: 24px;}
+h6 {font-size: 14px; margin-bottom:0; line-height: 24px;}
 body, table.body, p, td {
-  font-size: 14px;
-  line-height:21px;
+  font-size: 16px;
+  line-height:24px;
 }
 
 p.lead, p.lede, p.leed {
@@ -349,7 +353,7 @@ p.lead, p.lede, p.leed {
 }
 
 p { 
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
 
 small {
@@ -457,7 +461,7 @@ table.header td {
   color: #ffffff;
 }
 .footer .wrapper {
-  background: #ffffff;
+  background: #262C2F;
 }
 
 .footer h5 {
@@ -474,6 +478,7 @@ table.header td {
   line-height: 15px;
   color: #858B8F;
   text-align: center;
+  margin-bottom: 4px;
 }
 
 /* Buttons */
@@ -496,7 +501,7 @@ table.large-button table td {
   -webkit-border-radius: 3px; 
   -moz-border-radius: 3px; 
   border-radius: 3px;
-  background: #74C818;
+  background: #0083db;
   text-align: center;
 }
 table.button table,
@@ -859,6 +864,28 @@ table.google-plus:hover td {
 
 
 table.columns .text-pad {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+table.columns .left-text-pad {
+  padding-left: 25px;
+}
+
+table.columns .right-text-pad {
+  padding-right: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  table[class="body"] .right-text-pad {
+    padding-left: 25px !important;
+  }
+
+  table[class="body"] .left-text-pad {
+    padding-right: 25px !important;
+  }
+  table.columns .text-pad {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -870,16 +897,6 @@ table.columns .left-text-pad {
 table.columns .right-text-pad {
   padding-right: 10px;
 }
-
-@media only screen and (max-width: 600px) {
-
-  table[class="body"] .right-text-pad {
-    padding-left: 10px !important;
-  }
-
-  table[class="body"] .left-text-pad {
-    padding-right: 10px !important;
-  }
   .responsive-hero-container {
     height: 375px !important;
     background: url('<?php echo $page->mobileImg() ?>') no-repeat bottom center;
