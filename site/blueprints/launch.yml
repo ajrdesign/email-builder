@@ -70,19 +70,41 @@ fields:
       Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
   subheading:
     label: Subheading
+    help: For International Only
     type:  text
-  copy:
-    label: Body Copy
-    type:  markdown
-    required: true
-  cta:
-    label: Call to Action
-    type: text
-    width: 1/2
-    validate:
-      max: 100
-  ctaUrl:
-    label: Call to Action URL
-    type: text
-    default: https://www.bluebeam.com
-    width: 1/2
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      contentblock:
+        label: Content Block
+        snippet: sections/contentblock
+        fields:
+          text:
+            label: Content
+            type: markdown
+      cta:
+        label: Call to Action Block
+        snippet: builder/cta
+        fields:
+          text:
+            label: Button CTA
+            type: text
+            width: 1/2
+          url:
+            label: Button URL
+            type: text
+            width: 1/2
+          textSecondary:
+            label: Link CTA
+            type: text
+            width: 1/2
+          urlSecondary:
+            label: Link URL
+            type: text
+            width: 1/2
+          style:
+            label: Outline style
+            type: toggle
+            text: on/off
+            default: off

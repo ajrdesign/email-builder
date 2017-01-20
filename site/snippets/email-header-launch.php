@@ -16,33 +16,4 @@
     <td class="center" align="center" valign="top">
       <center>
 
-        <table class="container header">
-          <tr>
-            <td class="center" align="center">
-
-              <center>
-
-              <table class="row">
-                <tr>
-                  <td class="wrapper last">
-
-                    <table class="eight columns">
-                      <tr>
-                        <td class="left-text-pad">
-                          <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->language()->isEmpty(), $page->language()) ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>
-                        </td>
-                        
-                        <td class="expander"></td>
-                      </tr>
-                    </table>
-
-                  </td>
-                  
-                </tr>
-              </table>
-
-              </center>
-
-            </td>
-          </tr>
-        </table>
+        

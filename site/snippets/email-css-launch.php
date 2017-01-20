@@ -47,7 +47,7 @@ img {
   clear: both;
 }
 figure {
-  margin: 0 0 10px;
+  margin: 10px 0;
 }
 
 center {
@@ -321,7 +321,7 @@ img.center {
 /* Typography */
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
-  color: #cfd0d0;
+  color: #bfbfbf;
   font-family: Arial, Helvetica;
   font-weight: normal; 
   padding:0; 
@@ -357,7 +357,7 @@ p {
 }
 
 small {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 a {
@@ -503,6 +503,15 @@ table.large-button table td {
   border-radius: 3px;
   background: #0083db;
   text-align: center;
+
+}
+table.button.outline table td,
+table.tiny-button.outline table td,
+table.small-button.outline table td,
+table.medium-button.outline table td,
+table.large-button.outline table td {
+  background: #050b0b;
+  border: 1px solid white;
 }
 table.button table,
 table.tiny-button table,
