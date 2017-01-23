@@ -47,8 +47,9 @@ img {
   clear: both;
 }
 figure {
-  margin: 10px 0;
+  margin: 0;
 }
+
 
 center {
   width: 100%;

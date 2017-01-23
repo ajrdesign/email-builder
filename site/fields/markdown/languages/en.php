@@ -18,6 +18,7 @@ return [
     'action.tooltip.blockquote'    => 'Quote',
     'action.tooltip.unorderedList' => 'Unordered List',
     'action.tooltip.orderedList'   => 'Ordered List',
+    'action.tooltip.spacer'        => 'Add invisible vertical space',
     'action.tooltip.link'          => 'Insert Link',
     'action.tooltip.email'         => 'Insert Email Link',
     'action.tooltip.image'         => 'Insert Image',
