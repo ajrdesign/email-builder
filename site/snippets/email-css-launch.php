@@ -98,7 +98,7 @@ table.body {
 }
 
 table.container {
-  background: #050b0b;
+  background: #050505;
   width: 580px;
   margin: 0 auto;
   text-align: inherit;
