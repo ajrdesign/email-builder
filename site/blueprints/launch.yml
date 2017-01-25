@@ -43,11 +43,12 @@ fields:
     label: Hero Image
     type:  url
     required: true
-    default: https://source.unsplash.com/random/580x400
+    default: https://downloads.bluebeam.com/images/2017/2017+Launch/Revu-2017-Launch-Header-Domestic.jpg
     help: Needs to be exactly 580px wide. Height doesn't matter.
   mobileImg:
     label: Mobile Hero Image
     type: url
+    default: https://downloads.bluebeam.com/images/2017/2017+Launch/Revu-2017-Launch-Header-Domestic-mobile.jpg
     required: true
     help: Needs to be at least 375px tall. Width should be at least 600px but some devices may show far less than 600 so keep main subject matter in the middle.
   heroLink:

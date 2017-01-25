@@ -67,9 +67,9 @@ table {
 
 td { 
   word-break: normal;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
   border-collapse: collapse !important; 
 }
 
