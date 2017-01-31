@@ -84,8 +84,8 @@ table, tr, td {
 }
 
 hr {
-  color: #d9d9d9; 
-  background-color: #d9d9d9; 
+  color: #333333; 
+  background-color: #333333; 
   height: 1px; 
   border: none;
 }
