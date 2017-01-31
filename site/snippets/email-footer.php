@@ -113,6 +113,11 @@
                     <p>If you no longer want to receive emails from {[P-FIRST NAME]} {[P-LAST NAME]}, please  <a href="#">{[EMAIL OPT OUT]}</a></p>
                     <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>"><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software"></a>
+                    <?php elseif($page->language() == 'channel'): ?>
+                    <p>YOUR COMPANY NAME HERE | YOUR PHONE NUMBER HERE | YOUR COMPANY ADDRESS HERE </p>
+                    <p><a href="YOUR-UNSUBSCRIBE-URL-HERE">Unsubscribe</a></p>
+                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <a href="http://www.bluebeam.com/?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>"><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software"></a>
                     <?php else: ?>
                     <!-- Insert US one -->
                     <p>Contact Us: <a href="mailto:sales@bluebeam.com">Sales</a> | <a href="mailto:support@bluebeam.com">Support</a> | <a href="http://www.bluebeam.com/us/contact/?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>">Help</a></p>

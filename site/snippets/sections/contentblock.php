@@ -4,7 +4,7 @@
 
 			<table class="twelve columns">
 				<tr>
-					<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'left' : 'center' ?>">
+					<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
 						<?= $data->text()->kt() ?>  
 
 

@@ -11,7 +11,7 @@
                   <tr>
                     <td>
 
-                      <a target="_blank" href="<?php echo $page->heroLink() ?>">
+                      <a target="_blank" href="<?php echo $page->heroLink() ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>">
                         <img class="responsive-hero" src="<?php echo $page->heroImg() ?>" width="580" alt="<?php echo $page->heroAlt() ?>">
                       </a>
                     </td>

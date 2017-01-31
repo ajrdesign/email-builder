@@ -21,6 +21,7 @@ fields:
       se: Sweden
       jp: Japan
       kr: Korea
+      channel: Reseller Template
   tracking:
     label: Source Code
     type: text
