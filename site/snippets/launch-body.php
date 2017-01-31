@@ -28,7 +28,7 @@
 
                 <table class="twelve columns">
                   <tr>
-                    <td class="text-pad center">
+                    <td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
                       <?php if(!$page->subheading()->empty()): ?>
                         <h2><?php echo $page->subheading() ?></h2>
                       <?php endif ?>

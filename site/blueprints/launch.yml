@@ -25,6 +25,14 @@ fields:
     label: Source Code
     type: text
     width: 1/2
+  headerSettings:
+    label: Header
+    type: headline
+  header:
+    label: Header Area
+    type: toggle
+    text: yes/no
+    default: no
   labelSettings:
     label: Email Client Optimization
     type: headline
@@ -65,6 +73,11 @@ fields:
   contentSettings:
     label: Content
     type: headline
+  contentAlign:
+    label: Center Content
+    type: toggle
+    text: yes/no
+    default: yes
   info:
     type: info
     text: >

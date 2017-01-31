@@ -308,6 +308,16 @@ table.center, td.center {
 .center p {
   text-align: center;
 }
+.left figure,
+.left h1,
+.left h2,
+.left h3,
+.left h4,
+.left h5,
+.left h6,
+.left p {
+  text-align: left;
+}
 
 img.center {
   margin: 0 auto;
@@ -455,8 +465,9 @@ blockquote {
 }
 
 table.header {
-  background: #131313;
+  background: #050609;
   color: #ffffff;
+  border-bottom: 1px solid #0083db;
 }
 table.header td {
   color: #ffffff;
