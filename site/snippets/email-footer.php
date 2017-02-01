@@ -109,10 +109,12 @@
                     <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
                     © Copyright 2002 - 2017  <a href="http://www.bluebeam.com/uk/?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/uk/?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
+                    
                     <?php elseif($page->style() == 'cvent'): ?>
                     <p>If you no longer want to receive emails from {[P-FIRST NAME]} {[P-LAST NAME]}, please  <a href="#">{[EMAIL OPT OUT]}</a></p>
                     <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>"><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software"></a>
+                    
                     <?php elseif($page->language() == 'channel'): ?>
                     <p>YOUR COMPANY NAME HERE | YOUR PHONE NUMBER HERE | YOUR COMPANY ADDRESS HERE </p>
                     <p><a href="YOUR-UNSUBSCRIBE-URL-HERE">Unsubscribe</a></p>

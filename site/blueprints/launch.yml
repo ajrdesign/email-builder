@@ -98,6 +98,26 @@ fields:
           text:
             label: Content
             type: markdown
+      share:
+        label: Share on Social Block
+        snippet: builder/share
+        fields:
+          calltoaction:
+            label: Call to Action
+            type: text
+          info:
+            type: info
+            text: >
+              This may help you with any formating issues: http://www.sharelinkgenerator.com/
+          facebookUrl:
+            label: Facebook Share URL
+            type: text
+          twitterUrl:
+            label: Twitter Share URL
+            type: text
+          linkedinUrl:
+            label: LinkedIn Share URL
+            type: text
       cta:
         label: Call to Action Block
         snippet: builder/cta
