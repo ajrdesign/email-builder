@@ -5,7 +5,7 @@
         <table class="six columns ">
           <tr>
             <td class="text-pad center">
-              <h5><?= $data->calltoaction() ?></h5>
+              <h6 style="letter-spacing:1px;"><?= $data->calltoaction() ?></h6>
               <table class="spacer">
                 <tbody>
                   <tr>
