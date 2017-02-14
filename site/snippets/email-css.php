@@ -318,7 +318,7 @@ img.center {
 /* Typography */
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
-  color: #131313;
+  color: #666666;
   font-family: Arial, Helvetica;
   font-weight: normal; 
   padding:0; 
@@ -330,6 +330,7 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
 h1, h2, h3, h4, h5, h6 {
   word-break: normal;
   font-weight: bold;
+  color: #131313;
 }
 
 h1 {font-size: 42px; margin-bottom:10px; line-height: 45px;}

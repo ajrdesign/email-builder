@@ -1,0 +1,9 @@
+Title: Basic Template
+
+----
+
+When: Feburary 13, 2017
+
+----
+
+Text: Added a bare bones template to the options that can be used to have just copy and call to actions.
