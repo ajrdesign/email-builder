@@ -6,8 +6,6 @@
 				<tr>
 					<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
 						<?= $data->text()->kt() ?>  
-
-
 					</td>
 				</tr>
 			</table>

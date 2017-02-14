@@ -4,6 +4,7 @@ pages: true
     - standard
     - campaign
     - newsletter
+    - basic
     - variety
     - launch
 files: false

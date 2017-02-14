@@ -4,6 +4,7 @@ pages: true
     - standard-intl
     - campaign-intl
     - newsletter-intl
+    - basic-intl
     - launch
 files: false
 fields:
