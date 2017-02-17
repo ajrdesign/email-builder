@@ -1,0 +1,33 @@
+Labelsettings: 
+
+----
+
+Title: Basic
+
+----
+
+Preheader: 
+
+----
+
+Contentsettings: 
+
+----
+
+Info: 
+
+----
+
+Builder: 
+
+- 
+  text: |
+    (spacer:5)
+    ## Header
+    (spacer:10)
+    Delivering enhanced PDF-based takeoff and workflow automation tools that span the entire project lifecycle and maximize workflow efficiency.
+  _fieldset: contentblock
+- 
+  text: Testew
+  url: http://
+  _fieldset: cta

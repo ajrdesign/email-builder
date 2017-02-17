@@ -750,7 +750,7 @@ body.outlook p {
 
   table[class="body"] .row {
     width: 100% !important;
-    display: block !important;
+    display: table !important;
   }
 
   table[class="body"] .wrapper {

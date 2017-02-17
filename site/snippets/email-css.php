@@ -46,6 +46,9 @@ img {
   max-width: 100%;
   clear: both;
 }
+figure {
+  margin: 0;
+}
 
 center {
   width: 100%;
@@ -80,8 +83,8 @@ table, tr, td {
 }
 
 hr {
-  color: #d9d9d9; 
-  background-color: #d9d9d9; 
+  color: #ecebeb; 
+  background-color: #ecebeb; 
   height: 1px; 
   border: none;
 }
@@ -291,7 +294,7 @@ table.column .text-pad-right {
 
 /* Alignment & Visibility Classes */
 
-table.center, td.center {
+table.center, td.center, p.center {
   text-align: center;
 }
 
@@ -499,6 +502,20 @@ table.large-button table td {
   border-radius: 3px;
   background: #74C818;
   text-align: center;
+}
+table.button.button-blue table td,
+table.tiny-button.button-blue table td,
+table.small-button.button-blue table td,
+table.medium-button.button-blue table td,
+table.large-button.button-blue table td {
+  background: #0083db;
+}
+table.button.button-grayDarker table td,
+table.tiny-button.button-grayDarker table td,
+table.small-button.button-grayDarker table td,
+table.medium-button.button-grayDarker table td,
+table.large-button.button-grayDarker table td {
+  background: #333333;
 }
 table.button table,
 table.tiny-button table,
@@ -725,7 +742,7 @@ body.outlook p {
 
   table[class="body"] .row {
     width: 100% !important;
-    display: block !important;
+    display: table !important;
   }
 
   table[class="body"] .wrapper {

@@ -12,7 +12,7 @@
               <table class="twelve columns">
                 <tr>
                   <td class="text-pad center">
-
+                    <hr>
                     <?php if($page->parent()->facebook()->isTrue()): ?>
                     <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-facebook-email-footer.png" alt="Facebook"></a>
                     <?php endif ?>
