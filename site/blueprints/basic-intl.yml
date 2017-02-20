@@ -66,3 +66,31 @@ fields:
             label: Button URL
             type: text
             width: 1/2
+      ctadouble:
+        label: CTAx2 Block (Launch Only)
+        snippet: builder/ctadouble
+        fields:
+          copyLeft:
+            label: Copy Above Button (Left)
+            type: text
+            width: 1/3
+          textLeft:
+            label: Button CTA (Left)
+            type: text
+            width: 1/3
+          urlLeft:
+            label: Button URL (Left)
+            type: text
+            width: 1/3
+          copyRight:
+            label: Copy Above Button (Right)
+            type: text
+            width: 1/3
+          textRight:
+            label: Button CTA (Right)
+            type: text
+            width: 1/3
+          urlRight:
+            label: Button URL (Right)
+            type: text
+            width: 1/3

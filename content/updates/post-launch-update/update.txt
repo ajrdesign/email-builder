@@ -1,0 +1,9 @@
+Title: Post Launch Update
+
+----
+
+When: February 17, 2017
+
+----
+
+Text: Adding a model to the Basic template to accommodate for the day of launch email template.
