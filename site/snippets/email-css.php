@@ -1,3 +1,8 @@
+ <!--[if !mso]><!-- -->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,700" rel="stylesheet">
+
+<!--<![endif]-->
 <style>
 
 /* Client-specific Styles & Reset */
@@ -322,29 +327,33 @@ img.center {
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
   color: #666666;
-  font-family: Arial, Helvetica;
+  font-family: "Open Sans", Arial, Helvetica;
   font-weight: normal; 
   padding:0; 
   margin: 0;
   text-align: left; 
   line-height: 1.3;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Arial, Helvetica;
   word-break: normal;
-  font-weight: bold;
+  font-weight: 700;
   color: #131313;
 }
 
-h1 {font-size: 42px; margin-bottom:10px; line-height: 45px;}
-h2 {font-size: 30px; margin-bottom:10px; line-height: 30px;}
-h3 {font-size: 24px; margin-bottom:10px;}
-h4 {font-size: 20px; margin-bottom:10px;}
+h1 {font-size: 38px; margin-bottom:10px; line-height: 45px;}
+h2 {font-size: 32px; font-weight: 300; margin-bottom:10px; line-height: 42px;}
+h3 {font-size: 18px; letter-spacing: 1px; margin-bottom:10px; line-height: 32px;}
+h4 {font-size: 24px; letter-spacing: 1px; margin-bottom:10px;}
 h5 {font-size: 17px; margin-bottom:10px;}
 h6 {font-size: 14px; margin-bottom:10px;}
 body, table.body, p, td {
-  font-size: 14px;
-  line-height:21px;
+  font-size: 16px;
+  line-height:24px;
 }
 
 p.lead, p.lede, p.leed {
@@ -554,7 +563,9 @@ table.large-button td a {
   border-radius: 3px; 
   display: inline-block;
   text-align: center;
-  font-weight: bold;
+  font-family: "Roboto", Arial, Helvetica;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 table.new-button  {
