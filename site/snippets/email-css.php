@@ -697,7 +697,7 @@ h5.edition-date {
   font-weight: normal;
   letter-spacing: 1px;
   font-size: 11px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0;
   width: 100%;
 }

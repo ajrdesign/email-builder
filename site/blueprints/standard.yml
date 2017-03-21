@@ -2,6 +2,10 @@ title: Standard
 pages: false
 files: true
 fields:
+  tracking:
+    label: Tracking String
+    type: text
+    help: This will add a string to the end of URL's for header/footer elements.
   labelSettings:
     label: Email Client Optimization
     type: headline

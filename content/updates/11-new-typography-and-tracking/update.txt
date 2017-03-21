@@ -1,0 +1,15 @@
+Title: New Typography and Tracking
+
+----
+
+When: March 21, 2017
+
+----
+
+Text: 
+
+A few updates:
+
+* Added new typography to all emails with fallbacks for email clients that don't support webfonts.
+* Added a tracking field that you can use to add strings to all header and footer links to make sure they are being tracked.
+* Removed Launch email options. Launch emails will remain accessible but the options that made them possible will go away as they are very specific and not made to be used in other emails.

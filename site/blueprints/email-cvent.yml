@@ -4,6 +4,7 @@ pages: true
     - standard-cvent
     - campaign-cvent
     - newsletter-cvent
+    - basic-cvent
 files: false
 fields:
   title:
@@ -16,7 +17,7 @@ fields:
   logo:
     label: Header Logo
     type: url
-    default: https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-logo-email-header-V4.png
+    default: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
     required: true
   logoUrl:
     label: Logo Link

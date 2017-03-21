@@ -20,7 +20,7 @@
       <div class="navbar-inner navbar-bluebeam">
         <div class="container">
           <a class="brand" href="<?php echo url() ?>">
-            <img class="pull-left ie-hidden hidden-tablet" src="<?php echo url('assets/images/bb-nolimits-horiz-RGB.svg') ?>" alt="<?php echo $site->title()->html() ?>">
+            <img class="pull-left ie-hidden hidden-tablet" src="https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png" alt="<?php echo $site->title()->html() ?>">
           </a>
           <ul class="nav pull-right">
             <li><a href="mailto:website@bluebeam.com">Request Account</a></li>

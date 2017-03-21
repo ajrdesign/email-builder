@@ -2,7 +2,7 @@ Title: Templates
 
 ----
 
-Logo: http://placehold.it/200x32
+Logo: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
 
 ----
 
