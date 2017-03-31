@@ -1,51 +1,49 @@
- <!--[if !mso]><!-- -->
-
+<!--[if !mso]><!-- -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,700" rel="stylesheet">
-
 <!--<![endif]-->
 <style>
 
 /* Client-specific Styles & Reset */
 
-#outlook a { 
-  padding:0; 
-} 
+#outlook a {
+  padding:0;
+}
 
-body{ 
-  width:100% !important; 
+body{
+  width:100% !important;
   min-width: 100%;
-  -webkit-text-size-adjust:100%; 
-  -ms-text-size-adjust:100%; 
-  margin:0; 
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  margin:0;
   padding:0 0 104px !important;
   background-color: #F1F1F1;
 }
 span.preheader {
   display: none !important;
 }
-.ExternalClass { 
+.ExternalClass {
   width:100%;
-} 
-
-.ExternalClass, 
-.ExternalClass p, 
-.ExternalClass span, 
-.ExternalClass font, 
-.ExternalClass td, 
-.ExternalClass div { 
-  line-height: 100%; 
-} 
-
-#backgroundTable { 
-  margin:0; 
-  padding:0; 
-  width:100% !important; 
-  line-height: 100% !important; 
 }
 
-img { 
-  outline:none; 
-  text-decoration:none; 
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+#backgroundTable {
+  margin:0;
+  padding:0;
+  width:100% !important;
+  line-height: 100% !important;
+}
+
+img {
+  outline:none;
+  text-decoration:none;
   -ms-interpolation-mode: bicubic;
   width: auto;
   max-width: 100%;
@@ -60,7 +58,7 @@ center {
   min-width: 580px;
 }
 
-a img { 
+a img {
   border: none;
 }
 
@@ -73,12 +71,12 @@ table {
   border-collapse: collapse;
 }
 
-td { 
+td {
   word-break: normal;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   hyphens: none;
-  border-collapse: collapse !important; 
+  border-collapse: collapse !important;
 }
 
 table, tr, td {
@@ -88,9 +86,9 @@ table, tr, td {
 }
 
 hr {
-  color: #ecebeb; 
-  background-color: #ecebeb; 
-  height: 1px; 
+  color: #ecebeb;
+  background-color: #ecebeb;
+  height: 1px;
   border: none;
 }
 
@@ -108,8 +106,8 @@ table.container {
   text-align: inherit;
 }
 
-table.row { 
-  padding: 0px; 
+table.row {
+  padding: 0px;
   width: 100%;
   position: relative;
 }
@@ -136,7 +134,7 @@ table.column {
 
 table.columns td,
 table.column td {
-  padding: 0px 0px 10px; 
+  padding: 0px 0px 10px;
 }
 
 table.columns td.sub-columns,
@@ -325,16 +323,16 @@ img.center {
 
 /* Typography */
 
-body, table.body, h1, h2, h3, h4, h5, h6, p, td {  
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   color: #666666;
   font-family: "Open Sans", Arial, Helvetica;
-  font-weight: normal; 
-  padding:0; 
+  font-weight: normal;
+  padding:0;
   margin: 0;
-  text-align: left; 
+  text-align: left;
   line-height: 1.3;
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 
@@ -361,7 +359,7 @@ p.lead, p.lede, p.leed {
   line-height:21px;
 }
 
-p { 
+p {
   margin-bottom: 10px;
 }
 
@@ -370,76 +368,76 @@ small {
 }
 
 a {
-  color: #0083db; 
+  color: #0083db;
   text-decoration: none;
 }
 
-a:hover { 
+a:hover {
   color: #0083db !important;
   text-decoration: underline !important;
 }
 
-a:active { 
+a:active {
   color: #0083db !important;
 }
 
-a:visited { 
+a:visited {
   color: #0083db !important;
 }
 
-h1 a, 
-h2 a, 
-h3 a, 
-h4 a, 
-h5 a, 
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
 h6 a {
   color: #0083db;
 }
 
-.newsletter h1 a, 
-.newsletter h2 a, 
-.newsletter h3 a, 
-.newsletter h4 a, 
-.newsletter h5 a, 
+.newsletter h1 a,
+.newsletter h2 a,
+.newsletter h3 a,
+.newsletter h4 a,
+.newsletter h5 a,
 .newsletter h6 a {
   color: #000000;
 }
 
-h1 a:active, 
-h2 a:active,  
-h3 a:active, 
-h4 a:active, 
-h5 a:active, 
-h6 a:active { 
-  color: #0083db !important; 
-} 
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+  color: #0083db !important;
+}
 
-h1 a:visited, 
-h2 a:visited,  
-h3 a:visited, 
-h4 a:visited, 
-h5 a:visited, 
-h6 a:visited { 
-  color: #0083db !important; 
-} 
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+  color: #0083db !important;
+}
 
-.newsletter h1 a:active, 
-.newsletter h2 a:active,  
-.newsletter h3 a:active, 
-.newsletter h4 a:active, 
-.newsletter h5 a:active, 
-.newsletter h6 a:active { 
-  color: #040404 !important; 
-} 
+.newsletter h1 a:active,
+.newsletter h2 a:active,
+.newsletter h3 a:active,
+.newsletter h4 a:active,
+.newsletter h5 a:active,
+.newsletter h6 a:active {
+  color: #040404 !important;
+}
 
-.newsletter h1 a:visited, 
-.newsletter h2 a:visited,  
-.newsletter h3 a:visited, 
-.newsletter h4 a:visited, 
-.newsletter h5 a:visited, 
-.newsletter h6 a:visited { 
-  color: #040404 !important; 
-} 
+.newsletter h1 a:visited,
+.newsletter h2 a:visited,
+.newsletter h3 a:visited,
+.newsletter h4 a:visited,
+.newsletter h5 a:visited,
+.newsletter h6 a:visited {
+  color: #040404 !important;
+}
 
 blockquote {
   border-left: 2px solid #0083db;
@@ -506,8 +504,8 @@ table.small-button table td,
 table.medium-button table td,
 table.large-button table td {
   padding:0;
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
   background: #74C818;
   text-align: center;
@@ -555,12 +553,12 @@ table.tiny-button td a,
 table.small-button td a,
 table.medium-button td a,
 table.large-button td a {
-  color: #ffffff; 
-  text-decoration: none; 
-  text-decoration: none; 
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  border-radius: 3px; 
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   display: inline-block;
   text-align: center;
   font-family: "Roboto", Arial, Helvetica;
@@ -577,7 +575,7 @@ table.new-button tbody {
 
 table.tiny-button td a {
   font-size: 12px;
-  
+
 }
 
 table.small-button td a {
@@ -626,7 +624,7 @@ table.medium-button td a:visited,
 table.large-button:hover td a,
 table.large-button:active td a,
 table.large-button td a:visited {
-  color: #ffffff !important; 
+  color: #ffffff !important;
 }
 
 table.secondary td {
@@ -928,3 +926,8 @@ td.wrapper.wrapper-flush-t-padding {
   padding:0 20px 0 0;
 }
 </style>
+<!--[if mso]>
+<style type="text/css">
+body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+</style>
+<![endif]-->
