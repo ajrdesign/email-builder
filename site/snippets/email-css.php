@@ -928,6 +928,6 @@ td.wrapper.wrapper-flush-t-padding {
 </style>
 <!--[if mso]>
 <style type="text/css">
-body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+body, table, td, h1, h2, h3, h4, h5, h6, p {font-family: Arial, Helvetica, sans-serif !important;}
 </style>
 <![endif]-->
