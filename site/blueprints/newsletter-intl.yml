@@ -23,8 +23,9 @@ fields:
       jp: Japan
       kr: Korea
   tracking:
-    label: Source Code
+    label: Tracking String
     type: text
+    help: This will add a string to the end of URL's for header/footer elements.
     width: 1/2
   labelSettings:
     label: Email Client Optimization
@@ -56,7 +57,7 @@ fields:
     label: Intro/summary
     type: markdown
     default: Hi Bob... this month's newsletter is about...
-  article: 
+  article:
     label: Articles
     type: structure
     entry: >
@@ -65,12 +66,12 @@ fields:
           <strong>Copy:</strong> {{text}}</br>
           <strong>URL:</strong> {{url}}</br>
           <strong>Call to Action:</strong> {{cta}}
-    fields: 
-      imgDivider: 
+    fields:
+      imgDivider:
         label: Section Divider (Optional)
         type: url
         help: If you need to divide articles into sections you can use this to add a divider image above this article. Should be 560px wide.
-      picture: 
+      picture:
         label: Picture
         type: url
         default: https://source.unsplash.com/random/560x260

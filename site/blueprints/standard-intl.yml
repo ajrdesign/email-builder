@@ -22,8 +22,9 @@ fields:
       jp: Japan
       kr: Korea
   tracking:
-    label: Source Code
+    label: Tracking String
     type: text
+    help: This will add a string to the end of URL's for header/footer elements.
     width: 1/2
   labelSettings:
     label: Email Client Optimization
@@ -32,9 +33,6 @@ fields:
     label: Title
     type:  text
     help: This does not appear in the email.
-  tracking:
-    label: Source Code
-    type: text
   preheader:
     label: Preheader
     type: text
