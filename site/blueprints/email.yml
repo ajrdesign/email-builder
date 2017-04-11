@@ -6,6 +6,7 @@ pages: true
     - newsletter
     - basic
     - variety
+    - breakground
 files: false
 fields:
   title:

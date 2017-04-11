@@ -1,0 +1,62 @@
+Title: Breakground
+
+----
+
+Heroimg: https://source.unsplash.com/random/580x400
+
+----
+
+Herolink: mailto:someone@bluebeam.com
+
+----
+
+Heroalt: Some text
+
+----
+
+Info: 
+
+----
+
+Herocopy: We will work with you to fully understand your business and your target audience to inform our marketing strategy.
+
+----
+
+Ctaurl: mailto:a@a.com
+
+----
+
+Subheading: Heading
+
+----
+
+Copy: Here is some copy
+
+----
+
+Mobileimg: https://source.unsplash.com/random/600x400
+
+----
+
+Preheader: 
+
+----
+
+Labelsettings: 
+
+----
+
+Builder: 
+
+- 
+  sectionimg: >
+    https://downloads.bluebeam.com/images/2017/2017+Launch/Revu-2017-Launch-Header-Domestic.jpg
+  mobilesectionimg: >
+    https://downloads.bluebeam.com/images/2017/2017+Launch/Revu-2017-Launch-Header-Domestic-mobile.jpg
+  sectionimglink: https://www.bluebeam.com
+  sectionimgalt: ""
+  header: Header 22
+  description: Content 1000
+  url: '#'
+  linktext: Link It!
+  _fieldset: breakgroundArticle
