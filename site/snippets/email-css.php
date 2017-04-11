@@ -1,5 +1,5 @@
 <!--[if !mso]><!-- -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,500,700|Anton" rel="stylesheet">
 <!--<![endif]-->
 <style>
 

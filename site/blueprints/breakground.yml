@@ -2,6 +2,9 @@ title: Breakground
 pages: false
 files: true
 fields:
+  css: 
+    type: hidden
+    default: breakground
   labelSettings:
     label: Email Client Optimization
     type: headline
@@ -29,7 +32,7 @@ fields:
           <strong>Copy:</strong> {{text}}</br>
           <strong>URL:</strong> {{url}}</br>
           <strong>Call to Action:</strong> {{cta}}
-    fields: 
+    fields:
       picture: 
         label: Picture
         type: url
