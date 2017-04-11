@@ -1,0 +1,54 @@
+Labelsettings: Scond Breakground Email
+
+----
+
+Preheader: Get ready for the New Year with Bluebeam
+
+----
+
+Herosettings: 
+
+----
+
+Heroimg: https://source.unsplash.com/random/580x375
+
+----
+
+Mobileimg: https://source.unsplash.com/random/600x375
+
+----
+
+Herolink: http://www.breakgroundmedia.com/
+
+----
+
+Heroalt: Alt It
+
+----
+
+Contentsettings: 
+
+----
+
+Info: 
+
+----
+
+Builder: 
+
+- 
+  sectionimg: >
+    https://source.unsplash.com/random/580x375
+  mobilesectionimg: >
+    https://source.unsplash.com/random/600x375
+  sectionimglink: http://www.breakgroundmedia.com/
+  sectionimgalt: alt text
+  header: First Section
+  description: That copy tho!
+  url: '#'
+  linktext: Link
+  _fieldset: breakgroundArticle
+
+----
+
+Title: Breakground June
