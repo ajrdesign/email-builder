@@ -28,7 +28,7 @@
                 <h4><a target="_blank" href="<?php echo $article->url() ?>"><?php echo $article->headline() ?> </a></h4>
                 <?php echo $article->text->kt() ?>
                 <?php if(!$article->cta()->empty()): ?>
-                <a target="_blank" href="<?php echo $article->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
+                <a target="_blank" href="<?php echo $article->url() ?>"><img src="http://downloads.bluebeam.com/images/2017/Breakground-Email/pink-arrow-v02.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
                 <?php endif ?>
 
               </td>
