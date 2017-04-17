@@ -1,0 +1,67 @@
+title: Breakground Email Category
+pages: true
+ template:
+    - breakground
+files: false
+fields:
+  title:
+    label: Category
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+    help: Brief description of the email category for the homepage of the Email Builder.
+  logo:
+    label: Header Logo
+    type: url
+    default: http://downloads.bluebeam.com/images/assets/logos/breakground-email-header.jpeg
+    required: true
+  logoUrl:
+    label: Logo Link
+    type: url
+    required: true
+    default: http://www.breakgroundmedia.com/
+    width: 3/4
+  logoAlt:
+    label: Logo Alt
+    type: text
+    default: Breakground Logo
+    width: 1/2
+  line:
+    type: line
+  facebook:
+    label: Facebook
+    type: checkbox
+    text: on/off
+    width: 1/4
+  facebookUrl:
+    label: URL
+    type: url
+    default: http://www.facebook.com
+    width: 3/4
+  line-a:
+    type: line
+  twitter:
+    label: Twitter
+    type: checkbox
+    text: on/off
+    width: 1/4
+  twitterUrl:
+    label: URL
+    type: url
+    default: http://www.twitter.com
+    width: 3/4
+  line-c:
+    type: line
+  instagram:
+    label: Instagram
+    type: checkbox
+    text: on/off
+    width: 1/4
+  instagramUrl:
+    label: URL
+    type: url
+    default: http://www.instagram.com
+    width: 3/4
+  line-d:
+    type: line

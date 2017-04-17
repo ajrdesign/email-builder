@@ -1,0 +1,58 @@
+title: Breakground
+pages: false
+files: true
+fields:
+  css: 
+    type: hidden
+    default: breakground
+  labelSettings:
+    label: Email Client Optimization
+    type: headline
+    title:
+    label: Title
+    type:  text
+    help: This does not appear in the email.
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
+  contentSettings:
+    label: Content
+    type: headline
+  info:
+    type: info
+    text: >
+      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  article: 
+    label: Articles
+    type: structure
+    entry: >
+          <img style="max-height:100px;" src="{{picture}}">
+          <h5>{{headline}}</h5>
+          <strong>Copy:</strong> {{text}}</br>
+          <strong>URL:</strong> {{url}}</br>
+          <strong>Call to Action:</strong> {{cta}}
+    fields:
+      picture: 
+        label: Picture
+        type: url
+        default: https://source.unsplash.com/random/560x260
+        width: 1/2
+      headline:
+        label: Headline
+        type: text
+        width: 1/2
+      text:
+        label: Copy
+        type: textarea
+      cta:
+        label: Call to Action
+        type: text
+        default: Read More
+        help: Leave blank to remove.
+        width: 1/2
+      url:
+        label: Link
+        type: text
+        default: http://www.breakgroundmedia.com/
+        width: 1/2

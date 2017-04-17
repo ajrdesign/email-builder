@@ -1,5 +1,5 @@
 <!--[if !mso]><!-- -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,500,700|Anton" rel="stylesheet">
 <!--<![endif]-->
 <style>
 
@@ -708,30 +708,15 @@ hr.header-divider {
 .intro-content p {
   margin-bottom:0;
 }
-/* Variety Styling */
-
-.variety-heading h5 {
-  font-size: 14px;
-  color: #ffffff;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-  text-align: center;
-  font-weight: normal;
-}
-.variety-heading h6 {
-  font-size: 10px;
-  color: #d1d1d1;
-  font-weight: normal;
-  text-align: center;
-  margin-bottom:0;
-}
 
 /* Outlook First */
 
 body.outlook p {
   display: inline !important;
 }
-
+<?php if($page->css() == 'breakground'): ?>
+  <?php snippet('email-css-breakground') ?>
+<?php endif ?>
 /*  Media Queries */
 
 @media only screen and (max-width: 600px) {
@@ -843,36 +828,6 @@ body.outlook p {
   }
 }
 
-</style>
-<style>
-
-table.facebook td {
-  background: #3b5998;
-  border-color: #2d4473;
-}
-
-table.facebook:hover td {
-  background: #2d4473 !important;
-}
-
-table.twitter td {
-  background: #00acee;
-  border-color: #0087bb;
-}
-
-table.twitter:hover td {
-  background: #0087bb !important;
-}
-
-table.google-plus td {
-  background-color: #DB4A39;
-  border-color: #CC0000;
-}
-
-table.google-plus:hover td {
-  background: #CC0000 !important;
-}
-
 .template-label {
   color: #cccccc;
   font-size: 13px;
@@ -882,8 +837,6 @@ table.google-plus:hover td {
   background: #ECF8FF;
   border-color: #b9e5ff;
 }
-
-
 
 table.columns .text-pad {
   padding-left: 10px;
@@ -925,9 +878,10 @@ table.columns .right-text-pad {
 td.wrapper.wrapper-flush-t-padding {
   padding:0 20px 0 0;
 }
+
 </style>
 <!--[if mso]>
 <style type="text/css">
-body, table, td, h1, h2, h3, h4, h5, h6, p {font-family: Arial, Helvetica, sans-serif !important;}
+body, table, td, h1, h2, h3, h4, h5, h6, p,table.button td a, table.tiny-button td a, table.small-button td a, table.medium-button td a, table.large-button td a {font-family: Arial, Helvetica, sans-serif !important;}
 </style>
 <![endif]-->
