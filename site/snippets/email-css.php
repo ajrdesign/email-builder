@@ -714,7 +714,9 @@ hr.header-divider {
 body.outlook p {
   display: inline !important;
 }
-
+<?php if($page->css() == 'breakground'): ?>
+  <?php snippet('email-css-breakground') ?>
+<?php endif ?>
 /*  Media Queries */
 
 @media only screen and (max-width: 600px) {
@@ -876,9 +878,7 @@ table.columns .right-text-pad {
 td.wrapper.wrapper-flush-t-padding {
   padding:0 20px 0 0;
 }
-<?php if($page->css() == 'breakground'): ?>
-  <?php snippet('email-css-breakground') ?>
-<?php endif ?>
+
 </style>
 <!--[if mso]>
 <style type="text/css">
