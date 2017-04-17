@@ -76,6 +76,13 @@ Article:
   text: Text
   cta: Read More
   url: https://www.bluebeam.com
+- 
+  picture: >
+    https://source.unsplash.com/random/560x260
+  headline: Headline Two
+  text: "Here is a sample sentence for the article. Let's make sure this goes to two lines so we can see what it looks like. I like cats."
+  cta: Read More
+  url: http://www.breakgroundmedia.com/
 
 ----
 
