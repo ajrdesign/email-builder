@@ -12,6 +12,7 @@ table.container {
 
 hr {
   background-color: #434142;
+  color: #434142;
 }
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
