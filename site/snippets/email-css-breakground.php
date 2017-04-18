@@ -5,7 +5,10 @@ body {
 table.container {
   background: #000000;
 }
-
+table.header .columns td {
+	padding: 0;
+	line-height: 1px;
+}
 .footer .wrapper {
   background: #000000;
 }
