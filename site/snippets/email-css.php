@@ -237,22 +237,22 @@ td.expander {
 
 table.columns .text-pad,
 table.column .text-pad {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 table.columns .left-text-pad,
 table.columns .text-pad-left,
 table.column .left-text-pad,
 table.column .text-pad-left {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 table.columns .right-text-pad,
 table.columns .text-pad-right,
 table.column .right-text-pad,
 table.column .text-pad-right {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 /* Block Grid */
