@@ -25,12 +25,22 @@ fields:
     type: url
     required: true
     default: https://www.bluebeam.com
-    width: 3/4
+    width: 1/2
   logoAlt:
     label: Logo Alt
     type: text
     default: Bluebeam Logo
     width: 1/2
+  emailclient:
+    label: Will be sent from
+    type: radio
+    help: This will determine what tags/footer data will populate. Choose 'Other' to remove all dynamic tags and tracking.
+    default: et
+    columns: 3
+    options:
+      et: Exact Target
+      cvent: CVENT
+      other: Other
   line:
     type: line
   facebook:
@@ -43,8 +53,6 @@ fields:
     type: url
     default: http://www.facebook.com
     width: 3/4
-  line-a:
-    type: line
   linkedin:
     label: Linkedin
     type: checkbox
@@ -55,8 +63,6 @@ fields:
     type: url
     default: http://www.linkedin.com
     width: 3/4
-  line-b:
-    type: line
   twitter:
     label: Twitter
     type: checkbox
@@ -67,8 +73,6 @@ fields:
     type: url
     default: http://www.twitter.com
     width: 3/4
-  line-c:
-    type: line
   instagram:
     label: Instagram
     type: checkbox
@@ -79,8 +83,6 @@ fields:
     type: url
     default: http://www.instagram.com
     width: 3/4
-  line-d:
-    type: line
   youtube:
     label: YouTube
     type: checkbox
@@ -91,5 +93,3 @@ fields:
     type: url
     default: http://www.youtube.com
     width: 3/4
-  line-e:
-    type: line

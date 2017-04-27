@@ -9,7 +9,9 @@
   </head>
 
   <body>
+<?php if($page->parent()->emailclient() == 'et'): ?>
 <custom name="opencounter" type="tracking">
+<?php endif ?>
   <span class="preheader"><?php echo $page->preheader() ?></span>
 <table class="body">
   <tr>
@@ -31,7 +33,7 @@
                         <td class="left-text-pad">
                           <a href="<?php echo $page->parent()->logoUrl() ?>//<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>
                         </td>
-                        
+
                         <td class="expander"></td>
                       </tr>
                     </table>
@@ -44,7 +46,7 @@
                         <td class="right-text-pad">
                           <h5 class="edition-date"><?php echo $page->month() ?></h5>
                         </td>
-                        
+
                         <td class="expander"></td>
                       </tr>
                     </table>
