@@ -325,7 +325,7 @@ img.center {
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   color: #666666;
-  font-family: "Open Sans", Arial, Helvetica;
+  font-family: 'Open Sans', Arial, Helvetica;
   font-weight: normal;
   padding:0;
   margin: 0;
@@ -337,7 +337,7 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", Arial, Helvetica;
+  font-family: 'Roboto', Arial, Helvetica;
   word-break: normal;
   font-weight: 700;
   color: #131313;

@@ -51,7 +51,7 @@ fields:
   facebookUrl:
     label: URL
     type: url
-    default: http://www.facebook.com
+    default: https://www.facebook.com/bluebeam
     width: 3/4
   linkedin:
     label: Linkedin
@@ -61,7 +61,7 @@ fields:
   linkedinUrl:
     label: URL
     type: url
-    default: http://www.linkedin.com
+    default: https://www.linkedin.com/company-beta/111265/
     width: 3/4
   twitter:
     label: Twitter
@@ -71,7 +71,7 @@ fields:
   twitterUrl:
     label: URL
     type: url
-    default: http://www.twitter.com
+    default: https://twitter.com/Bluebeam
     width: 3/4
   instagram:
     label: Instagram
@@ -81,7 +81,7 @@ fields:
   instagramUrl:
     label: URL
     type: url
-    default: http://www.instagram.com
+    default: https://www.instagram.com/bluebeam_inc/
     width: 3/4
   youtube:
     label: YouTube
@@ -91,5 +91,5 @@ fields:
   youtubeUrl:
     label: URL
     type: url
-    default: http://www.youtube.com
+    default: https://www.youtube.com/user/BluebeamPDFRevu
     width: 3/4
