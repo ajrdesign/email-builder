@@ -206,6 +206,6 @@
           </td>
         </tr>
       </table>
-    </custom>
   </body>
+  <custom name="opencounter" type="tracking"></custom>
 </span>

@@ -10,7 +10,6 @@
 
   <body>
 <?php if($page->parent()->emailclient() == 'et'): ?>
-<custom name="opencounter" type="tracking">
 <?php endif ?>
   <span class="preheader"><?php echo $page->preheader() ?></span>
 <table class="body">

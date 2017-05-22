@@ -9,7 +9,6 @@
   </head>
 
   <body>
-<custom name="opencounter" type="tracking">
   <span class="preheader"><?php echo $page->preheader() ?></span>
 <table class="body">
   <tr>
@@ -32,7 +31,7 @@
                         <td class="left-text-pad">
                           <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->language()->isEmpty(), $page->language()) ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>
                         </td>
-                        
+
                         <td class="expander"></td>
                       </tr>
                     </table>
@@ -45,13 +44,13 @@
                         <td class="right-text-pad" style="text-align:right;">
                           <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->language()->isEmpty(), $page->language()) ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>
                         </td>
-                        
+
                         <td class="expander"></td>
                       </tr>
                     </table>
 
                   </td>
-                  
+
                 </tr>
               </table>
 
@@ -60,5 +59,5 @@
             </td>
           </tr>
         </table>
-        
+
         <?php endif ?>
