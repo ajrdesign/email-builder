@@ -1,0 +1,130 @@
+title: Rallycross
+pages: false
+files: true
+fields:
+  language:
+    label: Country
+    type: select
+    default: uk
+    width: 1/2
+    options:
+      us: United States
+      uk: United Kingdom
+      au: Australia
+      dk: Denmark
+      ch: Switzerland
+      de: Germany
+      es: Spain
+      fr: France
+      it: Italy
+      nl: Netherlands
+      no: Norway
+      fi: Finland
+      se: Sweden
+      jp: Japan
+      kr: Korea
+  tracking:
+    label: Tracking String
+    type: text
+    help: This will add a string to the end of URL's for header/footer elements.
+  labelSettings:
+    label: Email Client Optimization
+    type: headline
+  title:
+    label: Title
+    type:  text
+    help: This does not appear in the email.
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
+  heading:
+    label: Heading
+    type: text
+  heroSettings:
+    label: Hero Area
+    type: headline
+  heroImg:
+    label: Hero Image
+    type:  url
+    required: true
+    default: https://source.unsplash.com/random/580x400
+    help: Needs to be exactly 580px wide. Height doesn't matter.
+  mobileImg:
+    label: Mobile Hero Image
+    type: url
+    required: true
+    help: Needs to be at least 375px tall. Width should be at least 600px but some devices may show far less than 600 so keep main subject matter in the middle.
+  heroLink:
+    label: Hero Link
+    type:  text
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  heroAlt:
+    label: Hero Alt Text
+    type:  text
+    help: This will display when images are disabled in users email client.
+    width: 1/2
+  contentSettings:
+    label: Content
+    type: headline
+  info:
+    type: info
+    text: >
+      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  copy:
+    label: Body Copy
+    type:  markdown
+    required: true
+  cta:
+    label: Call to Action
+    type: text
+    width: 1/2
+    validate:
+      max: 100
+  ctaUrl:
+    label: Call to Action URL
+    type: text
+    default: https://www.bluebeam.com
+    width: 1/2
+  articleSettings:
+    label: Article Area
+    type: headline
+  article:
+    label: Articles
+    type: structure
+    entry: >
+          <img style="max-height:100px;" src="{{picture}}">
+          <h5>{{headline}}</h5>
+          <strong>Copy:</strong> {{text}}</br>
+          <strong>URL:</strong> {{url}}</br>
+          <strong>Call to Action:</strong> {{cta}}
+    fields:
+      imgDivider:
+        label: Section Divider (Optional)
+        type: url
+        help: If you need to divide articles into sections you can use this to add a divider image above this article. Should be 560px wide.
+      picture:
+        label: Picture
+        type: url
+        default: https://source.unsplash.com/random/560x260
+        width: 1/2
+      headline:
+        label: Headline
+        type: text
+        width: 1/2
+      text:
+        label: Copy
+        type: textarea
+      cta:
+        label: Call to Action
+        type: text
+        default: Read More
+        help: Leave blank to remove.
+        width: 1/2
+      url:
+        label: Link
+        type: text
+        default: https://www.bluebeam.com
+        width: 1/2
