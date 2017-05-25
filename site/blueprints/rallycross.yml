@@ -88,6 +88,9 @@ fields:
     type: text
     default: https://www.bluebeam.com
     width: 1/2
+  articleSettings:
+    label: Article Area
+    type: headline
   article:
     label: Articles
     type: structure

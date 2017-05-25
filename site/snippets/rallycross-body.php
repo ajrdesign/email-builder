@@ -11,7 +11,7 @@
                   <tr>
                     <td class="text-pad">
                       <?php if(!$page->heading()->empty()): ?>
-                        <h2><strong><?php echo $page->heading() ?></strong></h2>
+                        <h2><?php echo $page->heading() ?></h2>
                       <?php endif ?>
                     </td>
                   </tr>
@@ -45,11 +45,7 @@
                 <table class="twelve columns">
                   <tr>
                     <td class="text-pad">
-                      <?php if(!$page->subheading()->empty()): ?>
-                        <h3><?php echo $page->subheading() ?></h3>
-                      <?php endif ?>
                       <?php echo $page->copy()->kt() ?>
-                      
                     </td>
                   </tr>
                 </table>
