@@ -44,7 +44,6 @@ fields:
   heroSettings:
     label: Hero Area
     type: headline
-  
   heroImg:
     label: Hero Image
     type:  url
