@@ -1,0 +1,91 @@
+title: Rallycross Email
+pages: true
+ template:
+    - rallycross
+files: false
+fields:
+  title:
+    label: Category
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+    help: Brief description of the email category for the homepage of the Email Builder.
+  logo:
+    label: Header Logo
+    type: url
+    default: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
+    required: true
+  logoUrl:
+    label: Logo Link
+    type: url
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  logoAlt:
+    label: Logo Alt
+    type: text
+    default: Bluebeam Logo
+    width: 1/2
+  emailclient:
+    label: Will be sent from
+    type: radio
+    help: This will determine what tags/footer data will populate. Choose 'Other' to remove all dynamic tags and tracking.
+    default: et
+    columns: 3
+    options:
+      et: Exact Target
+      cvent: CVENT
+      other: Other
+  line:
+    type: line
+  facebook:
+    label: Facebook
+    type: checkbox
+    text: on/off
+    width: 1/4
+  facebookUrl:
+    label: URL
+    type: url
+    default: https://www.facebook.com/bluebeam
+    width: 3/4
+  linkedin:
+    label: Linkedin
+    type: checkbox
+    text: on/off
+    width: 1/4
+  linkedinUrl:
+    label: URL
+    type: url
+    default: https://www.linkedin.com/company-beta/111265/
+    width: 3/4
+  twitter:
+    label: Twitter
+    type: checkbox
+    text: on/off
+    width: 1/4
+  twitterUrl:
+    label: URL
+    type: url
+    default: https://twitter.com/Bluebeam
+    width: 3/4
+  instagram:
+    label: Instagram
+    type: checkbox
+    text: on/off
+    width: 1/4
+  instagramUrl:
+    label: URL
+    type: url
+    default: https://www.instagram.com/bluebeam_inc/
+    width: 3/4
+  youtube:
+    label: YouTube
+    type: checkbox
+    text: on/off
+    width: 1/4
+  youtubeUrl:
+    label: URL
+    type: url
+    default: https://www.youtube.com/user/BluebeamPDFRevu
+    width: 3/4
