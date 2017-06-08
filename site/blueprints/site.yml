@@ -6,6 +6,7 @@ pages: true
     - email-cvent
     - email-breakground
     - email-rallycross
+    - email-rallyday
 fields:
   title:
     label: Title

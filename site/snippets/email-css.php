@@ -714,8 +714,13 @@ hr.header-divider {
 body.outlook p {
   display: inline !important;
 }
-<?php if($page->css() == 'breakground'): ?>
-  <?php snippet('email-css-breakground') ?>
+
+<?php if($page->css() == 'rallyday-au'): ?>
+  <?php snippet('email-css-rallyday-au') ?>
+<?php endif ?>
+
+<?php if($page->css() == 'rallyday-us'): ?>
+  <?php snippet('email-css-rallyday-us') ?>
 <?php endif ?>
 /*  Media Queries */
 
