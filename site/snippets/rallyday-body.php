@@ -64,7 +64,7 @@
               </td>
             </tr>
           </table>
-          <table class="row responsive-hero-container responsive-hero-pad">
+          <table class="row responsive-hero-pad">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
 
