@@ -41,6 +41,7 @@ fields:
   heading:
     label: Heading
     type: text
+    help: This is the heading title that would go above the hero image.
   logoSettings:
     label: Logo Header
     type: headline
@@ -60,6 +61,7 @@ fields:
     type: text
     default: Bluebeam Logo
     width: 1/2
+    help: This will display when images are disabled in users email client.
   heroSettings:
     label: Hero Image Area
     type: headline

@@ -37,7 +37,7 @@
                           </table>
                         </td>
 
-                      <?php elseif($page->language() == 'uk' || 'au' || 'dk' || 'ch' || 'de' || 'es' || 'fr' || 'it' || 'nl' || 'no' || 'fi' || 'se' || 'jp' || 'kr'): ?>
+                      <?php else: ?>
                         <td class="wrapper last">
                           <table class="eight columns">
                             <tr>
