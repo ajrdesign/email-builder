@@ -5,7 +5,7 @@ fields:
   language:
     label: Country
     type: select
-    default: uk
+    default: us
     width: 1/2
     options:
       us: United States
@@ -41,8 +41,29 @@ fields:
   heading:
     label: Heading
     type: text
+    help: This is the heading title that would go above the hero image.
+  logoSettings:
+    label: Logo Header
+    type: headline
+  logo:
+    label: Header Logo
+    type: url
+    default: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
+    required: true
+  logoUrl:
+    label: Logo Link
+    type: url
+    required: true
+    default: https://www.bluebeam.com
+    width: 1/2
+  logoAlt:
+    label: Logo Alt
+    type: text
+    default: Bluebeam Logo
+    width: 1/2
+    help: This will display when images are disabled in users email client.
   heroSettings:
-    label: Hero Area
+    label: Hero Image Area
     type: headline
   heroImg:
     label: Hero Image
