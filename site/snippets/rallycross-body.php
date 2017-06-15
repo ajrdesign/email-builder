@@ -3,23 +3,24 @@
       <td class="center" align="center">
 
         <center>
+<!-- Heading Text Block -->
+          <?php if(!$page->heading()->empty()): ?>
+            <table class="row">
+              <tr>
+                <td class="wrapper last">
+                    <table class="twelve columns">
+                      <tr>
+                        <td class="text-pad">
+                            <h2><?php echo $page->heading() ?></h2>
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+          <?php endif ?>
+<!-- Hero Image Block -->
           <table class="row">
-            <tr>
-              <td class="wrapper last">
-
-                <table class="twelve columns">
-                  <tr>
-                    <td class="text-pad">
-                      <?php if(!$page->heading()->empty()): ?>
-                        <h2><?php echo $page->heading() ?></h2>
-                      <?php endif ?>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-          <table class="row responsive-hero-container">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
 
@@ -36,12 +37,11 @@
 
               </td>
             </tr>
-
           </table>
+<!-- Content Copy Block -->
           <table class="row">
             <tr>
               <td class="wrapper last">
-
                 <table class="twelve columns">
                   <tr>
                     <td class="text-pad">
@@ -55,7 +55,6 @@
           <table class="row">
             <tr>
               <td class="wrapper offset-by-three last">
-
                 <table class="six columns">
                   <tr>
                     <td class="text-pad">
@@ -70,14 +69,11 @@
                           </td>
                         </tr>
                       </table>
-
                     </td>
                     <td class="expander"></td>
                   </tr>
                 </table>
-
               </td>
-              
             </tr>
           </table>
 <!-- Loop for the Articles -->
@@ -86,9 +82,7 @@
               
               <table class="row">
                 <tr>
-                  
                   <td class="wrapper last">
-
                     <table class="twelve columns last">
                       <tr>
                         <td class="text-pad">
@@ -120,16 +114,12 @@
                           <?php if(!$article->cta()->empty()): ?>
                           <a target="_blank" href="<?php echo $article->url() ?>"><img src="https://downloads.bluebeam.com/images/2016/VARiety/16-10/blue-arrow-v2.png" alt=">">&nbsp;<?php echo $article->cta() ?></a>
                           <?php endif ?>
-
                         </td>
                       </tr>
                     </table>
-
                   </td>
                 </tr>
               </table>
-              
-              
             <?php endforeach ?>
             <?php if($page->ctaToggle() == '1' ): ?>
               <table class="row">
