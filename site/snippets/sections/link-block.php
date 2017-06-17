@@ -2,17 +2,19 @@
 	<hr>
 	<table class="row info-link">
 		<tr>
+		<?php foreach($page->infoLinks()->toStructure() as $infoLinks): ?>
 			<td class="wrapper">
-				<?php foreach($page->infoLinks()->toStructure() as $infoLinks): ?>
-					<table class="four columns info-link-block">
+				
+					<table class="four columns info-link-block text-center">
 						<tr>
 							<td class="left-text-pad">
-								<a href="<?php echo $infoLinks->url() ?>"><?php echo $infoLinks->text() ?></a>
+								<a href="<?php echo $infoLinks->url() ?>"><p><?php echo $infoLinks->text() ?></p></a>
 							</td>
 						</tr>
 					</table>
-				<?php endforeach ?>
+				
 			</td>
+		<?php endforeach ?>
 		</tr>
 	</table>
 <?php endif ?>
