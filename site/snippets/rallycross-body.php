@@ -20,6 +20,7 @@
             </table>
           <?php endif ?>
 <!-- Hero Image Block -->
+          <?php if(!$page->heroImg()->empty()): ?>
           <table class="row">
             <tr>
               <td class="wrapper wrapper-flush-t-padding last">
@@ -38,6 +39,7 @@
               </td>
             </tr>
           </table>
+          <?php endif ?>
 <!-- Content Copy Block -->
           <table class="row">
             <tr>
