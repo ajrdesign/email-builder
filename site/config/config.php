@@ -34,3 +34,11 @@ c::set('panel.install', true);
 
 // Styling the Panel
 c::set('panel.stylesheet', 'assets/css/addon.css');
+
+//CDN Configuration
+c::set('cdn.assets', 'http://downloads.bluebeam.com');
+c::set('cdn.content', 'http://downloads.bluebeam.com');
+c::set('cdn.thumbs', false);
+
+//CDN cache buster
+c::set('cachebuster', true);
