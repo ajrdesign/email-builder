@@ -47,3 +47,25 @@ fields:
             label: Button URL
             type: text
             width: 1/2
+  infoLinksSettings:
+    label: Additional Information Links
+    type: headline
+    help: These links will show above the footer. Must have 3 links exactly.
+  infoLinks:
+    label: Links
+    type: builder
+    fieldsets:
+      linkBlock:
+        label: Additional Links
+        fields:
+          text:
+            label: Link
+            type: text
+            default: Read More
+            help: Leave blank to remove.
+            width: 1/2
+          url:
+            label: Link
+            type: text
+            default: https://www.bluebeam.com
+            width: 1/2

@@ -715,6 +715,29 @@ body.outlook p {
   display: inline !important;
 }
 
+/*Additional Info Links Styling*/
+
+
+<?php if($page->template() == 'basic'): ?>
+
+  table.info-link {
+    background-color: #333333;
+    margin-top: 25px;
+  }
+  table.info-link table {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  table.info-link p {
+    color: #e3e3e3;
+  }
+  .footer hr {
+      display: none;
+    }
+<?php endif ?>
+
+/*Additional Template Style Sheets*/
+
 <?php if($page->css() == 'rallyday-au'): ?>
   <?php snippet('email-css-rallyday-au') ?>
 <?php endif ?>
@@ -883,6 +906,7 @@ table.columns .right-text-pad {
 td.wrapper.wrapper-flush-t-padding {
   padding:0 20px 0 0;
 }
+
 
 </style>
 <!--[if mso]>

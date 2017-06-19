@@ -4,10 +4,8 @@ pages: true
     - email
     - email-intl
     - email-cvent
-    - email-breakground
     - email-rallycross
     - email-rallyday
-    - email-autoresponder
 fields:
   title:
     label: Title
