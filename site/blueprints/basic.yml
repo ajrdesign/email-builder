@@ -23,7 +23,7 @@ fields:
   info:
     type: info
     text: >
-      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+      Copy fields support (link:https://getkirby.com/docs/content/text text:Markdown popup:yes) which is a simple syntax language you can use to style the body of your emails.
   builder:
     label: Sections
     type: builder
@@ -46,4 +46,46 @@ fields:
           url:
             label: Button URL
             type: text
+            width: 1/2
+      linkblock:
+        label: Links Block
+        snippet: builder/linkblock
+        fields:
+          text1:
+            label: Copy
+            type: text
+            default: Read More
+            width: 1/2
+            required: true
+          url1:
+            label: Link
+            type: text
+            default: https://www.bluebeam.com
+            width: 1/2
+            required: true
+          link1:
+            type: line
+          text2:
+            label: Copy
+            type: text
+            default: Read More
+            help: Leave blank to remove this link.
+            width: 1/2
+          url2:
+            label: Link
+            type: text
+            default: https://www.bluebeam.com
+            width: 1/2
+          link2:
+            type: line
+          text3:
+            label: Copy
+            type: text
+            default: Read More
+            help: Leave blank to remove this link.
+            width: 1/2
+          url3:
+            label: Link
+            type: text
+            default: https://www.bluebeam.com
             width: 1/2
