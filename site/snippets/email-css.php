@@ -460,9 +460,18 @@ blockquote {
   padding-bottom: 0;
 }
 
-table.header {
+table.header .branding {
   background: #131313;
   color: #ffffff;
+}
+table.header .date {
+  background: #f1f2f2;
+  color: #ffffff;
+}
+table.header .date .issue {
+  color: #999999;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 table.header td {
   color: #ffffff;

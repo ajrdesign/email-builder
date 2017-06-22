@@ -22,8 +22,28 @@
             <td class="center" align="center">
 
               <center>
+                <? if($page->newslettertoggle() == "yes"): ?>
+                <table class="row date">
+                  <tr>
+                    <td class="wrapper last">
 
-              <table class="row">
+                      <table class="twelve columns">
+                        <tr>
+                          <td class="left-text-pad text-center">
+                            <h6 class="issue"><?php echo $page->newslettername() ?><?php ecco(!$page->newslettername()->isEmpty(), ' |') ?> <?php echo $page->newslettermonth() ?> <?php echo date("Y") ?></h6>
+                          </td>
+
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+
+                  </tr>
+                </table>
+                <? endif ?>
+
+              <table class="row branding">
                 <tr>
                   <td class="wrapper last">
 

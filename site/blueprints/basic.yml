@@ -28,9 +28,6 @@ fields:
       se: Sweden
       jp: Japan
       kr: Korea
-  labelSettings:
-    label: Email Client Optimization
-    type: headline
   title:
     label: Title
     type:  text
@@ -44,10 +41,44 @@ fields:
   contentSettings:
     label: Content
     type: headline
+  newslettertoggle:
+    label: Is this a newsletter?
+    type: fieldtoggle
+    default: no
+    options:
+      yes: "Yes"
+      no: "No"
+    show:
+      yes: newslettername newslettermonth
+    hide:
+      no: newslettername newslettermonth
+  newslettername:
+    label: Newsletter Title
+    help: This will appear next to the date of the newsletter. Leave this blank to just show date.
+    type: text
+    width: 1/2
+  newslettermonth:
+    label: Newsletter Send Month
+    type: select
+    width: 1/2
+    options:
+      january: January
+      february: February
+      march: March
+      april: April
+      may: May
+      june: June
+      july: July
+      august: August
+      september: September
+      november: November
+      december: December
+  # Starting builder
   builder:
     label: Sections
     type: builder
     fieldsets:
+      # CONTENT BLOCK
       contentblock:
         label: Content Block
         snippet: sections/contentblock
@@ -59,6 +90,7 @@ fields:
           text:
             label: Content
             type: markdown
+      # CALL TO ACTION BLOCK
       cta:
         label: Call to Action Block
         snippet: builder/basicCta
@@ -71,6 +103,7 @@ fields:
             label: Button URL
             type: text
             width: 1/2
+      # HERO BLOCK
       heroblock:
         label: Hero Image
         snippet: builder/heroblock
@@ -97,6 +130,40 @@ fields:
             type:  text
             help: This will display when images are disabled in users email client.
             width: 1/2
+      # ARTICLE BLOCK
+      articleblock:
+        label: Article Block
+        snippet: builder/articleblock
+        fields:
+          imgDivider:
+            label: Section Divider (Optional)
+            type: url
+            help: If you need to divide articles into sections you can use this to add a divider image above this article. Should be 560px wide.
+          picture:
+            label: Picture
+            type: url
+            default: https://source.unsplash.com/random/560x260
+            width: 1/2
+          headline:
+            label: Headline
+            type: text
+            width: 1/2
+          text:
+            label: Copy
+            type: textarea
+          cta:
+            label: Call to Action
+            type: text
+            default: Read More
+            help: Leave blank to remove.
+            width: 1/2
+          url:
+            label: Link
+            type: text
+            default: https://www.bluebeam.com
+            width: 1/2
+      # LINK BLOCK
+      ### Dynamically ajusts to 1-3 links
       linkblock:
         label: Links Block
         snippet: builder/linkblock

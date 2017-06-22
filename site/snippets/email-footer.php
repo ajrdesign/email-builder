@@ -39,7 +39,7 @@
                         <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
                       <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/au/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/au/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/au/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
 
@@ -51,7 +51,7 @@
                         <p><a href="%%ftaf_url%%" >An einen Freund weiterleiten</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Abonnements verwalten</a> | <a href="%%profile_center_url%%" alias="Update Profile" >K&uuml;ndigen</a>
                       <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle Rechte vorbehalten.</p><a href="http://www.bluebeam.com/de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle Rechte vorbehalten.</p><a href="http://www.bluebeam.com/de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
 
                     <?php elseif($page->language() == 'dk'): ?>
@@ -62,7 +62,7 @@
                         <p><a href="%%ftaf_url%%" >Videresend til en ven</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Administrer abonnementer</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Afmeld</a>
                       <?php endif ?>
 
-                      <p>© Copyright 2002-2016  <a href="http://www.bluebeam.com/dk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle rettigheder forbeholdes.</p><a href="http://www.bluebeam.com/dk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
+                      <p>© Copyright 2002-<?php echo date("Y") ?>  <a href="http://www.bluebeam.com/dk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle rettigheder forbeholdes.</p><a href="http://www.bluebeam.com/dk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'es'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
@@ -73,7 +73,7 @@
 
                     <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/es/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/es/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/es/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'fi'): ?>
@@ -85,7 +85,7 @@
 
                     <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/fi/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/fi/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/fi/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'fr'): ?>
@@ -97,7 +97,7 @@
 
                     <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/fr/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/fr/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/fr/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'ch'): ?>
@@ -108,7 +108,7 @@
 
                       <?php endif ?>
 
-                      <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/ch-de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle Rechte vorbehalten.</p><a href="http://www.bluebeam.com/ch-de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
+                      <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/ch-de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle Rechte vorbehalten.</p><a href="http://www.bluebeam.com/ch-de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'it'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
@@ -119,7 +119,7 @@
 
                     <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/it/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/it/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/it/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'nl'): ?>
@@ -131,7 +131,7 @@
 
                     <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/nl/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/nl/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/nl/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'no'): ?>
@@ -141,7 +141,7 @@
                         <p><a href="%%ftaf_url%%" >Videresend til en venn</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Administrer abonnementer</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Opphev abonnement</a>
                       <?php endif ?>
 
-                    <p>© Copyright 2002&ndash;2016 <a href="http://www.bluebeam.com/no/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Med enerett.</p><a href="http://www.bluebeam.com/no/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam-programvare" ></a>
+                    <p>© Copyright 2002&ndash;<?php echo date("Y") ?> <a href="http://www.bluebeam.com/no/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Med enerett.</p><a href="http://www.bluebeam.com/no/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam-programvare" ></a>
 
                     <?php elseif($page->language() == 'se'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
@@ -150,7 +150,7 @@
                         <p><a href="%%ftaf_url%%" >Vidarebefordra till en v&auml;n</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Hantera prenumerationer</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Avanm&auml;l</a>
                       <?php endif ?>
 
-                        <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/se/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alla r&auml;ttigheter f&ouml;rbeh&aring;lles.</p><a href="http://www.bluebeam.com/se/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
+                        <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/se/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alla r&auml;ttigheter f&ouml;rbeh&aring;lles.</p><a href="http://www.bluebeam.com/se/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->language() == 'uk'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
@@ -161,18 +161,18 @@
 
                     <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/uk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/uk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/uk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
 
                     <?php elseif($page->parent()->emailclient() == 'cvent'): ?>
                     <p>If you no longer want to receive emails from {[P-FIRST NAME]} {[P-LAST NAME]}, please  <a href="#">{[EMAIL OPT OUT]}</a></p>
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>"><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software"></a>
 
                     <?php elseif($page->language() == 'channel'): ?>
                     <p>YOUR COMPANY NAME HERE | YOUR PHONE NUMBER HERE | YOUR COMPANY ADDRESS HERE </p>
                     <p><a href="YOUR-UNSUBSCRIBE-URL-HERE">Unsubscribe</a></p>
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>"><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software"></a>
                     <?php else: ?>
                     <!-- Insert US one -->
@@ -183,7 +183,7 @@
                         <p><a href="%%ftaf_url%%">Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions">Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile">Unsubscribe</a></p>
                       <?php endif ?>
 
-                    <p>© Copyright 2002 - 2017  <a href="http://www.bluebeam.com/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
+                    <p>© Copyright 2002 - <?php echo date("Y") ?>  <a href="http://www.bluebeam.com/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
                     <a href="http://www.bluebeam.com/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>"><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software"></a>
                     <?php endif ?>
 
