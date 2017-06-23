@@ -1,4 +1,4 @@
-<table class="row responsive-hero-container">
+<table class="row">
   <tr>
     <td class="wrapper wrapper-flush-t-padding last">
 
@@ -7,7 +7,7 @@
           <td class="center">
 
             <a target="_blank" href="<?php echo $data->heroLink() ?>">
-              <img class="responsive-hero" src="<?php echo $data->heroImg() ?>" width="580" alt="<?php echo $data->heroAlt() ?>">
+              <img src="<?php echo $data->heroImg() ?>" width="580" alt="<?php echo $data->heroAlt() ?>">
             </a>
           </td>
         </tr>

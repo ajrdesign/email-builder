@@ -1,7 +1,13 @@
 <section>
-  <img style="max-height:100px;" src="<?= $data->picture() ?>">
-  <h5><?= $data->headline() ?></h5>
-  <strong>Copy:</strong> <?= $data->text() ?></br>
-  <strong>URL:</strong> <?= $data->url() ?></br>
-  <strong>Call to Action:</strong> <?= $data->cta() ?>
+  <div class="media">
+		<div class="img">
+			<img src="<?= $data->picture() ?>">
+		</div>
+		<div class="bd">
+      <h5><?= $data->headline() ?></h5>
+      <strong>Copy:</strong> <?= $data->text() ?></br>
+      <strong>URL:</strong> <?= $data->url() ?></br>
+      <strong>Call to Action:</strong> <?= $data->cta() ?>
+		</div>
+	</div>
 </section>
