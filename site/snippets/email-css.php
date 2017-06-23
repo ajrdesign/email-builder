@@ -104,6 +104,7 @@ table.container {
   width: 580px;
   margin: 0 auto;
   text-align: inherit;
+  box-shadow:  -1px 0 0 #f1f2f2,  1px 0 0 #f1f2f2;
 }
 
 table.row {
