@@ -16,7 +16,7 @@ body{
   -ms-text-size-adjust:100%;
   margin:0;
   padding:0 0 104px !important;
-  background-color: #F1F1F1;
+  background-color: #ffffff;
 }
 span.preheader {
   display: none !important;
@@ -97,6 +97,7 @@ hr {
 table.body {
   height: 100%;
   width: 100%;
+  background-color: #F1F1F1;
 }
 
 table.container {
