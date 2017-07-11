@@ -725,11 +725,16 @@ body.outlook p {
     margin-top: 25px;
   }
   table.info-link table {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
   }
   table.info-link p {
     color: #e3e3e3;
+    text-decoration: underline solid #e3e3e3;
+  }
+  table.info-link p:hover {
+    color: #0083db;
+    text-decoration: underline solid #0083db;
   }
   .footer hr {
       display: none;

@@ -12,6 +12,7 @@
 .media .img {
 	float: left;
 	margin-right: 10px;
+	width: 50%;
 }
 .media .img img {
 	display: block;
@@ -33,3 +34,9 @@
 	line-height:1.6em;
 	font-size: 90%;
 }
+
+/*@media screen and (min-width: 50em){
+	.mainbar .form .buttons {
+		position: static !important;
+	}
+}*/
