@@ -48,3 +48,11 @@ table.footer .wrapper.last {
 hr {
 	display:none;
 }
+
+table.button.button-blue table td,
+table.tiny-button.button-blue table td,
+table.small-button.button-blue table td,
+table.medium-button.button-blue table td,
+table.large-button.button-blue table td {
+  background: #13546E;
+}
