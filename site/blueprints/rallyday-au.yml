@@ -2,7 +2,7 @@ title: Rally Day Australia
 pages: false
 files: true
 fields:
-  css: 
+  css:
     type: hidden
     default: rallyday-au
   tracking:
@@ -67,16 +67,15 @@ fields:
   heroCtaSettings:
     label: Hero With CTA
     type: headline
+    help: If images left blank this section will be a button instead.
   heroCtaImg:
     label: Hero Image
     type:  url
-    required: true
     default: https://source.unsplash.com/random/580x400
     help: Needs to be exactly 580px wide. Height doesn't matter.
   mobileCtaImg:
     label: Mobile Hero Image
     type: url
-    required: true
     help: Needs to be at least 375px tall. Width should be at least 600px but some devices may show far less than 600 so keep main subject matter in the middle.
   heroCtaLink:
     label: Hero Link
@@ -85,7 +84,7 @@ fields:
     default: https://www.bluebeam.com
     width: 1/2
   heroCtaAlt:
-    label: Hero Alt Text
+    label: CTA/Alt Text
     type:  text
-    help: This will display when images are disabled in users email client.
+    help: This will be the CTA in button or the alt text if a hero image is used.
     width: 1/2
