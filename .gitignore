@@ -2,6 +2,13 @@
 /thumbs/*
 /site/accounts/
 
+npm-debug.log
+bower_components
+dist
+.awspublish*
+config.json
+
+
 
 # Grunt Files
 node_modules/
