@@ -43,13 +43,13 @@ ready(function () {
     // Posts the combined data to the inliner
     document.getElementById('js-textarea').value = finalBuild;
     //el.addEventListener('click', function () {
-    	
+
     //});
 
 });
 </script>
 <div class="inline-wrapper">
-	<form class="form" action="https://templates.mailchimp.com/resources/inline-css/" target="_blank" method="post">
+	<form class="form" action="https://templates.mailchimp.com/services/inline-css/" target="_blank" method="post">
 	    <textarea class="form-area" id="js-textarea" name="html" placeholder="Paste your HTML here to convert." style="width:500px; height:100px;"></textarea>
 	    <input type="submit" class="form-button" value="Get test ready HTML">
 	</form>

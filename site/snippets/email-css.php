@@ -714,8 +714,41 @@ hr.header-divider {
 body.outlook p {
   display: inline !important;
 }
-<?php if($page->css() == 'breakground'): ?>
-  <?php snippet('email-css-breakground') ?>
+
+/*Additional Info Links Styling*/
+
+
+<?php if($page->template() == 'basic'): ?>
+
+  table.info-link {
+    background-color: #333333;
+    margin-top: 25px;
+  }
+  table.info-link table {
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  table.info-link p {
+    color: #e3e3e3;
+    text-decoration: underline solid #e3e3e3;
+  }
+  table.info-link p:hover {
+    color: #0083db;
+    text-decoration: underline solid #0083db;
+  }
+  .footer hr {
+      display: none;
+    }
+<?php endif ?>
+
+/*Additional Template Style Sheets*/
+
+<?php if($page->css() == 'rallyday-au'): ?>
+  <?php snippet('email-css-rallyday-au') ?>
+<?php endif ?>
+
+<?php if($page->css() == 'rallyday-us'): ?>
+  <?php snippet('email-css-rallyday-us') ?>
 <?php endif ?>
 /*  Media Queries */
 
@@ -878,6 +911,7 @@ table.columns .right-text-pad {
 td.wrapper.wrapper-flush-t-padding {
   padding:0 20px 0 0;
 }
+
 
 </style>
 <!--[if mso]>
