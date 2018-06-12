@@ -1,0 +1,38 @@
+Tracking: 
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Draft One
+
+----
+
+Preheader: Hello
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  image: >
+    https://source.unsplash.com/random/600x250
+  imagelink: https://www.bluebeam.com
+  imagealt: text
+  _fieldset: heroblock
+- 
+  text: |
+    # Title
+    ## Second Title
+    Lorem ipsum on dis business
+  _fieldset: contentblock

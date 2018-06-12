@@ -6,8 +6,8 @@
         <tr>
           <td class="center">
 
-            <a target="_blank" href="<?php echo $data->heroLink() ?>">
-              <img src="<?php echo $data->heroImg() ?>" width="580" alt="<?php echo $data->heroAlt() ?>">
+            <a target="_blank" href="<?php echo $data->imageLink() ?>">
+              <img src="<?php echo $data->image() ?>" width="600" alt="<?php echo $data->imageAlt() ?>">
             </a>
           </td>
         </tr>

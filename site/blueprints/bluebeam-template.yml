@@ -1,0 +1,95 @@
+title: Bluebeam Email Template
+pages: false
+files: false
+fields:
+  tracking:
+    label: Tracking String
+    type: text
+    help: This will add a string to the end of URL's for header/footer elements.
+    width: 1/2
+  language:
+    label: Country
+    type: select
+    width: 1/2
+    default: us
+    options:
+      us: United States/Domestic
+      uk: United Kingdom
+      au: Australia
+      dk: Denmark
+      ch: Switzerland
+      de: Germany
+      es: Spain
+      fr: France
+      it: Italy
+      nl: Netherlands
+      no: Norway
+      fi: Finland
+      se: Sweden
+      jp: Japan
+      kr: Korea
+  labelSettings:
+    label: Email Client Optimization
+    type: headline
+  title:
+    label: Title
+    type:  text
+    help: This does not appear in the email.
+    width: 1/2
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients. <a target="_blank" href="https://www.evernote.com/l/AHHB47pC17FHLKMsclWmcE2YgZ4XMHcyh4MB/image.png">Example</a>.
+    width: 1/2
+  contentSettings:
+    label: Content
+    type: headline
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      contentblock:
+        label: Content Block
+        snippet: sections/contentblock
+        fields:
+          info:
+            type: info
+            text: >
+              Copy fields support (link:https://getkirby.com/docs/content/text text:Markdown popup:yes) which is a simple syntax language you can use to style the body of your emails.
+          text:
+            label: Content
+            type: markdown
+      cta:
+        label: Call to Action Block
+        snippet: builder/basicCta
+        fields:
+          text:
+            label: Button CTA
+            type: text
+            width: 1/2
+          url:
+            label: Button URL
+            type: text
+            width: 1/2
+      heroblock:
+        label: Image
+        snippet: builder/heroblock
+        fields:
+          image:
+            label: Image
+            type:  url
+            required: true
+            default: https://source.unsplash.com/random/600x400
+            help: Needs to be maximum width of 600px. Height does not matter.
+          imageLink:
+            label: Image Link
+            type:  text
+            required: true
+            default: https://www.bluebeam.com
+            width: 1/2
+          imageAlt:
+            label: Image Alt Text
+            type:  text
+            help: This will display when images are disabled in users email client.
+            width: 1/2
+ 

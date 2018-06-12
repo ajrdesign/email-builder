@@ -1,11 +1,7 @@
 title: Email Category
 pages: true
  template:
-    - standard
-    - campaign
-    - newsletter
-    - basic
-    - variety
+    - bluebeam-template
 files: false
 fields:
   title:
@@ -31,16 +27,6 @@ fields:
     type: text
     default: Bluebeam Logo
     width: 1/2
-  emailclient:
-    label: Will be sent from
-    type: radio
-    help: This will determine what tags/footer data will populate. Choose 'Other' to remove all dynamic tags and tracking.
-    default: et
-    columns: 3
-    options:
-      et: Exact Target
-      cvent: CVENT
-      other: Other
   line:
     type: line
   facebook:

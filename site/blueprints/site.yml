@@ -2,10 +2,6 @@ title: Site
 pages: true
   template:
     - email
-    - email-intl
-    - email-cvent
-    - email-rallycross
-    - email-rallyday
 fields:
   title:
     label: Title
