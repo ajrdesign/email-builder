@@ -41,7 +41,7 @@ Builder:
     https://source.unsplash.com/random/200x100
   iconlink: https://www.bluebeam.com
   iconalt: alt
-  entrytitle: This is the title dawg!
+  entrytitle: Item 1
   entrylink: https://www.bluebeam.com
   _fieldset: extraSection
 - 
@@ -49,7 +49,7 @@ Builder:
     https://source.unsplash.com/random/200x100
   iconlink: https://www.bluebeam.com
   iconalt: alt
-  entrytitle: This is the title dawg!
+  entrytitle: Item 2
   entrylink: https://www.bluebeam.com
   _fieldset: extraSection
 - 
@@ -57,7 +57,7 @@ Builder:
     https://source.unsplash.com/random/200x100
   iconlink: https://www.bluebeam.com
   iconalt: alt
-  entrytitle: This is the title dawg!
+  entrytitle: Item 3
   entrylink: https://www.bluebeam.com
   _fieldset: extraSection
 - 
@@ -65,6 +65,6 @@ Builder:
     https://source.unsplash.com/random/200x100
   iconlink: https://www.bluebeam.com
   iconalt: alt
-  entrytitle: This is the title dawg!
+  entrytitle: Item 4
   entrylink: https://www.bluebeam.com
   _fieldset: extraSection
