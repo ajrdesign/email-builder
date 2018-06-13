@@ -48,9 +48,20 @@ fields:
     label: Sections
     type: builder
     fieldsets:
-      contentblock:
+      titleSection:
+        label: Title Section
+        snippet: sections/titleSection
+        fields:
+          info:
+            type: info
+            text: >
+              Copy fields support (link:https://getkirby.com/docs/content/text text:Markdown popup:yes) which is a simple syntax language you can use to style the body of your emails.
+          text:
+            label: Content
+            type: markdown
+      contentSection:
         label: Content Block
-        snippet: sections/contentblock
+        snippet: sections/contentSection
         fields:
           info:
             type: info
@@ -71,13 +82,14 @@ fields:
             label: Button URL
             type: text
             width: 1/2
-      heroblock:
+      imageSection:
         label: Image
-        snippet: builder/heroblock
+        snippet: sections/imageSection
         fields:
           image:
-            label: Image
-            type:  url
+            label: Image Source
+            snippet: builder/imageBlock
+            type: url
             required: true
             default: https://source.unsplash.com/random/600x400
             help: Needs to be maximum width of 600px. Height does not matter.
@@ -92,4 +104,31 @@ fields:
             type:  text
             help: This will display when images are disabled in users email client.
             width: 1/2
- 
+      extraSection:
+        label: Additional Info
+        snippet: sections/extraSection
+        fields:
+          imageIcon:
+            label: Icon image for entry
+            type: url
+            required: true
+            default: https://source.unsplash.com/random/200x100
+          iconLink:
+            label: Icon Image Link
+            type: text
+            required: true
+            default: https://www.bluebeam.com
+            help: This should link to web page that you want to direct users to.
+          iconAlt:
+            label: Icon Image Alt Text
+            type: text
+            help: This will display when images are disabled in users email client.
+          entryTitle:
+            label: Entry Title
+            type: text
+            required: true
+          entryLink:
+            label: Entry link
+            type: text
+            required: true
+            default: https://www.bluebeam.com

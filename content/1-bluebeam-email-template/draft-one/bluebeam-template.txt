@@ -25,14 +25,46 @@ Contentsettings:
 Builder: 
 
 - 
-  image: >
-    https://source.unsplash.com/random/600x250
-  imagelink: https://www.bluebeam.com
-  imagealt: text
-  _fieldset: heroblock
+  text: The title!
+  _fieldset: titleSection
 - 
-  text: |
-    # Title
-    ## Second Title
-    Lorem ipsum on dis business
-  _fieldset: contentblock
+  image: >
+    https://source.unsplash.com/random/600x400
+  imagelink: https://www.bluebeam.com
+  imagealt: alt
+  _fieldset: imageSection
+- 
+  text: 'Copy fields support **Markdown** which is a simple syntax language you can use to style the body of your emails. Copy fields support Markdown which is a simple syntax language you can use to style the body of your emails.'
+  _fieldset: contentSection
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: This is the title dawg!
+  entrylink: https://www.bluebeam.com
+  _fieldset: extraSection
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: This is the title dawg!
+  entrylink: https://www.bluebeam.com
+  _fieldset: extraSection
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: This is the title dawg!
+  entrylink: https://www.bluebeam.com
+  _fieldset: extraSection
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: This is the title dawg!
+  entrylink: https://www.bluebeam.com
+  _fieldset: extraSection
