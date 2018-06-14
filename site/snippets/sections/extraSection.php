@@ -2,7 +2,7 @@
   <tbody>
     <tr>
 
-      <?php foreach($page->extraSection() as $entry): ?>
+      <?php if($page->minorArea()->infoItem()): ?>
 
         <th class="6 columns">
           <table>
@@ -19,11 +19,8 @@
           </table>
         </th>
 
-      <?php endforeach ?>
+      <?php endif ?>
 
     </tr>
   </tbody>
 </table>
-
-
-

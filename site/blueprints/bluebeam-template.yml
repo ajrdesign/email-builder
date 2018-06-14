@@ -95,18 +95,26 @@ fields:
             help: Needs to be maximum width of 600px. Height does not matter.
           imageLink:
             label: Image Link
-            type:  text
+            type: text
             required: true
             default: https://www.bluebeam.com
             width: 1/2
           imageAlt:
             label: Image Alt Text
-            type:  text
+            type: text
             help: This will display when images are disabled in users email client.
             width: 1/2
-      extraSection:
-        label: Additional Info
-        snippet: sections/extraSection
+  additionalSettings:
+    label: Additional Information Section
+    type: headline
+  minorArea:
+    label: Additional Info
+    type: builder
+    snippet: sections/extraSection
+    fieldsets:
+      infoItem:
+        label: Add Info Item
+        type: structure
         fields:
           imageIcon:
             label: Icon image for entry
