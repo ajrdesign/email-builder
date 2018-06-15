@@ -36,6 +36,22 @@ Builder:
 - 
   text: 'Copy fields support **Markdown** which is a simple syntax language you can use to style the body of your emails. Copy fields support Markdown which is a simple syntax language you can use to style the body of your emails.'
   _fieldset: contentSection
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 1
+  entrylink: https://www.bluebeam.com
+  _fieldset: minorArea
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 2
+  entrylink: https://www.bluebeam.com
+  _fieldset: minorArea
 
 ----
 
@@ -48,7 +64,6 @@ Minorarea:
   iconalt: alt
   entrytitle: Item 1
   entrylink: https://www.bluebeam.com
-  _fieldset: infoItem
 - 
   imageicon: >
     https://source.unsplash.com/random/200x100
@@ -56,20 +71,3 @@ Minorarea:
   iconalt: alt
   entrytitle: Item 2
   entrylink: https://www.bluebeam.com
-  _fieldset: infoItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 3
-  entrylink: https://www.bluebeam.com
-  _fieldset: infoItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 4
-  entrylink: https://www.bluebeam.com
-  _fieldset: infoItem

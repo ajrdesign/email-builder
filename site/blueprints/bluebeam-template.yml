@@ -109,12 +109,11 @@ fields:
     type: headline
   minorArea:
     label: Additional Info
-    type: builder
-    snippet: sections/extraSection
-    fieldsets:
+    type: structure
+    snippet: builder/extraSection
+    fields:
       infoItem:
-        label: Add Info Item
-        type: structure
+        label: Insert Info
         fields:
           imageIcon:
             label: Icon image for entry

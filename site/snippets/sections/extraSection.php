@@ -2,8 +2,7 @@
   <tbody>
     <tr>
 
-      <?php if($page->minorArea()->infoItem()): ?>
-
+      <?php foreach($page->minorArea()->toStructure() as $infoItem): ?>
         <th class="6 columns">
           <table>
             <tr>
@@ -18,8 +17,8 @@
             </td>
           </table>
         </th>
+      <?php endforeach ?>
 
-      <?php endif ?>
 
     </tr>
   </tbody>
