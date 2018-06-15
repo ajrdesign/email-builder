@@ -10,7 +10,7 @@ Labelsettings:
 
 ----
 
-Title: Draft One
+Title: zzDraft One
 
 ----
 
@@ -37,21 +37,9 @@ Builder:
   text: 'Copy fields support **Markdown** which is a simple syntax language you can use to style the body of your emails. Copy fields support Markdown which is a simple syntax language you can use to style the body of your emails.'
   _fieldset: contentSection
 - 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 1
-  entrylink: https://www.bluebeam.com
-  _fieldset: minorArea
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 2
-  entrylink: https://www.bluebeam.com
-  _fieldset: minorArea
+  text: Learn More
+  url: '#'
+  _fieldset: cta
 
 ----
 
@@ -71,3 +59,126 @@ Minorarea:
   iconalt: alt
   entrytitle: Item 2
   entrylink: https://www.bluebeam.com
+
+----
+
+Columnitemone: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 1
+  entrylink: https://www.bluebeam.com
+
+----
+
+Columnitem: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 1
+  entrylink: https://www.bluebeam.com
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 2
+  entrylink: https://www.bluebeam.com
+
+----
+
+Columnarea: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 1
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 2
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 3
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+
+----
+
+Columnareaone: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 1
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 2
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+
+----
+
+Columnareatwo: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 3
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 4
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+
+----
+
+Columnareathree: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 5
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 6
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem

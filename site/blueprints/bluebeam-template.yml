@@ -81,6 +81,7 @@ fields:
           url:
             label: Button URL
             type: text
+            default: #
             width: 1/2
       imageSection:
         label: Image
@@ -107,13 +108,15 @@ fields:
   additionalSettings:
     label: Additional Information Section
     type: headline
-  minorArea:
-    label: Additional Info
-    type: structure
-    snippet: builder/extraSection
-    fields:
-      infoItem:
+  columnArea:
+    label: Add column item
+    help: Only two items per row.
+    type: builder
+    fieldsets:
+      columnItem:
         label: Insert Info
+        snippet: builder/columnImage
+        type: structure
         fields:
           imageIcon:
             label: Icon image for entry
