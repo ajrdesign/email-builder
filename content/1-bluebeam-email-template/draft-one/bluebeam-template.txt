@@ -1,4 +1,4 @@
-Tracking: 
+Tracking: https://event.on24.com/eventRegistration/EventLobbyServlet?target=registration.jsp&partnerref=rss-events&eventid=1550111&sessionid=1&key=8DECF30A2B3B7BA55BE4E679587CAFBB&regTag=?src=&sourcepage=register
 
 ----
 
@@ -25,21 +25,35 @@ Contentsettings:
 Builder: 
 
 - 
-  text: The title!
-  _fieldset: titleSection
-- 
-  image: >
+  headline: >
+    This is a Focused Headline for the main
+    story
+  subheadline: A sbuheadline for the main story
+  focusimage: >
     https://source.unsplash.com/random/600x400
-  imagelink: https://www.bluebeam.com
-  imagealt: alt
-  _fieldset: imageSection
+  focusimagelink: https://www.bluebeam.com
+  focusimagealt: Alt
+  focuscontent: 'This will display when images are disabled in users email client. Needs to be maximum width of **600px**. Height does not matter. Needs to be *maximum* width of 600px. Height does not matter. This will display when images are disabled in users email client.'
+  ctatext: Learn More
+  ctaurl: '#'
+  extratext: Already learned more? Click here
+  extraurl: '#'
+  _fieldset: focusStory
 - 
-  text: 'Copy fields support **Markdown** which is a simple syntax language you can use to style the body of your emails. Copy fields support Markdown which is a simple syntax language you can use to style the body of your emails.'
-  _fieldset: contentSection
+  entryheadline: Secondary Story Text
+  entrycontent: >
+    This is a secondary story that will not
+    be as important as the main story but
+    you get to choose. This is a secondary
+    story that will not be as important as
+    the main story but you get to choose.
+  entryurl: '#'
+  _fieldset: focusSecondaryStory
 - 
-  text: Learn More
-  url: '#'
-  _fieldset: cta
+  quote: "Some very amazing quote. You feel very inspired and happy to give us your money. It's easy as pie."
+  quotesource: Andrew Hall, Bluebeam Inc.
+  quotelink: '#'
+  _fieldset: quoteModule
 
 ----
 
@@ -109,14 +123,6 @@ Columnarea:
   iconlink: https://www.bluebeam.com
   iconalt: alt
   entrytitle: Item 2
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 3
   entrylink: https://www.bluebeam.com
   _fieldset: columnItem
 

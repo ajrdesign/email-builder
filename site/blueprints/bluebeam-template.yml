@@ -48,63 +48,161 @@ fields:
     label: Sections
     type: builder
     fieldsets:
-      titleSection:
-        label: Title Section
-        snippet: sections/titleSection
+      focusStory:
+        label: Focused Story
+        snippet: builder/focusStory
         fields:
-          info:
-            type: info
-            text: >
-              Copy fields support (link:https://getkirby.com/docs/content/text text:Markdown popup:yes) which is a simple syntax language you can use to style the body of your emails.
-          text:
-            label: Content
-            type: markdown
-      contentSection:
-        label: Content Block
-        snippet: sections/contentSection
-        fields:
-          info:
-            type: info
-            text: >
-              Copy fields support (link:https://getkirby.com/docs/content/text text:Markdown popup:yes) which is a simple syntax language you can use to style the body of your emails.
-          text:
-            label: Content
-            type: markdown
-      cta:
-        label: Call to Action Block
-        snippet: builder/basicCta
-        fields:
-          text:
-            label: Button CTA
+          headline:
             type: text
-            width: 1/2
-          url:
-            label: Button URL
+            label: Headline
+            required: true
+          subheadline:
+            label: Subheadline
             type: text
-            default: #
-            width: 1/2
-      imageSection:
-        label: Image
-        snippet: sections/imageSection
-        fields:
-          image:
+          focusImage:
             label: Image Source
             snippet: builder/imageBlock
             type: url
-            required: true
             default: https://source.unsplash.com/random/600x400
             help: Needs to be maximum width of 600px. Height does not matter.
-          imageLink:
-            label: Image Link
+          focusImageLink:
+            label: Image Redirect Link
             type: text
-            required: true
             default: https://www.bluebeam.com
             width: 1/2
-          imageAlt:
+          focusImageAlt:
             label: Image Alt Text
             type: text
             help: This will display when images are disabled in users email client.
+            width: 1/2 
+          focusContent:
+            label: Story Content
+            help: Enter story copy.
+            required: true
+            type: markdown
+          ctaText:
+            label: Button CTA
+            required: true
+            type: text
+            width: 1/2 
+          ctaUrl:
+            label: Button URL
+            type: text
+            default: #
+            required: true
+            width: 1/2 
+          extraText:
+            label: Extra CTA
+            type: text
+            width: 1/2 
+          extraUrl:
+            label: Extra CTA URL
+            type: text
+            default: #
+            width: 1/2 
+      focusStoryText:
+        label: Focused Story Text
+        fields:
+          headline:
+            type: text
+            label: Headline
+            required: true
+          subheadline:
+            label: Subheadline
+            type: text
+          focusContent:
+            label: Story Content
+            help: Enter story copy.
+            required: true
+            type: markdown
+          ctaText:
+            label: Button CTA
+            type: text
+            required: true
+            width: 1/2 
+          ctaUrl:
+            label: Button URL
+            type: text
+            default: #
+            required: true
+            width: 1/2 
+          extraText:
+            label: Extra CTA
+            type: text
+            width: 1/2 
+          extraUrl:
+            label: Extra CTA URL
+            type: text
+            default: #
             width: 1/2
+      focusSecondaryStory:
+        label: Secondary Story Entry
+        snippet: builder/focusSecondaryStory
+        fields:
+          entryHeadline:
+            type: text
+            label: Headline
+            required: true
+          entryContent:
+            label: Enter story copy
+            type: markdown
+            required: true
+          entryUrl:
+            label: Story Link
+            type: text
+            default: #
+            required: true
+      generalStory:
+        label: General Story
+        snippet: builder/generalStory
+        fields:
+          generalImage:
+            label: Image Source
+            type: url
+            default: https://source.unsplash.com/random/600x200
+            help: Needs to be 600x200px.
+          generalImageLink:
+            label: Image Link
+            type: text
+            default: https://www.bluebeam.com
+            width: 1/2
+          generalImageAlt:
+            label: Image Alt Text
+            type: text
+            help: This will display when images are disabled in users email client.
+            width: 1/2 
+          headline:
+            type: text
+            label: Headline
+            required: true
+          generalContent:
+            label: Story Content
+            help: Enter story copy.
+            required: true
+            type: markdown
+          ctaText:
+            label: Button CTA
+            required: true
+            type: text
+            width: 1/2 
+          ctaUrl:
+            label: Button URL
+            type: text
+            default: #
+            required: true
+            width: 1/2
+      quoteModule:
+        label: Pull Quote
+        fields:
+          quote:
+            label: Quote
+            type: text
+          quoteSource:
+            label: Quote Source
+            type: text
+          quoteLink:
+            label: Quote Link
+            type: text
   additionalSettings:
     label: Additional Information Section
     type: headline

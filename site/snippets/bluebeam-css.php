@@ -748,7 +748,7 @@ span.text-center {
   width: 100%;
   text-align: center; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 600px) {
   .small-float-center {
     margin: 0 auto !important;
     float: none !important;
@@ -1364,6 +1364,90 @@ body.outlook p {
 
 /* Bluebeam Styling*/
 
+/* Margin for Content */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+small {
+  margin: 0 40px 0 40px;
+  Margin: 0 40px 0 40px; }
+
+table.button {
+  margin: 0 0 15px 40px;
+  Margin: 0 0 15px 40px; }
+
+table.header {
+  background: #F8F8F8;
+  color: #000000;
+  margin: 20px 0 20px 0;
+  Margin: 20px 0 20px 0;
+}
+
+table.header td {
+  color: #000000;
+  padding-left: 15px;
+}
+
+
+/* Font Sizing */
+
+h1 {
+  font-size: 54px; }
+h2 {
+  font-size: 32px; }
+h3 {
+  font-size: 26px; }
+h4 {
+  font-size: 24px; }
+h5 {
+  font-size: 20px; }
+h6 {
+  font-size: 18px; }
+p,
+td,
+th {
+  font-size: 18px;
+}
+
+/* Footer */
+
+
+.footer img.social-icons {
+  margin-right: 3px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.footer p {
+  font-size: 9px;
+  line-height: 15px;
+  color: #858B8F;
+}
+
+.footer hr {
+  color: #e3e3e3;
+  background-color: #E3E3E3;
+  height: 1px;
+  border: none;
+  text-align: left;
+  margin: 0 40px 0 40px;
+  Margin: 0 40px 0 40px;
+}
+
+.footer-align p{
+  margin: 0px;
+}
+
+.footer-align {
+  margin: 0 40px 40px 40px;
+  Margin: 0 40px 40px 40px;
+}
 
 
 

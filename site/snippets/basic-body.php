@@ -8,7 +8,7 @@
 	        <?php endforeach ?>
 
 
-	        <?php if($page->columnAreaOne()): ?>
+	        <?php if($page->columnArea()): ?>
 
 <!-- Additional Information Section Area -->
 

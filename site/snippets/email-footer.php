@@ -1,18 +1,26 @@
 <!-- Footer Section: DO NOT TOUCH -->
+<table class="spacer">
+  <tbody>
+    <tr>
+      <td height="100px" style="font-size:100px;line-height:100px;">&#xA0;</td>
+    </tr>
+  </tbody>
+</table>
+
 <table class="container footer">
   <tr>
-    <td class="center" align="center">
+    <td class="left" align="left">
 
       <center>
-
+        <hr>
         <table class="row">
           <tr>
             <td class="wrapper last">
 
-              <table class="twelve columns">
+              <table class="twelve columns footer-align">
                 <tr>
-                  <td class="text-pad center">
-                    <hr>
+                  <td class="text-pad">
+                    
                     <?php if($page->parent()->facebook()->isTrue()): ?>
                     <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-facebook-email-footer.png" alt="Facebook"></a>
                     <?php endif ?>

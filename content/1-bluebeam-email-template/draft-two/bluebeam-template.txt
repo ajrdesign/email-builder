@@ -1,0 +1,103 @@
+Tracking: 
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Draft Two
+
+----
+
+Preheader: 
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: https://www.bluebeam.com
+  generalimagealt: alt
+  headline: >
+    This is a General Headline for the main
+    story
+  generalcontent: >
+    This will display when images are
+    disabled in users email client. Needs to
+    be maximum width of 600px. Height does
+    not matter. Needs to be maximum width of
+    600px. Height does not matter.
+  ctatext: Learn More
+  ctaurl: '#'
+  _fieldset: generalStory
+- 
+  generalimage: ""
+  generalimagelink: ""
+  generalimagealt: ""
+  headline: 'This is a Second  General Headline for the Other Story'
+  generalcontent: |
+    Needs to be maximum width of 600px. Height does not matter.
+    Needs to be maximum width of 600px. Height does not matter. This will display when images are disabled in users email client.
+  ctatext: Read More
+  ctaurl: '#'
+  _fieldset: generalStory
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: https://www.bluebeam.com
+  generalimagealt: alt
+  headline: >
+    This is a Third General Headline for the
+    Other Story
+  generalcontent: >
+    Needs to be maximum width of 600px.
+    Height does not matter. This will
+    display when images are disabled in
+    users email client.
+  ctatext: Download Now
+  ctaurl: '#'
+  _fieldset: generalStory
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnarea: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 1
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 2
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: Item 3
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
