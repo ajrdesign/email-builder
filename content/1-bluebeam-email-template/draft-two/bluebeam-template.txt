@@ -46,9 +46,12 @@ Builder:
   generalimagelink: ""
   generalimagealt: ""
   headline: 'This is a Second  General Headline for the Other Story'
-  generalcontent: |
-    Needs to be maximum width of 600px. Height does not matter.
-    Needs to be maximum width of 600px. Height does not matter. This will display when images are disabled in users email client.
+  generalcontent: >
+    Needs to be maximum width of 600px.
+    Height does not matter. Needs to be
+    maximum width of 600px. Height does not
+    matter. This will display when images
+    are disabled in users email client.
   ctatext: Read More
   ctaurl: '#'
   _fieldset: generalStory

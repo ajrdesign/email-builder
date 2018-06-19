@@ -110,7 +110,7 @@
         <table class="six columns ">
           <tr>
             <td class="text-pad center">
-              <table class="button large <?= ($data->style() == 'true') ? 'outline' : '' ?>" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+              <table class="button radius large <?= ($data->style() == 'true') ? 'outline' : '' ?>" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td >
                     <table border="0" cellspacing="0" cellpadding="0">

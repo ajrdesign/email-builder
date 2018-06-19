@@ -8,7 +8,7 @@
 				<tr>
 					<td class="center">
 						<a href="<?= $data->entryUrl()->text() ?>">
-							<h2 class="focus">  <?= $data->entryHeadline()->text() ?></h2>
+							<h4 class="focus">  <?= $data->entryHeadline()->text() ?></h4>
 						</a>
 					</td>
 				</tr>

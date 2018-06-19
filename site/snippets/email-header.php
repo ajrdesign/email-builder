@@ -30,7 +30,7 @@
                     <table class="eight columns">
                       <tr>
                         <td class="left-text-pad">
-                          <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>"></a>
+                          <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" class="header-logo" alt="<?php echo $page->parent()->logoAlt() ?>" ></a>
                         </td>
 
                         <td class="expander"></td>

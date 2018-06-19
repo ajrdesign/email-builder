@@ -43,7 +43,7 @@
       <table class="twelve columns">
         <tr>
           <td class="center"> 
-            <a href="<?= $data->generalStory()->ctaUrl() ?>"><h3 class="focus"><?= $data->headline()->text() ?></h3></a>
+            <a href="<?= $data->generalStory()->ctaUrl() ?>"><h2 class="focus"><?= $data->headline()->text() ?></h2></a>
           </td>
         </tr>
       </table>
@@ -91,7 +91,7 @@
         <table class="six columns ">
           <tr>
             <td class="text-pad center">
-              <table class="button large <?= ($data->style() == 'true') ? 'outline' : '' ?>" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+              <table class="button radius large <?= ($data->style() == 'true') ? 'outline' : '' ?>" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td >
                     <table border="0" cellspacing="0" cellpadding="0">

@@ -791,7 +791,7 @@ th.float-center {
   font-size: 0;
   width: 0;
   line-height: 0; }
-  @media only screen and (max-width: 596px) {
+  @media only screen and (max-width: 600px) {
     .hide-for-large {
       display: block !important;
       width: auto !important;
@@ -976,20 +976,20 @@ table.button {
   table.button table td {
     text-align: left;
     color: #FFFFFF;
-    background: #2199e8;
-    border: 2px solid #2199e8; }
+    background: #8BC34A;
+    border: 2px solid #8BC34A; }
     table.button table td a {
       font-family: Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      font-weight: bold;
+      font-size: 14px;
+      font-weight: normal;
       color: #FFFFFF;
       text-decoration: none;
       display: inline-block;
-      padding: 8px 16px 8px 16px;
+      padding: 8px 18px 8px 18px;
       border: 0 solid #2199e8;
-      border-radius: 3px; }
+      border-radius: 2px; }
   table.button.radius table td {
-    border-radius: 3px;
+    border-radius: 2px;
     border: none; }
   table.button.rounded table td {
     border-radius: 500px;
@@ -1023,8 +1023,8 @@ table.button.small table a {
   font-size: 12px; }
 
 table.button.large table a {
-  padding: 10px 20px 10px 20px;
-  font-size: 20px; }
+  padding: 10px 24px 10px 24px;
+  font-size: 18px; }
 
 table.button.expand,
 table.button.expanded {
@@ -1045,7 +1045,7 @@ table.button.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
+  background: #50A145;
   color: #FFFFFF; }
 
 table.button:hover table a,
@@ -1079,11 +1079,11 @@ table.button.secondary table td a:visited {
   color: #FFFFFF; }
 
 table.button.success table td {
-  background: #3adb76;
+  background: #8BC34A;
   border: 0px solid #3adb76; }
 
 table.button.success table a {
-  border: 0 solid #3adb76; }
+  border: 0 solid #8BC34A; }
 
 table.button.success:hover table td {
   background: #23bf5d; }
@@ -1123,9 +1123,10 @@ table.callout {
 
 th.callout-inner {
   width: 100%;
-  border: 1px solid #cbcbcb;
-  padding: 10px;
-  background: #FFFFFF; }
+  border: none;
+  padding: 30px 0 30px 0;
+  word-wrap: normal;
+  background: #EFF9FF; }
   th.callout-inner.primary {
     background: #def0fc;
     border: 1px solid #444444;
@@ -1396,9 +1397,35 @@ table.header td {
 
 
 /* Font Sizing */
+h1 {
+  color: #0083db;
+  font-weight: bold;
+  line-height:1.1;
+  margin-bottom:15px;}
+h2 {
+  color: #0083db;
+  font-weight: bold;
+  line-height:1.2;
+  margin-bottom:15px;}
+h3 {
+  font-weight: 300;
+  line-height:1.2;
+  margin-bottom:15px;}
+
+h4 {
+  font-weight: 400;
+  line-height:1.2;
+  margin-bottom:15px;}
+p {
+  line-height: 1.5;
+}
+td {
+  line-height: 1.5;
+}
+
 
 h1 {
-  font-size: 54px; }
+  font-size: 52px; }
 h2 {
   font-size: 32px; }
 h3 {
@@ -1413,6 +1440,13 @@ p,
 td,
 th {
   font-size: 18px;
+}
+
+p.quote-text {
+  font-size: 30px;
+  font-weight: 300px;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 /* Footer */
@@ -1449,7 +1483,9 @@ th {
   Margin: 0 40px 40px 40px;
 }
 
-
+img.header-logo {
+  width: 250px;
+}
 
 </style>
 <!--[if mso]>

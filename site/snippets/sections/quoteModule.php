@@ -5,12 +5,12 @@
 				<table class="twelve columns">
 					<tr>
 						<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
-							<p class="quoteText"><?= $data->quote() ?></p>
+							<p class="quote-text"><?= $data->quote() ?></p>
 						</td>
 					</tr>
 					<tr>
 						<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
-							<p class="quoteSource"><?= $data->quoteSource() ?></p>
+							<p class="quote-source"><?= $data->quoteSource() ?></p>
 						</td>
 					</tr>
 				</table>

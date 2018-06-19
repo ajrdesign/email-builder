@@ -10,7 +10,7 @@ Labelsettings:
 
 ----
 
-Title: zzDraft One
+Title: Draft One
 
 ----
 
@@ -47,6 +47,11 @@ Builder:
     you get to choose. This is a secondary
     story that will not be as important as
     the main story but you get to choose.
+  entryurl: '#'
+  _fieldset: focusSecondaryStory
+- 
+  entryheadline: Another Secondary Story Text
+  entrycontent: "Copy on copy on copy dawg. That's right so much copy you don't even know what to do with it."
   entryurl: '#'
   _fieldset: focusSecondaryStory
 - 
