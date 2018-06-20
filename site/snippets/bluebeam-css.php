@@ -95,7 +95,7 @@ table.container {
 
 table.row {
   padding: 0;
-  width: 100%;
+  width: 520px;
   position: relative; }
 
 table.spacer {
@@ -803,18 +803,18 @@ th.float-center {
 table.body table.container .hide-for-large * {
   mso-hide: all; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 600px) {
   table.body table.container .hide-for-large,
   table.body table.container .row.hide-for-large {
     display: table !important;
     width: 100% !important; } }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 600px) {
   table.body table.container .callout-inner.hide-for-large {
     display: table-cell !important;
     width: 100% !important; } }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 600px) {
   table.body table.container .show-for-large {
     display: none !important;
     width: 0;
@@ -1199,14 +1199,14 @@ body.outlook p {
 
   /*  Media Queries */
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 600px) {
   table.body img {
     width: auto;
     height: auto; }
   table.body center {
     min-width: 0 !important; }
   table.body .container {
-    width: 95% !important; }
+    width: 600px !important; }
   table.body .columns,
   table.body .column {
     height: auto !important;
@@ -1365,36 +1365,6 @@ body.outlook p {
 
 /* Bluebeam Styling*/
 
-/* Margin for Content */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-th,
-small {
-  margin: 0 40px 0 40px;
-  Margin: 0 40px 0 40px; }
-
-table.button {
-  margin: 0 0 15px 40px;
-  Margin: 0 0 15px 40px; }
-
-table.header {
-  background: #F8F8F8;
-  color: #000000;
-  margin: 20px 0 20px 0;
-  Margin: 20px 0 20px 0;
-}
-
-table.header td {
-  color: #000000;
-  padding-left: 15px;
-}
-
 
 /* Font Sizing */
 h1 {
@@ -1442,6 +1412,11 @@ th {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 596px) {
+  h1 {
+  font-size: 38px; }
+}
+
 p.quote-text {
   font-size: 30px;
   font-weight: 300px;
@@ -1449,43 +1424,58 @@ p.quote-text {
   margin-bottom: 15px;
 }
 
+tr.column-area-text {
+  margin:25px 0 25px 0;
+}
+tr.column-area-text td a {
+  word-wrap: normal;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* Margin for Content */
+table.row {
+  width:90%;
+}
+table.row-override {
+  width: 100%;
+}
+
+.quote-text {
+  margin:0 5% 0 5% !important;
+  Margin:0 5% 0 5% !important;
+}
+.quote-source {
+  margin:0 40px 0 40px !important;
+  Margin:0 40px 0 40px !important;
+}
+
+
 /* Footer */
+.footer-icon-row {
+  margin-left: 10px;
+}
 
-
-.footer img.social-icons {
-  margin-right: 3px;
+img.social-icons {
+  height:25px;
+  margin-right: 10px;
   margin-bottom: 25px;
-  margin-top: 30px;
-  display: inline-block;
-}
-.footer p {
-  font-size: 9px;
-  line-height: 15px;
-  color: #858B8F;
 }
 
-.footer hr {
-  color: #e3e3e3;
-  background-color: #E3E3E3;
-  height: 1px;
-  border: none;
-  text-align: left;
-  margin: 0 40px 0 40px;
-  Margin: 0 40px 0 40px;
+/* Header Styling */
+
+table.header {
+  background-color:#F8F8F8 !important;
+  margin: 40px 0 40px 0 !important;
 }
 
-.footer-align p{
-  margin: 0px;
+@media only screen and (max-width: 596px) {
+  table.header {
+  background-color:#ffffff !important;
 }
 
-.footer-align {
-  margin: 0 40px 40px 40px;
-  Margin: 0 40px 40px 40px;
-}
-
-img.header-logo {
-  width: 250px;
-}
 
 </style>
 <!--[if mso]>

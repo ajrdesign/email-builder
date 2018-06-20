@@ -8,18 +8,21 @@
 	        <?php endforeach ?>
 
 
-	        <?php if($page->columnArea()): ?>
+	        <?php if($page->columnItem()): ?>
 
-<!-- Additional Information Section Area -->
+<!-- Column Area Section -->
 
-				<table class="row collapse">
+				<table class="row column-container">
 				  <tbody>
 				    <tr>
 					<?php foreach($page->columnItem()->toStructure() as $columnItem): ?>
-				      <?php snippet('sections/extraSection' . $columnItem->_fields(), array('data' => $columnItem)) ?>
+				      <?php snippet('sections/columnItem' . $columnItem->_fields(), array('data' => $columnItem)) ?>
 					<?php endforeach ?>
 				    </tr>
 				  </tbody>
 				</table>
+
+<!-- End of Column Area Section -->
+
 
 	        <?php endif ?>

@@ -25,9 +25,9 @@
 
               <table class="row">
                 <tr>
-                  <td class="wrapper last">
+                  <td class="last">
 
-                    <table class="eight columns">
+                    <table class="large-8 small-8 columns">
                       <tr>
                         <td class="left-text-pad">
                           <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" class="header-logo" alt="<?php echo $page->parent()->logoAlt() ?>" ></a>

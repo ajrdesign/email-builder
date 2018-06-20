@@ -200,21 +200,51 @@ fields:
           quoteSource:
             label: Quote Source
             type: text
+          quoteCompany:
+            label: Quote Company
+            type: text
           quoteLink:
             label: Quote Link
             type: text
+      titleRow:
+        label: Title Row
+        fields:
+          titleText:
+            label: Title
+            type: text
+      contentCopy:
+        label: Content Copy
+        fields:
+          info:
+            type: info
+            text: >
+              Copy fields support (link:https://getkirby.com/docs/content/text text:Markdown popup:yes) which is a simple syntax language you can use to style the body of your emails.
+          text:
+            label: Content
+            type: markdown
+      cta:
+        label: Call to Action Block
+        snippet: builder/basicCta
+        fields:
+          text:
+            label: Button CTA
+            type: text
+            width: 1/2
+          url:
+            label: Button URL
+            type: text
+            width: 1/2
   additionalSettings:
     label: Additional Information Section
     type: headline
-  columnArea:
+  columnItem:
     label: Add column item
     help: Only two items per row.
     type: builder
     fieldsets:
-      columnItem:
-        label: Insert Info
+      columnField:
+        label: Add Item
         snippet: builder/columnImage
-        type: structure
         fields:
           imageIcon:
             label: Icon image for entry

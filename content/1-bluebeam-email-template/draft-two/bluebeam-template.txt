@@ -1,4 +1,4 @@
-Tracking: 
+Tracking: https://event.on24.com/eventRegistration/EventLobbyServlet?target=registration.jsp&partnerref=rss-events&eventid=1550111&sessionid=1&key=8DECF30A2B3B7BA55BE4E679587CAFBB&regTag=?src=&sourcepage=register
 
 ----
 
@@ -14,7 +14,7 @@ Title: Draft Two
 
 ----
 
-Preheader: 
+Preheader: This is the preheader
 
 ----
 
@@ -78,7 +78,7 @@ Additionalsettings:
 
 ----
 
-Columnarea: 
+Columnitem: 
 
 - 
   imageicon: >
@@ -87,7 +87,6 @@ Columnarea:
   iconalt: alt
   entrytitle: Item 1
   entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
 - 
   imageicon: >
     https://source.unsplash.com/random/200x100
@@ -95,12 +94,3 @@ Columnarea:
   iconalt: alt
   entrytitle: Item 2
   entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 3
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem

@@ -43,7 +43,7 @@
 
 <!-- End of Spacer -->
 
-<table class="row">
+<table class="row-override">
   <tr>
     <td class="wrapper wrapper-flush-t-padding last">
       <table class="twelve columns">

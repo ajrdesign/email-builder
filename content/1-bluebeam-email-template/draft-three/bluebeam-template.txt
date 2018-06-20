@@ -1,0 +1,84 @@
+Tracking: https://event.on24.com/eventRegistration/EventLobbyServlet?target=registration.jsp&partnerref=rss-events&eventid=1550111&sessionid=1&key=8DECF30A2B3B7BA55BE4E679587CAFBB&regTag=?src=&sourcepage=register
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Draft Three
+
+----
+
+Preheader: This is the preheader
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: https://www.bluebeam.com
+  generalimagealt: ""
+  headline: >
+    This is a General Headline for the main
+    story
+  generalcontent: Text on text on text dawg!
+  ctatext: Learn More
+  ctaurl: '#'
+  _fieldset: generalStory
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnarea: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/300x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: 'Webinar: Here is a gigantic title!'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+- 
+  imageicon: >
+    https://source.unsplash.com/random/300x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: 'Tips and Tricks: Here is a gigantic title!'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnItem
+
+----
+
+Columnitem: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/300x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: 'Webinar: Here is a gigantic title!'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnField
+- 
+  imageicon: >
+    https://source.unsplash.com/random/300x100
+  iconlink: https://www.bluebeam.com
+  iconalt: alt
+  entrytitle: This is the title dawg!
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnField

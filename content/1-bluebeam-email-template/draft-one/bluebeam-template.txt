@@ -62,37 +62,6 @@ Builder:
 
 ----
 
-Minorarea: 
-
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 1
-  entrylink: https://www.bluebeam.com
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 2
-  entrylink: https://www.bluebeam.com
-
-----
-
-Columnitemone: 
-
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 1
-  entrylink: https://www.bluebeam.com
-
-----
-
 Columnitem: 
 
 - 
@@ -100,96 +69,14 @@ Columnitem:
     https://source.unsplash.com/random/200x100
   iconlink: https://www.bluebeam.com
   iconalt: alt
-  entrytitle: Item 1
+  entrytitle: 'Webinar: Here is a gigantic title!'
   entrylink: https://www.bluebeam.com
+  _fieldset: columnField
 - 
   imageicon: >
     https://source.unsplash.com/random/200x100
   iconlink: https://www.bluebeam.com
   iconalt: alt
-  entrytitle: Item 2
+  entrytitle: This is the title dawg!
   entrylink: https://www.bluebeam.com
-
-----
-
-Columnarea: 
-
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 1
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 2
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-
-----
-
-Columnareaone: 
-
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 1
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 2
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-
-----
-
-Columnareatwo: 
-
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 3
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 4
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-
-----
-
-Columnareathree: 
-
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 5
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
-- 
-  imageicon: >
-    https://source.unsplash.com/random/200x100
-  iconlink: https://www.bluebeam.com
-  iconalt: alt
-  entrytitle: Item 6
-  entrylink: https://www.bluebeam.com
-  _fieldset: columnItem
+  _fieldset: columnField

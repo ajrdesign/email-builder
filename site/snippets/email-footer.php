@@ -12,31 +12,53 @@
     <td class="left" align="left">
 
       <center>
+
         <hr>
+<table class="spacer">
+  <tbody>
+    <tr>
+      <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Footer Social Media Icons -->
+        <table class="row">
+          <tr>
+            <td>
+            <table class="footer-icon-row">
+              <tr>
+                  <?php if($page->parent()->facebook()->isTrue()): ?><td class="social-media">
+                      <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-facebook.png" alt="Facebook"></a></td>
+                  <?php endif ?>
+                  <?php if($page->parent()->linkedin()->isTrue()): ?><td class="social-media">
+                      <a href="<?php echo $page->parent()->linkedinUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-linkedin.png" alt="LinkedIn"></a></td>
+                  <?php endif ?>
+                  <?php if($page->parent()->twitter()->isTrue()): ?><td class="social-media">
+                      <a href="<?php echo $page->parent()->twitterUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-twitter.png" alt="Twitter"></a></td>
+                  <?php endif ?>
+                  <?php if($page->parent()->youtube()->isTrue()): ?><td class="social-media">
+                      <a href="<?php echo $page->parent()->youtubeUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-youtube.png" alt="YouTube"></a></td>
+                  <?php endif ?>
+                  <?php if($page->parent()->instagram()->isTrue()): ?><td class="social-media">
+                      <a href="<?php echo $page->parent()->instagramUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-instagram.png" alt="Instagram"></a></td>
+                  <?php endif ?>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+
+<!-- Business Information -->
+
         <table class="row">
           <tr>
             <td class="wrapper last">
 
-              <table class="twelve columns footer-align">
+              <table class="footer-align">
                 <tr>
-                  <td class="text-pad">
-                    
-                    <?php if($page->parent()->facebook()->isTrue()): ?>
-                    <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-facebook-email-footer.png" alt="Facebook"></a>
-                    <?php endif ?>
-                    <?php if($page->parent()->linkedin()->isTrue()): ?>
-                    <a href="<?php echo $page->parent()->linkedinUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-linkedin-email-footer.png" alt="LinkedIn"></a>
-                    <?php endif ?>
-                    <?php if($page->parent()->twitter()->isTrue()): ?>
-                    <a href="<?php echo $page->parent()->twitterUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-twitter-email-footer.png" alt="Twitter"></a>
-                    <?php endif ?>
-                    <?php if($page->parent()->youtube()->isTrue()): ?>
-                    <a href="<?php echo $page->parent()->youtubeUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-youtube-email-footer.png" alt="YouTube"></a>
-                    <?php endif ?>
-                    <?php if($page->parent()->instagram()->isTrue()): ?>
-                    <a href="<?php echo $page->parent()->instagramUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="https://downloads.bluebeam.com/images/2016/universal-assets/social-instagram-email-footer.png" alt="Instagram"></a>
-                    <?php endif ?>
-                    <br>
+                  <td class="text-pad large-12 small-12 columns">
 
                     <?php if($page->language() == 'au'): ?>
 

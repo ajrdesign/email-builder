@@ -1,16 +1,30 @@
-<table class="row callout quoteModule">
+<table class="row-override callout quoteModule" >
 	<tr>
-		<th class="wrapper last callout-inner">
+		<th class="last callout-inner">
 			<a href="<?= $data->quoteLink() ?> ">
-				<table class="twelve columns">
+				<table class="large-12 small-12 columns">
 					<tr>
 						<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
 							<p class="quote-text"><?= $data->quote() ?></p>
 						</td>
 					</tr>
+				</table>
+				<table class="spacer">
+				  <tbody>
+				    <tr>
+				      <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
+				    </tr>
+				  </tbody>
+				</table>
+				<table class="large-12 small-12 columns quote-source">
 					<tr>
 						<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
-							<p class="quote-source"><?= $data->quoteSource() ?></p>
+							<p><?= $data->quoteSource() ?></p>
+						</td>
+					</tr>
+					<tr>
+						<td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
+							<p><?= $data->quoteCompany() ?></p>
 						</td>
 					</tr>
 				</table>
@@ -25,7 +39,7 @@
 <table class="spacer">
   <tbody>
     <tr>
-      <td height="75px" style="font-size:75px;line-height:75px;">&#xA0;</td>
+      <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
     </tr>
   </tbody>
 </table>
