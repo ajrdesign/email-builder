@@ -12,7 +12,7 @@
 
 <!-- Column Area Section -->
 
-				<table class="row column-container">
+				<table class="container column-container">
 				  <tbody>
 				    <tr>
 					<?php foreach($page->columnItem()->toStructure() as $columnItem): ?>

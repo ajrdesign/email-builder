@@ -1,0 +1,61 @@
+Title: trial-series
+
+----
+
+Description: 
+
+----
+
+Logo: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
+
+----
+
+Logourl: https://www.bluebeam.com
+
+----
+
+Logoalt: Bluebeam Logo
+
+----
+
+Line: 
+
+----
+
+Facebook: 
+
+----
+
+Facebookurl: https://www.facebook.com/bluebeam
+
+----
+
+Linkedin: 
+
+----
+
+Linkedinurl: https://www.linkedin.com/company-beta/111265/
+
+----
+
+Twitter: 
+
+----
+
+Twitterurl: https://twitter.com/Bluebeam
+
+----
+
+Instagram: 
+
+----
+
+Instagramurl: https://www.instagram.com/bluebeam_inc/
+
+----
+
+Youtube: 
+
+----
+
+Youtubeurl: https://www.youtube.com/user/BluebeamPDFRevu

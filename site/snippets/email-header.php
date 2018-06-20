@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width">
     <title><?php echo $page->title() ?></title>
-    <?php snippet('bluebeam-css') ?>
+    <?php snippet('bluebeam-alt-css') ?>
   </head>
 
   <body>
@@ -29,7 +29,7 @@
 
                     <table class="large-8 small-8 columns">
                       <tr>
-                        <td class="left-text-pad">
+                        <td class="left-text-pad" width="250px">
                           <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" class="header-logo" alt="<?php echo $page->parent()->logoAlt() ?>" ></a>
                         </td>
 
