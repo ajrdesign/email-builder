@@ -1,4 +1,4 @@
-Title: trial-series
+Title: Tadeshow Series
 
 ----
 
@@ -6,7 +6,7 @@ Description:
 
 ----
 
-Logo: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
+Logo: http://downloads.bluebeam.com/images/assets/logos/bluebeam-logo-black-300px.png
 
 ----
 
@@ -22,7 +22,7 @@ Line:
 
 ----
 
-Facebook: 
+Facebook: 1
 
 ----
 
@@ -30,7 +30,7 @@ Facebookurl: https://www.facebook.com/bluebeam
 
 ----
 
-Linkedin: 
+Linkedin: 1
 
 ----
 
@@ -38,7 +38,7 @@ Linkedinurl: https://www.linkedin.com/company-beta/111265/
 
 ----
 
-Twitter: 
+Twitter: 1
 
 ----
 
@@ -46,7 +46,7 @@ Twitterurl: https://twitter.com/Bluebeam
 
 ----
 
-Instagram: 
+Instagram: 1
 
 ----
 
@@ -54,7 +54,7 @@ Instagramurl: https://www.instagram.com/bluebeam_inc/
 
 ----
 
-Youtube: 
+Youtube: 1
 
 ----
 

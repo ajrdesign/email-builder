@@ -834,7 +834,7 @@ td,
 th,
 a {
   color: #0a0a0a;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -850,7 +850,7 @@ h5,
 h6 {
   color: inherit;
   word-wrap: normal;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
@@ -901,14 +901,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #2199e8;
-  text-decoration: none; }
+  color: #0083db;
+  text-decoration: underline; }
   a:hover {
-    color: #147dc2; }
+    color: #0BA3E6; }
   a:active {
-    color: #147dc2; }
+    color: #0BA3E6; }
   a:visited {
-    color: #2199e8; }
+    color: #0068BA; }
 
 h1 a,
 h1 a:visited,
@@ -976,20 +976,20 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #2199e8;
+    background: #8BC34A;
     border: 2px solid #2199e8; }
     table.button table td a {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 16px;
-      font-weight: bold;
-      color: #fefefe;
+      font-weight: normal;
+      color: #ffffff;
       text-decoration: none;
       display: inline-block;
-      padding: 8px 16px 8px 16px;
+      padding: 8px 20px 8px 20px;
       border: 0 solid #2199e8;
-      border-radius: 3px; }
+      border-radius: 2px; }
   table.button.radius table td {
-    border-radius: 3px;
+    border-radius: 2px;
     border: none; }
   table.button.rounded table td {
     border-radius: 500px;
@@ -1045,7 +1045,7 @@ table.button.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
+  background: #50A145;
   color: #fefefe; }
 
 table.button:hover table a,
@@ -1444,6 +1444,10 @@ p.quote-text {
   font-weight: 300px;
   line-height: 1.4;
   margin-bottom: 15px;
+  text-decoration: none;
+}
+.callout-inner a {
+  text-decoration: none;
 }
 
 tr.column-area-text {
@@ -1468,6 +1472,11 @@ img.social-icons {
 
 .footer-icon-row td {
   padding-left: 5px;
+}
+
+.footer-align p {
+  font-size: 12px;
+  color:#333333;
 }
 
 /*Header */

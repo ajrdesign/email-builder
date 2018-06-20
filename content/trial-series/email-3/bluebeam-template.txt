@@ -1,0 +1,59 @@
+Tracking: #
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: email-3
+
+----
+
+Preheader: Tradeshow Email 1
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  titletext: "It's easy to get started with Bluebeam"
+  _fieldset: titleRow
+- 
+  quote: >
+    I have never seen a faster adoption.
+    As a technologist, I have to ‘sell
+    hard’ a lot, and this is an easy
+    sell.”
+  quotesource: Nathan Good
+  quotecompany: 'Burns & McDonnell'
+  quotelink: '#'
+  _fieldset: quoteModule
+- 
+  text: |
+    It's clear that Bluebeam solutions help teams become more productive and efficient. But it’s only natural to worry about the impact of adding new software—and potentially new workflows—to your current processes.
+    (spacer:10)
+    Fortunately, Bluebeam® Revu® is known for **easy adoption** and **seamless rollout** across projects. With its **clean, intuitive interface** and **powerful onboarding tools for new users**, Revu is designed to start saving you time, money and aggravation right away. Which is exactly what (link: # text: we heard from one customer) who used Revu to help coordinate a massive utility relocation among **27 project partners**.
+    (spacer:10)
+    And it's incredibly easy to try it for yourself.
+  _fieldset: contentCopy
+- 
+  text: Download a Trial
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 

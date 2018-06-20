@@ -1,0 +1,62 @@
+Tracking: #
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: email-2
+
+----
+
+Preheader: Tradeshow Email 1
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  titletext: Bluebeam helps you set the standard
+  _fieldset: titleRow
+- 
+  quote: >
+    Using Revu’s custom tool sets,
+    profiles and data-tracking features, we
+    can finally standardize how we capture
+    that data… Now the entire estimate can
+    get handed off to the project team.”
+  quotesource: Greg Martin
+  quotecompany: The Weitz Company
+  quotelink: '#'
+  _fieldset: quoteModule
+- 
+  text: |
+    Another thing we often hear from customers is that Bluebeam® Revu® helps make their processes more repeatable, more predictable, and ultimately, much more efficient.
+    (spacer:10)
+    One leading full-service contracting firm, for example, (link: http:// text: told us about) how they used Revu to help **standardize their preconstruction services**. With Revu, they were able to **capture quantity data** once and keep it in a **single, centralized location** to use again and again throughout their projects.
+    (spacer:10)
+    And having teams across the country now using the same **customizable, shareable tool sets** made it that much easier to **predict—and control**—project timelines and costs.
+    (spacer:10)
+    Want to see for yourself how it works?
+  _fieldset: contentCopy
+- 
+  text: Download a Trial
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 

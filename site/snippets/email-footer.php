@@ -54,19 +54,19 @@
 
         <table class="row">
           <tr>
-            <td class="wrapper last">
+            <td>
 
               <table class="footer-align">
                 <tr>
-                  <td class="text-pad large-12 small-12 columns">
+                  <td class="large-12 small-12 columns">
 
                     <?php if($page->language() == 'au'): ?>
 
                       <?php if($page->parent()->emailclient() == 'et'): ?>
-                        <p>Contact Us: <a href="mailto:sales@bluebeam.com" >Sales</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/au/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
-                        <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                        We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                        <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                        <p><strong>Contact Us:</strong></p>
+                        <p>This email is sent by: Bluebeam, Inc.,<br> Pasadena, California, USA</p>
+                        <p>We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                        <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
                       <?php endif ?>
 
                     <p>© Copyright 2002 - 2018  <a href="http://www.bluebeam.com/au/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>.  All Rights Reserved.</p>
@@ -77,8 +77,8 @@
 
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                         <p>Kontakt: <a href="mailto:sales@bluebeam.com" >Vertrieb</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/de/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Hilfe</a></p>
-                        <p>Diese E-Mail wurde versendet von: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA. Wir respektieren Ihr Recht auf Datenschutz&nbsp;&ndash; <a href="http://bluebeam.com/us/company/privacy-policy.asp" >sehen Sie sich unsere Richtlinie an</a></p>
-                        <p><a href="%%ftaf_url%%" >An einen Freund weiterleiten</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Abonnements verwalten</a> | <a href="%%profile_center_url%%" alias="Update Profile" >K&uuml;ndigen</a>
+                        <p>Diese E-Mail wurde versendet von: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA. Wir respektieren Ihr Recht auf Datenschutz&nbsp;&ndash; <a href="https://www.bluebeam.com/legal/privacy-policy/" >sehen Sie sich unsere Richtlinie an</a></p>
+                        <p><a href="%%addthis_url_email%%" >An einen Freund weiterleiten</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Abonnements verwalten</a> | <a href="%%unsubscribe%%" alias="Update Profile" >K&uuml;ndigen</a>
                       <?php endif ?>
 
                     <p>© Copyright 2002 - 2018  <a href="http://www.bluebeam.com/de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle Rechte vorbehalten.</p><a href="http://www.bluebeam.com/de/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
@@ -88,8 +88,8 @@
 
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                         <p>Kontakt os: <a href="mailto:sales.dk@bluebeam.com" >Salg</a> | <a href="mailto:support.dk@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/dk/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Hj&aelig;lp</a></p>
-                        <p>Denne e-mail er sendt af: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA. Vi respekterer din ret til beskyttelse af personlige oplysninger - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >se vores politik</a></p>
-                        <p><a href="%%ftaf_url%%" >Videresend til en ven</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Administrer abonnementer</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Afmeld</a>
+                        <p>Denne e-mail er sendt af: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA. Vi respekterer din ret til beskyttelse af personlige oplysninger - <a href="https://www.bluebeam.com/legal/privacy-policy/" >se vores politik</a></p>
+                        <p><a href="%%addthis_url_email%%" >Videresend til en ven</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Administrer abonnementer</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Afmeld</a>
                       <?php endif ?>
 
                       <p>© Copyright 2002-2016  <a href="http://www.bluebeam.com/dk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alle rettigheder forbeholdes.</p><a href="http://www.bluebeam.com/dk/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
@@ -98,8 +98,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Contact Us: <a href="mailto:sales@bluebeam.com" >Sales</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/es/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
                     <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                    We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                    <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                    We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                    <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
 
                     <?php endif ?>
 
@@ -110,8 +110,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Contact Us: <a href="mailto:sales.fi@bluebeam.com" >Sales</a> | <a href="mailto:support.fi@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/fi/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
                     <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                    We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                    <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                    We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                    <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
 
                     <?php endif ?>
 
@@ -122,8 +122,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Contact Us: <a href="mailto:sales@bluebeam.com" >Sales</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/fr/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
                     <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                    We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                    <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                    We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                    <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
 
                     <?php endif ?>
 
@@ -133,8 +133,8 @@
                     <?php elseif($page->language() == 'ch'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Kontakt: <a href="mailto:sales@bluebeam.com" >Vertrieb</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/ch-de/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Hilfe</a></p>
-                    <p>Diese E-Mail wurde versendet von: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA. Wir respektieren Ihr Recht auf Datenschutz&nbsp;&ndash; <a href="http://bluebeam.com/us/company/privacy-policy.asp" >sehen Sie sich unsere Richtlinie an</a></p>
-                    <p><a href="%%ftaf_url%%" >An einen Freund weiterleiten</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Abonnements verwalten</a> | <a href="%%profile_center_url%%" alias="Update Profile" >K&uuml;ndigen</a>
+                    <p>Diese E-Mail wurde versendet von: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA. Wir respektieren Ihr Recht auf Datenschutz&nbsp;&ndash; <a href="https://www.bluebeam.com/legal/privacy-policy/" >sehen Sie sich unsere Richtlinie an</a></p>
+                    <p><a href="%%addthis_url_email%%" >An einen Freund weiterleiten</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Abonnements verwalten</a> | <a href="%%unsubscribe%%" alias="Update Profile" >K&uuml;ndigen</a>
 
                       <?php endif ?>
 
@@ -144,8 +144,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Contact Us: <a href="mailto:sales@bluebeam.com" >Sales</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/it/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
                     <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                    We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                    <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                    We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                    <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
 
                     <?php endif ?>
 
@@ -156,8 +156,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Contact Us: <a href="mailto:sales@bluebeam.com" >Sales</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/nl/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
                     <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                    We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                    <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                    We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                    <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
 
                     <?php endif ?>
 
@@ -167,8 +167,8 @@
                     <?php elseif($page->language() == 'no'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                         <p>Kontakt oss: <a href="mailto:sales.no@bluebeam.com" >Salg</a> | <a href="mailto:support.no@bluebeam.com" >St&oslash;tte</a> | <a href="http://www.bluebeam.com/no/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Hjelp</a></p>
-                        <p>Denne e-postmeldingen ble sendt av %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%% i USA Vi respekterer din rett til personvern &ndash; <a href="http://bluebeam.com/us/company/privacy-policy.asp" >se retningslinjene v&aring;re</a></p>
-                        <p><a href="%%ftaf_url%%" >Videresend til en venn</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Administrer abonnementer</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Opphev abonnement</a>
+                        <p>Denne e-postmeldingen ble sendt av %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%% i USA Vi respekterer din rett til personvern &ndash; <a href="https://www.bluebeam.com/legal/privacy-policy/" >se retningslinjene v&aring;re</a></p>
+                        <p><a href="%%addthis_url_email%%" >Videresend til en venn</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Administrer abonnementer</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Opphev abonnement</a>
                       <?php endif ?>
 
                     <p>© Copyright 2002&ndash;2016 <a href="http://www.bluebeam.com/no/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Med enerett.</p><a href="http://www.bluebeam.com/no/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam-programvare" ></a>
@@ -176,8 +176,8 @@
                     <?php elseif($page->language() == 'se'): ?>
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                         <p>Kontakta oss: <a href="mailto:sales.se@bluebeam.com" >F&ouml;rs&auml;ljning</a> | <a href="mailto:support.se@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/se/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Hj&auml;lp</a></p>
-                        <p>E-postmeddelandet skickades av: %%Member_Busname%% %%Member_Addr%%<br>%%Member_City%% %%Member_State%% %%Member_PostalCode%% USA Vi respekterar din integritet - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >l&auml;s v&aring;r sekretesspolicy</a></p>
-                        <p><a href="%%ftaf_url%%" >Vidarebefordra till en v&auml;n</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Hantera prenumerationer</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Avanm&auml;l</a>
+                        <p>E-postmeddelandet skickades av: %%Member_Busname%% %%Member_Addr%%<br>%%Member_City%% %%Member_State%% %%Member_PostalCode%% USA Vi respekterar din integritet - <a href="https://www.bluebeam.com/legal/privacy-policy/" >l&auml;s v&aring;r sekretesspolicy</a></p>
+                        <p><a href="%%addthis_url_email%%" >Vidarebefordra till en v&auml;n</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Hantera prenumerationer</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Avanm&auml;l</a>
                       <?php endif ?>
 
                         <p>© Copyright 2002 - 2018  <a href="http://www.bluebeam.com/se/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" >Bluebeam, Inc</a>. Alla r&auml;ttigheter f&ouml;rbeh&aring;lles.</p><a href="http://www.bluebeam.com/se/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" ><img src="https://downloads.bluebeam.com/images/2016/universal-assets/bluebeam-b-logo-email-footer.png" alt="Bluebeam Software" ></a>
@@ -186,8 +186,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                     <p>Contact Us: <a href="mailto:sales.uk@bluebeam.com" >Sales</a> | <a href="mailto:support@bluebeam.com" >Support</a> | <a href="http://www.bluebeam.com/uk/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" >Help</a></p>
                     <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA
-                    We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp" >view our policy</a></p>
-                    <p><a href="%%ftaf_url%%" >Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile" >Unsubscribe</a>
+                    We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/" >view our policy</a></p>
+                    <p><a href="%%addthis_url_email%%" >Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions" >Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile" >Unsubscribe</a>
 
                     <?php endif ?>
 
@@ -207,10 +207,11 @@
                     <?php else: ?>
                     <!-- Insert US one -->
                       <?php if($page->parent()->emailclient() == 'et'): ?>
-                        <p>Contact Us: <a href="mailto:sales@bluebeam.com">Sales</a> | <a href="mailto:support@bluebeam.com">Support</a> | <a href="http://www.bluebeam.com/us/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>">Help</a></p>
-                        <p>This email is sent by: %%Member_Busname%% %%Member_Addr%%,<br>%%Member_City%%, %%Member_State%% %%Member_PostalCode%%, USA</p>
-                        <p>We respect your right to privacy - <a href="http://bluebeam.com/us/company/privacy-policy.asp">view our policy</a></p>
-                        <p><a href="%%ftaf_url%%">Forward to a Friend</a> | <a href="%%subscription_center_url%%" alias="Manage Subscriptions">Manage Subscriptions</a> | <a href="%%profile_center_url%%" alias="Update Profile">Unsubscribe</a></p>
+                        <p><strong>Contact Us:</strong></p>
+                          <!-- <a href="mailto:sales@bluebeam.com">Sales</a> | <a href="mailto:support@bluebeam.com">Support</a> | <a href="http://www.bluebeam.com/us/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>">Help</a> -->
+                        <p>This email is sent by: Bluebeam, Inc.,<br> Pasadena, California, USA</p>
+                        <p>We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/">view our policy</a>
+                        <p><a href="%%addthis_url_email%%">Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions">Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile">Unsubscribe</a></p>
                       <?php endif ?>
 
                     <p>© Copyright 2002 - 2018  <a href="http://www.bluebeam.com/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank">Bluebeam, Inc</a>.  All Rights Reserved.</p>
