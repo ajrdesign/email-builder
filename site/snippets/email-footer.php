@@ -249,5 +249,4 @@
         </tr>
       </table>
   </body>
-  <custom name="opencounter" type="tracking"></custom>
 </span>

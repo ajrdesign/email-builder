@@ -1,4 +1,4 @@
-<!-- Start of Focus Story Hero Section -->
+<!-- Start of Focus Story Text Only Section -->
 <table class="wrapper focus-text-row">
   <tr>
     <td>

@@ -8,7 +8,7 @@
     <?php snippet('bluebeam-alt-css') ?>
   </head>
 
-  <body>
+<body>
 <?php if($page->parent()->emailclient() == 'et'): ?>
 <?php endif ?>
   <span class="preheader"><?php echo $page->preheader() ?></span>
