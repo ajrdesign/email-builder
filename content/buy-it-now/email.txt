@@ -6,7 +6,7 @@ Description:
 
 ----
 
-Logo: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
+Logo: http://downloads.bluebeam.com/images/assets/logos/bluebeam-logo-black-300px.png
 
 ----
 

@@ -1,0 +1,61 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Buy It Now 3
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  titletext: >
+    Win again and again with digital
+    efficiency
+  _fieldset: titleRow
+- 
+  quote: >
+    "The technology seems like the lifeblood
+    of what we do here—it’s the
+    heartbeat of our processes.”
+  quotesource: Sheila McLaughlin
+  quotecompany: Barton Malow
+  _fieldset: quoteModule
+- 
+  text: |
+    Bluebeam® Revu® is the comprehensive digital solution to standardize and measure your processes for repeatable success.
+    (spacer:10)
+    After all, if your workflows aren’t standardized, how can you tell what’s working and what isn’t? This was an issue for one major general contractor (link: # text: we spoke with)—until they **used Revu on two back-to-back projects**.
+    (spacer:10)
+    The features in Revu allowed the firm to **standardize workflows** across the two jobs, letting them clearly see which processes worked well enough to repeat on future jobs.
+    (spacer:10)
+    Give your company that same advantage.
+  _fieldset: contentCopy
+- 
+  text: Buy Revu Now
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 

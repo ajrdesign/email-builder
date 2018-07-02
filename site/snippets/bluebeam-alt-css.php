@@ -979,13 +979,13 @@ table.button {
     background: #8BC34A;
     border: 2px solid #2199e8; }
     table.button table td a {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 16px;
+      font-family: 'Open Sans', Arial, sans-serif;
+      font-size: 14px;
       font-weight: normal;
       color: #ffffff;
       text-decoration: none;
       display: inline-block;
-      padding: 8px 20px 8px 20px;
+      padding: 8px 25px 8px 25px;
       border: 0 solid #2199e8;
       border-radius: 2px; }
   table.button.radius table td {
@@ -1023,8 +1023,8 @@ table.button.small table a {
   font-size: 12px; }
 
 table.button.large table a {
-  padding: 10px 20px 10px 20px;
-  font-size: 20px; }
+  padding: 12px 30px 12px 30px;
+  font-size: 16px; }
 
 table.button.expand,
 table.button.expanded {
@@ -1441,9 +1441,9 @@ small {
 }
 
 p.quote-text {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: 300;
-  line-height: 1.3;
+  line-height: 1.4;
   margin-bottom: 10px;
   text-decoration: none;
 }

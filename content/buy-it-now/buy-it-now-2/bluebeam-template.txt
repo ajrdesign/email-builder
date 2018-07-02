@@ -1,0 +1,62 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Buy It Now 2
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  titletext: >
+    Use Bluebeam Revu and make fewer
+    mistakes
+  _fieldset: titleRow
+- 
+  quote: >
+    "Reviewing files manually meant there
+    was too much room for error. The
+    comparison tools… have been a powerful
+    way for us to ensure that all the
+    changes and the differences are
+    clear.”
+  quotesource: Greg Sweeney
+  quotecompany: ROSSETTI
+  _fieldset: quoteModule
+- 
+  text: |
+    Bluebeam® Revu® helps prevent errors by creating a single, digital source of truth. So your project stakeholders always have access to the most accurate and up-to-the-minute information—saving your firm both time and money.
+    (spacer:10)
+    A design lead on an iconic sports venue renovation (link: # text: discussed the integral role) Revu played on the **$400 million project**. Revu allowed them to replace manual, paper-based document comparisons to help mitigate the risk of errors and increase collaboration. It’s one reason they were able to **finish a 30-month project in a span of just 24 months**.
+    (spacer:10)
+    Give your projects the advantage of increased accuracy.
+  _fieldset: contentCopy
+- 
+  text: Buy Revu Now
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 

@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Buy It Now 1
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  titletext: Speed up your reviews with Bluebeam Revu
+  _fieldset: titleRow
+- 
+  quote: >
+    "We’ve estimated that it’s saved us
+    about 2-3 weeks per review. It’s taken
+    a stunning amount of time out of our
+    QA/QC process.”
+  quotesource: Matt Forman
+  quotecompany: CannonDesign
+  _fieldset: quoteModule
+- 
+  text: |
+    Your free trial of Bluebeam® Revu® might be over. But there’s still time to bring the benefits of Revu to your work.
+    (spacer:10)
+    For example: Document reviews are a way of life on complex projects. What if you could speed up those reviews while also improving their accuracy? (link: #  text: This award-winning design firm) that took on a** $2 billion hospital** project with more than **5,900 pages** of architectural drawings.
+    (spacer:10)
+    By switching from paper to Revu, the firm **saved two to three weeks per design review**, which added up to hundreds of work hours over the life of the project. How much time could you save with Revu?
+  _fieldset: contentCopy
+- 
+  text: Buy Revu Now
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
