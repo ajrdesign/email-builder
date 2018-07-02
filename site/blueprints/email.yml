@@ -14,7 +14,7 @@ fields:
   logo:
     label: Header Logo
     type: url
-    default: https://downloads.bluebeam.com/images/assets/logos/Bluebeam+Horizontal+White.png
+    default: http://downloads.bluebeam.com/images/assets/logos/bluebeam-logo-black-300px.png
     required: true
   logoUrl:
     label: Logo Link

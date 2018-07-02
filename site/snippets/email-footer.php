@@ -29,19 +29,19 @@
             <table class="footer-icon-row">
               <tr>
                   <?php if($page->parent()->facebook()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-facebook.png" alt="Facebook" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-facebook-25px.png" alt="Facebook" height="20px"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->linkedin()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->linkedinUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-linkedin.png" alt="LinkedIn" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->linkedinUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-linkedin-25px.png" alt="LinkedIn" height="20px"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->twitter()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->twitterUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-twitter.png" alt="Twitter" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->twitterUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-twitter-25px.png" alt="Twitter" height="20px"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->youtube()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->youtubeUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-youtube.png" alt="YouTube" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->youtubeUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-youtube-25px.png" alt="YouTube" height="20px"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->instagram()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->instagramUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-instagram.png" alt="Instagram" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->instagramUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-instagram-25px.png" alt="Instagram" height="20px"></a></td>
                   <?php endif ?>
               </tr>
             </table>
@@ -206,9 +206,8 @@
 
                     <?php else: ?>
                     <!-- Insert US one -->
-                      <?php if($page->parent()->emailclient() == 'et'): ?>
+                      <?php if($page->language() == 'us'): ?>
                         <p><strong>Contact Us:</strong></p>
-                          <!-- <a href="mailto:sales@bluebeam.com">Sales</a> | <a href="mailto:support@bluebeam.com">Support</a> | <a href="http://www.bluebeam.com/us/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>">Help</a> -->
                         <p>This email is sent by: Bluebeam, Inc.,
                           <br> 55 S. Lake Ave., Ste. 900 Pasadena, CA 91101</p>
                         <p>We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/">view our policy</a>
