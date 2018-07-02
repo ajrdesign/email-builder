@@ -57,8 +57,8 @@ a img {
   border: none; }
 
 p {
-  margin: 0 0 0 10px;
-  Margin: 0 0 0 10px; }
+  margin: 0 0 0 0;
+  Margin: 0 0 0 0; }
 
 table {
   border-spacing: 0;
@@ -1385,7 +1385,7 @@ html,
 h1 {
   color: #0083db;
   font-weight: 700;
-  line-height:1.3;
+  line-height:1.2;
   margin-bottom:15px;}
 h2 {
   color: #0083db;
@@ -1411,7 +1411,7 @@ td {
 
 
 h1 {
-  font-size: 52px; }
+  font-size: 48px; }
 h2 {
   font-size: 32px; }
 h3 {
@@ -1426,6 +1426,10 @@ p,
 td,
 th {
   font-size: 18px;
+}
+
+small {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 596px) {
@@ -1461,9 +1465,12 @@ p.quote-company {
 
 @media only screen and (max-width: 375px) {
   h1 {
-  font-size: 1.8em; }
+    font-size: 1.8em; }
+  h2 {
+    font-size: 1.4em; }
   h3 {
     font-size: 1.1em;}
+  
 
   p,
   td,
@@ -1501,13 +1508,13 @@ hr {
   border-color: #ffffff;
 }
 img.social-icons {
-  height:25px;
+  height:20px !important;
   margin-right: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
-.footer-icon-row td {
-  padding-left: 5px;
+table.footer-icon-row {
+  width: auto !important;
 }
 
 .footer-align p {
@@ -1537,6 +1544,16 @@ table.header table{
   table.body .container {
     width: 300px !important; }
   }
+
+/* Focus Text Only Row styling */
+
+.focus-text-row {
+  background-color: #0083db;
+}
+
+.focus-text {
+  color: #ffffff;
+}
 
 </style>
 <!--[if mso]>

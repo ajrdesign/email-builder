@@ -1,63 +1,50 @@
 <!-- Start of Focus Story Hero Section -->
-
-<!-- Spacer -->
-
-<table class="spacer">
-  <tbody>
-    <tr>
-      <td height="50px" style="font-size:50px;line-height:50px;">&#xA0;</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- End of Spacer -->
-
-<table class="row" id="focus-story">
-	<tr>
-		<td class="wrapper last">
-			<table class="large-12 columns">
-				<tr>
-					<td class="center">
-						<h1 class="focus"><?= $data->headline()->text() ?></h1>
-					</td>
-				</tr>
-				<tr>
-					<td class="center">
-						<h3 class="focus"><?= $data->subheadline()->text() ?></h3>
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-
-<!-- Spacer -->
-
-<table class="spacer">
-  <tbody>
-    <tr>
-      <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- End of Spacer -->
-
-<table class="row-override">
+<table class="wrapper focus-text-row">
   <tr>
     <td>
-      <table class="large-12 columns">
+      <table class="row center" align="center">
         <tr>
-          <td class="center">
-            <a target="_blank" href="<?php echo $data->focusImageLink() ?>">
-              <img src="<?php echo $data->focusImage() ?>" width="600" alt="<?php echo $data->focusImageAlt() ?>">
-            </a>
+          <td>
+            <table class="spacer">
+              <tbody>
+                <tr>
+                  <td height="50px" style="font-size:50px;line-height:50px;">&#xA0;</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <tr>
+                <td>
+                  <h1 class="focus-text"><?= $data->headline()->text() ?></h1>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3 class="focus-text"><?= $data->subheadline()->text() ?></h3>
+                </td>
+              </tr>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table class="spacer">
+              <tbody>
+                <tr>
+                  <td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td>
+                </tr>
+              </tbody>
+            </table>
           </td>
         </tr>
       </table>
     </td>
   </tr>
 </table>
+
+
 
 <!-- Spacer -->
 
@@ -78,7 +65,7 @@
     <td>
       <table class="large-12 columns">
         <tr>
-          <td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
+          <td class="<?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
             <p><?= $data->focusContent()->kt() ?></p>
           </td>
         </tr>

@@ -1,0 +1,84 @@
+Tracking: 
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Draft Five
+
+----
+
+Preheader: 
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: https://www.bluebeam.com
+  generalimagealt: ""
+  headline: New Revu Tools to Play With
+  generalcontent: >
+    Digital documents allow for quicker
+    information access and reduce errors,
+    but not knowing how to properly organize
+    the documents can reduce their benefits
+    of digital documents. Learn how to use
+    Bluebeam Revu to manage digital
+    documents throughout the project
+    lifecycle with this on-demand webinar.
+  ctatext: Learn More
+  ctaurl: '#'
+  _fieldset: generalStory
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: https://www.bluebeam.com
+  generalimagealt: ""
+  headline: Another Brand New Tool
+  generalcontent: >
+    Technology is a major concern for all
+    companies seeking to reduce cost and
+    timelines. As new products hit the
+    market, many questions remain and StrXur
+    takes a look at the possibilities.
+  ctatext: Read More
+  ctaurl: '#'
+  _fieldset: generalStory
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/225x100
+  iconlink: https://www.bluebeam.com
+  iconalt: Alt Text
+  entrytitle: 'Webinar: Find out how to speed up your Quantity Takeoffs'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnField
+- 
+  imageicon: >
+    https://source.unsplash.com/random/225x100
+  iconlink: https://www.bluebeam.com
+  iconalt: Alterior Text
+  entrytitle: 'Tips and Tricks: Advance Your Markup Workflow'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnField
