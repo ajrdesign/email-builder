@@ -1385,16 +1385,17 @@ html,
 h1 {
   color: #0083db;
   font-weight: 700;
-  line-height:1.2;
+  line-height:1.3;
   margin-bottom:15px;}
 h2 {
   color: #0083db;
-  font-weight: bold;
-  line-height:1.2;
+  font-weight: 500;
+  line-height:1.3;
   margin-bottom:15px;}
 h3 {
-  font-weight: 300;
-  line-height:1.2;
+  font-weight: 500;
+  color: #333333;
+  line-height:1.3;
   margin-bottom:15px;}
 
 h4 {
@@ -1414,7 +1415,7 @@ h1 {
 h2 {
   font-size: 32px; }
 h3 {
-  font-size: 26px; }
+  font-size: 28px; }
 h4 {
   font-size: 24px; }
 h5 {
@@ -1430,6 +1431,9 @@ th {
 @media only screen and (max-width: 596px) {
   h1 {
   font-size: 2.2em; }
+  h3 {
+    font-size: 1.3em;
+  }
 }
 
 p.quote-text {
@@ -1455,7 +1459,27 @@ p.quote-company {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 375px) {
+  h1 {
+  font-size: 1.8em; }
+  h3 {
+    font-size: 1.1em;}
 
+  p,
+  td,
+  th,
+  a {
+    font-size: 16px;}
+
+  p.quote-text {
+    font-size: 1.2em; }
+
+  p.quote-source {
+  font-size: 14px;}
+
+  p.quote-company {
+    font-size: 14px;}
+  }
 
 .callout-inner a {
   text-decoration: none;
@@ -1464,12 +1488,13 @@ p.quote-company {
 tr.column-area-text {
   margin:25px 0 25px 0;
 }
-tr.column-area-text td a {
+tr.column-area-text a {
   word-wrap: normal;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: .8em;
+  font-weight: 700;
   color: #000000;
 }
+
 
 /*Footer*/
 hr {
@@ -1496,6 +1521,22 @@ table.header table{
   background-color: #f8f8f8;
 }
 
+/* Viewport breaks */
+
+@media only screen and (max-width: 425px) {
+  table.body .container {
+    width: 400px !important; }
+  }
+
+@media only screen and (max-width: 375px) {
+  table.body .container {
+    width: 345px !important; }
+  }
+
+@media only screen and (max-width: 320px) {
+  table.body .container {
+    width: 300px !important; }
+  }
 
 </style>
 <!--[if mso]>

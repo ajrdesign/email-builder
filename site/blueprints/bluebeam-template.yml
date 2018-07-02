@@ -247,7 +247,7 @@ fields:
             label: Icon image for entry
             type: url
             required: true
-            default: https://source.unsplash.com/random/200x100
+            default: https://source.unsplash.com/random/225x100
           iconLink:
             label: Icon Image Link
             type: text
