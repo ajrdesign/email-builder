@@ -25,7 +25,7 @@ Contentsettings:
 Builder: 
 
 - 
-  titletext: Get more done with Bluebeam
+  titletext: Get More Done With Bluebeam
   _fieldset: titleRow
 - 
   quote: >
@@ -33,13 +33,13 @@ Builder:
     about 2-3 weeks per review. It’s taken
     a stunning amount of time out of our
     QA/QC process.”
-  quotesource: Matt Forman 
+  quotesource: Matt Forman
   quotecompany: CannonDesign
   quotelink: '#'
   _fieldset: quoteModule
 - 
   text: |
-    A lot of our customers tell us that Bluebeam® Revu® has made their teams more productive by allowing them to collaborate more efficiently. Like an award-winning design firm that took on a **$2 billion hospital project **with more than 5,900 pages of architectural drawings.
+    A lot of our (link: # text: customers) tell us that Bluebeam® Revu® has made their teams more productive by allowing them to collaborate more efficiently. Like an award-winning design firm that took on a **$2 billion hospital project **with more than 5,900 pages of architectural drawings.
     (spacer:10)
     With its **best-in-class markup tools** and **built-in collaboration** capabilities, Revu helped **save them two to three weeks per design review**. That adds up to hundreds of work hours over the life of the project—which is a lot of time (and labor costs) saved!
     (spacer:10)

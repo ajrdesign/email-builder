@@ -203,9 +203,6 @@ fields:
           quoteCompany:
             label: Quote Company
             type: text
-          quoteLink:
-            label: Quote Link
-            type: text
       titleRow:
         label: Title Row
         fields:

@@ -1,0 +1,100 @@
+Tracking: 
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Draft Four
+
+----
+
+Preheader: 
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: New Revu Tools to Play With
+  subheadline: "New exciting Revu tool sets you won't want to miss!"
+  focusimage: >
+    https://source.unsplash.com/random/600x400
+  focusimagelink: https://www.bluebeam.com
+  focusimagealt: Alt Text
+  focuscontent: 'Digital documents allow for quicker information access and reduce errors, but not knowing how to properly organize the documents can reduce their benefits of digital documents. (link: # text: Learn how) to use Bluebeam Revu to manage digital documents throughout the project lifecycle with this on-demand webinar.'
+  ctatext: Learn More
+  ctaurl: '#'
+  extratext: Additional CTA
+  extraurl: '#'
+  _fieldset: focusStory
+- 
+  entryheadline: >
+    Read Why Ed McCauley Thinks Technology
+    is Important
+  entrycontent: >
+    Technology is a major concern for all
+    companies seeking to reduce cost and
+    timelines. As new products hit the
+    market, many questions remain and StrXur
+    takes a look at the possibilities.
+  entryurl: '#'
+  _fieldset: focusSecondaryStory
+- 
+  entryheadline: Read How to Access Data Quicker
+  entrycontent: >
+    Digital documents allow for quicker
+    information access and reduce errors,
+    but not knowing how to properly organize
+    the documents can reduce their benefits
+    of digital documents. Learn how to use
+    Bluebeam Revu to manage digital
+    documents throughout the project
+    lifecycle with this on-demand webinar.
+  entryurl: '#'
+  _fieldset: focusSecondaryStory
+- 
+  quote: >
+    Using Revu’s custom tool sets,
+    profiles and data-tracking features, we
+    can finally standardize how we capture
+    that data… Now the entire estimate can
+    get handed off to the project team.”
+  quotesource: Greg Martin
+  quotecompany: The Weitz Company
+  quotelink: '#'
+  _fieldset: quoteModule
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: Alt Text
+  entrytitle: 'Webinar: Find out how to speed up your Quantity Takeoffs'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnField
+- 
+  imageicon: >
+    https://source.unsplash.com/random/200x100
+  iconlink: https://www.bluebeam.com
+  iconalt: Alterior Text
+  entrytitle: 'Tips and Tricks: Advance Your Markup Workflow'
+  entrylink: https://www.bluebeam.com
+  _fieldset: columnField

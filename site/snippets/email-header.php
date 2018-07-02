@@ -22,15 +22,28 @@
             <td class="center" align="center">
 
               <center>
-
+<!-- Header Logo Area -->
               <table class="row">
+
+                <tr>
+                  <td>
+                    <table class="spacer">
+                      <tbody>
+                        <tr>
+                          <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+
                 <tr>
                   <td class="last">
 
                     <table class="large-8 small-8 columns">
                       <tr>
                         <td class="left-text-pad" width="250px">
-                          <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" class="header-logo" alt="<?php echo $page->parent()->logoAlt() ?>" ></a>
+                          <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>" ></a>
                         </td>
 
                         <td class="expander"></td>
@@ -40,8 +53,20 @@
                   </td>
 
                 </tr>
-              </table>
 
+                <tr>
+                  <td>
+                    <table class="spacer">
+                      <tbody>
+                        <tr>
+                          <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+<!-- End of Header Logo Area -->
               </center>
 
             </td>

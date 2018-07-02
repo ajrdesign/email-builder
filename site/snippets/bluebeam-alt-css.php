@@ -902,7 +902,7 @@ small {
 
 a {
   color: #0083db;
-  text-decoration: underline; }
+  text-decoration: none; }
   a:hover {
     color: #0BA3E6; }
   a:active {
@@ -1375,13 +1375,6 @@ html,
   color: #fff;
   padding-top: 15px; }
 
-.header .wrapper-inner {
-  padding: 20px; }
-
-.header .container {
-  background: transparent; 
-  margin:40px 0 40px 0;
-  Margin:40px 0 40px 0;}
 
 /*End of framework */
 
@@ -1391,8 +1384,8 @@ html,
 /* Font Sizing */
 h1 {
   color: #0083db;
-  font-weight: bold;
-  line-height:1.1;
+  font-weight: 700;
+  line-height:1.2;
   margin-bottom:15px;}
 h2 {
   color: #0083db;
@@ -1409,10 +1402,10 @@ h4 {
   line-height:1.2;
   margin-bottom:15px;}
 p {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 td {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 
@@ -1436,16 +1429,34 @@ th {
 
 @media only screen and (max-width: 596px) {
   h1 {
-  font-size: 38px; }
+  font-size: 2.2em; }
 }
 
 p.quote-text {
-  font-size: 30px;
-  font-weight: 300px;
-  line-height: 1.4;
-  margin-bottom: 15px;
+  font-size: 1.7em;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: 10px;
   text-decoration: none;
 }
+
+p.quote-source {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+p.quote-company {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+
+
 .callout-inner a {
   text-decoration: none;
 }
@@ -1482,8 +1493,7 @@ img.social-icons {
 /*Header */
 
 table.header table{
-  margin: 20px 0 20px 0;
-  Margin: 20px 0 20px 0;
+  background-color: #f8f8f8;
 }
 
 

@@ -209,7 +209,8 @@
                       <?php if($page->parent()->emailclient() == 'et'): ?>
                         <p><strong>Contact Us:</strong></p>
                           <!-- <a href="mailto:sales@bluebeam.com">Sales</a> | <a href="mailto:support@bluebeam.com">Support</a> | <a href="http://www.bluebeam.com/us/contact/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>">Help</a> -->
-                        <p>This email is sent by: Bluebeam, Inc.,<br> Pasadena, California, USA</p>
+                        <p>This email is sent by: Bluebeam, Inc.,
+                          <br> 55 S. Lake Ave., Ste. 900 Pasadena, CA 91101</p>
                         <p>We respect your right to privacy - <a href="https://www.bluebeam.com/legal/privacy-policy/">view our policy</a>
                         <p><a href="%%addthis_url_email%%">Forward to a Friend</a> | <a href="%%email_preference_center%%" alias="Manage Subscriptions">Manage Subscriptions</a> | <a href="%%unsubscribe%%" alias="Update Profile">Unsubscribe</a></p>
                       <?php endif ?>

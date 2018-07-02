@@ -840,7 +840,9 @@ a {
   margin: 0;
   Margin: 0;
   text-align: left;
-  line-height: 1.3; }
+  line-height: 1.3;
+  text-decoration: none !important;
+   }
 
 h1,
 h2,
@@ -853,7 +855,9 @@ h6 {
   font-family: 'Roboto', Arial, Helvetica;
   font-weight: normal;
   margin-bottom: 10px;
-  Margin-bottom: 10px; }
+  Margin-bottom: 10px;
+  text-decoration: none !important;
+}
 
 h1 {
   font-size: 34px; }
@@ -883,7 +887,8 @@ th {
 
 p {
   margin-bottom: 10px;
-  Margin-bottom: 10px; }
+  Margin-bottom: 10px;
+  text-decoration: none !important; }
   p.lead {
     font-size: 20px;
     line-height: 1.6; }
@@ -902,13 +907,16 @@ small {
 
 a {
   color: #2199e8;
-  text-decoration: none; }
+  text-decoration: none !important;}
   a:hover {
-    color: #147dc2; }
+    color: #147dc2;
+    text-decoration: none !important; }
   a:active {
-    color: #147dc2; }
+    color: #147dc2;
+    text-decoration: none !important; }
   a:visited {
-    color: #2199e8; }
+    color: #2199e8;
+    text-decoration: none !important; }
 
 h1 a,
 h1 a:visited,
@@ -922,7 +930,8 @@ h5 a,
 h5 a:visited,
 h6 a,
 h6 a:visited {
-  color: #2199e8; }
+  color: #2199e8;
+  text-decoration: none !important; }
 
 pre {
   background: #F8F8F8;
@@ -1371,26 +1380,32 @@ h1 {
   color: #0083db;
   font-weight: bold;
   line-height:1.1;
-  margin-bottom:15px;}
+  margin-bottom:15px;
+  text-decoration:none !important;}
 h2 {
   color: #0083db;
   font-weight: bold;
   line-height:1.2;
-  margin-bottom:15px;}
+  margin-bottom:15px;
+  text-decoration:none !important;}
 h3 {
   font-weight: 300;
   line-height:1.2;
-  margin-bottom:15px;}
+  margin-bottom:15px;
+  text-decoration:none !important;}
 
 h4 {
   font-weight: 400;
   line-height:1.2;
-  margin-bottom:15px;}
+  margin-bottom:15px;
+  text-decoration:none !important;}
 p {
-  line-height: 1.5;
+  line-height: 1.3;
+  text-decoration:none !important;
 }
 td {
-  line-height: 1.5;
+  line-height: 1.3;
+  text-decoration:none !important;
 }
 
 
@@ -1410,6 +1425,10 @@ p,
 td,
 th {
   font-size: 18px;
+}
+
+a {
+ text-decoration:none !important;
 }
 
 @media only screen and (max-width: 596px) {
@@ -1466,20 +1485,9 @@ img.social-icons {
 
 /* Header Styling */
 
-table.header {
-  background-color:#F8F8F8 !important;
-  margin: 40px 0 40px 0 !important;
-}
-
-@media only screen and (max-width: 596px) {
-  table.header {
-  background-color:#ffffff !important;
-}
-
-
 </style>
 <!--[if mso]>
 <style type="text/css">
-body, table, td, h1, h2, h3, h4, h5, h6, p,table.button td a, table.tiny-button td a, table.small-button td a, table.medium-button td a, table.large-button td a {font-family: Arial, Helvetica, sans-serif !important;}
+body, table, td, h1, h2, h3, h4, h5, h6, p,table.button td a, table.tiny-button td a, table.small-button td a, table.medium-button td a, table.large-button td a {font-family: Arial, Helvetica, sans-serif !important; text-decoration:none;}
 </style>
 <![endif]-->

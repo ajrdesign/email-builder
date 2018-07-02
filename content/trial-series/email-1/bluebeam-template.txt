@@ -34,7 +34,7 @@ Builder:
     a stunning amount of time out of our
     QA/QC process.”
   quotesource: Matt Forman
-  quotecompany:  CannonDesign
+  quotecompany: Cannon Design
   quotelink: '#'
   _fieldset: quoteModule
 - 
