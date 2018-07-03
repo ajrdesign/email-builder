@@ -1,0 +1,51 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Trial Series 1
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: Four easy steps to get started in Revu
+  subheadline: ""
+  _fieldset: blueTitleRow
+- 
+  image: >
+    https://source.unsplash.com/random/600x200
+  imagelink: https://www.bluebeam.com
+  imagealt: alt
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:40)
+    Thanks for downloading a trial of Bluebeam® Revu®. We’ll check in from time to time throughout your trial with some helpful tips and how-tos—like this one.
+    (spacer:5)
+    The first thing most of our customers want to learn is how to mark up a PDF document.
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 

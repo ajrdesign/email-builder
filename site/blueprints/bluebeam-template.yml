@@ -209,6 +209,16 @@ fields:
           titleText:
             label: Title
             type: text
+      blueTitleRow:
+        label: Blue Title Row
+        fields:
+          headline:
+            type: text
+            label: Headline
+            required: true
+          subheadline:
+            label: Subheadline
+            type: text
       contentCopy:
         label: Content Copy
         fields:
@@ -219,6 +229,24 @@ fields:
           text:
             label: Content
             type: markdown
+      imageSection:
+        label: Image
+        fields:
+          image:
+            label: Image Source
+            type: url
+            default: https://source.unsplash.com/random/600x200
+            help: Needs to be maximum width of 600px. Height does not matter.
+          imageLink:
+            label: Image Redirect Link
+            type: text
+            default: https://www.bluebeam.com
+            width: 1/2
+          imageAlt:
+            label: Image Alt Text
+            type: text
+            help: This will display when images are disabled in users email client.
+            width: 1/2 
       cta:
         label: Call to Action Block
         snippet: builder/basicCta

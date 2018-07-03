@@ -1,8 +1,10 @@
-<table class="row">
-  <tr>
-    <td class="wrapper wrapper-flush-t-padding last">
+<!-- Start of Image Row -->
 
-      <table class="twelve columns">
+<table class="wrapper">
+  <tr>
+    <td>
+
+      <table class="large-12 columns">
         <tr>
           <td class="center">
 
@@ -17,3 +19,5 @@
   </tr>
 
 </table>
+
+<!-- End of Image Row -->
