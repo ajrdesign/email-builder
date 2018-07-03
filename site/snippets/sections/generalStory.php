@@ -91,7 +91,7 @@
         <table class="large-6 small-6 columns">
           <tr>
             <td class="center">
-              <table class="button radius<?= ($data->style() == 'true') ? 'outline' : '' ?>">
+              <table class="button large radius<?= ($data->style() == 'true') ? 'outline' : '' ?>">
                 <tr>
                   <td >
                     <table>

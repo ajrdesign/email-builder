@@ -971,8 +971,8 @@ span.preheader {
 
 table.button {
   width: auto;
-  margin: 0 0 16px 0;
-  Margin: 0 0 16px 0; }
+  margin: 0 0 10px 0;
+  Margin: 0 0 10px 0; }
   table.button table td {
     text-align: left;
     color: #fefefe;
@@ -981,7 +981,7 @@ table.button {
     table.button table td a {
       font-family: 'Open Sans', Arial, sans-serif;
       font-size: 14px;
-      font-weight: normal;
+      font-weight: 700;
       color: #ffffff;
       text-decoration: none;
       display: inline-block;
@@ -1023,7 +1023,7 @@ table.button.small table a {
   font-size: 12px; }
 
 table.button.large table a {
-  padding: 12px 30px 12px 30px;
+  padding: 12px 20px 12px 20px;
   font-size: 16px; }
 
 table.button.expand,
@@ -1393,7 +1393,7 @@ h2 {
   line-height:1.3;
   margin-bottom:15px;}
 h3 {
-  font-weight: 500;
+  font-weight: 300;
   color: #333333;
   line-height:1.3;
   margin-bottom:15px;}
@@ -1403,7 +1403,7 @@ h4 {
   line-height:1.2;
   margin-bottom:15px;}
 p {
-  line-height: 1.3;
+  line-height: 1.45;
 }
 td {
   line-height: 1.3;
@@ -1415,7 +1415,7 @@ h1 {
 h2 {
   font-size: 32px; }
 h3 {
-  font-size: 28px; }
+  font-size: 30px; }
 h4 {
   font-size: 24px; }
 h5 {
@@ -1443,14 +1443,14 @@ small {
 p.quote-text {
   font-size: 1.5em;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.5;
   margin-bottom: 10px;
   text-decoration: none;
 }
 
 p.quote-source {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3;
   text-decoration: none;
   margin-bottom: 0;
@@ -1458,7 +1458,7 @@ p.quote-source {
 
 p.quote-company {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3;
   text-decoration: none;
 }
@@ -1510,7 +1510,7 @@ hr {
 img.social-icons {
   height:20px !important;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 table.footer-icon-row {

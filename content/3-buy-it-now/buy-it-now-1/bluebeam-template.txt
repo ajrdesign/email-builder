@@ -39,9 +39,9 @@ Builder:
 - 
   text: |
     Your free trial of Bluebeam® Revu® might be over. But there’s still time to bring the benefits of Revu to your work.
-    (spacer:10)
+    (spacer:5)
     For example: Document reviews are a way of life on complex projects. What if you could speed up those reviews while also improving their accuracy? (link: #  text: This award-winning design firm) that took on a** $2 billion hospital** project with more than **5,900 pages** of architectural drawings.
-    (spacer:10)
+    (spacer:5)
     By switching from paper to Revu, the firm **saved two to three weeks per design review**, which added up to hundreds of work hours over the life of the project. How much time could you save with Revu?
   _fieldset: contentCopy
 - 
