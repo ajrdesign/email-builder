@@ -106,25 +106,21 @@ fields:
           headline:
             type: text
             label: Headline
-            required: true
           subheadline:
             label: Subheadline
             type: text
           focusContent:
             label: Story Content
             help: Enter story copy.
-            required: true
             type: markdown
           ctaText:
             label: Button CTA
             type: text
-            required: true
             width: 1/2 
           ctaUrl:
             label: Button URL
             type: text
             default: #
-            required: true
             width: 1/2 
           extraText:
             label: Extra CTA
@@ -142,16 +138,13 @@ fields:
           entryHeadline:
             type: text
             label: Headline
-            required: true
           entryContent:
             label: Enter story copy
             type: markdown
-            required: true
           entryUrl:
             label: Story Link
             type: text
             default: #
-            required: true
       generalStory:
         label: General Story
         snippet: builder/generalStory

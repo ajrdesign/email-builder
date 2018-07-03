@@ -1,0 +1,104 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Trial Series 2
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: 'The Markups List: one of the most powerful tools in Revu'
+  subheadline: ""
+  _fieldset: blueTitleRow
+- 
+  text: |
+    (spacer:40)
+    As you work, the Markups List records every markup that’s added to your document—plus important details like the author, date, status and related comments. Here’s how you can take advantage of all that powerful project data.
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-2-step1.png
+  imagelink: '#'
+  imagealt: Step 1
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **1. **Click on the blue icon in the lower left-hand corner of your screen to open the **Markups List** panel.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-2-step2.png
+  imagelink: '#'
+  imagealt: Step 2
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **2.** You’ll see the Markups List displays all your markup data in columns—like Status, Author, Color, Comments and more. ( (link: # text: You can even create your own custom columns.))
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-2-step3.png
+  imagelink: '#'
+  imagealt: Step 3
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **3. **To export a summary of the data reflected in the Markups List, go to the Summary icon in the panel and select **PDF Summary**. If you’d like to adjust the way the summary is categorized, use the dialog box that appears and select **Filter and Sort** and then go to **Sort By**. Click **OK** once you’re done.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-2-step4.png
+  imagelink: '#'
+  imagealt: step 4
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **4.** Your summary will show up right in Revu. Now check out all the data you’ve harnessed.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  text: >
+    Want to see how the Markups List can
+    make your data work harder?
+  _fieldset: contentCopy
+- 
+  text: Watch the Video
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

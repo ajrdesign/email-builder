@@ -1,0 +1,59 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Trial Series 5
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: 'AEC is changing. <br>Stay ahead of the pack.'
+  subheadline: ""
+  focuscontent: |
+    Your Bluebeam® Revu® trial is almost over. Don’t lose access to everything you can do with this powerful tool.
+    (spacer:10)
+    Reducing rework. Increasing efficiency. Standardizing processes that can be repeated over and over again, from one job to the next. Whatever your company size, our solutions can help you work smarter and faster.
+  ctatext: Buy Revu Now
+  ctaurl: '#'
+  extratext: >
+    Need help choosing which version of Revu
+    is best for you?
+  extraurl: '#'
+  _fieldset: focusStoryText
+- 
+  entryheadline: >
+    Still not sure if Revu will help you
+    achieve success?
+  entrycontent: 'We helped (link: # text: one leading UK engineering firm) achieve a 60% increase in efficiency through streamlining processes and maintaining drawing quality at a level previously unimaginable.'
+  entryurl: '#'
+  _fieldset: focusSecondaryStory
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

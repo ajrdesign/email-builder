@@ -1,0 +1,119 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Draft Eight
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: HEADLINE
+  subheadline: SUBHEADLINE
+  focusimage: >
+    https://source.unsplash.com/random/600x400
+  focusimagelink: https://www.bluebeam.com
+  focusimagealt: ALT
+  focuscontent: INSERT COPY
+  ctatext: CTA
+  ctaurl: '#'
+  extratext: EXTRA LINK
+  extraurl: '#'
+  _fieldset: focusStory
+- 
+  headline: HEADLINE
+  subheadline: SUBHEADLINE
+  focuscontent: INSERT COPY
+  ctatext: CTA
+  ctaurl: '#'
+  extratext: EXTRA LINK
+  extraurl: '#'
+  _fieldset: focusStoryText
+- 
+  entryheadline: HEADLINE
+  entrycontent: INSERT COPY
+  entryurl: '#'
+  _fieldset: focusSecondaryStory
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: https://www.bluebeam.com
+  generalimagealt: ALT
+  headline: HEADLINE
+  generalcontent: Insert COPY
+  ctatext: CTA
+  ctaurl: '#'
+  _fieldset: generalStory
+- 
+  titletext: HEADLINE
+  _fieldset: titleRow
+- 
+  headline: HEADLINE
+  subheadline: SUBHEADLINE
+  _fieldset: blueTitleRow
+- 
+  quote: INSERT QUOTE
+  quotesource: INSERT NAME
+  quotecompany: INSERT COMPANY
+  _fieldset: quoteModule
+- 
+  text: INSERT COPY
+  _fieldset: contentCopy
+- 
+  image: >
+    https://source.unsplash.com/random/600x200
+  imagelink: https://www.bluebeam.com
+  imagealt: ALT
+  _fieldset: imageSection
+- 
+  text: CTA
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+- 
+  imageicon: >
+    https://source.unsplash.com/random/225x100
+  iconlink: '#'
+  iconalt: ALT
+  entrytitle: TITLE
+  entrylink: '#'
+  entrycopy: ""
+  _fieldset: columnField
+- 
+  imageicon: >
+    https://source.unsplash.com/random/225x100
+  iconlink: '#'
+  iconalt: ALT
+  entrytitle: TITLE
+  entrylink: '#'
+  entrycopy: ""
+  _fieldset: columnField
+
+----
+
+Columnitemtwo: 

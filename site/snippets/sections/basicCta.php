@@ -1,3 +1,6 @@
+
+<!-- Start of CTA Button -->
+
 <table class="row">
     <tr>
       <td class="wrapper offset-by-three last">
@@ -27,3 +30,5 @@
 
     </tr>
   </table>
+
+<!-- Start of CTA Button -->

@@ -1,0 +1,96 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Trial Series 4
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: >
+    Connect with your team—anytime,
+    anywhere
+  subheadline: ""
+  _fieldset: blueTitleRow
+- 
+  text: |
+    (spacer:40)
+    Now that you’ve set up a Bluebeam® Studio account and are managing documents with Studio Projects, you’re ready to host your own Session.
+    (spacer:10)
+    In a Studio Session, team members can review, mark up, modify and update files in real time—which leads to fewer errors and faster project completion.
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-4-step1.jpg
+  imagelink: '#'
+  imagealt: Step 1
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **1.** First, log in to Studio and click the **Session icon**. Click **Add** and select **New Session**.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-4-step2.jpg
+  imagelink: '#'
+  imagealt: Step 2
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **2.** Next, you’ll need to name the Session and select the documents you want to collaborate on. If you want to customize your Session, go to **Options**.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-4-step3.jpg
+  imagelink: '#'
+  imagealt: Step 3
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **3.** After clicking **OK** to start your Session, you’ll be prompted to add the email addresses of your collaborators. Now you’re ready to start collaborating.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  text: >
+    Ready to unlock even more of the
+    collaborative benefits of Studio?
+  _fieldset: contentCopy
+- 
+  text: Show Me How
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

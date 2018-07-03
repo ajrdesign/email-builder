@@ -1,0 +1,93 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Trial Series 3
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: 'Get everyone on the same page with <br>Bluebeam Studio'
+  subheadline: ""
+  _fieldset: blueTitleRow
+- 
+  text: |
+    (spacer:40)
+    Setting up a Bluebeam® Studio account gives you the power of document management through Studio Projects. Let’s set up your account so you can store project files in the cloud.
+    (spacer:10)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-3-step1.jpg
+  imagelink: '#'
+  imagealt: Step 1
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **1.** Click the **Studio icon**, then click **Sign In**. At the bottom of the dialog box click the link to **Create** an account. After you’ve entered your info, you’ll get a verification email. Once you’re verified, you’re ready to log in to Studio.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-3-step2.jpg
+  imagelink: '#'
+  imagealt: Step 2
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **2.** Now you can join an existing Project using its nine-digit ID code, or create one of your own. To create a new Project, click the **Projects icon**, then the **Add** button, then select **New Project**.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-3-step3.jpg
+  imagelink: '#'
+  imagealt: Step 3
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:10)
+    **3.** Once you’ve created your Project, select **Upload Files** and then **Add** the files you need. Now your files are in the cloud and in a single, centralized location—just where you want them.
+    (spacer:25)
+  _fieldset: contentCopy
+- 
+  text: >
+    Ready to unlock even more of the
+    collaborative benefits of Studio?
+  _fieldset: contentCopy
+- 
+  text: Show Me How
+  url: '#'
+  _fieldset: cta
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

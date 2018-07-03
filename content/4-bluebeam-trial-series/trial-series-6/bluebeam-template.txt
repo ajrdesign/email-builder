@@ -1,0 +1,67 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Trial Series 6
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  headline: 'Don’t lose access to this powerful <br>collaboration tool'
+  subheadline: ""
+  _fieldset: blueTitleRow
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-6-hero.jpg
+  imagelink: '#'
+  imagealt: Hero Image
+  _fieldset: imageSection
+- 
+  text: |
+    (spacer:25)
+    You can still use Bluebeam® Revu® in (link: # text: View Mode) to look at marked-up PDFs and participate in Studio Sessions. But to get the most out of the software, you’ll need to buy a seat.
+  _fieldset: contentCopy
+- 
+  text: Buy Revu Now
+  url: '#'
+  _fieldset: cta
+- 
+  text: |
+    (link: # text:  <small>Need help convincing your boss to invest in Revu?</small>)
+    (spacer:20)
+  _fieldset: contentCopy
+- 
+  entryheadline: Bluebeam is on your side
+  entrycontent: 'One contractor recently told us he views Revu as much more than just a tool. In fact, (link: # text: he called Bluebeam “a partner” to the firm). Now they’re able to gather complex information and match it up with their site progress.'
+  entryurl: ""
+  _fieldset: focusSecondaryStory
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 
