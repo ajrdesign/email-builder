@@ -1,6 +1,6 @@
 <!-- Column Item -->
 
-  <th class="columns large-6 small-6 column-area first last">
+  <th class="columns large-6 small-12 column-area first last">
     <table>
       <tr>
         <th>
@@ -27,11 +27,12 @@
         </th>
         <th class="expander"></th>
       </tr>
+        <tr>
+          <td class="text-pad <?= ($page->Contentalign() == 'true') ? 'center' : 'left' ?>">
+            <?= $data->entryCopy()->kt() ?>  
+          </td>
+        </tr>
     </table>
   </th>
 
 <!-- End of Column Item -->
-
-
-
-

@@ -274,12 +274,10 @@ fields:
           imageIcon:
             label: Icon image for entry
             type: url
-            required: true
             default: https://source.unsplash.com/random/225x100
           iconLink:
             label: Icon Image Link
             type: text
-            required: true
             default: https://www.bluebeam.com
             help: This should link to web page that you want to direct users to.
           iconAlt:
@@ -289,9 +287,42 @@ fields:
           entryTitle:
             label: Entry Title
             type: text
-            required: true
           entryLink:
             label: Entry link
             type: text
-            required: true
             default: https://www.bluebeam.com
+          entryCopy:
+            label: Entry Markdown Copy
+            type: markdown
+  columnItemTwo:
+    label: Add column item
+    help: Only two items per row.
+    type: builder
+    fieldsets:
+      columnField:
+        label: Add Item
+        snippet: builder/columnImage
+        fields:
+          imageIcon:
+            label: Icon image for entry
+            type: url
+            default: https://source.unsplash.com/random/225x100
+          iconLink:
+            label: Icon Image Link
+            type: text
+            default: https://www.bluebeam.com
+            help: This should link to web page that you want to direct users to.
+          iconAlt:
+            label: Icon Image Alt Text
+            type: text
+            help: This will display when images are disabled in users email client.
+          entryTitle:
+            label: Entry Title
+            type: text
+          entryLink:
+            label: Entry link
+            type: text
+            default: https://www.bluebeam.com
+          entryCopy:
+            label: Entry Markdown Copy
+            type: markdown

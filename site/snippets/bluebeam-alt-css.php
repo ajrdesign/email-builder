@@ -976,7 +976,7 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #8BC34A;
+    background: #6BBD45;
     border: 2px solid #2199e8; }
     table.button table td a {
       font-family: 'Open Sans', Arial, sans-serif;
