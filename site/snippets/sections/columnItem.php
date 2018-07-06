@@ -1,17 +1,17 @@
 
 <!-- Column Item -->
 
-  <th class="columns large-6 small-12 column-area first last">
+  <th class="large-6 small-12 columns column-area first last">
     <table>
       <tr>
-        <th>
+        <td>
           <a target="_blank" href="<?php echo $data->iconLink() ?>">
-          <img src="<?php echo $data->imageIcon() ?>" class="float-left" alt="<?php echo $data->iconAlt() ?>"></a>
-        </th>
+          <img src="<?php echo $data->imageIcon() ?>" class="float-left" alt="<?php echo $data->iconAlt() ?>" width="225"></a>
+        </td>
         <th class="expander"></th>
       </tr>
       <tr>
-        <th>
+        <td>
           <table class="spacer">
             <tbody>
               <tr>
@@ -19,13 +19,13 @@
               </tr>
             </tbody>
           </table>
-        </th>
+        </td>
         <th class="expander"></th>
       </tr>
       <tr class="column-area-text">
-        <th>
+        <td>
           <a href="<?= $data->entryLink() ?>"><?= $data->entryTitle() ?></a>
-        </th>
+        </td>
         <th class="expander"></th>
       </tr>
         <tr>

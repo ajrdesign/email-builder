@@ -30,7 +30,7 @@ Builder:
   _fieldset: blueTitleRow
 - 
   image: >
-    https://source.unsplash.com/random/600x200
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trial-series-1-hero.jpg
   imagelink: https://www.bluebeam.com
   imagealt: alt
   _fieldset: imageSection

@@ -13,7 +13,16 @@
                       <table border="0" cellspacing="0" cellpadding="0">
                         <tr>
                           <td align="center">
-                            <a target="_blank" href="<?= $data->url() ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" style=""><?= $data->text() ?></a>
+                            <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="<?= $data->url() ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" style="height:45px;v-text-anchor:middle;width:200px;" arcsize="0%" stroke="f" fillcolor="#8bc34a">
+                                <w:anchorlock/>
+                                <center>
+                              <![endif]-->
+                                  <a target="_blank" href="<?= $data->url() ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank" style="color:#ffffff;"><?= $data->text() ?></a>
+                              <!--[if mso]>
+                                </center>
+                              </v:roundrect>
+                            <![endif]-->
                           </td>
                         </tr>
                       </table>
@@ -27,3 +36,4 @@
   </table>
 
 <!-- End of CTA Button -->
+

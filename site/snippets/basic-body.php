@@ -17,7 +17,7 @@
 				    </tr>
 				  </tbody>
 				</table>
-				<table align="center" class="container column-container">
+				<table align="center">
 				  <tbody>
 				    <tr>
 				      <td>
@@ -50,7 +50,7 @@
 				    </tr>
 				  </tbody>
 				</table>
-				<table align="center" class="container column-container">
+				<table align="center">
 				  <tbody>
 				    <tr>
 				      <td>

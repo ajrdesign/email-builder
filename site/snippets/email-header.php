@@ -40,7 +40,7 @@
                 <tr>
                   <td class="last">
 
-                    <table class="large-8 small-8 columns">
+                    <table class="large-12 small-12 columns">
                       <tr>
                         <td class="left-text-pad" width="250px">
                           <a href="<?php echo $page->parent()->logoUrl() ?>/<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" target="_blank"><img src="<?php echo $page->parent()->logo() ?>" alt="<?php echo $page->parent()->logoAlt() ?>" ></a>

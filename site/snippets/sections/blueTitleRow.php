@@ -1,10 +1,7 @@
 
 <!-- Start of Blue Title Row -->
 
-  <table class="wrapper focus-text-row">
-    <tr>
-      <td>
-        <table class="row center" align="center">
+        <table class="row-override focus-text-row">
           <tr>
             <td>
               <table class="spacer">
@@ -18,16 +15,15 @@
           </tr>
           <tr>
             <td>
-                <tr>
-                  <td>
-                    <h1 class="focus-text"><?= $data->headline()->text() ?></h1>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h3 class="focus-text"><?= $data->subheadline()->text() ?></h3>
-                  </td>
-                </tr>
+              <table class="row center" align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      <h1 class="focus-text"><?= $data->headline()->text() ?></h1>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </td>
           </tr>
           <tr>
@@ -42,8 +38,5 @@
             </td>
           </tr>
         </table>
-      </td>
-    </tr>
-  </table>
 
 <!-- End of Blue Title Row -->
