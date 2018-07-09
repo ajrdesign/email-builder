@@ -1,0 +1,48 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: newsletter-july
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  generalimage: >
+    https://source.unsplash.com/random/600x200
+  generalimagelink: '#'
+  generalimagealt: ALT
+  headline: HEADLINE
+  generalcontent: CONTENT COPY
+  ctatext: CTA
+  ctaurl: '#'
+  _fieldset: generalStory
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

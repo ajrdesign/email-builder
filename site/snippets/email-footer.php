@@ -29,19 +29,19 @@
             <table class="footer-icon-row">
               <tr>
                   <?php if($page->parent()->facebook()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-facebook-25px.png" alt="Facebook" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->facebookUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-facebook-25px.png" alt="Facebook" height="20"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->linkedin()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->linkedinUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-linkedin-25px.png" alt="LinkedIn" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->linkedinUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-linkedin-25px.png" alt="LinkedIn" height="20"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->twitter()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->twitterUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-twitter-25px.png" alt="Twitter" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->twitterUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-twitter-25px.png" alt="Twitter" height="20"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->youtube()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->youtubeUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-youtube-25px.png" alt="YouTube" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->youtubeUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-youtube-25px.png" alt="YouTube" height="20"></a></td>
                   <?php endif ?>
                   <?php if($page->parent()->instagram()->isTrue()): ?><td class="social-media">
-                      <a href="<?php echo $page->parent()->instagramUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-instagram-25px.png" alt="Instagram" height="20px"></a></td>
+                      <a href="<?php echo $page->parent()->instagramUrl() ?>" target="_blank"><img hspace="2" class="social-icons" src="http://downloads.bluebeam.com/images/assets/social-icons/social-instagram-25px.png" alt="Instagram" height="20"></a></td>
                   <?php endif ?>
               </tr>
             </table>

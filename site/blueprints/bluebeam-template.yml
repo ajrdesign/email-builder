@@ -252,6 +252,12 @@ fields:
             label: Button URL
             type: text
             width: 1/2
+      spacer:
+        label: Spacer
+        fields:
+          amount:
+            label: Space Amount
+            type: text
   additionalSettings:
     label: Additional Information Section
     type: headline

@@ -42,6 +42,42 @@ Builder:
     The first thing most of our customers want to learn is how to mark up a PDF document.
   _fieldset: contentCopy
 - 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step1.jpg
+  imagelink: '#'
+  imagealt: ALT
+  _fieldset: imageSection
+- 
+  text: '**1.** Start by opening a PDF in Revu. Go to **File** > **Open** and select the document you want to mark up.'
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step2.jpg
+  imagelink: '#'
+  imagealt: ALT
+  _fieldset: imageSection
+- 
+  text: '**2.** Next, go to **Tools** > **Markup** and pick a markup tool. The **Cloud+** tool, which lets you highlight an area and call it out with a textbox, is a popular choice.'
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step3.jpg
+  imagelink: '#'
+  imagealt: ALT
+  _fieldset: imageSection
+- 
+  text: '**3.** Move your arrow to the spot you’d like to call attention to. Click and drag to form a cloud around it, then click again to place your text callout.'
+  _fieldset: contentCopy
+- 
+  image: >
+    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step4.jpg
+  imagelink: '#'
+  imagealt: ALT
+  _fieldset: imageSection
+- 
+  text: '**4.** Type your instructions, questions or comments in the textbox. Your markup is good to go!'
+  _fieldset: contentCopy
+- 
   text: >
     Want to find out more about marking up
     drawings and documents in Revu?
@@ -59,44 +95,6 @@ Additionalsettings:
 
 Columnitem: 
 
-- 
-  imageicon: >
-    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step1.jpg
-  iconlink: '#'
-  iconalt: Step 1
-  entrytitle: ""
-  entrylink: '#'
-  _fieldset: columnField
-  entrycopy: '**1. **Start by opening a PDF in Revu. Go to **File** > **Open** and select the document you want to mark up.'
-- 
-  imageicon: >
-    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step2.jpg
-  iconlink: '#'
-  iconalt: Step 2
-  entrytitle: ""
-  entrylink: '#'
-  _fieldset: columnField
-  entrycopy: '**2.** Next, go to **Tools** > **Markup** and pick a markup tool. The **Cloud+** tool, which lets you highlight an area and call it out with a textbox, is a popular choice.'
-
 ----
 
 Columnitemtwo: 
-
-- 
-  imageicon: >
-    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step3.jpg
-  iconlink: '#'
-  iconalt: Step 3
-  entrytitle: ""
-  entrylink: https://www.bluebeam.com
-  entrycopy: '**3.** Move your arrow to the spot you’d like to call attention to. Click and drag to form a cloud around it, then click again to place your text callout.'
-  _fieldset: columnField
-- 
-  imageicon: >
-    http://downloads.bluebeam.com/images/2018/marketing-automation/trial-series/trials-series-1-step4.jpg
-  iconlink: '#'
-  iconalt: Step 4
-  entrytitle: ""
-  entrylink: '#'
-  entrycopy: '**4.** Type your instructions, questions or comments in the textbox. Your markup is good to go!'
-  _fieldset: columnField

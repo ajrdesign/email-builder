@@ -15,7 +15,7 @@
                           <td align="center">
                            <div>
                             <!--[if mso]>
-                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="<?= $data->url() ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" style="height:35px;v-text-anchor:middle;width:200px;" arcsize="9%" stroke="f" fillcolor="#6BBD45">
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="<?= $data->url() ?>?src=<?php ecco(!$page->tracking()->isEmpty(), $page->tracking()) ?>" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="9%" stroke="f" fillcolor="#6BBD45">
                                 <w:anchorlock/>
                                 <center>
                               <![endif]-->
@@ -32,6 +32,7 @@
                     </td>
                   </tr>
                 </table>
+              </td>
             </tr>
           </table>
         </td>

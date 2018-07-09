@@ -11,7 +11,7 @@
 <body>
 <?php if($page->parent()->emailclient() == 'et'): ?>
 <?php endif ?>
-  <span class="preheader"><?php echo $page->preheader() ?></span>
+  <span class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"><?php echo $page->preheader() ?></span>
 <table class="body">
   <tr>
     <td class="center" align="center" valign="top">

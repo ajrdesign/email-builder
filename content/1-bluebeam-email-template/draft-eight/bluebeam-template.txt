@@ -65,10 +65,6 @@ Builder:
   titletext: HEADLINE
   _fieldset: titleRow
 - 
-  headline: HEADLINE
-  subheadline: SUBHEADLINE
-  _fieldset: blueTitleRow
-- 
   quote: INSERT QUOTE
   quotesource: INSERT NAME
   quotecompany: INSERT COMPANY
@@ -83,9 +79,16 @@ Builder:
   imagealt: ALT
   _fieldset: imageSection
 - 
+  amount: 500px
+  _fieldset: spacer
+- 
   text: CTA
   url: '#'
   _fieldset: cta
+- 
+  headline: Headline
+  subheadline: ""
+  _fieldset: blueTitleRow
 
 ----
 
