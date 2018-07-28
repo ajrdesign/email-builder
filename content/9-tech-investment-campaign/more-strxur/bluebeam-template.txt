@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: More StrXur
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    Interested in how a small investment could get you new business? Then I think you should take a look at the story (link: # text: “Taking Care of Home” on Bluebeam’s blog, StrXur).
+    (spacer:10)
+    It’s about a large national construction firm that used technology to create hyper-accurate, on-the-spot repair SOWs. With just a small investment in Bluebeam Revu and thoughtful new digital processes, they were able to document as many as 100 property inspections per day for more than 100 days, yielding over 500,000 pieces of data—and a lot of new business.
+    (spacer:10)
+    I would love to hear your thoughts on the story. Looking forward to hearing from you.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

@@ -1,0 +1,56 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 255- Email 4- Just Checking In
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    Do you have a few minutes to connect this week or next? I’d love to hear how things are going and see if now is the right time to explore how Bluebeam Revu can help your team improve efficiencies and save you money.
+    (spacer:10)
+    Looking forward to chatting soon.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

@@ -8,7 +8,7 @@
 
             <!-- Main StrXur Hero Article -->
             <a href="<?= $data->url() ?>">
-            	<img src="<?= $data->picture() ?>" width="550" alt="<?= $data->text() ?>">
+            	<img src="<?= $data->picture() ?>" width="600" alt="<?= $data->text() ?>">
             </a>
           </td>
         </tr>

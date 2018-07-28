@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 135- Email 2- Case Study
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    Would you like to cut printing and shipping costs in half? Or reduce submittal response time from eight days to just three? Interested in learning how you can save your firm tens of thousands of dollars over the course of just one typical project?
+    (spacer:10)
+    If your answer to any of those questions is “yes,” then I’d like to tell you about a Bluebeam customer, an ENR (link: # text: Top 100 Green Contractor) that achieved major efficiencies by switching from paper-based processes to Bluebeam Revu. (link: # text: Read their story here).
+    (spacer:10)
+    It’s always a good time to think about ways your team can speed up processes, decrease errors and make your successes more repeatable. Give me a call when you’re ready to explore your options.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

@@ -1,0 +1,57 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 285- Email 5- More Customer Stories
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    Is now a good time to explore how Bluebeam Revu can help you deliver more of your projects on time and under budget?
+    (spacer:10)
+    So many of our customers have realized significant savings, in both time and money—from (link: # text: faster design and submittal reviews), to (link: # text: fewer errors), to more (link: # text: repeatable, predictable processes) across their project teams. I think we can do the same for you.
+    (spacer:10)
+    I know your time is valuable and limited. Do you have 5-10 minutes to connect and talk through a few ideas on how Revu can help your teams work more efficiently?
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

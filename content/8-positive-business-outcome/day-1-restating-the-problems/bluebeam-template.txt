@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 1-Restating the problems
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    Are there any errors or inefficiencies that you’ve noticed occurring regularly with projects at your company? They’re eventually going to affect your bottom line.
+    (spacer:10)
+    So many Bluebeam customers have realized significant savings in both time and money—from (link: # text: faster design and submittal reviews), to (link: # text: fewer errors), to more (link: # text: repeatable, predictable processes) across their project teams. I think we can help you do the same.
+    (spacer:10)
+    If any of these stories gave you some food for thought, give me a call. I’m always happy to talk about what Bluebeam can do for your business.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

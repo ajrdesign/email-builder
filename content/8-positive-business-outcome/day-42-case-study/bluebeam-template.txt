@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 42- Case Study
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    A lot of our customers in AEC industries start with just a few Bluebeam Revu licenses as a test. When they see how well the test is going, they quickly expand the scope.
+    (spacer:10)
+    That’s exactly what the management team at (link: # text: this international design and construction consultancy) did. They first introduced Revu to a small internal team, then tested it for design reviews on a large residential development in South London. When they saw the immediate improvement in project speed and efficiency, they implemented Revu companywide.
+    (spacer:10)
+    Do you have a test in mind? Some part of your work that you think could be streamlined and improved? Give me a call and let’s talk about how to make it a reality.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

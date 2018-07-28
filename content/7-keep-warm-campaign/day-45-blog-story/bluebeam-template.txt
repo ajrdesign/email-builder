@@ -1,0 +1,56 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 45- Email 1- Blog story
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    Have you checked out the story “(link: # text: All Aces: Steelman redesigns Phnom Penh casino and resort complex)” on Bluebeam’s blog, StrXur? It describes how a Las Vegas-based firm helped their global teams collaborate much more efficiently—and made the process repeatable for future projects.
+    (spacer:10)
+    I would love to hear your thoughts on it too, including any feedback we could use in the future to provide our audience with better content. Looking forward to hearing from you.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

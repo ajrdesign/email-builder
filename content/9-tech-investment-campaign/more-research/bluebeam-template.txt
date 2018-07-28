@@ -1,0 +1,60 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: More Research
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    The construction industry is lagging far behind the rest of the business world.
+    (spacer:10)
+    According to a recent McKinsey report, productivity per construction employee has improved by just **1% per year**, compared to **3-4%** across other sectors. 1 It’s probably because the industry has invested a lot less in information technology than the rest of the economy.
+    (spacer:10)
+    The data is pretty clear: Companies that spend wisely on tech will be rewarded with growth. Those that don’t, will be left behind.
+    (spacer:10)
+    I’d love to talk with you about how Bluebeam can help [your company] to keep moving forward. Please give me a call at your convenience.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

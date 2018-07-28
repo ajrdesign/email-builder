@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 28- Conversation Guide
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    It’s a question I hear a lot: At the end of the day, what’s the actual value that my firm can expect to see from adopting Bluebeam solutions?
+    (spacer:10)
+    It’s a question that deserves a good answer. Which is why we’ve put together this handy “(link: # text: How Revu Can Help Your Business)” guide to help you steer conversations about technology investments at [your company].
+    (spacer:10)
+    As always, don’t hesitate to reach out if there’s any way I can help you make a business case for Bluebeam.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

@@ -1,0 +1,56 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 1- Convince Your Boss
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    You can probably speak to the value Bluebeam brings to your day to day, but translating that into a business case that’ll convince your boss can be challenging.
+    (spacer:10)
+    To make those conversations a little easier for you, we’ve created (link: # text: this convenient question-and-answer guide). If you’d like some help tailoring the information to your specific business situation, I’m always happy to take your call.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

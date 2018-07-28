@@ -1,0 +1,131 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 14-Quotes from customers
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: >
+    On complex projects, even a seemingly
+    small improvement can have a big impact.
+    Here’s what a few Bluebeam Revu users
+    say about how our solutions have added
+    to their success.
+  _fieldset: contentCopy
+- 
+  quote: >
+    “I’ve seen quality improve… I’ve
+    seen what it does for the workflow, how
+    it tightens up schedules, enhances
+    communication.”
+  quotesource: Sr. Program Manager
+  quotecompany: AECOM
+  _fieldset: quoteModule
+- 
+  quote: >
+    “Revu was purposely made for our type
+    of business, and we were able to take
+    that very intuitive software and get
+    ahead of the game.”
+  quotesource: Construction Director
+  quotecompany: Forcia LTD
+  _fieldset: quoteModule
+- 
+  quote: "“[Revu] makes us more efficient, faster. It makes us more accurate. And it's really put us at the forefront of our competition.”"
+  quotesource: Field Engineer
+  quotecompany: McCarl’s Inc.
+  _fieldset: quoteModule
+- 
+  quote: >
+    “Bluebeam is the data collection
+    tool…We are seeing a level of
+    transparency in our company, because of
+    the dashboards, that we have never had
+    before.”
+  quotesource: VP of Operational Excellence
+  quotecompany: Stiles Construction
+  _fieldset: quoteModule
+- 
+  quote: >
+    “Our engineers say it actually makes
+    their life easier, and that’s part of
+    why the product is the quickest software
+    to ever be adopted at Hilson Moran. We
+    went from 10 licenses a year ago to 229
+    licenses now across the whole
+    company.”
+  quotesource: Finance Director
+  quotecompany: Hilson Moran
+  _fieldset: quoteModule
+- 
+  quote: >
+    “To build this facility in two and a
+    half years? We wouldn’t have been able
+    to do it without the technology, hands
+    down.”
+  quotesource: Project Engineer
+  quotecompany: Barton Malow
+  _fieldset: quoteModule
+- 
+  quote: >
+    “When we realized how useful Revu was
+    in construction projects, we decided to
+    implement it across the whole company of
+    NCC Sweden.”
+  quotesource: Project Manager
+  quotecompany: NCC AB
+  _fieldset: quoteModule
+- 
+  quote: >
+    “Bluebeam makes my day-to-day tasks
+    more efficient so I can get more done in
+    less time. And it’s not only me, it is
+    all my colleagues, too.”
+  quotesource: Engineer
+  quotecompany: Skanska Sweden
+  _fieldset: quoteModule
+- 
+  text: 'If any of these quotes strike a chord for you, give me a call. I’m nearly 100% certain we can help [your company] get better, too.'
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 225- Email 3- Customer-Centric/Beta program
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    The beta programs at Bluebeam are a great way for customers to get involved.
+    (spacer:10)
+    In our beta last year, we heard that onboarding was an issue. So, our engineering team got to work, and, today, new user onboarding is a reality within Revu. (link: # text: You can read all about it here).
+    (spacer:10)
+    What do you wish you could do with the technology solutions that help you build? Let me know, and we’ll see if we can make it a reality in a future update to Revu!
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

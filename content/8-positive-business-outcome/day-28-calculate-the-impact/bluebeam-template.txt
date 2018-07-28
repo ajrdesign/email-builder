@@ -1,0 +1,65 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 28- Calculating the Impact
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    I often help Bluebeam customers pinpoint areas where our solutions could bring substantial cost savings. Here are a few common themes I hear from people:
+    (spacer:10)
+    ### Direct Costs
+    On a complex project, printing and shipping charges can add up quickly. Most of these can be eliminated with Bluebeam Revu.
+    (spacer:10)
+    ### Project Delays and Downtime
+    Poor communication and coordination, slow approvals and a lack of accountability can bring work to a standstill. Revu makes effective collaboration easy.
+    (spacer:10)
+    ### Costly Mistakes
+    Lack of access to the latest information can lead to expensive rework, or even penalties or litigation. With Revu, teams can stay on the same page.
+    (spacer:10)
+    How much profit did these factors eat up on your last project? And how many projects does [your company] handle in a typical year? Do the math, and you’ll start to see how quickly the costs of outdated processes add up.
+    (spacer:10)
+    When you’re ready to talk about the ROI for Bluebeam, give me a call. I’m confident we can help you improve your bottom line, too.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

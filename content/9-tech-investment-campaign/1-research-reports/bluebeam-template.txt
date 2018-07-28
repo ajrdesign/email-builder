@@ -1,0 +1,60 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Research Reports
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    $1.2 trillion.
+    (spacer:10)
+    That’s how much money the engineering and construction industries will save over the next 10 years by replacing outdated processes with new digital technology.1
+    (spacer:10)
+    The bulk of those returns won’t be distributed evenly: They’ll go to the firms that invest in the future. Bluebeam can help you get there, with forward-thinking software and cloud solutions that allow you to work more efficiently, make processes more predictable and reduce the risk level of complex projects.
+    (spacer:10)
+    I’d love to talk more with you about how a small technology investment can bring huge rewards to your company. Please give me a call at your convenience.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

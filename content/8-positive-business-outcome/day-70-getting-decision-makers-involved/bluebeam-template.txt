@@ -1,0 +1,58 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 70- Getting the Decision Makers Involved
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    When you talk about investing in new software, who needs to “buy in” before anything actually gets bought?
+    (spacer:10)
+    The truth is, it varies from company to company. It could be the CIO, or a group of influential project managers, or the director of IT or VDC. It could even be the CEO.
+    (spacer:10)
+    I’d be more than happy to help you get the right people at [your company] on board with Bluebeam. Give me a call when you’re ready.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

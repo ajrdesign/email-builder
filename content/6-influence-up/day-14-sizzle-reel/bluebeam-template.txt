@@ -1,0 +1,56 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Day 14- Sizzle Reel
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Our customers don’t simply use Bluebeam Revu. They love it.
+    (spacer:10)
+    For just a small sample of what I mean, (link: # text: watch this short video). These are the words of actual Bluebeam customers, talking about how we’ve helped them work smarter, get more done and, ultimately, transform their businesses.
+    (spacer:10)
+    Feel free to pass the video along to someone who might need a little convincing about the value of Bluebeam. And as always, don’t hesitate to call or email if there’s any way I can help.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

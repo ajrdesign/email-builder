@@ -12,7 +12,7 @@
           <tr>
             <td class="center">
               <a target="_blank" href="<?php echo $data->generalImageLink() ?>">
-                <img src="<?php echo $data->generalImage() ?>" width="600px" alt="<?php echo $data->generalImageAlt() ?>">
+                <img src="<?php echo $data->generalImage() ?>" width="600" alt="<?php echo $data->generalImageAlt() ?>">
               </a>
             </td>
           </tr>

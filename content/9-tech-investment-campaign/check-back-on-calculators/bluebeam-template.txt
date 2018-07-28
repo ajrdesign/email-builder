@@ -1,0 +1,66 @@
+Tracking: TRACKING STRING
+
+----
+
+Language: us
+
+----
+
+Labelsettings: 
+
+----
+
+Title: Check Back on Calculations
+
+----
+
+Preheader: PREHEADER
+
+----
+
+Contentsettings: 
+
+----
+
+Builder: 
+
+- 
+  amount: 40px
+  _fieldset: spacer
+- 
+  text: |
+    Hi [name],
+    (spacer:10)
+    I reached out a few weeks ago to talk about the ROI for Bluebeam Revu, and how you might think about calculating your potential savings in areas such as:
+  _fieldset: contentCopy
+- 
+  text: |
+    * **Direct costs** of printed plans, shipping, etc.
+    * **Project downtime** resulting from poor communication and coordination
+    * **Costly mistakes** leading to rework or even litigation
+  _fieldset: contentCopy
+- 
+  text: |
+    Have these “hidden costs” impacted [your business] this year?
+    (spacer:10)
+    I’m sure I can help you find ways for Revu to start saving you money immediately. Give me a call anytime you’d like to take a look at the numbers.
+  _fieldset: contentCopy
+- 
+  text: |
+    Best regards,
+    [name]
+    [title]
+    [contact]
+  _fieldset: contentCopy
+
+----
+
+Additionalsettings: 
+
+----
+
+Columnitem: 
+
+----
+
+Columnitemtwo: 

@@ -1,0 +1,61 @@
+Title: Positive Business Outcome
+
+----
+
+Description: 
+
+----
+
+Logo: http://downloads.bluebeam.com/images/assets/logos/bluebeam-logo-black-300px.png
+
+----
+
+Logourl: https://www.bluebeam.com
+
+----
+
+Logoalt: Bluebeam Logo
+
+----
+
+Line: 
+
+----
+
+Facebook: 1
+
+----
+
+Facebookurl: https://www.facebook.com/bluebeam
+
+----
+
+Linkedin: 1
+
+----
+
+Linkedinurl: https://www.linkedin.com/company-beta/111265/
+
+----
+
+Twitter: 1
+
+----
+
+Twitterurl: https://twitter.com/Bluebeam
+
+----
+
+Instagram: 1
+
+----
+
+Instagramurl: https://www.instagram.com/bluebeam_inc/
+
+----
+
+Youtube: 1
+
+----
+
+Youtubeurl: https://www.youtube.com/user/BluebeamPDFRevu
